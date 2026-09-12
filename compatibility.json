@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.2",
+  "skill_version": "0.1.0-alpha.3",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,12 +37,27 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "date": "2026-09-12",
+    "current_version": "0.1.0-alpha.3",
     "structure": "passed",
-    "independent_application_scenarios": 1,
-    "revised_application": "passed",
     "public_file_review": "passed",
-    "summary": "docs/skill-validation.md"
+    "independent_application": "not_run_for_alpha_3",
+    "prior_evidence": {
+      "date": "2026-09-12",
+      "structure": "passed",
+      "independent_application_scenarios": 1,
+      "revised_application": "passed",
+      "public_file_review": "passed",
+      "summary": "docs/skill-validation.md"
+    },
+    "summary": "docs/skill-validation.md",
+    "manual_walkthrough": {
+      "scenarios": 2,
+      "reviewer": "same_author",
+      "result": "no_additional_documentation_blocker",
+      "fresh_evaluator_model_run": false
+    },
+    "public_file_count": 17,
+    "validation_date": "2026-09-12"
   },
   "sms_preparation": {
     "date": "2026-09-12",
@@ -60,6 +75,65 @@
     "sms_sent": false,
     "sms_owner_decision": false,
     "automatic_inbound_listener": false,
-    "scope": "Supervised planning-only SMS preparation; no fresh package or approval request yet"
+    "scope": "Supervised planning-only SMS preparation; no fresh package or approval request yet",
+    "historical_snapshot": "0.1.0-alpha.2; not current credential/deployment inventory"
+  },
+  "sms_gateway_preparation": {
+    "date": "2026-09-12",
+    "implementation_status": "repaired_and_verified_privately",
+    "private_source_revision": "b71bac221f7374f70d66d0cac44c4edbd0b09c14",
+    "independent_review": "both_findings_closed",
+    "known_blocking_findings": 0,
+    "source_tests": {
+      "status": "passed",
+      "passed": 593,
+      "skipped": 0,
+      "scope": "focused host tests",
+      "provider_transport": "synthetic",
+      "database": "disposable PostgreSQL"
+    },
+    "installed_package_verification": {
+      "runtime_sql_files_byte_equal": 21,
+      "full_suite": {
+        "passed": 1286,
+        "skipped": 1,
+        "skip_reason": "Optional local Codex help check",
+        "deprecation_warnings": 3,
+        "duration_seconds": 59.0,
+        "provider_transport": "synthetic",
+        "database": "disposable PostgreSQL"
+      }
+    },
+    "deployed_for_live_proof": "exact_operation_binding_and_deployment_not_yet_proven",
+    "credential_setup": "authorized_and_verified_in_trusted_Railway_gateway; no_local_copy",
+    "provider_credentials_holder": "trusted_separate_gateway_only",
+    "bot_access": "expiring_one_operation_bearer_and_selected_message_sid_locator",
+    "binding": [
+      "project",
+      "request",
+      "version",
+      "package_hash",
+      "operation",
+      "registry_digest",
+      "expiry"
+    ],
+    "owner_authority": "server_fetched_original_resource_and_core_decision",
+    "provider_send_proven": false,
+    "handset_delivery_proven": false,
+    "sms_owner_decision_proven": false,
+    "automatic_inbound_listener": false,
+    "public_runtime_shipped": false,
+    "existing_slack_proof_unchanged": true,
+    "scope": "Pre-dispatch supervised synthetic planning-only SMS milestone; no issue/build/release authority",
+    "summary": "docs/status.md",
+    "reference": "skills/company-improvements/references/sms-gateway.md",
+    "initial_blocking_findings": 2,
+    "independent_postgresql_reproductions": "passed",
+    "base_configuration": "private_database_registry_port_and_HTTPS_prepared"
+  },
+  "snapshot": {
+    "date": "2026-09-12",
+    "milestone": "sms_gateway_pre_dispatch",
+    "publication_precedes_outbox_preparation_and_bound_deployment": true
   }
 }

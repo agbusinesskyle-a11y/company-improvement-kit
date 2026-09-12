@@ -32,3 +32,24 @@ only APPROVE produces a held issue operation; DECLINE and REVISE do not. This is
 documentation review, not a new model application scenario or a live SMS proof.
 The structure validator and expanded 16-file allowlist check passed for this
 publication. Runtime verification is recorded separately in [status](status.md).
+
+## Alpha.3 bounded gateway milestone
+
+Two specified hypothetical situations received a manual walkthrough by the same
+agent that authored the documentation: (1) an existing shared SMS bot and completed
+Slack proof, followed by a request for SMS; (2) a lost provider POST response,
+bearer expiry during a database wait, and a foreign request's SID.
+
+The walkthrough found no additional documentation blocker. It applied the narrow
+credential boundary, post-lock reservation check, preservation of already-attempted
+send evidence, no-resend recovery, original-resource/core authority, foreign-request
+rejection, and exact before/after publication checkpoint. Fingerprints and the full
+walkthrough are retained privately. This was not a fresh independent model/evaluator
+run, runtime test or live SMS proof; the prior alpha.1 scenario is not relabelled as
+alpha.3 evidence.
+
+Final alpha.3 structure validation passed. The merged 17-file explicit allowlist,
+relative links and private-pattern screening passed, with operator content review.
+Private gateway code/review/test evidence is reported separately in [status](status.md);
+configured credentials do not establish provider send, handset delivery or owner
+approval. The snapshot intentionally precedes final operation-bound deployment.

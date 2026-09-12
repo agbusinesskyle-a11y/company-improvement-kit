@@ -40,9 +40,15 @@ creation held. Steps 5–7 require future verified adapters and appropriate scop
 6. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
 7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
 
-For a separate SMS lane test, use [the SMS runbook](references/sms-approval.md).
-The public preview does not provide its runtime. Confirm the referenced private
-implementation is installed and verified before running any operator command.
+For a separate SMS lane test, use [the SMS runbook](references/sms-approval.md)
+and [the bounded gateway reference](references/sms-gateway.md). The bot receives
+only an expiring token for one prepared operation and may supply a selected Message
+SID as a locator. The trusted gateway keeps provider credentials and independently
+fetches original evidence; bot text cannot approve. The dated pre-dispatch status
+records reviewed private code and tests; it does not establish a deployed binding
+or live SMS proof. Publish the pre-approval snapshot before outbox preparation and
+final binding/deployment, then verify those conditions before sending. The public
+preview provides no runtime.
 
 ## Recovery and limits
 

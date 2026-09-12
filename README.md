@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.2 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.3 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 
@@ -27,6 +27,13 @@ A private supervised test passed real planning, operational review and human Sla
 approval, ending with issue creation held. It did not prove the later stages or
 installation for another organization. [Status](docs/status.md) records that scope;
 raw private records are not included.
+
+The [SMS gateway reference](skills/company-improvements/references/sms-gateway.md)
+keeps provider credentials on a separate trusted server and limits an existing bot
+to one prepared operation. The 2026-09-12 pre-dispatch milestone records repaired
+private code, closed review findings and executed tests. Binding/deployment and
+real SMS outcomes follow this public checkpoint. This preview establishes neither
+live SMS approval, automatic listening nor an installable gateway.
 
 ## Contents and reuse
 

@@ -5,6 +5,12 @@ preview still ships no runtime or installer. A successful Slack test does not
 send a text or prove SMS approval. Read the current status and compatibility
 manifest before treating any step as configured or live-tested.
 
+For an existing bot interface, read [the bounded gateway reference](sms-gateway.md).
+The pre-dispatch snapshot records repaired private code and verification. It keeps
+provider keys on a trusted server and gives the bot only one-operation gateway
+access. Exact binding/deployment and live SMS outcomes are later conditions; this
+preview does not install a listener or change the existing number.
+
 ## Ready before sending
 
 Use a fresh request whose package covers one synthetic planning-only SMS approval
@@ -12,11 +18,15 @@ and no issue/build/release effects. A completed Slack request has a consumed
 challenge and must remain unchanged. Bind the real account, registered SMS sender
 and full verified owner destination before generating a new immutable package.
 Use a genuine planner and operational review; publish and verify the exact private
-plan. Complete the public publication checkpoint before requesting the decision.
+plan. Publish and verify the public pre-approval snapshot before preparing the
+outbox and final gateway binding/deployment. Complete those live-use checks and
+the private checkpoint before requesting the decision. Do not require an already
+deployed operation binding as evidence for this earlier public snapshot.
 
-Use a trusted operator with private database access and environment-only Twilio
-credentials. No keys belong in model prompts, this public repository or the Slack
-receiver. A Restricted Twilio key can limit resource actions, but Messaging read
+Use a trusted operator or separately verified gateway with private database access
+and environment-only Twilio credentials. The bot receives only the gateway token,
+never database access or provider keys. Twilio keys do not belong in model prompts,
+this public repository or the Slack receiver. A Restricted key can limit resource actions, but Messaging read
 and create permissions do not inherently restrict individual numbers or SIDs.
 Verify the actual permissions and fixed application bindings. Preserve existing
 SMS handlers, opt-out behavior and shared bot polling.
@@ -31,9 +41,9 @@ SMS handlers, opt-out behavior and shared bot polling.
 3. The owner personally replies using the full challenge command. A chat yes or
    model-authored approval cannot substitute for the original SMS.
 4. Obtain the exact inbound Message SID from a trustworthy provider observation.
-   Treat it only as a locator. The selected-original operator independently GETs
-   that resource from Twilio, validates account, sender/recipient, direction and
-   timing, then passes original evidence to the coordinator. It performs no
+   Treat it only as a locator. The trusted operator or gateway independently GETs
+   that resource from Twilio and validates account, sender/recipient, direction,
+   timing and the exact bound request/challenge before core ingestion. It performs no
    message-list scan. A bot paraphrase cannot establish approval.
 5. Verify the durable decision, exact request/version/package/owner and consumed
    challenge. APPROVE leaves one held issue operation. DECLINE leaves the request
