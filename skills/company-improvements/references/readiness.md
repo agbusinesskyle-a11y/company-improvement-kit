@@ -1,6 +1,6 @@
 # Installation and stable-release readiness
 
-Current public package: skill/documentation preview 0.1.0-alpha.1. The separate
+Current public package: skill/documentation preview 0.1.0-alpha.2. The separate
 private implementation has a planning coordinator and signed Slack approval
 receiver, with a supervised synthetic owner proof passed. Runtime/adapters are not
 shipped in this preview. Installer: missing. Independent clean installation and

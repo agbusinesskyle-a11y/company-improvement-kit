@@ -1,7 +1,8 @@
 # Skill validation
 
 These checks validate documentation use, separately from runtime integration.
-They were run on 2026-09-12; this public page summarizes retained private run outputs.
+The initial alpha.1 checks below were run on 2026-09-12; this public page summarizes
+retained private run outputs.
 
 Scenario: a maintainer has committed a new capability privately, the public kit is
 one milestone behind, and the owner is ready for an approval-stage test. An
@@ -23,3 +24,11 @@ checks. This is one application scenario, not a broad behavioral benchmark or a
 clean-install test. Pattern screening is supplemented by content review and does
 not promise detection of every possible secret. Runtime code was unchanged, so no
 runtime suite was rerun for these documentation changes.
+
+## Alpha.2 SMS runbook update
+
+The added SMS runbook received independent content review. One finding was corrected:
+only APPROVE produces a held issue operation; DECLINE and REVISE do not. This is a
+documentation review, not a new model application scenario or a live SMS proof.
+The structure validator and expanded 16-file allowlist check passed for this
+publication. Runtime verification is recorded separately in [status](status.md).

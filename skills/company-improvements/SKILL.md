@@ -40,6 +40,10 @@ creation held. Steps 5–7 require future verified adapters and appropriate scop
 6. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
 7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
 
+For a separate SMS lane test, use [the SMS runbook](references/sms-approval.md).
+The public preview does not provide its runtime. Confirm the referenced private
+implementation is installed and verified before running any operator command.
+
 ## Recovery and limits
 
 Use coordinator records, not conversational memory, to resume work. Reconcile uncertain provider effects before retry. Duplicate callbacks, stale workers and old approvals must not create new authority. Respect cancellation and bounded attempt/time policies; report blocked work with evidence instead of silently changing scope or provider.

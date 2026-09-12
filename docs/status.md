@@ -1,9 +1,27 @@
 # Milestones and known limits
 
-Skill preview: **0.1.0-alpha.1**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.2**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
+
+## 2026-09-12 — separate SMS proof preparation
+
+**Not sent; live approval test pending.** The previous test exercised Slack only.
+The existing SMS bot has no configured adapter to the approval coordinator.
+A separate test requires live account/sender binding, a dedicated trusted operator,
+a new reviewed planning-only package and a genuine SMS reply.
+
+The [SMS runbook](../skills/company-improvements/references/sms-approval.md) separates
+provider creation, handset delivery and owner approval. It uses a selected original
+inbound Message SID to avoid the older shared-sender list scan. That path requires
+its tested private implementation; it is not an automatic inbound listener or a
+runtime shipped in this preview. The combined private source suite passed 1,138
+tests against disposable PostgreSQL and synthetic provider responses; one optional
+local CLI help check was skipped. Independent reader review found no blockers.
+The send operator also preserves known failed/undelivered creation receipts without
+a second send. These changes are committed but not deployed for a live SMS test.
+No SMS credentials, new package, handset delivery or owner decision are claimed.
 
 ## 2026-09-12 — planning and Slack owner approval
 
@@ -41,5 +59,6 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Fresh install, second organization, upgrade/recovery | Not run |
 | Stable release | Not ready |
 
-Next: approved-package-to-Linear handoff, followed by bounded Ringer build dispatch.
+Next: configure and run the separate supervised SMS approval proof, then implement
+the approved-package-to-Linear handoff and bounded Ringer build dispatch.
 Do not repurpose the synthetic held operation as real app-change authorization.

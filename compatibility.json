@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.1",
+  "skill_version": "0.1.0-alpha.2",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -43,5 +43,23 @@
     "revised_application": "passed",
     "public_file_review": "passed",
     "summary": "docs/skill-validation.md"
+  },
+  "sms_preparation": {
+    "date": "2026-09-12",
+    "private_source_revision": "5d73bee98898449b30a30f310a86390bdcf8d1d7",
+    "source_tests": {
+      "passed": 1138,
+      "skipped": 1,
+      "skip_reason": "Optional local Codex --help parser check not enabled",
+      "provider_transport": "synthetic",
+      "database": "disposable PostgreSQL"
+    },
+    "selected_original_reader_review": "no blocking findings",
+    "live_credentials_configured": false,
+    "deployed_for_sms_test": false,
+    "sms_sent": false,
+    "sms_owner_decision": false,
+    "automatic_inbound_listener": false,
+    "scope": "Supervised planning-only SMS preparation; no fresh package or approval request yet"
   }
 }
