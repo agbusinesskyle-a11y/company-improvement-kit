@@ -1,0 +1,15 @@
+# Private installation and development data
+.env
+.env.*
+private/
+state/
+.token-saver/
+.venv/
+__pycache__/
+*.pyc
+*.sqlite*
+*.pem
+*.key
+.DS_Store
+# Earlier local diagnostic prototype is not part of the public preview.
+/proofs/

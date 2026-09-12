@@ -1,0 +1,23 @@
+{
+  "template_only": true,
+  "store_filled_record": "private_operator_storage_only",
+  "milestone": null,
+  "skill_version": null,
+  "public_repository": null,
+  "before_approval_public_commit": null,
+  "before_approval_verified_at": null,
+  "public_file_sha256": {},
+  "skill_changes_or_reviewed_no_change_reason": null,
+  "implementation_revision": null,
+  "private_request_id": null,
+  "private_package_version": null,
+  "private_package_sha256": null,
+  "approval_scope": null,
+  "private_validation_evidence": [],
+  "remaining_limitations": [],
+  "owner_request_sent_at": null,
+  "owner_decision_evidence_reference": null,
+  "after_decision_public_commit": null,
+  "after_decision_verified_at": null,
+  "retrospective_backfill": false
+}

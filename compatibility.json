@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.1.0-alpha.1",
+  "release_kind": "skill_documentation_preview",
+  "full_workflow_ready": false,
+  "shipped": {
+    "operating_skill": true,
+    "checkpoint_template": true,
+    "runtime": false,
+    "installer": false,
+    "dependency_lock": false
+  },
+  "observed_private_integration": {
+    "date": "2026-09-12",
+    "scope": "planning_and_approval_only",
+    "coordinator_source_revision": "729390a1c7b3d87deb30a0cfca122a8b4996c075",
+    "receiver_source_revision": "64738f1c89371f240dc4f65c809c90dd739b0e7b",
+    "python_test_version": "3.14.6",
+    "dependencies": {
+      "fastapi": "0.141.1",
+      "uvicorn": "0.52.4",
+      "psycopg": "3.3.5",
+      "httpx": "0.28.1",
+      "pytest": "9.1.1"
+    },
+    "planner": "gpt-6-astra",
+    "operational_reviewer": "Grok Bot; model version unavailable; operator-assisted review transport",
+    "approval_surface": "Slack",
+    "full_suite_before_layout_change": 1027,
+    "focused_tests_after_layout_change": 165,
+    "full_suite_after_layout_change_run": false,
+    "publicly_reproducible": false,
+    "evidence_summary": "docs/status.md"
+  },
+  "independent_clean_install": "not_run",
+  "supported_installation_profiles": [],
+  "publication_enforcement": "operator_procedure_only",
+  "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
+  "skill_validation": {
+    "date": "2026-09-12",
+    "structure": "passed",
+    "independent_application_scenarios": 1,
+    "revised_application": "passed",
+    "public_file_review": "passed",
+    "summary": "docs/skill-validation.md"
+  }
+}
