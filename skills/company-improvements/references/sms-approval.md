@@ -6,10 +6,12 @@ send a text or prove SMS approval. Read the current status and compatibility
 manifest before treating any step as configured or live-tested.
 
 For an existing bot interface, read [the bounded gateway reference](sms-gateway.md).
-The pre-dispatch snapshot records repaired private code and verification. It keeps
-provider keys on a trusted server and gives the bot only one-operation gateway
-access. Exact binding/deployment and live SMS outcomes are later conditions; this
-preview does not install a listener or change the existing number.
+The private gateway has reviewed code and verification, and one earlier SMS was
+delivered. That SMS-only request was later cancelled without an owner decision;
+its challenge was invalidated and its delivery history preserved. The next phase is a
+fresh same-request paired proof, still supervised. Provider keys stay on the
+trusted server; the bot receives only one-operation gateway access. This preview
+does not install a listener or change the existing number.
 
 ## Ready before sending
 
@@ -30,6 +32,48 @@ this public repository or the Slack receiver. A Restricted key can limit resourc
 and create permissions do not inherently restrict individual numbers or SIDs.
 Verify the actual permissions and fixed application bindings. Preserve existing
 SMS handlers, opt-out behavior and shared bot polling.
+
+## Paired Slack/SMS proof on one fresh request
+
+This is a proposed supervised proof, not a claim of an automatic fanout service.
+Use the same fresh immutable request/version/package and shared challenge for the
+Slack card and SMS notification. Keep the earlier completed Slack proof and the
+separate delivered SMS, subsequent cancellation and absence of an owner decision
+as their own historical records.
+
+1. Update the public skill/status/compatibility/changelog, push and independently
+   verify the exact public commit before either owner-facing card or text. This
+   snapshot may precede package preparation; record both verified public commit
+   and exact private package in the checkpoint before the owner is asked.
+2. Cancel any superseded pending request through the normal API and verify its
+   challenge invalidation without changing its history. Include both surfaces in
+   the registry profile before new intake, then complete genuine planning/review
+   and byte-verify the fresh private publication. Do not add a card to an old
+   package or create a second independent approval authority.
+3. Synchronize configuration and restart all receiver replicas before posting;
+   stale configuration can freeze a superseded card display. Prepare SMS first,
+   then Slack with the same challenge lifetime. Verify their exact shared
+   request/version/package/challenge, intended owner and fixed destinations, and
+   the gateway's one-operation grant and live binding.
+4. Complete the private live-use checkpoint. Post the prepared Slack card and
+   verify accepted delivery before sending the prepared SMS once. Keep original
+   delivery evidence. A failed or uncertain send does not authorize another POST,
+   and an expired challenge is not refreshed by retrying the same send.
+5. Let the owner personally send the full SMS challenge reply. Independently fetch
+   its selected original SID and validate the bound command before core ingestion.
+   Verify one exact durable decision and consumed shared challenge. APPROVE leaves
+   one held issue operation; DECLINE/REVISE leave no new issue operation.
+6. Observe or invoke the existing terminal-update worker and verify that the exact
+   matching Slack card displays the recorded outcome and removes decision controls.
+   Record whether the update was supervised or automatic. The cosmetic update
+   does not create approval; if it fails, preserve the decision and reconcile the
+   existing update without reopening authority, repeating the SMS or replacing
+   the card to manufacture a pass.
+7. If Slack records the first genuine decision, retain it and report that the
+   intended SMS-to-Slack direction was not proved. Duplicate/stale messages must
+   not create another decision or issue operation. Publish the actual sanitized
+   result and remaining gaps after the decision, verify the commit and append it
+   to the private checkpoint. No build, release or issue execution follows.
 
 ## One send, one real reply
 

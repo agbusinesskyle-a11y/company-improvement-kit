@@ -44,11 +44,13 @@ For a separate SMS lane test, use [the SMS runbook](references/sms-approval.md)
 and [the bounded gateway reference](references/sms-gateway.md). The bot receives
 only an expiring token for one prepared operation and may supply a selected Message
 SID as a locator. The trusted gateway keeps provider credentials and independently
-fetches original evidence; bot text cannot approve. The dated pre-dispatch status
-records reviewed private code and tests; it does not establish a deployed binding
-or live SMS proof. Publish the pre-approval snapshot before outbox preparation and
-final binding/deployment, then verify those conditions before sending. The public
-preview provides no runtime.
+fetches original evidence; bot text cannot approve. One earlier SMS was delivered
+and its SMS-only request was later cancelled without an owner decision; its
+delivery history is preserved. For a paired proof, prepare one fresh
+request/version/package/challenge for both surfaces and verify the public snapshot
+before either owner-facing request. Observe the SMS decision and matching Slack
+terminal update separately; do not infer them from different requests' successes.
+This phase is supervised; no general fanout, listener or public runtime is supplied.
 
 ## Recovery and limits
 

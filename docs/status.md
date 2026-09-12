@@ -1,13 +1,55 @@
 # Milestones and known limits
 
-Skill preview: **0.1.0-alpha.3**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.4**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
 
-## 2026-09-12 — bounded SMS gateway, pre-dispatch snapshot
+## 2026-09-12 — paired Slack/SMS proof, before the owner request
 
-**Private code/reviews verified; no live SMS send or owner decision proved.** This
+**Preparation only: the same-request live proof has not passed or run.** This
+public milestone precedes the next owner-facing approval card or text. A fresh
+synthetic planning-only request will place the same immutable package/version and
+shared challenge on Slack and SMS. The intended observation is a genuine SMS
+reply recorded once by the core, followed by the matching Slack card's terminal
+update. No issue execution, application change, build or release is in scope.
+
+One actual SMS was sent and delivered following alpha.3. That original SMS request
+was subsequently cancelled through the normal API, with its sole challenge
+invalidated and zero owner decisions verified by a private database read. It never
+had a Slack card; delivery evidence and history remain intact. Cancellation is not
+an owner decision or a paired-channel update. The earlier completed Slack proof is a different request;
+combining separate successes does not prove the proposed same-request path.
+
+| Boundary | Current evidence or next condition |
+| --- | --- |
+| Shared challenge, one durable decision and cross-surface race/replay protections | Existing private automated tests; not a claim that this paired live test passed |
+| Public checkpoint for the new owner request | Publish and independently verify this snapshot first; bind its commit to the private package/checkpoint |
+| Fresh canonical package | Both surfaces in the registry before new intake; real planning, honest review and verified private artifact publication required |
+| Paired preparation | Synchronize/restart all receiver replicas; prepare SMS then Slack with the same lifetime and verify the exact shared binding; require accepted Slack posting before SMS send |
+| Gateway authority | Retain server-only provider key/database access; bot gets only an expiring one-operation token and SID locators |
+| SMS decision | Not yet observed for the fresh paired request; original provider GET and core validation required |
+| Slack terminal update after SMS | Not yet observed; verify that exact card reflects the durable outcome and removes decision controls |
+| Automatic general fanout or inbound listener | Not implemented/proven; this phase remains supervised |
+| Runtime distribution and independent installation | Not included/proven by this public documentation preview |
+
+Use [the paired-proof procedure](../skills/company-improvements/references/sms-approval.md)
+without altering prior frozen packages or relabelling the earlier cancelled SMS
+request as an owner decision. Preserve its delivery history and the recorded
+cancellation/challenge invalidation. Never replay an old message or manufacture
+a provider event to make the new proof pass.
+
+If the owner chooses Slack first, preserve that genuine result and identify the
+SMS-to-Slack direction as unproven. An update failure also leaves the durable owner
+decision intact; reconcile the existing card rather than sending again or reopening
+approval. Report which processing/update steps were supervised or automatic.
+After the actual decision, publish its sanitized outcome and any remaining gap,
+verify the public commit and append it to the private checkpoint.
+
+## 2026-09-12 — alpha.3 gateway pre-dispatch (historical snapshot)
+
+**Historical alpha.3 pre-dispatch state; later delivery is recorded above.** Private
+code/reviews were verified; no live SMS send or owner decision was then proved. This
 entry describes the state before outbox preparation and the final operation-bound
 gateway deployment. Publishing it precedes those actions; it does not claim they
 have already occurred.
@@ -98,7 +140,7 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Skill publication at approval stages | Instructions/template/progress included; operator-enforced |
 | Automatic publication/runtime checkpoint enforcement | Not implemented |
 | Unattended intake/interview/review | Supervised path proven; complete unattended handoff not proven |
-| SMS | Private gateway code/review/tests verified; exact operation binding/deployment and live SMS proof follow this pre-dispatch snapshot |
+| SMS | One actual send/delivery; original SMS-only request cancelled, sole challenge invalidated, zero owner decisions. Fresh paired SMS decision/Slack update proof remains pending |
 | Web or Grok owner approval | Not proven; model conversation is not authority |
 | Linear issue creation | Not implemented in coordinator |
 | Ringer application builds after issues | Not implemented in coordinator; planning invocation is insufficient |
@@ -107,8 +149,8 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Fresh install, second organization, upgrade/recovery | Not run |
 | Stable release | Not ready |
 
-Next: publish/verify this pre-dispatch snapshot, prepare the reviewed outbox,
-complete exact binding/deployment checks and run the separate supervised SMS proof.
-Later implement
-the approved-package-to-Linear handoff and bounded Ringer build dispatch.
+Next: publish/verify the paired-proof snapshot before the next owner request,
+prepare the fresh shared package and bindings, then observe the supervised SMS
+decision and Slack terminal update. Later implement the approved-package-to-Linear
+handoff and bounded Ringer build dispatch.
 Do not repurpose the synthetic held operation as real app-change authorization.

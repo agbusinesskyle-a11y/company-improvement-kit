@@ -1,14 +1,17 @@
 # Installation and stable-release readiness
 
-Current public package: skill/documentation preview 0.1.0-alpha.3. The separate
+Current public package: skill/documentation preview 0.1.0-alpha.4. The separate
 private implementation has a planning coordinator and signed Slack approval
 receiver, with a supervised synthetic owner proof passed. Runtime/adapters are not
 shipped in this preview. Installer: missing. Independent clean installation and
 full live end-to-end acceptance: not run. The bounded SMS gateway has completed
-private repair, review and executed tests. This pre-dispatch milestone does not
-prove the final operation binding/deployment, provider send, handset delivery or
-owner SMS decision. Those conditions are checked after public snapshot publication
-and before or during the separate live proof.
+private repair, review and executed tests. This pre-approval milestone does not
+prove the next paired operation's binding/deployment or an owner SMS decision.
+One earlier SMS was delivered; its SMS-only request was subsequently cancelled
+without an owner decision, with its delivery history preserved.
+The fresh same-request SMS decision/Slack terminal-update proof remains pending.
+Publish and verify its public snapshot before either owner-facing request. General
+automatic fanout/listening and independent installation remain unproved.
 No stable release exists.
 
 Read [status](../../../docs/status.md), [compatibility](../../../compatibility.json)

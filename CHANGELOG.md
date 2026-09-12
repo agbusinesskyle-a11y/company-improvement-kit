@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.0-alpha.4 — 2026-09-12
+
+- Record one actual SMS send/delivery following alpha.3, with no Slack card
+  attached. The request was subsequently cancelled without an owner decision, its
+  sole challenge invalidated, and its delivery history preserved.
+- Prepare a fresh supervised same-request Slack/SMS proof: both surfaces bind to
+  one immutable package/version and shared challenge, with one durable decision.
+  Bind both surfaces before intake, synchronize receivers, prepare SMS then Slack
+  with the same lifetime, and verify Slack posting before SMS dispatch.
+- Require verified public publication before the next owner-facing card or text.
+- Describe SMS-origin decision verification and the matching Slack terminal update
+  as separate future observations; do not claim the paired live test passed.
+- Preserve existing proof histories and narrow gateway credentials. No automatic
+  general fanout, inbound listener, public runtime, installer or full workflow added.
+
 ## 0.1.0-alpha.3 — 2026-09-12
 
 - Document a separate bounded SMS gateway for an existing bot/account/number.

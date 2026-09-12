@@ -19,7 +19,7 @@ No publication, owner contact, provider effect or runtime edit occurs in the tes
 | Explicit 15-file public list: relative links, JSON, private-identifier/credential-pattern screening and preview metadata | Passed |
 | Independent review of intended public files and readiness claims | No blocking findings |
 
-The parent reviewed the evaluator's actual walkthrough in addition to executable
+The maintainer reviewed the evaluator's actual walkthrough in addition to executable
 checks. This is one application scenario, not a broad behavioral benchmark or a
 clean-install test. Pattern screening is supplemented by content review and does
 not promise detection of every possible secret. Runtime code was unchanged, so no
@@ -53,3 +53,14 @@ relative links and private-pattern screening passed, with operator content revie
 Private gateway code/review/test evidence is reported separately in [status](status.md);
 configured credentials do not establish provider send, handset delivery or owner
 approval. The snapshot intentionally precedes final operation-bound deployment.
+
+## Alpha.4 paired-proof preview
+
+This preview updates the procedure for one fresh request shared by Slack and SMS.
+The earlier SMS delivery and later cancellation are recorded separately from an owner decision and from
+the still-unperformed paired live proof. Preparation validation consists of an
+explicit 17-file export, local JSON/link/version checks and targeted privacy/content
+review. No new model application scenario, runtime test or provider call is part
+of this documentation preparation. The maintainer verifies the final public snapshot
+before publication is considered complete; earlier alpha.1/alpha.3 evaluations are not
+relabeled as fresh alpha.4 evidence.

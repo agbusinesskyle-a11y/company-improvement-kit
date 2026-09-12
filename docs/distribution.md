@@ -8,7 +8,9 @@ limits; installable and stable releases require separate executed evidence.
 | --- | --- |
 | Skill, references, checkpoint, status, compatibility and changelog | Included in this preview |
 | Durable planning and Slack owner approval | Implemented and supervised proof passed privately; runtime not shipped here |
-| Bounded gateway for existing SMS bot | Private repair/review/tests complete; pre-dispatch snapshot, with exact binding/deployment and live SMS proof still to follow |
+| Bounded gateway for existing SMS bot | Private repair/review/tests complete; one actual SMS delivered; its SMS-only request subsequently cancelled without an owner decision, delivery history preserved |
+| Same-request Slack/SMS decision and terminal card update | Existing shared-decision protections tested privately; supervised live paired proof not yet run |
+| General automatic approval fanout and inbound listening | Not implemented/proven by this preview |
 | Approved package → reconciled Linear issues → bounded Ringer build | Not implemented in coordinator |
 | Independent application review → fixed-target release → live verification | Not implemented end to end |
 | Generic runtime/tests/schema/examples export with dependency locks | Pending |

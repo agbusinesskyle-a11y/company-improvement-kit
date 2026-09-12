@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.3",
+  "skill_version": "0.1.0-alpha.4",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,26 +37,35 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.3",
+    "current_version": "0.1.0-alpha.4",
     "structure": "passed",
     "public_file_review": "passed",
-    "independent_application": "not_run_for_alpha_3",
+    "independent_application": "not_run_for_alpha_4",
     "prior_evidence": {
-      "date": "2026-09-12",
+      "current_version": "0.1.0-alpha.3",
       "structure": "passed",
-      "independent_application_scenarios": 1,
-      "revised_application": "passed",
       "public_file_review": "passed",
-      "summary": "docs/skill-validation.md"
-    },
-    "summary": "docs/skill-validation.md",
-    "manual_walkthrough": {
-      "scenarios": 2,
-      "reviewer": "same_author",
-      "result": "no_additional_documentation_blocker",
-      "fresh_evaluator_model_run": false
+      "independent_application": "not_run_for_alpha_3",
+      "prior_evidence": {
+        "date": "2026-09-12",
+        "structure": "passed",
+        "independent_application_scenarios": 1,
+        "revised_application": "passed",
+        "public_file_review": "passed",
+        "summary": "docs/skill-validation.md"
+      },
+      "summary": "docs/skill-validation.md",
+      "manual_walkthrough": {
+        "scenarios": 2,
+        "reviewer": "same_author",
+        "result": "no_additional_documentation_blocker",
+        "fresh_evaluator_model_run": false
+      },
+      "public_file_count": 17,
+      "validation_date": "2026-09-12"
     },
     "public_file_count": 17,
+    "summary": "docs/skill-validation.md",
     "validation_date": "2026-09-12"
   },
   "sms_preparation": {
@@ -129,11 +138,53 @@
     "reference": "skills/company-improvements/references/sms-gateway.md",
     "initial_blocking_findings": 2,
     "independent_postgresql_reproductions": "passed",
-    "base_configuration": "private_database_registry_port_and_HTTPS_prepared"
+    "base_configuration": "private_database_registry_port_and_HTTPS_prepared",
+    "historical_snapshot": "0.1.0-alpha.3 pre-dispatch; later delivery is recorded in sms_delivery_follow_up"
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "sms_gateway_pre_dispatch",
-    "publication_precedes_outbox_preparation_and_bound_deployment": true
+    "milestone": "paired_slack_sms_pre_approval",
+    "publication_precedes_outbox_preparation_and_both_owner_requests": true
+  },
+  "sms_delivery_follow_up": {
+    "date": "2026-09-12",
+    "evidence_type": "maintainer_attestation_of_private_live_delivery",
+    "sms_messages_delivered": 1,
+    "provider_send_proven": true,
+    "owner_decision_recorded": false,
+    "slack_card_for_that_request": false,
+    "same_request_sms_to_slack_update_proven": false,
+    "scope": "Original supervised SMS-only request cancelled without an owner decision; separate from completed Slack proof",
+    "delivery_evidence": "Maintainer-reported actual SMS delivery; delivery history preserved after cancellation",
+    "independent_delivery_revalidation_in_this_preview": false,
+    "request_state": "cancelled",
+    "challenge_invalidated": true,
+    "owner_decision_count": 0,
+    "retirement_evidence": "Normal API cancellation followed by private read-only database verification of cancelled state, sole challenge invalidation and zero decisions"
+  },
+  "paired_approval_preparation": {
+    "date": "2026-09-12",
+    "milestone": "before_next_owner_request",
+    "fresh_request_required": true,
+    "same_request_version_package_and_challenge_required": true,
+    "scope": "supervised synthetic planning_and_approval_only; no downstream issue/build/release execution",
+    "existing_shared_decision_protections": "privately_tested",
+    "live_paired_proof_run": false,
+    "sms_owner_decision_proven": false,
+    "slack_terminal_update_after_sms_proven": false,
+    "general_automatic_fanout": false,
+    "automatic_inbound_listener": false,
+    "public_runtime_shipped": false,
+    "public_publication_must_precede_both_owner_requests": true,
+    "reference": "skills/company-improvements/references/sms-approval.md",
+    "summary": "docs/status.md",
+    "required_preparation_order": [
+      "retire_superseded_pending_request_through_normal_api",
+      "configure_both_surfaces_before_fresh_intake",
+      "synchronize_and_restart_all_receiver_replicas_before_posting",
+      "prepare_sms_then_slack_with_same_challenge_lifetime",
+      "verify_shared_binding_and_private_checkpoint",
+      "verify_slack_post_accepted_before_sms_send"
+    ]
   }
 }

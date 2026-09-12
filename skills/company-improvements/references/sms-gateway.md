@@ -1,8 +1,11 @@
 # Bounded gateway for an existing SMS bot
 
-**Alpha.3, 2026-09-12: pre-dispatch milestone.** Private gateway code has completed
-repair, independent review and executed verification. This snapshot does not
-establish a deployed operation binding or a live-tested SMS service. The public kit supplies neither this runtime nor an installer. Check
+**Alpha.4, 2026-09-12: before a fresh paired Slack/SMS owner request.** Private
+gateway code has completed repair, review and verification. One earlier SMS was
+sent/delivered. Its SMS-only request was later cancelled without an owner decision,
+with its challenge invalidated and delivery history preserved. A live
+same-request SMS decision followed by a Slack terminal update is not yet proved.
+The public kit supplies neither this runtime nor an installer. Check
 [current status](../../../docs/status.md) and [compatibility](../../../compatibility.json)
 before using it. The earlier supervised Slack proof remains separate evidence.
 
@@ -60,8 +63,12 @@ POST; reconcile the existing operation instead.
 
 ## Supervised proof and records
 
-Use a fresh reviewed synthetic planning-only package. Preserve the earlier Slack
-package and its outcome. Publish and verify the [public checkpoint](approval-checkpoints.md)
+Use a fresh reviewed synthetic planning-only package. For the paired proof, follow
+[the same-request procedure](sms-approval.md#paired-slacksms-proof-on-one-fresh-request)
+and verify the Slack card and SMS share the exact package/version/challenge.
+Preserve the earlier Slack package/outcome and the separate SMS delivery and
+cancellation history; cancellation must not be recorded as an owner decision.
+Publish and verify the [public checkpoint](approval-checkpoints.md)
 first, recording its commit and known pre-dispatch limits privately. Then prepare
 the outbox and expiring grant, finish the exact binding/deployment checks, and
 complete the private checkpoint before requesting the owner decision. Deployment

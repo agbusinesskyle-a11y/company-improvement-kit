@@ -9,4 +9,4 @@ save its commit beside the private package. Filled checkpoint records stay priva
 Export only explicitly reviewed generic files. Keep private Git history, company
 profiles, provider identities, plans, approval evidence, credentials and logs out.
 Do not claim runtime enforcement or installability from documentation alone.
-Workers propose assigned changes; the parent reviews and publishes them.
+Workers propose assigned changes; the maintainer reviews and publishes them.
