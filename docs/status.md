@@ -1,9 +1,29 @@
 # Milestones and known limits
 
-Skill preview: **0.1.0-alpha.8**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.9**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
+
+## 2026-09-12 — alpha.9 confirmed-interview handoff
+
+The private interview ledger records versioned questions and drafts against their
+exact source-message snapshot. Confirmation reconciles one original stored Slack
+event with the exact latest draft. A durable handoff then submits the frozen brief
+to the existing coordinator with a stable idempotency key.
+
+All 37 focused tests passed using real disposable PostgreSQL and synthetic source
+events, including the 20 existing inbox regressions. Tests cover stale drafts,
+wrong confirmation evidence, concurrent handoffs, and a lost response after core
+acceptance without creating another request or planning job. Parent source review
+completed. The offline wheel contains 31 source-matching runtime/SQL files; a fresh
+installed full-suite run was not performed.
+
+These are internal operator interfaces. The hash-bearing confirmation message is
+a development transport proof, not the final staff experience. Native confirmation
+buttons, verified brief presentation, the live Grok bridge and unattended dispatch
+remain unfinished. No owner approval, live provider test, build or deployment is
+claimed by this milestone. The public package remains a documentation preview.
 
 ## 2026-09-12 — alpha.8 signed suggestion intake
 

@@ -35,3 +35,25 @@ owner-driven end-to-end test.
 
 The provider contract comes from Slack's [request signing guide](https://docs.slack.dev/authentication/verifying-requests-from-slack/)
 and [Events API documentation](https://docs.slack.dev/apis/events-api/).
+
+## Interview record and planning handoff
+
+The next private component records questions and versioned briefs against the
+exact input-message count. An agent can propose a brief; its output cannot mark
+that brief confirmed. A trusted confirmation adapter must bind the requester,
+original source event and exact current draft. New input makes an earlier draft
+stale. Preserve the original response and confirmation history.
+
+The internal confirmation proof uses a stored original Slack message containing
+the exact draft hash. This is a transport contract for development, not the final
+staff interface. Do not ask staff to copy hashes. Native confirmation buttons,
+verified presentation and the live Grok bridge remain required before activation.
+There is no public confirmation endpoint or database credential for the bot.
+
+After confirmation, freeze the source and brief in a durable handoff record.
+Submit that same payload to the coordinator with the same idempotency key on
+recovery. A lost response must not generate another request or change the brief.
+An extra message before dispatch requires revision; a message after dispatch
+cannot rewrite the already submitted snapshot. Brief confirmation permits
+planning only. Owner approval, issue creation, building and release retain their
+separate gates.

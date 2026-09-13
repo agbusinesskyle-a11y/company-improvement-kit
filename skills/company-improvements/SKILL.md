@@ -66,9 +66,11 @@ unfinished. Legacy profiles/history remain intact;
 [legacy SMS approval](references/sms-approval.md) is not selected for the Slack-only
 profile. Publish/verify the checkpoint before a new owner request.
 
-The next development slice is [durable Slack suggestion intake](references/slack-intake.md).
-Treat saved suggestions as pending interviews. Native Grok transport, explicit
-requester confirmation and automatic planning handoff must be connected before
+The private [durable Slack suggestion intake](references/slack-intake.md) has passed
+focused tests. Development now adds versioned interview responses, exact-brief
+confirmation and an idempotent handoff to the existing planning queue. Treat saved
+suggestions as pending interviews until that confirmation is established. Native
+Grok transport, staff confirmation controls and automatic handoff must be connected before
 claiming that staff can use the full workflow. No RCS setup, automatic SMS decision
 listener, public runtime or installer is supplied.
 

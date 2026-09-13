@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.0-alpha.9 — 2026-09-12
+
+- Add the private interview-ledger and confirmed-brief handoff milestone. Questions
+  and drafts retain their input snapshot; confirmation binds to one exact draft.
+- Pass 37 focused PostgreSQL/inbox/handoff tests and review the actual implementation.
+  Build the offline wheel with 31 matching runtime/SQL files.
+- Document that an uncertain handoff reuses the same immutable payload and key.
+  The native Grok bridge, staff confirmation interface and live activation remain
+  unfinished. Brief confirmation does not grant owner approval or build authority.
+
 ## 0.1.0-alpha.8 — 2026-09-12
 
 - Implement the private signed Slack suggestion inbox: fixed source routing,

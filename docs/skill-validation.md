@@ -1,5 +1,13 @@
 # Skill validation
 
+## Alpha.9 interview handoff documentation
+
+This update describes the internal interview ledger and idempotent planning handoff,
+while keeping staff presentation and live bot activation explicitly unfinished.
+The maintainer reviewed the changed content; the same 19-file public set passed
+JSON, link, current-version, skill-structure and targeted private-data checks.
+No new model application evaluation or clean-install test is claimed.
+
 ## Alpha.8 suggestion intake documentation
 
 This update documents the private suggestion inbox separately from the pending
