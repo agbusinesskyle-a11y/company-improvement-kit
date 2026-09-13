@@ -200,7 +200,9 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "slack_only_candidate_pre_approval",
+    "milestone": "slack_only_owner_approved_sms_alert_unproven",
+    "publication_phase": "post_decision_before_fresh_pending_card_test",
+    "original_pre_card_publication_receipt_preserved": true,
     "publication_must_precede_next_owner_request": true
   },
   "sms_delivery_follow_up": {
@@ -260,6 +262,11 @@
     {
       "date": "2026-09-12",
       "milestone": "slack_decisions_sms_alerts_direction",
+      "publication_must_precede_next_owner_request": true
+    },
+    {
+      "date": "2026-09-12",
+      "milestone": "slack_only_candidate_pre_approval",
       "publication_must_precede_next_owner_request": true
     }
   ],
@@ -340,14 +347,14 @@
   },
   "slack_alert_candidate": {
     "date": "2026-09-12",
-    "implementation_status": "privately_implemented_source_review_and_package_checks_passed",
-    "implementation_revision": "1fc3423e895998b7d16d99573ba9e00eaff27b15",
+    "implementation_status": "permalink_transport_corrected_source_and_package_checks_passed_all_three_deployed_services_verified",
+    "implementation_revision": "edbecc64bb5a38602cbed40b94fd7229c5ae37c7",
     "final_runtime_test_counts": {
-      "execution_scope": "full_host_pytest_suite",
+      "implementation_revision": "edbecc64bb5a38602cbed40b94fd7229c5ae37c7",
+      "execution_scope": "fresh_full_host_pytest_suite",
       "passed": 1445,
       "skipped": 1,
       "deprecation_warnings": 3,
-      "duration_seconds": 62.96,
       "database": "real_disposable_PostgreSQL",
       "provider_transport": "synthetic",
       "live_provider_evidence": false
@@ -362,7 +369,7 @@
       "acceptance.md"
     ],
     "combined_review_utf8_bytes_including_separators_max": 24000,
-    "review_rendering": "complete_inert_text; source_checks_passed; live_client_verification_pending",
+    "review_rendering": "complete_inert_text; live_posted_card_frozen_review_content_verified",
     "unsupported_review_rejected_before_challenge": true,
     "mandatory_private_repository_login_for_displayed_review": false,
     "notification_outbox": "SmsAlertOutbox",
@@ -387,12 +394,12 @@
     "independent_code_review": "no_blockers",
     "deployment_verified": true,
     "live_alert_delivery_verified": false,
-    "live_owner_decision_verified": false,
-    "same_card_terminal_closure_verified": false,
+    "live_owner_decision_verified": true,
+    "same_card_terminal_closure_verified": true,
     "public_runtime_shipped": false,
     "reference": "skills/company-improvements/references/message-first.md",
     "private_remote_source_verified": true,
-    "deployment_status": "hosted_preflight_verified",
+    "deployment_status": "repair_all_three_services_source_and_registry_verified_shared_schema_verified",
     "installed_runtime_validation": {
       "host_os": "macOS",
       "python_version": "3.14.6",
@@ -400,13 +407,17 @@
       "dependency_profile": "runtime_only",
       "pip_check": "passed",
       "source_wheel_installed_python_sql_files_byte_equal": 25,
-      "full_installed_test_suite_run": false
+      "full_installed_test_suite_run": false,
+      "implementation_revision": "edbecc64bb5a38602cbed40b94fd7229c5ae37c7"
     },
     "hosted_preflight": {
+      "implementation_revision": "edbecc64bb5a38602cbed40b94fd7229c5ae37c7",
+      "service_scope": "all_three_deployed_services",
       "deployed_source_python_sql_files_matched": 25,
       "registry_bindings_verified": true,
       "schema_through_migration": "005",
-      "scope": "read_only_hosted_source_configuration_schema_preflight; not live owner or SMS approval proof"
+      "scope": "read_only_source_configuration_schema_verification; distinct_from_live_SMS_delivery",
+      "services_verified": 3
     },
     "fresh_planning_package": {
       "planner": "GPT-6",
@@ -431,6 +442,71 @@
       "accepted_review_recorded_via_normal_api": true,
       "native_bot_transport_proven_by_this_review": false
     },
-    "live_alert_send_attempted": false
+    "live_alert_send_attempted": false,
+    "historical_candidate_verification": {
+      "implementation_revision": "1fc3423e895998b7d16d99573ba9e00eaff27b15",
+      "final_runtime_test_counts": {
+        "execution_scope": "full_host_pytest_suite",
+        "passed": 1445,
+        "skipped": 1,
+        "deprecation_warnings": 3,
+        "duration_seconds": 62.96,
+        "database": "real_disposable_PostgreSQL",
+        "provider_transport": "synthetic",
+        "live_provider_evidence": false
+      },
+      "installed_runtime_validation": {
+        "host_os": "macOS",
+        "python_version": "3.14.6",
+        "isolated_wheel_install": "passed",
+        "dependency_profile": "runtime_only",
+        "pip_check": "passed",
+        "source_wheel_installed_python_sql_files_byte_equal": 25,
+        "full_installed_test_suite_run": false
+      },
+      "hosted_preflight": {
+        "deployed_source_python_sql_files_matched": 25,
+        "registry_bindings_verified": true,
+        "schema_through_migration": "005",
+        "scope": "read_only_hosted_source_configuration_schema_preflight; not live owner or SMS approval proof"
+      },
+      "deployment_status": "hosted_preflight_verified",
+      "deployment_verified": true,
+      "snapshot": "alpha.7 pre-card checkpoint; later repair and owner result recorded separately"
+    },
+    "deployment_verification_scope": "all_three_services_for_repair_revision",
+    "live_slack_card_posted": true,
+    "live_slack_card_frozen_review_content_verified": true,
+    "permalink_transport_correction": {
+      "implementation_revision": "edbecc64bb5a38602cbed40b94fd7229c5ae37c7",
+      "observed_failed_transport": "POST_JSON",
+      "observed_error": "invalid_arguments",
+      "original_card_read_only_GET_returned_expected_canonical_permalink": true,
+      "corrected_transport": "GET_query_parameters",
+      "other_Slack_method_transports_unchanged": true,
+      "strict_identity_channel_origin_and_permalink_guards_preserved": true,
+      "targeted_pre_fix_regression_failures": 3,
+      "focused_checks_passed": 205,
+      "deployment_verification_scope": "all_three_service_sources_and_registries_shared_database_schema",
+      "same_frozen_package_preserved": true
+    },
+    "live_owner_result": {
+      "scope": "supervised_synthetic_planning_only",
+      "decision": "APPROVE",
+      "decision_count": 1,
+      "request_state": "approved_waiting_issues",
+      "same_card_terminal_state": "Approved",
+      "decision_controls_removed": true,
+      "held_issues_pending_operations": 1,
+      "owner_decision_preceded_alert_preparation": true,
+      "sms_alert_rows": 0,
+      "sms_alert_send_attempted": false,
+      "pending_request_reminder_delivery_validated": false,
+      "downstream_execution_authorized_by_test": false,
+      "operator_observed_resolved_state_before_dispatch": true,
+      "automatic_live_SMS_suppression_proven": false,
+      "pending_only_preflight": "rejected_already_resolved_state_as_expected"
+    },
+    "next_live_gate": "fresh_synthetic_pending_card_and_one_eligible_SMS_alert_attempt_after_verified_public_checkpoint"
   }
 }

@@ -62,9 +62,11 @@ wheel installation, dependency checks and 25-file source parity passed on macOS
 Python 3.14.6; a full installed-package test suite was not run. Hosted preflight
 verified source, configuration and schema, and five genuine GPT-6 planning files
 matched their hosted bytes. The original Grok CLI document review was accepted
-after supplemental evidence verification and normal API recording. Alert delivery
-and the actual owner decision remain pending. See [status](../../../docs/status.md)
-for the reviewed revision and original harness/model-reporting limits. Complete
+after supplemental evidence verification and normal API recording. The actual
+Slack owner approval and same-card terminal closure are verified, with one issue
+operation held. No SMS alert was prepared or sent; alert delivery remains unproven.
+See [current status](../../../docs/status.md) for the evidence, fresh pending-card
+test gate, reviewed revision and original harness/model-reporting limits. Complete
 the public checkpoint before the owner request, then observe alert delivery, the actual owner Slack decision and
 same-card closure separately. APPROVE leaves one held issue operation in this
 planning-only test; decline/revision produces no new issue operation. A failed

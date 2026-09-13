@@ -5,7 +5,56 @@ Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
 
-## 2026-09-12 — alpha.7 Slack-only candidate, before the owner request
+## 2026-09-12 — alpha.7 Slack decision verified; SMS alert still unproven
+
+**The owner approved the synthetic planning-only package in Slack. No SMS alert
+was prepared or sent before that decision.** The complete frozen review content
+was verified on the posted card. The original owner action produced one durable
+approval, and that same card shows Approved with its decision controls removed.
+The request is `approved_waiting_issues` with exactly one held `issues_pending`
+operation. This proves the supervised Slack decision and terminal update; it does
+not authorize issue execution, an application change, build or release.
+
+Alert preparation exposed a transport defect: `chat.getPermalink` was sent as
+POST/JSON and returned `invalid_arguments`. An authenticated read-only GET returned
+the expected canonical permalink. The correction uses GET with query parameters
+for this lookup alone, preserving the identity, channel, fixed-origin and exact
+permalink guards and the existing transport for other Slack methods.
+
+| Current evidence | Result and scope |
+| --- | --- |
+| Repair revision | `edbecc64bb5a38602cbed40b94fd7229c5ae37c7`, committed and remotely verified |
+| Regression demonstration | Three targeted cases failed against the original POST transport before repair |
+| Focused checks | 205 passed |
+| Fresh full host suite | 1,445 passed, one skipped, three deprecation warnings; disposable PostgreSQL and synthetic transports |
+| Fresh package checks | Isolated runtime wheel installation and dependency check passed; 25 Python/SQL files match source, wheel and installed package |
+| Installed-test limit | No full installed-package test suite is claimed |
+| Repair deployment verification | All three deployed services match the 25 reviewed source files and registry profiles; shared database schema verified |
+| Live Slack result | One actual owner approval; same card Approved with controls removed; one issue operation remains held |
+| SMS alert result | No alert rows and no send; pending-request reminder delivery remains unvalidated |
+
+The operator observed that the request was resolved and did not dispatch an alert.
+This does not demonstrate automatic live SMS suppression. A pending-only preflight
+correctly rejected the resolved state; it was not a runtime-source verification
+failure.
+
+This is a **post-decision** snapshot. Preserve the original verified pre-card
+publication receipt and frozen package; this later outcome must not be represented
+as preceding the card. The original Grok review harness failure and accepted
+supplemental verification remain distinct, as recorded in the historical checkpoint
+below. The transport repair does not create a new model review or approval.
+
+Publish and verify this outcome before a fresh synthetic pending-card test. That
+separate test must have its own exact package and completed public checkpoint,
+verified Slack review/card, current eligibility and one permitted SMS attempt.
+Do not send a reminder for the already approved request. Actual SMS delivery and
+the subsequent owner decision must be verified separately. No automatic listener,
+scheduler, public runtime, installer or full-workflow pass is claimed.
+
+## 2026-09-12 — alpha.7 pre-card checkpoint (historical snapshot)
+
+**This earlier checkpoint preceded the card; the later repair and actual Slack
+decision are recorded above. Pending statements below describe that earlier state.**
 
 **Source/package checks, hosted preflight, genuine planner bytes and exact-package
 document review verified; the new live approval/alert test remains pending.** This is a pre-approval milestone for a supervised synthetic planning-only
@@ -261,7 +310,7 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Automatic publication/runtime checkpoint enforcement | Not implemented |
 | Unattended intake/interview/review | Supervised path proven; complete unattended handoff not proven |
 | Earlier paired Slack/SMS proof | Matching card posted and original SMS receipt delivered; actual owner decision and SMS-to-Slack terminal closure unverified |
-| Selected Slack-only candidate + SMS alerts | Hosted preflight/planner bytes verified and document review accepted after supplemental verification/API recording; alert delivery and owner decision pending |
+| Selected Slack-only candidate + SMS alerts | Exact frozen Slack review, actual owner approval and same-card terminal closure verified; one issue operation held; SMS alert delivery remains unproven |
 | Web or Grok owner approval | Not proven; model conversation is not authority |
 | Linear issue creation | Not implemented in coordinator |
 | Ringer application builds after issues | Not implemented in coordinator; planning invocation is insufficient |
@@ -270,7 +319,7 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Fresh install, second organization, upgrade/recovery | Not run |
 | Stable release | Not ready |
 
-Next: complete and verify the public/private live-use checkpoint before the new
-owner card and SMS alert. Then run the supervised Slack decision/SMS alert test and
-verify the exact card's terminal closure. No issue execution, build or release
-follows this synthetic planning-only approval.
+Next: publish and verify this post-decision outcome, then complete a fresh private
+package/public checkpoint for the supervised pending-card SMS alert test. Verify
+the card before one eligible SMS attempt and verify delivery separately. No issue
+execution, build or release follows the completed synthetic planning-only approval.

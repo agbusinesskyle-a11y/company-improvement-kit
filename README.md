@@ -39,10 +39,12 @@ Isolated runtime wheel installation and source parity checks also passed; the fu
 installed-package test suite was not run. Hosted preflight and byte verification
 of five genuine GPT-6 planning artifacts passed. The original Grok CLI document
 review was accepted after supplemental evidence verification and normal API
-recording. SMS alert delivery and the owner decision remain pending. No scheduler,
-new HTTP gateway, bot
-automation, RCS setup, public runtime or installer is included. Earlier proof and
-retirement results remain historical; they do not prove this candidate passed.
+recording. The actual owner approved in Slack, and the same card's terminal
+display and removal of decision controls were verified; one issue operation remains
+held. No SMS alert was prepared or sent, so alert delivery remains unproven. See
+[current status](docs/status.md) for the evidence and fresh pending-card test gate.
+No scheduler, new HTTP gateway, bot automation, RCS setup, public runtime or installer
+is included. Earlier proof and retirement results remain historical.
 
 ## Contents and reuse
 

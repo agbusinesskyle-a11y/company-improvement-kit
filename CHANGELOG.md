@@ -2,6 +2,26 @@
 
 ## 0.1.0-alpha.7 — 2026-09-12
 
+- Post-decision follow-up: verify an actual Slack owner approval, the same card's
+  Approved display with decision controls removed, and exactly one held issue
+  operation. The owner decided before any alert was prepared; no SMS alert was sent.
+  Pending-request reminder delivery remains unproven.
+- Correct the live-discovered permalink lookup from POST/JSON to GET/query while
+  preserving strict response and identity guards. Verify revision
+  `edbecc64bb5a38602cbed40b94fd7229c5ae37c7`: three pre-fix regressions demonstrated,
+  205 focused checks passed, and a fresh full host suite passed 1,445 with one skipped
+  and three deprecation warnings. Fresh runtime wheel/dependency checks and 25-file
+  source/wheel/installed parity passed; no full installed-package suite was run.
+- Verify all three deployed services against the corrected 25 source files and
+  registry profiles, with the shared database schema verified. The operator observed
+  the resolved request and did not send; automatic live SMS suppression is unproven.
+- Preserve the original pre-card publication, frozen package and original review
+  harness failure/supplemental acceptance distinction. Publish this post-decision
+  outcome before a fresh synthetic pending-card SMS test; no SMS or full-workflow
+  success is inferred from the Slack result.
+
+Earlier alpha.7 preparation and review evidence follows:
+
 - Document the privately implemented Slack-only candidate with source checks passed:
   optional approval mode, required workspace URL, and full inert frozen review text
   bounded to 24,000 UTF-8 bytes before challenge creation.

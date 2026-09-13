@@ -14,9 +14,11 @@ checks and 25-file source/wheel/installed parity passed on macOS Python 3.14.6;
 the full installed-package test suite was not run. Hosted preflight verified the
 deployed source, configuration and schema. Five genuine GPT-6 planning files matched
 their hosted bytes. The original Grok CLI document review was accepted after
-supplemental evidence verification and normal API recording. The new live alert/
-owner-decision/card-closure test remains pending. Existing
-profiles/history are preserved. No scheduler, new HTTP gateway, bot automation or
+supplemental evidence verification and normal API recording. The actual Slack
+owner approval and same-card terminal closure are verified, with one issue operation
+held. No SMS alert was prepared or sent; alert delivery remains unproven. See
+[current status](../../../docs/status.md) for the evidence and fresh pending-card
+test gate. Existing profiles/history are preserved. No scheduler, new HTTP gateway, bot automation or
 RCS setup is supplied. The public package contains no runtime or installer, and
 independent clean installation/full live acceptance have not run. No stable release
 exists. See status for the exact reviewed revision and verification scope.
