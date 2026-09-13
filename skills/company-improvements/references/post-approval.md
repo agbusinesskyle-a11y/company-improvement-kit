@@ -108,8 +108,10 @@ does not verify persistent sender credentials or establish reminder delivery.
 
 The successor package needs exact-package operational review, a published reusable
 checkpoint, and its own owner decision. The original approval remains in history
-and grants no authority over expanded scope. Automatic review, revision feedback,
-Linear execution and application release remain separate gaps. Ordinary revision
+and grants no authority over expanded scope. Automatic planning-review and revision feedback remain separate gaps. The new
+[execution candidate](execution.md) applies to newly scoped requests and does not
+upgrade this discovery approval. Its connected verification and activation are
+tracked in the current milestone. Ordinary revision
 of a discovery successor is rejected with `discovery_revision_requires_context`
 until a revision path can retain and revalidate those findings. This explicit hold
 prevents silently queuing a plan that has lost its operational configuration.

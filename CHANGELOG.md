@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.1.0-alpha.14 — 2026-09-13
+
+- Document the connected private post-approval execution candidate: issue, isolated
+  Grok/Ringer build, exact-candidate independent review, permitted release and
+  source-thread results, with a disabled-by-default continuous worker.
+- Freeze policy before a new owner decision; preserve historical planning-only
+  scope. Connect existing reminders to new execution cards without enabling SMS.
+- Bound repairs, prohibit self-review, reconcile original uncertain operations and
+  report terminal failures without granting release.
+- Record 164 new/affected source tests and 58-file wheel/source parity. Provider
+  and process responses were synthetic; old completed live proofs were not repeated.
+- Address review findings through canonical retained Git source, raw committed
+  release files and evidence-backed terminal check failures. Corrective groups
+  passed 40, 32 and 15 checks plus the final combined integration case; counts overlap.
+- Keep activation, shared execution-storage setup and live verification pending.
+  Public runtime, installer, cross-host artifact transfer and composed GitHub merge
+  remain unavailable. See the execution reference for the supported boundaries.
+
 ## 0.1.0-alpha.13 — 2026-09-13
 
 - Add a private SMS attention routing candidate bound to the existing project,

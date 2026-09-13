@@ -1,5 +1,49 @@
 # Milestones and known limits
 
+## 2026-09-13 — alpha.14 reusable post-approval execution candidate
+
+The private process now connects a newly scoped owner approval to Linear issue
+creation, an isolated native Grok/Ringer build, independent review of the exact
+candidate, an explicitly permitted Railway release, and a result in the original
+Slack thread. A continuous worker entry point supports durable recovery and is
+disabled by default. The existing reminder discovers execution approval cards and
+stops after the owner decision; SMS activation remains a separate pending setup.
+
+New requests freeze operator-owned build/release policy before planning. Each
+worker checks the frozen provider policy before effects and recovery. Historical
+planning-only packages and decisions retain their original scope and held issue
+operations. No demonstration request or application build was executed.
+
+The combined new/affected source suite passed 164 tests using disposable PostgreSQL
+and Git repositories with synthetic provider/process responses. The connected test
+includes signed Slack and worker HTTP routes, concrete adapter parsing, candidate
+checks, review, deployment-receipt reconciliation and thread reporting. The offline
+wheel matches all 58 Python/SQL source files. Corrective checks passed in groups
+of 40 (repair context), 32 (release files) and 15 (candidate/failure evidence),
+followed by the combined concrete integration case. These counts overlap and
+are not added. Maintainer review closed the identified defects within the
+documented host prerequisites. Earlier completed reminder/discovery,
+routing and live proofs were not replayed. This is source/package evidence, not a
+live execution or independent-install proof.
+
+Bounded repairs reuse the original issue and plan. Terminal failures and exhausted
+or out-of-scope reviews queue only an honest thread report, then require revision;
+they do not queue release. An uncertain effect is reconciled against its original
+attempt. An unsuccessful notification itself needs operator recovery. Cancellation
+or policy drift suppresses later effects. Builder identities cannot review their
+own candidates, including repaired candidates.
+
+The candidate has not been deployed or enabled. Release activation requires
+operator verification that host-global Git exclusions are absent and staging
+is outside a parent Git repository; that prerequisite is not an automated gate.
+Unsupported tracked CLI ignore files and non-regular trees are rejected before
+upload. Execution workers need one durable
+shared candidate directory; cross-host artifact transfer and composed GitHub merge
+are unsupported. Upstream planning/package review and public approval checkpoints
+retain their existing operator procedures. Live activation, role/configuration
+verification and a separately authorized future execution remain next gates.
+The public kit ships operating documentation only, with no runtime or installer.
+
 ## 2026-09-13 — alpha.13 independent SMS attention routing candidate
 
 A new private source candidate separates SMS attention routing from the frozen

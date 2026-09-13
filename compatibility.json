@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.13",
+  "skill_version": "0.1.0-alpha.14",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,11 +37,11 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.13",
+    "current_version": "0.1.0-alpha.14",
     "structure": "passed",
-    "public_file_review": "passed; explicit twenty-file export, JSON, links, version, frontmatter, whitespace and targeted privacy screen; independent changed-content review",
-    "independent_application": "not_run_for_alpha_13",
-    "public_file_count": 20,
+    "public_file_review": "maintainer review; explicit 21-file export, JSON, relative links, version, frontmatter, whitespace and targeted private-data screen",
+    "independent_application": "not_run_for_alpha_14",
+    "public_file_count": 21,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
     "new_documentation_metadata_checks": "passed"
@@ -864,5 +864,82 @@
     "independent_source_review": "no_remaining_blockers",
     "wheel_source_file_count": 43,
     "wheel_matches_source": true
+  },
+  "alpha_13_skill_validation": {
+    "current_version": "0.1.0-alpha.13",
+    "structure": "passed",
+    "public_file_review": "passed; explicit twenty-file export, JSON, links, version, frontmatter, whitespace and targeted privacy screen; independent changed-content review",
+    "independent_application": "not_run_for_alpha_13",
+    "public_file_count": 20,
+    "summary": "docs/skill-validation.md",
+    "new_documentation_tests_run": false,
+    "new_documentation_metadata_checks": "passed"
+  },
+  "post_approval_execution_candidate": {
+    "date": "2026-09-13",
+    "status": "source_tests_passed_not_activated",
+    "reference": "skills/company-improvements/references/execution.md",
+    "new_execution_authority_frozen_before_planning": true,
+    "historical_planning_authority_unchanged": true,
+    "one_exact_build_scope_owner_decision": true,
+    "runtime_policy_checked_before_effect_and_recovery": true,
+    "concrete_stages": [
+      "Linear issue",
+      "native Grok via Ringer build",
+      "independent candidate review",
+      "permitted Railway release",
+      "original Slack thread report"
+    ],
+    "continuous_service_disabled_by_default": true,
+    "bounded_in_scope_repairs": true,
+    "terminal_failure_reporting": true,
+    "permanent_attempt_reservation": true,
+    "original_resource_reconciliation": true,
+    "reminders_stop_on_owner_decision": true,
+    "sms_activation": false,
+    "tests": {
+      "passed": 164,
+      "skipped": 0,
+      "kind": "new and affected source tests; disposable PostgreSQL/Git, synthetic HTTP/process/provider responses",
+      "live_execution_proof": false,
+      "previous_completed_proofs_repeated": false,
+      "scope": "initial new/affected baseline; corrective groups recorded separately, not additive",
+      "corrective_groups": [
+        {
+          "scope": "repair context",
+          "passed": 40
+        },
+        {
+          "scope": "release files",
+          "passed": 32
+        },
+        {
+          "scope": "direct candidate/failure closeout",
+          "passed": 15
+        },
+        {
+          "scope": "final combined concrete integration",
+          "passed": 1
+        }
+      ]
+    },
+    "packaging": {
+      "offline_wheel": true,
+      "matching_python_sql_files": 58,
+      "fresh_installed_suite_run": false
+    },
+    "activation": false,
+    "business_application_execution": false,
+    "public_runtime_shipped": false,
+    "remaining": [
+      "Installation-specific activation checkpoint and role/configuration verification",
+      "Live future execution under its own exact approval",
+      "Shared durable candidate directory on execution host required",
+      "Cross-host artifact transfer unavailable",
+      "GitHub merge not composed in runtime",
+      "Upstream planning, package review and public checkpoints retain operator procedures",
+      "Verify no effective host-global Git exclusions and staging outside a parent Git repository before release activation"
+    ],
+    "source_review": "Three concrete findings addressed with maintainer closeout; external host ignore rules remain an operator activation prerequisite"
   }
 }

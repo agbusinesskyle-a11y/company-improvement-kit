@@ -1,3 +1,14 @@
+# Alpha.14 documentation validation — 2026-09-13
+
+This milestone uses an explicit 21-file public export, including the new execution
+reference. Maintainer changed-content review and local JSON, relative-link, version,
+frontmatter, whitespace and targeted private-data checks passed. Remote verification
+is recorded in the private source checkpoint only after publication. The 164 new/affected private source tests and
+58-file wheel comparison and separately recorded corrective checks are
+implementation evidence, distinct from public skill
+validation. No independent application, clean install or live execution proof is
+claimed. Prior milestone evidence remains historical below.
+
 # Alpha.13 documentation validation — 2026-09-13
 
 The maintainer reviewed the explicit twenty-file public export. JSON, relative

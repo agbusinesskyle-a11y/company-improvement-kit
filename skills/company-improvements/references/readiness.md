@@ -1,27 +1,17 @@
 # Installation and stable-release readiness
 
-Current public package: skill/documentation preview 0.1.0-alpha.7. The separate
-private candidate implements [Slack-only review with SMS alerts](message-first.md).
-It adds an optional Slack-only profile, full inert owner-summary/acceptance text
-within a combined 24,000 UTF-8-byte budget, and a separate operator-only alert
-outbox. Unsupported review content is rejected before challenge issuance. SMS
-contains no decision command and cannot approve for this profile.
+Current public package: skill/documentation preview 0.1.0-alpha.14. The public
+package contains no runtime or installer and has no independently verified clean
+installation. The private installation has a supervised planning and owner Slack
+approval proof with source-thread/card closure. Its historical planning-only issue
+operation remains held. Reminder activation is a separate pending setup.
 
-The full host suite passed 1,445 tests with one skipped and three deprecation
-warnings, using disposable PostgreSQL and synthetic provider transports. Independent
-source review found no blockers. Isolated runtime wheel installation, dependency
-checks and 25-file source/wheel/installed parity passed on macOS Python 3.14.6;
-the full installed-package test suite was not run. Hosted preflight verified the
-deployed source, configuration and schema. For the earlier package, five genuine
-GPT-6 planning files matched their hosted bytes. Its Grok CLI document review was accepted after
-supplemental evidence verification and normal API recording. The actual Slack
-owner approval and same-card terminal closure are verified, with one issue operation
-held. No SMS alert was prepared or sent; alert delivery remains unproven. See
-[current status](../../../docs/status.md) for the evidence and fresh pending-card
-test gate. Existing profiles/history are preserved. No scheduler, new HTTP gateway, bot automation or
-RCS setup is supplied. The public package contains no runtime or installer, and
-independent clean installation/full live acceptance have not run. No stable release
-exists. See status for the exact reviewed revision and verification scope.
+The new [execution process](execution.md) is a private source candidate verified by connected
+synthetic checks. Tests use synthetic provider/process responses and disposable
+repositories/databases; they do not establish live execution or deployment. Existing
+planning-only approvals cannot enter that path. The current milestone records
+which connected checks have completed and which activation requirements remain.
+No stable release or full live acceptance is claimed.
 
 Read [status](../../../docs/status.md), [compatibility](../../../compatibility.json)
 and [approval checkpoints](approval-checkpoints.md). Publication is currently an

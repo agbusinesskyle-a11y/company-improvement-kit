@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.13 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.14 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 
@@ -39,11 +39,13 @@ The supervised test delivered an SMS reminder, its link opened the intended Slac
 card, and the owner approved there. The same card updated and its decision controls
 were removed; one issue operation remains held. Temporary test access was revoked.
 See [current status](docs/status.md) for evidence and limits. Permanent notification
-operation, native bot intake and the later execution stages remain unfinished.
+operation remains disabled pending its separate setup. A private execution
+candidate passed connected synthetic checks; it has not been activated or proven live.
 
-Development is now adding [durable Slack suggestion intake](skills/company-improvements/references/slack-intake.md)
-so explicit requests have a persistent conversation record for the interview
-connection. This does not make the public preview an executable installation.
+Private development includes [durable Slack suggestion intake](skills/company-improvements/references/slack-intake.md)
+and a reusable [post-approval execution process](skills/company-improvements/references/execution.md).
+The execution candidate applies only to newly scoped requests; existing planning-only
+approvals stay held. See status for each component’s actual verification and activation. This does not make the public preview an executable installation.
 No scheduler, new HTTP gateway, bot automation, RCS setup, public runtime or installer
 is included. Earlier proof and retirement results remain historical.
 

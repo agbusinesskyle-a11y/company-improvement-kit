@@ -9,12 +9,12 @@ limits; installable and stable releases require separate executed evidence.
 | Skill, references, checkpoint, status, compatibility and changelog | Included in this preview |
 | Durable planning and Slack owner approval | Implemented and supervised proof passed privately; runtime not shipped here |
 | Bounded gateway for existing SMS bot | Private repair/review/tests complete; paired SMS original receipt reports delivery; runtime not shipped |
-| Same-request Slack/SMS decision and terminal card update | Paired card posted and matching SMS delivered; actual owner decision and terminal closure unverified |
-| Slack-only review/decision with SMS alerts | Source/package checks and hosted preflight verified; exact-package Grok CLI review accepted after supplemental verification/API recording; live approval/alert test pending |
+| Same-request Slack/SMS decision and terminal card update | Historical paired proof; later selected Slack-only approval/alert proof is recorded in status |
+| Slack-only review/decision with SMS alerts | Supervised owner decision and attention delivery verified privately; persistent reminder activation remains pending |
 | Phone-message approval and RCS | Alpha.5 historical proposal, not selected; sender/fees setup not pursued |
-| General automatic approval fanout and inbound listening | Not implemented/proven by this preview |
-| Approved package → reconciled Linear issues → bounded Ringer build | Not implemented in coordinator |
-| Independent application review → fixed-target release → live verification | Not implemented end to end |
+| Reminder and execution automation | Private source candidates; activation and actual proof are tracked separately; no public runtime |
+| Approved package → reconciled Linear issue → bounded Ringer build | Connected source candidate verified with synthetic effects; activation pending |
+| Independent review → fixed-target release → source-thread result | Connected source candidate verified with synthetic effects; live verification pending |
 | Generic runtime/tests/schema/examples export with dependency locks | Pending |
 | Guided setup, diagnostics, restart/upgrade/uninstall and retained data | Pending |
 | Fresh machine, separate organization, own accounts, interruption recovery | Not run |

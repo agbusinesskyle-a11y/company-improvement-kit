@@ -30,7 +30,8 @@ Preserve existing business rules and SMS handlers. A configuration file cannot g
 
 The following is the target sequence. Apply only stages actually verified in the
 installation. The current proven slice ends at planning-only approval with issue
-creation held. Steps 5–7 require future verified adapters and appropriate scope.
+creation held. Steps 5–7 have a private source candidate; they still require installation-specific
+activation, live verification and appropriate scope.
 
 1. Bind the authenticated source event, company, requester and thread to one request. Clarify an ambiguous target; never choose a production repository from model-generated text. Ordinary chat and bot echoes do not start work.
 2. The interview agent confirms the user's problem, expected result and constraints. The configured planning agent examines the existing app and produces one canonical Spec Kit requirements/plan/tasks package. Record actual model identity where required; do not silently substitute a different role or model.
@@ -39,6 +40,11 @@ creation held. Steps 5–7 require future verified adapters and appropriate scop
 5. Create and reconcile the approved issue set before dispatching any build. The configured build orchestrator runs isolated workers with bounded attempts and executable checks. Issue edits do not expand the approved package. Workers lack production release credentials.
 6. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
 7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
+
+For newly configured build-scoped requests, see the [execution process](references/execution.md).
+Its private implementation has connected synthetic verification and remains inactive. Preserve
+historical planning-only authority and distinguish process development from
+implementing a demonstration request. Consult the current milestone before operating it.
 
 The [Slack-only approval and SMS alert candidate](references/message-first.md)
 has passed source/database tests and independent review. For this candidate,
