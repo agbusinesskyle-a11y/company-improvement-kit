@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.6 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.7 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 
@@ -28,18 +28,20 @@ approval, ending with issue creation held. It did not prove the later stages or
 installation for another organization. [Status](docs/status.md) records that scope;
 raw private records are not included.
 
-The current direction is [Slack approval with SMS alerts](skills/company-improvements/references/message-first.md).
-The owner reviews the frozen change order and decides in Slack; a short SMS links
-to the posted card when attention is needed. SMS replies cannot authorize work.
-RCS setup is not being pursued. The alert-only delivery adapter is not implemented
-or live-tested, and the required detailed Slack review must be verified before use.
+The [Slack-only approval and SMS alert candidate](skills/company-improvements/references/message-first.md)
+has passed source/database tests and independent review. It displays the frozen
+owner summary and acceptance details in Slack without requiring a private
+repository login. A separate operator-only SMS outbox sends a short attention
+notice and the verified Slack permalink; SMS carries no decision command or
+authority. Existing profiles and history are preserved.
 
-The earlier paired synthetic proof posted a Slack card and delivered its matching
-SMS, but its actual owner decision and SMS-to-Slack terminal update remain
-unverified. The test was cancelled through the normal API after the direction
-changed, with its frozen package retained. Cancellation is not owner approval;
-scoped cleanup is verified.
-No public runtime, installer or complete workflow is supplied.
+Isolated runtime wheel installation and source parity checks also passed; the full
+installed-package test suite was not run. Hosted preflight and byte verification
+of five genuine GPT-6 planning artifacts passed. External review of that exact
+package, SMS alert delivery and the owner decision remain pending. No scheduler,
+new HTTP gateway, bot
+automation, RCS setup, public runtime or installer is included. Earlier proof and
+retirement results remain historical; they do not prove this candidate passed.
 
 ## Contents and reuse
 

@@ -1,41 +1,75 @@
-# Slack approvals with SMS alerts
+# Slack-only approvals with SMS alerts
 
-**Alpha.6, 2026-09-12: selected direction, not an implemented alert-only adapter.**
-Slack holds the canonical review and owner decision. Ordinary SMS only draws
-attention to it: “An approval in Slack needs your attention,” with a link to the
-verified card. SMS replies never authorize work in this selected path. No RCS
-sender registration or fees setup is being pursued.
+**Alpha.7, 2026-09-12: hosted preflight and planner bytes verified; package review/live proof pending.**
+Slack holds the canonical review and owner decision. SMS is an attention notice
+and link only, with no approval command or SMS decision authority. The candidate
+adds optional `approval_mode="slack_only"` and requires
+`slack_approval.workspace_url`; omitted mode preserves legacy profiles/history.
+Read [configuration](configuration.md) before preparing a new package.
 
-## Required owner experience and delivery order
+## Frozen review and delivery order
 
-1. Freeze the reviewed change order and show its proposed changes, acceptance
-   criteria, limits and exact approval scope in Slack. Keep supporting artifacts
-   private, but do not make a separate repository login mandatory for the owner
-   review. Verify that the displayed details match the immutable package and that
-   the configured owner can access them.
-2. Complete [the public checkpoint](approval-checkpoints.md), then post and verify
-   the exact Slack card and its decision controls. Do not text a missing or
-   unverified card link.
-3. The future alert adapter must check that the bound request is still unresolved
-   immediately before dispatch, reserve durably and permit at most one send for
-   that alert operation. Suppress alerts already resolved; a timeout or lost reply
-   does not authorize a duplicate POST. Reconcile the original attempt.
-4. The owner reviews and decides through verified Slack controls. Validate the
-   original Slack event, configured owner, exact package and current one-use
-   authority; record one durable decision. Update that same card to its terminal
-   state and remove decision controls. A card-update failure does not reopen
-   approval or justify a repeat SMS.
-5. A decision can race with a dispatched alert. A sent SMS cannot necessarily be
-   retracted, so its link must lead to the card's current state. A reply to the SMS,
-   its delivery receipt or a bot interpretation cannot create a decision. Publish
-   the sanitized actual result after the decision and retain evidence privately.
+1. Freeze and review the synthetic planning-only package. The candidate displays
+   the complete `owner-summary.md` and `acceptance.md` as inert Slack text. Their
+   combined text, including separators, must be at most 24,000 UTF-8 bytes;
+   unsupported input is rejected before issuing a challenge. A supporting private
+   artifact link remains available, but the owner must not need that login to
+   review the displayed details. Verify the actual copy and rendering.
+2. Finish the candidate checks, independent review and live-use preparation.
+   Publish and independently verify [the public checkpoint](approval-checkpoints.md)
+   before requesting the owner decision. Bind its commit to the exact private
+   package. Post and verify the Slack card before preparing its SMS alert.
+3. Operator preparation resolves the provider permalink, and the separate
+   `SmsAlertOutbox` verifies its binding to the exact posted card and configured
+   workspace. Its fixed SMS body is
+   `{label}: An approval in Slack needs your attention. {permalink}`.
+   Expiry and decision guidance stay in Slack. The text contains no approval
+   command; callers cannot choose an arbitrary message body, recipient or URL.
+4. Sending checks current eligibility under the reservation locks, suppresses a
+   resolved or otherwise ineligible alert, and records one permanent attempt
+   before the provider POST. A duplicate call, process restart or unknown outcome
+   cannot authorize another send. Reconcile the original selected outbound message.
+5. The owner decides in Slack. Validate the original event and current owner/package
+   authority, record one durable decision, and update that same card to its terminal
+   state without decision controls. Delivery does not prove that decision. An SMS
+   already authorized for dispatch may still arrive after the decision and cannot
+   necessarily be retracted; its link must show the card's current state.
 
-The alert-only adapter, its resolved-request checks and live acceptance proof are
-not implemented. Existing SMS approval ingestion is a different capability and
-must not provide decision authority for the new profile. Verify this exclusion
-before use; do not infer it from this documentation change. Preserve existing
-unrelated SMS handlers. No automatic inbound listener, public runtime or installer
-is supplied.
+## Private operator interface
+
+These candidate command shapes are not public installation instructions. The
+package and trusted private environment must already exist. Identifiers below
+are placeholders; credentials never belong in command arguments or public records.
+
+| Command | Required arguments | Purpose |
+| --- | --- | --- |
+| `python -m company_improvements.alert_cli prepare` | `--project PROJECT_KEY --card-id CARD_ID` | Verify a posted card/permalink and prepare its notification ledger |
+| `python -m company_improvements.alert_cli send-once` | `--project PROJECT_KEY --operation-id OPERATION_ID` | Reserve and attempt the fixed notification once |
+| `python -m company_improvements.alert_cli status` | `--project PROJECT_KEY --operation-id OPERATION_ID` | Read bounded operation status |
+| `python -m company_improvements.alert_cli reconcile` | `--project PROJECT_KEY --operation-id OPERATION_ID --message-sid OUTBOUND_MESSAGE_SID` | Verify the selected original provider message without resending |
+
+There is no scheduler, new HTTP gateway or new bot automation for these commands.
+The legacy SMS approval gateway is a separate capability; SMS preparation/ingestion
+must not authorize decisions in a Slack-only profile. Existing unrelated handlers
+and history remain intact. No RCS setup, public runtime or installer is supplied.
+
+## Remaining verification and result
+
+Exact-text copy and permalink-response repairs passed source checks and independent
+review. The full host suite passed 1,445 tests with one skipped and three deprecation
+warnings against disposable PostgreSQL and synthetic transports. Isolated runtime
+wheel installation, dependency checks and 25-file source parity passed on macOS
+Python 3.14.6; a full installed-package test suite was not run. Hosted preflight
+verified source, configuration and schema, and five genuine GPT-6 planning files
+matched their hosted bytes. External operational review of that exact package is
+pending, as are alert delivery and the actual owner decision. See
+[status](../../../docs/status.md) for the reviewed revision. Complete that review
+and the public checkpoint before the owner request, then observe alert delivery, the actual owner Slack decision and
+same-card closure separately. APPROVE leaves one held issue operation in this
+planning-only test; decline/revision produces no new issue operation. A failed
+card update leaves the durable decision intact and does not justify a repeat SMS.
+Publish the sanitized result after the decision and keep all private evidence in
+the checkpoint. No issue execution, build or release follows this synthetic test.
 
 ## Prior work and current proof boundary
 

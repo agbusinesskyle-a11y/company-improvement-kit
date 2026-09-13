@@ -40,24 +40,31 @@ creation held. Steps 5–7 require future verified adapters and appropriate scop
 6. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
 7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
 
-The selected direction is [Slack review and decisions with SMS alerts](references/message-first.md).
-Put the detailed frozen change order and decision controls in Slack; do not require
-a private repository login for the owner's review. SMS only says that an approval
-needs attention and links to the verified Slack card. SMS replies, bot prose and
-provider delivery receipts cannot authorize work. Post and verify the card before
-texting; suppress a resolved request's alert and prevent duplicate sends. The
-owner's validated Slack click records the decision and closes that same card. A
-sent SMS cannot necessarily be retracted.
+The [Slack-only approval and SMS alert candidate](references/message-first.md)
+has passed source/database tests and independent review. For this candidate,
+`approval_mode="slack_only"` requires a `slack_approval.workspace_url` binding.
+The full frozen `owner-summary.md` and `acceptance.md` are displayed as inert text,
+with a combined 24,000 UTF-8-byte limit including separators. Unsupported input
+is rejected before issuing a challenge. The owner reviews and decides in Slack;
+a private repository link supplies optional supporting artifacts.
 
-This alert-only adapter and its live proof are not implemented. Verify the complete
-presentation and delivery/decision path before using it. RCS sender/fees setup is
-not being pursued. The [legacy SMS approval procedure](references/sms-approval.md)
-and [gateway](references/sms-gateway.md) describe earlier work, not the selected
-alert-only behavior. The earlier paired test was cancelled through the normal API
-without proving an SMS-origin owner decision; its frozen package is retained and
-scoped cleanup is verified. Publish/verify the next
-checkpoint before requesting a new decision. No automatic listener or public
-runtime is supplied.
+A separate `SmsAlertOutbox` and operator-only `alert_cli` provide prepare,
+send-once, status and reconcile. Prepare follows accepted card posting and verifies
+the Slack permalink. SMS contains a short label, attention notice and that link,
+with no approval command or decision authority. The outbox checks current eligibility
+at reservation, suppresses a resolved request and permits one permanent send attempt.
+An uncertain result cannot authorize a retry. The owner's validated Slack decision
+updates the same card; an already dispatched SMS cannot necessarily be retracted.
+
+Source checks and independent review cover the exact-copy/permalink repairs.
+Isolated runtime wheel installation and source parity checks passed; a full
+installed-package test suite was not run. Hosted preflight and exact hosted bytes
+for five genuine GPT-6 planning artifacts passed. External operational review of
+that package, alert delivery and the owner decision remain pending. This candidate
+adds no scheduler, HTTP gateway or bot automation. Legacy profiles/history remain
+intact; [legacy SMS approval](references/sms-approval.md) is not selected for the
+Slack-only profile. Publish/verify the checkpoint before a new owner request. No
+RCS setup, automatic SMS decision listener, public runtime or installer is supplied.
 
 ## Recovery and limits
 

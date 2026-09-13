@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.1.0-alpha.7 — 2026-09-12
+
+- Document the privately implemented Slack-only candidate with source checks passed:
+  optional approval mode, required workspace URL, and full inert frozen review text
+  bounded to 24,000 UTF-8 bytes before challenge creation.
+- Add candidate instructions for a separate notification outbox and operator-only
+  prepare/send-once/status/reconcile commands. SMS has an attention notice and
+  verified Slack permalink, with no decision command or SMS approval authority.
+- Describe one permanent attempt, resolved suppression and no resend after unknown
+  outcomes. Preserve legacy profiles/history; add no scheduler, HTTP gateway or
+  bot automation.
+- Verify private revision `1fc3423e895998b7d16d99573ba9e00eaff27b15`: full host
+  regression 1,445 passed, one skipped, three deprecation warnings in 62.96 seconds,
+  using disposable PostgreSQL and synthetic transports. Independent source and
+  public privacy reviews found no blockers; this is not live-provider evidence.
+- Verify isolated runtime wheel installation, dependency check and 25 Python/SQL
+  files across source, wheel and installed package on macOS Python 3.14.6. Runtime-
+  only dependencies were installed; no full installed-package test suite was run.
+- Verify hosted preflight against deployed source, registry bindings and schema,
+  plus exact hosted bytes for five genuine GPT-6 planning files. Keep external
+  operational review of that exact package, SMS alert delivery and owner acceptance
+  pending; no new approval or delivery is claimed.
+- Preserve earlier milestones and require verified public publication before the
+  next owner request. No public runtime, installer or full-workflow pass supplied.
+
 ## 0.1.0-alpha.6 — 2026-09-12
 
 - Select Slack for detailed frozen review and owner decisions; ordinary SMS only

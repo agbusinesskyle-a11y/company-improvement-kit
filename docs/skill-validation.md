@@ -77,7 +77,7 @@ publication must still be verified before another owner request. No new model ap
 acceptance test is claimed by this documentation validation. Earlier validation
 and test counts remain historical evidence for their stated versions.
 
-## Alpha.6 Slack decisions with SMS alerts
+## Alpha.6 Slack decisions with SMS alerts (historical validation)
 
 This documentation update makes Slack the selected review/decision surface and
 SMS a notification only. Local checks passed for the 18-file public allowlist, JSON,
@@ -87,3 +87,20 @@ verification is required before publication is considered complete. No new model
 runtime test or live alert-adapter proof is claimed. Prior validation remains tied
 to its recorded version. The incomplete paired proof and its normal API
 cancellation are distinct from owner approval; scoped cleanup is verified.
+
+## Alpha.7 private candidate documentation
+
+This update was checked against the candidate configuration and operator-command
+interfaces using local source reads. The Skill Creator structure validator passed,
+as did the explicit 18-file public allowlist, JSON, relative links/anchors, version
+consistency and targeted privacy screening. Independent public privacy review
+found no blockers, and the maintainer completed the diff review. Remote public
+publication must still be verified before the new owner request.
+
+These are documentation checks, not a new model application scenario or live owner
+proof. The host runtime regression, independent source review and isolated runtime
+wheel checks are reported separately in [status](status.md), with their exact scope.
+The full installed-package runtime suite was not run. Hosted preflight and genuine
+planner-byte verification are recorded separately from documentation validation.
+External review of the fresh exact package, SMS alert delivery and the owner
+decision remain pending; earlier validation retains its original scope.

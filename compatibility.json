@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.6",
+  "skill_version": "0.1.0-alpha.7",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,49 +37,67 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.6",
+    "current_version": "0.1.0-alpha.7",
     "structure": "passed",
-    "public_file_review": "passed; independent maintainer review and targeted screening",
-    "independent_application": "not_run_for_alpha_6",
+    "public_file_review": "passed; independent 18-file privacy review and maintainer diff review",
+    "independent_application": "not_run_for_alpha_7",
     "public_file_count": 18,
     "summary": "docs/skill-validation.md",
     "prior_evidence": {
-      "current_version": "0.1.0-alpha.5",
+      "current_version": "0.1.0-alpha.6",
       "structure": "passed",
-      "public_file_review": "passed; independent maintainer content review and targeted screening",
-      "independent_application": "not_run_for_alpha_5",
+      "public_file_review": "passed; independent maintainer review and targeted screening",
+      "independent_application": "not_run_for_alpha_6",
       "public_file_count": 18,
       "summary": "docs/skill-validation.md",
       "prior_evidence": {
-        "current_version": "0.1.0-alpha.4",
+        "current_version": "0.1.0-alpha.5",
         "structure": "passed",
-        "public_file_review": "passed",
-        "independent_application": "not_run_for_alpha_4",
+        "public_file_review": "passed; independent maintainer content review and targeted screening",
+        "independent_application": "not_run_for_alpha_5",
+        "public_file_count": 18,
+        "summary": "docs/skill-validation.md",
         "prior_evidence": {
-          "current_version": "0.1.0-alpha.3",
+          "current_version": "0.1.0-alpha.4",
           "structure": "passed",
           "public_file_review": "passed",
-          "independent_application": "not_run_for_alpha_3",
+          "independent_application": "not_run_for_alpha_4",
           "prior_evidence": {
-            "date": "2026-09-12",
+            "current_version": "0.1.0-alpha.3",
             "structure": "passed",
-            "independent_application_scenarios": 1,
-            "revised_application": "passed",
             "public_file_review": "passed",
-            "summary": "docs/skill-validation.md"
-          },
-          "summary": "docs/skill-validation.md",
-          "manual_walkthrough": {
-            "scenarios": 2,
-            "reviewer": "same_author",
-            "result": "no_additional_documentation_blocker",
-            "fresh_evaluator_model_run": false
+            "independent_application": "not_run_for_alpha_3",
+            "prior_evidence": {
+              "date": "2026-09-12",
+              "structure": "passed",
+              "independent_application_scenarios": 1,
+              "revised_application": "passed",
+              "public_file_review": "passed",
+              "summary": "docs/skill-validation.md"
+            },
+            "summary": "docs/skill-validation.md",
+            "manual_walkthrough": {
+              "scenarios": 2,
+              "reviewer": "same_author",
+              "result": "no_additional_documentation_blocker",
+              "fresh_evaluator_model_run": false
+            },
+            "public_file_count": 17,
+            "validation_date": "2026-09-12"
           },
           "public_file_count": 17,
+          "summary": "docs/skill-validation.md",
           "validation_date": "2026-09-12"
         },
-        "public_file_count": 17,
-        "summary": "docs/skill-validation.md",
+        "local_checks": {
+          "explicit_public_file_list": 18,
+          "json": "passed",
+          "relative_links_and_anchors": "passed",
+          "version_consistency": "passed",
+          "basic_skill_frontmatter": "passed",
+          "targeted_private_pattern_scan": "passed",
+          "model_or_runtime_tests_run_for_this_update": false
+        },
         "validation_date": "2026-09-12"
       },
       "local_checks": {
@@ -89,6 +107,7 @@
         "version_consistency": "passed",
         "basic_skill_frontmatter": "passed",
         "targeted_private_pattern_scan": "passed",
+        "historical_status_changelog_and_paired_evidence": "alpha.5 and earlier preserved; normal API cancellation recorded separately",
         "model_or_runtime_tests_run_for_this_update": false
       },
       "validation_date": "2026-09-12"
@@ -100,7 +119,8 @@
       "version_consistency": "passed",
       "basic_skill_frontmatter": "passed",
       "targeted_private_pattern_scan": "passed",
-      "historical_status_changelog_and_paired_evidence": "alpha.5 and earlier preserved; normal API cancellation recorded separately",
+      "current_candidate_source_interfaces": "read_only_comparison_complete",
+      "historical_status_and_changelog": "preserved",
       "model_or_runtime_tests_run_for_this_update": false
     },
     "validation_date": "2026-09-12"
@@ -180,7 +200,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "slack_decisions_sms_alerts_direction",
+    "milestone": "slack_only_candidate_pre_approval",
     "publication_must_precede_next_owner_request": true
   },
   "sms_delivery_follow_up": {
@@ -235,6 +255,11 @@
     {
       "date": "2026-09-12",
       "milestone": "message_first_approval_feasibility",
+      "publication_must_precede_next_owner_request": true
+    },
+    {
+      "date": "2026-09-12",
+      "milestone": "slack_decisions_sms_alerts_direction",
       "publication_must_precede_next_owner_request": true
     }
   ],
@@ -293,7 +318,8 @@
     "legacy_SMS_decision_authority_must_be_excluded_before_use": true,
     "rcs_sender_and_fees_setup_pursued": false,
     "reference": "skills/company-improvements/references/message-first.md",
-    "paired_test_cancelled_through_normal_api": true
+    "paired_test_cancelled_through_normal_api": true,
+    "historical_snapshot": "alpha.6 selected direction; implementation status superseded by slack_alert_candidate"
   },
   "paired_approval_cancellation": {
     "date": "2026-09-12",
@@ -311,5 +337,85 @@
     "scoped_planning_grants_revoked": true,
     "local_temporary_credentials_removed": true,
     "original_slack_access_preserved": true
+  },
+  "slack_alert_candidate": {
+    "date": "2026-09-12",
+    "implementation_status": "privately_implemented_source_review_and_package_checks_passed",
+    "implementation_revision": "1fc3423e895998b7d16d99573ba9e00eaff27b15",
+    "final_runtime_test_counts": {
+      "execution_scope": "full_host_pytest_suite",
+      "passed": 1445,
+      "skipped": 1,
+      "deprecation_warnings": 3,
+      "duration_seconds": 62.96,
+      "database": "real_disposable_PostgreSQL",
+      "provider_transport": "synthetic",
+      "live_provider_evidence": false
+    },
+    "approval_mode": "slack_only",
+    "approval_mode_optional": true,
+    "legacy_profiles_and_history_preserved": true,
+    "required_slack_field": "slack_approval.workspace_url",
+    "workspace_url_type": "canonical_https_workspace_slack_com_origin",
+    "review_artifacts": [
+      "owner-summary.md",
+      "acceptance.md"
+    ],
+    "combined_review_utf8_bytes_including_separators_max": 24000,
+    "review_rendering": "complete_inert_text; source_checks_passed; live_client_verification_pending",
+    "unsupported_review_rejected_before_challenge": true,
+    "mandatory_private_repository_login_for_displayed_review": false,
+    "notification_outbox": "SmsAlertOutbox",
+    "operator_module": "company_improvements.alert_cli",
+    "operator_commands": [
+      "prepare",
+      "send-once",
+      "status",
+      "reconcile"
+    ],
+    "sms_body": "{label}: An approval in Slack needs your attention. {permalink}",
+    "sms_decision_commands": false,
+    "sms_decision_authority": false,
+    "one_permanent_send_attempt": true,
+    "resolved_alert_suppression": true,
+    "retry_after_unknown_outcome": false,
+    "scheduler_added": false,
+    "http_gateway_added": false,
+    "new_bot_automation": false,
+    "exact_copy_and_permalink_guards": "source_checks_and_independent_review_passed",
+    "final_database_tests": "passed_in_full_host_suite",
+    "independent_code_review": "no_blockers",
+    "deployment_verified": true,
+    "live_alert_delivery_verified": false,
+    "live_owner_decision_verified": false,
+    "same_card_terminal_closure_verified": false,
+    "public_runtime_shipped": false,
+    "reference": "skills/company-improvements/references/message-first.md",
+    "private_remote_source_verified": true,
+    "deployment_status": "hosted_preflight_verified",
+    "installed_runtime_validation": {
+      "host_os": "macOS",
+      "python_version": "3.14.6",
+      "isolated_wheel_install": "passed",
+      "dependency_profile": "runtime_only",
+      "pip_check": "passed",
+      "source_wheel_installed_python_sql_files_byte_equal": 25,
+      "full_installed_test_suite_run": false
+    },
+    "hosted_preflight": {
+      "deployed_source_python_sql_files_matched": 25,
+      "registry_bindings_verified": true,
+      "schema_through_migration": "005",
+      "scope": "read_only_hosted_source_configuration_schema_preflight; not live owner or SMS approval proof"
+    },
+    "fresh_planning_package": {
+      "planner": "GPT-6",
+      "genuine_run_verified": true,
+      "artifact_count": 5,
+      "hosted_reads_succeeded": true,
+      "hosted_artifact_bytes_match": true,
+      "external_operational_review": "pending"
+    },
+    "live_alert_send_attempted": false
   }
 }

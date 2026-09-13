@@ -1,11 +1,54 @@
 # Milestones and known limits
 
-Skill preview: **0.1.0-alpha.6**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.7**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
 
-## 2026-09-12 — alpha.6 Slack decisions with SMS alerts
+## 2026-09-12 — alpha.7 Slack-only candidate, before the owner request
+
+**Source/package checks, hosted preflight and genuine planner bytes verified;
+exact-package external review and the new live approval/alert test remain pending.** This is a pre-approval milestone for a supervised synthetic planning-only
+test. The owner reviews the full frozen owner-summary and acceptance details in
+Slack without a mandatory private repository login. SMS only draws attention to
+the accepted card through its verified permalink and carries no decision command.
+
+| Candidate interface | Scope and verification boundary |
+| --- | --- |
+| Optional `approval_mode="slack_only"` | Requires `slack_approval.workspace_url`; legacy profiles and history are preserved |
+| Complete inert Slack review | Combined owner-summary/acceptance text limited to 24,000 UTF-8 bytes including separators; unsupported input rejected before challenge issuance |
+| Separate `SmsAlertOutbox` | Notification ledger distinct from legacy SMS approval delivery |
+| Operator-only `alert_cli` | Prepare, send-once, status and reconcile; no scheduler, new HTTP gateway or bot automation |
+| Alert delivery | Short label, attention notice and verified card permalink; current eligibility checked at reservation, one permanent attempt, resolved suppression and no retry after uncertainty |
+| Owner authority | Slack-only for the selected profile; SMS commands/replies do not decide |
+| Reviewed implementation | Private committed revision `1fc3423e895998b7d16d99573ba9e00eaff27b15`; remote source publication verified |
+| Full host regression | 1,445 passed, one skipped, three deprecation warnings; 62.96 seconds |
+| Test environment | Real disposable PostgreSQL and synthetic provider transports; no live-provider evidence |
+| Independent reviews | Source review and explicit 18-file public privacy review found no blockers; maintainer diff review complete |
+| Isolated runtime wheel | Installation and dependency check passed on macOS Python 3.14.6; 25 Python/SQL files byte-identical across source, wheel and installed package |
+| Installed test limit | Runtime-only dependencies checked; the full installed-package test suite was not run |
+| Hosted preflight | Deployed source matches the 25 reviewed Python/SQL files; registry bindings and schema through migration 005 verified |
+| Fresh planning package | Genuine GPT-6 produced five planning files; successful hosted reads matched the exact artifact bytes |
+| Remaining package/live acceptance | External operational review of that exact package, SMS alert delivery, actual owner decision and same-card terminal closure remain pending |
+
+The executed source checks include the repaired exact-copy and permalink-response
+guards. These results do not prove live provider delivery or owner approval.
+The hosted preflight and planner-byte results do not replace external operational
+review of the exact fresh package or prove the new owner decision. No SMS alert
+has been sent for this test. Publish and independently verify the public snapshot,
+then bind its commit
+to the exact private package and live-use checkpoint. Post/verify the Slack card
+before preparing/sending the SMS alert. Verify delivery, the actual Slack decision
+and terminal closure separately. An already dispatched text may still arrive after
+the decision; its link must show the same card's current state.
+
+This candidate does not ship a public runtime/installer or prove the full workflow.
+RCS is not selected. Earlier observed results and retirement evidence remain tied
+to their historical milestones. See [the candidate runbook](../skills/company-improvements/references/message-first.md).
+
+## 2026-09-12 — alpha.6 selected direction (historical snapshot)
+
+**Historical alpha.6 direction and retirement evidence; candidate progress is recorded above.**
 
 **Selected direction; alert-only delivery is not implemented or live-tested.**
 Keep the detailed frozen change order and owner decision in Slack. An ordinary SMS
@@ -214,7 +257,7 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Automatic publication/runtime checkpoint enforcement | Not implemented |
 | Unattended intake/interview/review | Supervised path proven; complete unattended handoff not proven |
 | Earlier paired Slack/SMS proof | Matching card posted and original SMS receipt delivered; actual owner decision and SMS-to-Slack terminal closure unverified |
-| Selected Slack decision + SMS alert path | Alert-only adapter not implemented/live-tested; detailed Slack review and duplicate/resolved suppression require verification |
+| Selected Slack-only candidate + SMS alerts | Hosted preflight and genuine planner bytes verified; exact-package external review, alert delivery and owner decision pending |
 | Web or Grok owner approval | Not proven; model conversation is not authority |
 | Linear issue creation | Not implemented in coordinator |
 | Ringer application builds after issues | Not implemented in coordinator; planning invocation is insufficient |
@@ -223,9 +266,7 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Fresh install, second organization, upgrade/recovery | Not run |
 | Stable release | Not ready |
 
-Next: implement and verify detailed Slack review with an alert-only SMS adapter,
-including duplicate suppression and same-card closure. Preserve the verified
-retirement of the cancelled paired test. Publish/verify the next
-checkpoint before another owner request. Later implement the approved-package-to-
-Linear handoff and bounded Ringer build dispatch. Do not repurpose synthetic held
-operations as real app-change authorization.
+Next: complete external operational review of the exact fresh package and verify
+the public checkpoint before the new owner request. Then run the supervised Slack decision/SMS alert test and
+verify the exact card's terminal closure. No issue execution, build or release
+follows this synthetic planning-only approval.

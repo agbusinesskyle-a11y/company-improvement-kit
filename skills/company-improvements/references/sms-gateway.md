@@ -1,10 +1,12 @@
 # Historical bounded SMS approval gateway
 
 **Earlier implemented capability, not an alert-only adapter.** The selected
-alpha.6 direction is [Slack decisions with SMS alerts](message-first.md). This
+alpha.7 candidate is [Slack-only decisions with SMS alerts](message-first.md). This
 legacy gateway can validate SMS approval commands; its ingress must not supply
-owner authority for the new profile. That exclusion and a separate alert-only
-adapter require implementation and verification before use.
+owner authority for the new profile. The separate private alert-only candidate
+implements that profile; source/database tests, independent review and runtime
+wheel checks and hosted preflight passed. Fresh planner bytes are verified;
+exact-package external review and live approval/alert verification remain pending.
 
 The earlier paired card/SMS delivery does not verify an owner decision or terminal
 closure. The test was cancelled through the normal API with its frozen package

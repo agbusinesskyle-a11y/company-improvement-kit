@@ -1,20 +1,24 @@
 # Installation and stable-release readiness
 
-Current public package: skill/documentation preview 0.1.0-alpha.6. The selected
-path is [Slack review and decisions with SMS alerts](message-first.md). The owner
-reviews the detailed frozen proposal in Slack without mandatory private repository
-login. An SMS links to that card and has no approval authority. The alert-only
-adapter is not implemented or live-tested. Verify Slack content, card-before-text
-ordering, duplicate/resolved suppression and same-card closure before claiming it
-works. RCS sender/fees setup is not being pursued.
+Current public package: skill/documentation preview 0.1.0-alpha.7. The separate
+private candidate implements [Slack-only review with SMS alerts](message-first.md).
+It adds an optional Slack-only profile, full inert owner-summary/acceptance text
+within a combined 24,000 UTF-8-byte budget, and a separate operator-only alert
+outbox. Unsupported review content is rejected before challenge issuance. SMS
+contains no decision command and cannot approve for this profile.
 
-A separate earlier supervised planning/Slack owner proof passed. A later paired
-card was posted and its matching SMS receipt reports delivery, but the actual
-owner decision and SMS-to-Slack terminal closure are unverified. That proof remains
-incomplete. The test was cancelled through the normal API with its frozen package
-retained; cancellation is not approval and scoped cleanup is verified.
-Runtime/adapters and an installer are not shipped. Independent clean installation and full live acceptance
-have not run. No stable release exists.
+The full host suite passed 1,445 tests with one skipped and three deprecation
+warnings, using disposable PostgreSQL and synthetic provider transports. Independent
+source review found no blockers. Isolated runtime wheel installation, dependency
+checks and 25-file source/wheel/installed parity passed on macOS Python 3.14.6;
+the full installed-package test suite was not run. Hosted preflight verified the
+deployed source, configuration and schema. Five genuine GPT-6 planning files matched
+their hosted bytes. External operational review of that exact package and the new
+live alert/owner-decision/card-closure test remain pending. Existing
+profiles/history are preserved. No scheduler, new HTTP gateway, bot automation or
+RCS setup is supplied. The public package contains no runtime or installer, and
+independent clean installation/full live acceptance have not run. No stable release
+exists. See status for the exact reviewed revision and verification scope.
 
 Read [status](../../../docs/status.md), [compatibility](../../../compatibility.json)
 and [approval checkpoints](approval-checkpoints.md). Publication is currently an
