@@ -1,7 +1,10 @@
 # Reminders and discovery after planning approval
 
-This describes a private source candidate. Hosted activation and persistent sender
-configuration are separate from source verification. The public kit is documentation.
+The private coordinator and integrated Slack service have been deployed with their
+installed source verified against the approved candidate. Reminders remain disabled
+pending persistent sender access; explicit discovery migration and live recording
+await an authorized route to the private database. Track hosted code, worker
+enablement and discovery readiness separately. The public kit is documentation.
 
 ## Resume the existing reminder path
 
@@ -53,7 +56,13 @@ Deploy compatible coordinator and Slack-service manifest handling plus the plann
 worker before queuing a continuation. Apply SQL 009 through the explicit
 `discovery_cli migrate` command under the installation's migration authorization;
 status and finding commands do not migrate the database. Keep required/finding
-input files private, bounded regular JSON files.
+input files private, bounded regular JSON files. Normal service migration commands
+do not apply SQL 009. Preserve those migration/start commands and use an authorized
+operator execution route to the private database for the separate discovery step.
+If that route is unavailable, report migration and recording as pending; a healthy
+receiver does not establish discovery readiness. Obtain explicit authorization for
+additional private operator access and keep its scope bounded to the required
+operation. Preserve public endpoints and normal service lifecycle commands.
 
 The successor package needs exact-package operational review, a published reusable
 checkpoint, and its own owner decision. The original approval remains in history

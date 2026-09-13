@@ -1,5 +1,28 @@
 # Milestones and known limits
 
+## 2026-09-13 — alpha.12 workflow-service deployment follow-up
+
+The owner authorized the exact reviewed workflow-service activation package.
+The coordinator and integrated Slack service deployed successfully; all 41
+installed Python/SQL files match the approved source. Existing service migration
+and start commands were preserved. An authenticated read verified that the
+original approved planning request is unchanged and its issue operation remains
+held. This deployment grants no application build or release authority.
+
+The reminder worker remains disabled while access to the persistent sender
+credentials is unavailable. Explicit discovery migration 009 and live discovery
+recording remain pending because an authorized execution route to the private
+database is not yet available. Hosted code verification does not establish that
+either feature is enabled. Additional private operator access requires explicit
+authorization. With that access, reconcile pending cards and outbox attempts and
+complete the separate setup before reporting activation. Preserve public endpoints
+and normal service lifecycle commands.
+
+No completed source suites, model runs, approval cards or SMS proofs were repeated.
+The public kit still contains documentation only. Automatic review/revision routing
+and downstream issue, build and release execution remain unfinished. The source
+candidate checkpoint below is preserved as the state before this deployment.
+
 ## 2026-09-13 — alpha.12 reminder and discovery source candidate
 
 The private reminder composition now discovers committed posted cards and uses the

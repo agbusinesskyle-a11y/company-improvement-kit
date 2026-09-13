@@ -2,6 +2,15 @@
 
 ## 0.1.0-alpha.12 — 2026-09-13
 
+- Post-decision follow-up: deploy the explicitly authorized coordinator and
+  integrated Slack service, verify all 41 installed runtime files against the
+  approved source, and retain normal migration/start commands. The original
+  planning approval and held issue operation remain unchanged.
+- Keep reminders disabled pending persistent sender access. Explicit discovery
+  migration and live recording await an authorized private database execution
+  route. Distinguish deployed code from enabled features; no prior model, approval
+  or SMS proof was repeated.
+
 - Connect private committed-card recovery to the existing SMS outbox, with explicit
   hosted enablement, separate worker health and permanent duplicate suppression.
 - Add a private discovery ledger bound to exact planning approval, with append-only
