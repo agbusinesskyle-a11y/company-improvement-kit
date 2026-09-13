@@ -234,7 +234,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "integrated_interview_host_activated_native_cutover_pending",
+    "milestone": "integrated_interview_configured_live_round_trip_pending",
     "publication_phase": "implementation_progress",
     "full_workflow_ready": false
   },
@@ -683,7 +683,7 @@
     ]
   },
   "interview_bridge_candidate": {
-    "status": "host_activated_native_cutover_pending",
+    "status": "host_and_native_routine_configured_live_round_trip_pending",
     "private_source_revision": "aba77e0ac33faf1515f4e31d5c143309a35a6b49",
     "tests": {
       "passed": 156,
@@ -695,7 +695,7 @@
     "bot_confirmation_authority": false,
     "model_execution_in_cycle": false,
     "live_activation": true,
-    "native_Grok_cutover": false,
+    "native_Grok_cutover": true,
     "public_runtime_shipped": false,
     "original_ringer_artifact_check": "failed_wrong_snapshot_directory",
     "supplemental_artifact_reconciliation": "six_original_files_match_source",
@@ -707,6 +707,8 @@
     "scoped_api_status": 200,
     "live_native_round_trip": false,
     "proof_requesters": 1,
-    "installed_source_hash_comparison": false
+    "installed_source_hash_comparison": false,
+    "native_routine_saved_instructions_verified": true,
+    "native_api_read": "bot_reported_200_empty_inbox"
   }
 }

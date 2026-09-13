@@ -22,8 +22,11 @@ message delivery was explicitly authorized, the app reinstalled with the require
 permission, and membership verified in the proof source channel. Anonymous API
 access returned 401; the scoped credential returned 200 with an empty inbox.
 
-Native routine migration is in progress. A genuine suggestion-to-bot-to-Slack
-round trip and requester confirmation remain unproven. Only one configured proof
+The existing native bot routine has been updated and its saved instructions
+read back. The bot reported HTTP 200 with an empty inbox using its limited key.
+It submits questions/drafts through the scoped API, with no direct Slack posts or
+typed-decision authority. A genuine suggestion-to-bot-to-Slack round trip and
+requester confirmation remain unproven. Only one configured proof
 requester is enabled. Hosted source hashes were not independently compared;
 staged source and the offline wheel were verified. The public kit still contains
 documentation only.

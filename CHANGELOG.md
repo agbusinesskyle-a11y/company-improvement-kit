@@ -5,8 +5,9 @@
 - Add guidance for the integrated interview service, shared Slack interaction URL,
   project-bound bot interface and automatic publication/planning handoff cycle.
 - Activate the private integrated host and worker; verify the signed private-channel
-  event subscription, app membership and scoped API authentication. Native routine
-  migration and a genuine interview round trip remain separate acceptance steps.
+  event subscription, app membership and scoped API authentication. Update and
+  read back the existing native routine; its limited inbox read succeeded. A genuine
+  interview round trip remains the next acceptance step.
 
 
 ## 0.1.0-alpha.10 — 2026-09-12
