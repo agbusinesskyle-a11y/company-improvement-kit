@@ -4,8 +4,9 @@
 [Slack-only decisions with SMS alerts](message-first.md). SMS replies do not
 authorize work in that profile. Its private implementation passed source/database
 tests, independent review, runtime wheel checks and hosted preflight. Fresh planner
-bytes are verified; exact-package external review and the new live test remain
-pending.
+bytes are verified. The original Grok CLI document review was accepted after
+supplemental evidence verification and normal API recording; the new live test
+remains pending.
 The instructions below preserve earlier SMS-decision work, not a request to use
 it for the next approval. Its paired proof posted a card and delivered a matching
 SMS; actual owner decision and SMS-to-Slack closure remain unverified. The test

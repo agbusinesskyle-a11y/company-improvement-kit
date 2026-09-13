@@ -42,5 +42,6 @@ provider credentials on the trusted operator host. Configuration values and
 credentials are not approval authority. Source/database tests and independent
 review passed; isolated runtime wheel checks passed without a full installed test
 suite. Hosted preflight verified the deployed source, registry bindings and schema.
-External review of the fresh package and live alert/owner-decision verification
-remain pending. This public skill ships no configuration installer or runtime.
+The original Grok CLI document review was accepted after supplemental evidence
+verification and normal API recording. Live alert/owner-decision verification
+remains pending. This public skill ships no configuration installer or runtime.

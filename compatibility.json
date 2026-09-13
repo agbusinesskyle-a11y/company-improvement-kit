@@ -414,7 +414,22 @@
       "artifact_count": 5,
       "hosted_reads_succeeded": true,
       "hosted_artifact_bytes_match": true,
-      "external_operational_review": "pending"
+      "external_operational_review": "accepted",
+      "operational_review_transport": "Grok CLI",
+      "operational_review_configured_model": "4.6",
+      "operational_review_reported_model": "4.6-build",
+      "operational_review_scope": "document_only_exact_five_frozen_planning_artifacts",
+      "operational_review_findings": 0,
+      "provider_cli_completed_with_acceptance": true,
+      "original_review_harness_passed": false,
+      "original_review_harness_limits": [
+        "strict_json_tail_rejected_same_session_teardown_output",
+        "configured_and_reported_model_names_differ"
+      ],
+      "supplemental_original_evidence_verification": "passed",
+      "model_rerun_for_supplemental_verification": false,
+      "accepted_review_recorded_via_normal_api": true,
+      "native_bot_transport_proven_by_this_review": false
     },
     "live_alert_send_attempted": false
   }

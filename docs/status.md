@@ -7,8 +7,8 @@ publicly reproducible integration tests.
 
 ## 2026-09-12 — alpha.7 Slack-only candidate, before the owner request
 
-**Source/package checks, hosted preflight and genuine planner bytes verified;
-exact-package external review and the new live approval/alert test remain pending.** This is a pre-approval milestone for a supervised synthetic planning-only
+**Source/package checks, hosted preflight, genuine planner bytes and exact-package
+document review verified; the new live approval/alert test remains pending.** This is a pre-approval milestone for a supervised synthetic planning-only
 test. The owner reviews the full frozen owner-summary and acceptance details in
 Slack without a mandatory private repository login. SMS only draws attention to
 the accepted card through its verified permalink and carries no decision command.
@@ -29,13 +29,17 @@ the accepted card through its verified permalink and carries no decision command
 | Installed test limit | Runtime-only dependencies checked; the full installed-package test suite was not run |
 | Hosted preflight | Deployed source matches the 25 reviewed Python/SQL files; registry bindings and schema through migration 005 verified |
 | Fresh planning package | Genuine GPT-6 produced five planning files; successful hosted reads matched the exact artifact bytes |
-| Remaining package/live acceptance | External operational review of that exact package, SMS alert delivery, actual owner decision and same-card terminal closure remain pending |
+| Exact-package operational review | Accepted document-only Grok CLI review of the same five frozen planning documents, with zero findings; independent supplemental verification passed and the normal API recorded acceptance. Configured model 4.6, observed reported model 4.6-build |
+| Remaining live acceptance | SMS alert delivery, actual owner decision and same-card terminal closure remain pending; native bot transport is not proved by this review |
 
 The executed source checks include the repaired exact-copy and permalink-response
 guards. These results do not prove live provider delivery or owner approval.
-The hosted preflight and planner-byte results do not replace external operational
-review of the exact fresh package or prove the new owner decision. No SMS alert
-has been sent for this test. Publish and independently verify the public snapshot,
+The original review harness failed on teardown-output parsing and a configured/
+reported model-name mismatch. The Grok CLI itself completed with acceptance.
+Independent supplemental verification checked the exact original evidence without
+rerunning the model; the original harness result remains failed. Acceptance was
+recorded through the normal API. This document-only review proves neither native
+bot transport nor owner approval. No SMS alert has been sent for this test. Publish and independently verify the public snapshot,
 then bind its commit
 to the exact private package and live-use checkpoint. Post/verify the Slack card
 before preparing/sending the SMS alert. Verify delivery, the actual Slack decision
@@ -257,7 +261,7 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Automatic publication/runtime checkpoint enforcement | Not implemented |
 | Unattended intake/interview/review | Supervised path proven; complete unattended handoff not proven |
 | Earlier paired Slack/SMS proof | Matching card posted and original SMS receipt delivered; actual owner decision and SMS-to-Slack terminal closure unverified |
-| Selected Slack-only candidate + SMS alerts | Hosted preflight and genuine planner bytes verified; exact-package external review, alert delivery and owner decision pending |
+| Selected Slack-only candidate + SMS alerts | Hosted preflight/planner bytes verified and document review accepted after supplemental verification/API recording; alert delivery and owner decision pending |
 | Web or Grok owner approval | Not proven; model conversation is not authority |
 | Linear issue creation | Not implemented in coordinator |
 | Ringer application builds after issues | Not implemented in coordinator; planning invocation is insufficient |
@@ -266,7 +270,7 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Fresh install, second organization, upgrade/recovery | Not run |
 | Stable release | Not ready |
 
-Next: complete external operational review of the exact fresh package and verify
-the public checkpoint before the new owner request. Then run the supervised Slack decision/SMS alert test and
+Next: complete and verify the public/private live-use checkpoint before the new
+owner card and SMS alert. Then run the supervised Slack decision/SMS alert test and
 verify the exact card's terminal closure. No issue execution, build or release
 follows this synthetic planning-only approval.

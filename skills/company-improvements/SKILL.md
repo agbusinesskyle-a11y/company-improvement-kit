@@ -59,8 +59,9 @@ updates the same card; an already dispatched SMS cannot necessarily be retracted
 Source checks and independent review cover the exact-copy/permalink repairs.
 Isolated runtime wheel installation and source parity checks passed; a full
 installed-package test suite was not run. Hosted preflight and exact hosted bytes
-for five genuine GPT-6 planning artifacts passed. External operational review of
-that package, alert delivery and the owner decision remain pending. This candidate
+for five genuine GPT-6 planning artifacts passed. The original Grok CLI document
+review was accepted after supplemental evidence verification and normal API
+recording; alert delivery and the owner decision remain pending. This candidate
 adds no scheduler, HTTP gateway or bot automation. Legacy profiles/history remain
 intact; [legacy SMS approval](references/sms-approval.md) is not selected for the
 Slack-only profile. Publish/verify the checkpoint before a new owner request. No

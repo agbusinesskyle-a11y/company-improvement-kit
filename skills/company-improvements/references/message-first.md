@@ -1,6 +1,6 @@
 # Slack-only approvals with SMS alerts
 
-**Alpha.7, 2026-09-12: hosted preflight and planner bytes verified; package review/live proof pending.**
+**Alpha.7, 2026-09-12: hosted preflight, planner bytes and document review verified; live approval/alert proof pending.**
 Slack holds the canonical review and owner decision. SMS is an attention notice
 and link only, with no approval command or SMS decision authority. The candidate
 adds optional `approval_mode="slack_only"` and requires
@@ -61,10 +61,11 @@ warnings against disposable PostgreSQL and synthetic transports. Isolated runtim
 wheel installation, dependency checks and 25-file source parity passed on macOS
 Python 3.14.6; a full installed-package test suite was not run. Hosted preflight
 verified source, configuration and schema, and five genuine GPT-6 planning files
-matched their hosted bytes. External operational review of that exact package is
-pending, as are alert delivery and the actual owner decision. See
-[status](../../../docs/status.md) for the reviewed revision. Complete that review
-and the public checkpoint before the owner request, then observe alert delivery, the actual owner Slack decision and
+matched their hosted bytes. The original Grok CLI document review was accepted
+after supplemental evidence verification and normal API recording. Alert delivery
+and the actual owner decision remain pending. See [status](../../../docs/status.md)
+for the reviewed revision and original harness/model-reporting limits. Complete
+the public checkpoint before the owner request, then observe alert delivery, the actual owner Slack decision and
 same-card closure separately. APPROVE leaves one held issue operation in this
 planning-only test; decline/revision produces no new issue operation. A failed
 card update leaves the durable decision intact and does not justify a repeat SMS.

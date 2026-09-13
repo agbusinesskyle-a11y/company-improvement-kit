@@ -37,8 +37,9 @@ authority. Existing profiles and history are preserved.
 
 Isolated runtime wheel installation and source parity checks also passed; the full
 installed-package test suite was not run. Hosted preflight and byte verification
-of five genuine GPT-6 planning artifacts passed. External review of that exact
-package, SMS alert delivery and the owner decision remain pending. No scheduler,
+of five genuine GPT-6 planning artifacts passed. The original Grok CLI document
+review was accepted after supplemental evidence verification and normal API
+recording. SMS alert delivery and the owner decision remain pending. No scheduler,
 new HTTP gateway, bot
 automation, RCS setup, public runtime or installer is included. Earlier proof and
 retirement results remain historical; they do not prove this candidate passed.

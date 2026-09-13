@@ -102,5 +102,7 @@ proof. The host runtime regression, independent source review and isolated runti
 wheel checks are reported separately in [status](status.md), with their exact scope.
 The full installed-package runtime suite was not run. Hosted preflight and genuine
 planner-byte verification are recorded separately from documentation validation.
-External review of the fresh exact package, SMS alert delivery and the owner
-decision remain pending; earlier validation retains its original scope.
+The original Grok CLI document review was accepted after supplemental evidence
+verification and normal API recording; its original harness failure and model-name
+difference remain recorded in status. SMS alert delivery and the owner decision
+remain pending; earlier validation retains its original scope.

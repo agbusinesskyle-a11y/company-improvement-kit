@@ -19,9 +19,13 @@
   files across source, wheel and installed package on macOS Python 3.14.6. Runtime-
   only dependencies were installed; no full installed-package test suite was run.
 - Verify hosted preflight against deployed source, registry bindings and schema,
-  plus exact hosted bytes for five genuine GPT-6 planning files. Keep external
-  operational review of that exact package, SMS alert delivery and owner acceptance
-  pending; no new approval or delivery is claimed.
+  plus exact hosted bytes for five genuine GPT-6 planning files.
+- Record accepted document-only Grok CLI review of that exact five-document package
+  with zero findings after independent supplemental evidence verification and
+  normal API recording. Preserve the original harness failure and configured 4.6/
+  reported 4.6-build difference; no model rerun or original harness PASS is claimed.
+  Native bot transport, SMS alert delivery and owner decision remain unproved by
+  that review.
 - Preserve earlier milestones and require verified public publication before the
   next owner request. No public runtime, installer or full-workflow pass supplied.
 
