@@ -72,6 +72,11 @@ RCS setup, automatic SMS decision listener, public runtime or installer is suppl
 
 ## Recovery and limits
 
+When trusted policy conflicts with the current brief, follow
+[versioned context and normal revision](references/configuration.md#reusable-trusted-context-and-request-revision).
+Preserve frozen artifacts and obtain genuine planning and review for the new
+version; a configuration edit does not renew an old approval.
+
 Use coordinator records, not conversational memory, to resume work. Reconcile uncertain provider effects before retry. Duplicate callbacks, stale workers and old approvals must not create new authority. Respect cancellation and bounded attempt/time policies; report blocked work with evidence instead of silently changing scope or provider.
 
 Apply only the approved recovery procedure. Code rollback does not imply reversal of database changes or outbound messages. Read the release's runbook for the selected adapter; stop at an unsupported recovery path.

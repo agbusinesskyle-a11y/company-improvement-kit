@@ -19,6 +19,35 @@ Each friend initially runs a separate installation with their own accounts and d
 
 The first verified provider profile is the support boundary. A profile may map model roles without changing the workflow, but a newly selected model, operating system, issue tracker or deployment provider requires its own compatibility check and documented evidence. Do not describe a generic adapter interface as implemented support.
 
+## Reusable trusted context and request revision
+
+A project's constitution holds reusable business rules, safety limits and approval
+scope. Keep a prior request's event markers, thread identifiers, expected response
+text and temporary setup state out of durable policy. Current request facts belong
+in the authenticated source and confirmed brief. Synthetic test fixtures need this
+same separation.
+
+Keep trusted checkout context and the constitution in versioned, read-only
+snapshots. Compare them with the confirmed brief before planning. A conflicting
+trusted rule requires explicit correction; do not tell the planner to ignore it.
+
+If a conflict is found after a package is frozen, retain the old snapshot, artifacts
+and results. Create a new context snapshot and policy version. Narrowly update the
+intended project's `checkout_path`, `constitution` and `policy_version` when these
+are the changed fields, preserving other profiles and authorization bindings.
+Verify the active configuration on every service that consumes it. A registry edit
+alone does not refresh an existing request's captured context.
+
+For a request still eligible for revision, use the normal revision API with the
+current `expected_version`, confirmed brief and a fresh idempotency key. This
+captures the current trusted context in a new request version and invalidates old
+eligibility while retaining frozen artifacts. Run genuine planning for the new
+job, publish and verify its exact artifact bytes, obtain an actual review of that
+package, and record the real verdict through the normal API. Do not edit frozen
+artifacts, transfer an old review to a new hash, fabricate a review, or reset old
+attempts to make recovery appear complete. A context edit cannot reopen an approved
+request; follow the supported state rules.
+
 ## Alpha.7 private candidate fields
 
 The private candidate accepts optional project `approval_mode="slack_only"`.
@@ -42,6 +71,11 @@ provider credentials on the trusted operator host. Configuration values and
 credentials are not approval authority. Source/database tests and independent
 review passed; isolated runtime wheel checks passed without a full installed test
 suite. Hosted preflight verified the deployed source, registry bindings and schema.
-The original Grok CLI document review was accepted after supplemental evidence
-verification and normal API recording. Live alert/owner-decision verification
-remains pending. This public skill ships no configuration installer or runtime.
+The earlier Grok CLI document review was accepted after supplemental evidence
+verification and normal API recording. That package received an actual Slack
+approval and same-card terminal closure; no SMS alert was prepared or sent.
+New-version genuine GPT-6 planning and all five hosted artifact bytes are verified.
+Its Grok CLI review completed with acceptance, but the original harness failed
+a verdict-marker formatting check. Supplemental verification passed, preserving
+that original failure, and acceptance is recorded. Live SMS delivery is unproven. See
+[current status](../../../docs/status.md) for the separate milestones. This public skill ships no configuration installer or runtime.

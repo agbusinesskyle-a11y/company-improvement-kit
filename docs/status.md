@@ -5,7 +5,55 @@ Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
 
-## 2026-09-12 — alpha.7 Slack decision verified; SMS alert still unproven
+## 2026-09-12 — alpha.7 trusted-context revision, before the next owner request
+
+**Corrected trusted context is deployed and normal revision has created a new
+planning version. Genuine GPT-6 planning completed, and all five hosted planning
+files match the canonical package. The genuine Grok CLI completed with acceptance
+and zero blocking findings. Supplemental verification of the unchanged original
+evidence passed, and acceptance is recorded through the normal API.** No new owner card or SMS alert is claimed by this
+checkpoint preparation.
+
+A durable constitution must not pin a previous request's event marker as a rule
+for later requests. The follow-up uses a new versioned trusted-context snapshot
+and policy binding, with only the intended profile's context fields changed.
+The correction permits the authorized synthetic retest source and normal revisions;
+it does not claim that all request-specific markers were removed from the test
+fixture. The marker-free reusable-policy guidance is a general setup recommendation.
+All three services were verified against the corrected configuration and the same
+reviewed runtime revision `edbecc64bb5a38602cbed40b94fd7229c5ae37c7`, with 25 runtime
+files matching. The prior frozen package and its history were captured read-only
+and retained; the normal API created the new revision and queued planning.
+
+| New-version gate | Current evidence |
+| --- | --- |
+| Trusted context/configuration | Versioned correction deployed and verified on all three services |
+| Runtime | Same previously tested revision; no new runtime implementation or test count claimed |
+| Prior package/history | Retained; never rewritten or treated as the new result |
+| Normal revision | New planning version created through the normal API |
+| Genuine new planning | Completed; all five hosted artifact bytes match the canonical package |
+| New operational review | Accepted with zero blocking findings; original evidence reconciled and acceptance recorded through the normal API |
+| New owner card, SMS alert and decision | Pending; earlier approval does not transfer |
+
+The new review's original harness failed because the final-verdict marker was
+joined to preceding text instead of appearing at the expected line boundary.
+Original output and the failed result are retained. Supplemental verification of
+that same evidence passed in a separate deterministic check, with no model rerun
+or original harness PASS claimed.
+This is separate from the earlier package's teardown-output/model-reporting failure
+and its completed supplemental review, preserved below.
+
+See [context configuration](../skills/company-improvements/references/configuration.md#reusable-trusted-context-and-request-revision)
+and [revision readiness](../skills/company-improvements/references/readiness.md#check-a-revised-context-before-a-new-owner-request).
+The normal API now reports ready for owner approval. Publish and independently
+verify this public checkpoint before posting the new card. Keep its commit bound to the exact private version/package. SMS delivery
+remains unproven; no previous review or approval can fill that gap. The supervised
+planning-only scope still holds all downstream issue execution, builds and releases.
+
+## 2026-09-12 — alpha.7 Slack decision verified; SMS alert still unproven (historical outcome)
+
+**This completed result belongs to the earlier package; the new revision above
+has no owner approval.**
 
 **The owner approved the synthetic planning-only package in Slack. No SMS alert
 was prepared or sent before that decision.** The complete frozen review content
@@ -319,7 +367,8 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Fresh install, second organization, upgrade/recovery | Not run |
 | Stable release | Not ready |
 
-Next: publish and verify this post-decision outcome, then complete a fresh private
-package/public checkpoint for the supervised pending-card SMS alert test. Verify
-the card before one eligible SMS attempt and verify delivery separately. No issue
-execution, build or release follows the completed synthetic planning-only approval.
+Next: complete supplemental verification of the original review evidence and
+record the actual verdict for the revised package, then verify its public/private
+checkpoint before the fresh owner card. Verify the card before one eligible SMS
+attempt and verify delivery separately. No issue execution, build or release
+follows either synthetic planning-only test.

@@ -200,10 +200,11 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "slack_only_owner_approved_sms_alert_unproven",
-    "publication_phase": "post_decision_before_fresh_pending_card_test",
-    "original_pre_card_publication_receipt_preserved": true,
-    "publication_must_precede_next_owner_request": true
+    "milestone": "trusted_context_revision_review_accepted_before_owner",
+    "publication_phase": "before_fresh_owner_card",
+    "publication_must_precede_next_owner_request": true,
+    "new_package_planning_and_review_verified": true,
+    "prior_owner_approval_applies_to_new_revision": false
   },
   "sms_delivery_follow_up": {
     "date": "2026-09-12",
@@ -267,6 +268,13 @@
     {
       "date": "2026-09-12",
       "milestone": "slack_only_candidate_pre_approval",
+      "publication_must_precede_next_owner_request": true
+    },
+    {
+      "date": "2026-09-12",
+      "milestone": "slack_only_owner_approved_sms_alert_unproven",
+      "publication_phase": "post_decision_before_fresh_pending_card_test",
+      "original_pre_card_publication_receipt_preserved": true,
       "publication_must_precede_next_owner_request": true
     }
   ],
@@ -440,7 +448,8 @@
       "supplemental_original_evidence_verification": "passed",
       "model_rerun_for_supplemental_verification": false,
       "accepted_review_recorded_via_normal_api": true,
-      "native_bot_transport_proven_by_this_review": false
+      "native_bot_transport_proven_by_this_review": false,
+      "historical_scope": "earlier_approved_package; not the current trusted_context_revision"
     },
     "live_alert_send_attempted": false,
     "historical_candidate_verification": {
@@ -505,8 +514,57 @@
       "downstream_execution_authorized_by_test": false,
       "operator_observed_resolved_state_before_dispatch": true,
       "automatic_live_SMS_suppression_proven": false,
-      "pending_only_preflight": "rejected_already_resolved_state_as_expected"
+      "pending_only_preflight": "rejected_already_resolved_state_as_expected",
+      "historical_scope": "earlier_approved_package; no approval authority for the new revision"
     },
     "next_live_gate": "fresh_synthetic_pending_card_and_one_eligible_SMS_alert_attempt_after_verified_public_checkpoint"
+  },
+  "trusted_context_revision": {
+    "date": "2026-09-12",
+    "scope": "supervised_synthetic_planning_only",
+    "configuration_guidance": "skills/company-improvements/references/configuration.md#reusable-trusted-context-and-request-revision",
+    "readiness_guidance": "skills/company-improvements/references/readiness.md#check-a-revised-context-before-a-new-owner-request",
+    "versioned_context_correction_deployed": true,
+    "profile_changes_limited_to": [
+      "checkout_path",
+      "constitution",
+      "policy_version"
+    ],
+    "all_three_services_configuration_verified": true,
+    "runtime_revision_unchanged": "edbecc64bb5a38602cbed40b94fd7229c5ae37c7",
+    "runtime_files_matched_per_service": 25,
+    "prior_package_and_history_preserved": true,
+    "prior_history_captured_read_only": true,
+    "normal_api_revision_created": true,
+    "planning_queued_by_revision": true,
+    "planner": "GPT-6",
+    "genuine_planning_execution": "completed_verified",
+    "completed_planning_package_verified": true,
+    "hosted_artifact_bytes_verified": true,
+    "operational_review": "accepted_after_supplemental_original_evidence_verification",
+    "operational_review_recorded": true,
+    "new_owner_card_posted": false,
+    "sms_alert_sent": false,
+    "sms_delivery_verified": false,
+    "new_owner_decision_verified": false,
+    "prior_owner_approval_transfers": false,
+    "new_runtime_tests_claimed": false,
+    "automatic_context_migration": false,
+    "public_runtime_shipped": false,
+    "next_gate": "verified_public_checkpoint_then_fresh_owner_card_and_one_eligible_SMS_alert",
+    "reusable_policy_guidance_avoids_request_specific_markers": true,
+    "fixture_correction_scope": "permit_authorized_synthetic_retest_source_and_normal_revisions; not a claim that the fixture has no request_specific_markers",
+    "verified_planning_artifact_count": 5,
+    "operational_review_transport": "Grok CLI",
+    "provider_cli_completed_with_acceptance": true,
+    "observed_provider_review_verdict": "accept",
+    "observed_provider_review_blocking_findings": 0,
+    "original_review_harness_passed": false,
+    "original_review_harness_limit": "final_verdict_marker_joined_to_preceding_text_failed_strict_line_verifier",
+    "supplemental_original_evidence_verification": "passed",
+    "model_rerun_for_supplemental_verification": false,
+    "original_review_outputs_and_failed_result_preserved": true,
+    "prior_teardown_model_reporting_failure_is_separate": true,
+    "coordinator_request_state": "ready_for_approval"
   }
 }

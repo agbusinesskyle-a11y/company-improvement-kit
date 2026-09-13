@@ -12,8 +12,8 @@ warnings, using disposable PostgreSQL and synthetic provider transports. Indepen
 source review found no blockers. Isolated runtime wheel installation, dependency
 checks and 25-file source/wheel/installed parity passed on macOS Python 3.14.6;
 the full installed-package test suite was not run. Hosted preflight verified the
-deployed source, configuration and schema. Five genuine GPT-6 planning files matched
-their hosted bytes. The original Grok CLI document review was accepted after
+deployed source, configuration and schema. For the earlier package, five genuine
+GPT-6 planning files matched their hosted bytes. Its Grok CLI document review was accepted after
 supplemental evidence verification and normal API recording. The actual Slack
 owner approval and same-card terminal closure are verified, with one issue operation
 held. No SMS alert was prepared or sent; alert delivery remains unproven. See
@@ -30,6 +30,28 @@ missing runtime, credentials or authority. The proven planning-only approval lea
 issue creation held.
 
 The future readiness command must report each component separately and exit unsuccessfully when a required production gate fails. It must not send messages, create issues or deploy while performing read-only diagnostics. Live proof is a separate explicitly identified operation with documented effects.
+
+## Check a revised context before a new owner request
+
+Follow [trusted-context revision](configuration.md#reusable-trusted-context-and-request-revision)
+when durable policy conflicts with the brief. Verify that the new request version,
+registry digest, policy/context version and frozen package agree. Confirm the old
+package remains unchanged, the new planning run and hosted bytes are verified,
+and the actual review is recorded against the new package. Read the returned
+state: a recorded review alone does not establish readiness for approval. Keep
+unresolved questions and failed checks visible.
+
+The current follow-up has deployed corrected versioned context and created a new
+revision through the normal API. Genuine GPT-6 planning completed and all five
+hosted artifact bytes match the canonical package. Genuine Grok CLI completed
+with acceptance and zero blocking findings. Its original harness failed on a
+verdict-marker line-boundary check; supplemental verification of its unchanged
+evidence passed and acceptance is recorded. The normal API reports ready for owner
+approval. Do not relabel the failed harness or borrow earlier review evidence.
+Earlier Slack approval does not approve this new version. Verify the updated
+public checkpoint before its owner card, and bind the commit to the exact private
+version/package. Context recovery, SMS delivery and owner approval are separate
+checks; no unattended context migration or automatic publication gate is supplied.
 
 ## Required before an external stable release
 

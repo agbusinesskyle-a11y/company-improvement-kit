@@ -2,6 +2,25 @@
 
 ## 0.1.0-alpha.7 — 2026-09-12
 
+- Prepare the next pre-owner checkpoint: deploy corrected versioned trusted context
+  on all three services with the same reviewed runtime, retain the prior frozen
+  package/history, and create a new planning revision through the normal API.
+  Genuine GPT-6 planning completed and all five hosted artifact bytes match the
+  canonical package. Genuine Grok CLI completed with acceptance and zero blocking
+  findings. Supplemental verification passed and acceptance is recorded through
+  the normal API; the fresh card/SMS/owner decision remain pending.
+- Preserve the new original review harness failure: its strict verifier rejected
+  a final-verdict marker joined to preceding text. Same-evidence supplemental
+  verification passed in a separate deterministic check; no model rerun or original
+  harness PASS is claimed.
+  Keep this separate from the earlier package's teardown/model-reporting failure.
+- Add reusable constitution and revision guidance: keep request-specific markers out
+  of durable policy, preserve immutable artifacts, verify active context bindings,
+  and obtain genuine new planning and package-bound review. Earlier approval does
+  not transfer; no runtime or unattended recovery feature is added.
+
+Earlier alpha.7 Slack outcome and repair evidence follows:
+
 - Post-decision follow-up: verify an actual Slack owner approval, the same card's
   Approved display with decision controls removed, and exactly one held issue
   operation. The owner decided before any alert was prepared; no SMS alert was sent.
