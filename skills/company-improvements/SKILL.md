@@ -56,19 +56,21 @@ at reservation, suppresses a resolved request and permits one permanent send att
 An uncertain result cannot authorize a retry. The owner's validated Slack decision
 updates the same card; an already dispatched SMS cannot necessarily be retracted.
 
-Source checks and independent review cover the exact-copy/permalink repairs.
-Isolated runtime wheel installation and source parity checks passed; a full
-installed-package test suite was not run. Hosted preflight and exact hosted bytes
-for five genuine GPT-6 planning artifacts passed. The original Grok CLI document
-review was accepted after supplemental evidence verification and normal API
-recording. The actual Slack owner approval and same-card terminal closure are now
-verified, with one issue operation held. No SMS alert was prepared or sent; alert
-delivery remains unproven. See [current status](../../docs/status.md) for the
-evidence and fresh pending-card test gate. This candidate adds no scheduler, HTTP
-gateway or bot automation. Legacy profiles/history remain
-intact; [legacy SMS approval](references/sms-approval.md) is not selected for the
-Slack-only profile. Publish/verify the checkpoint before a new owner request. No
-RCS setup, automatic SMS decision listener, public runtime or installer is supplied.
+The supervised reminder-to-Slack proof passed: one ordinary SMS was delivered,
+the owner confirmed that its link opened the intended card, and the native Slack
+decision updated that same card. One issue operation remains held. The earlier
+Slack-only proof and original review-check failures remain separate historical
+records; see [current status](../../docs/status.md). The temporary SMS test access
+was revoked. Permanent notification operation and unattended orchestration remain
+unfinished. Legacy profiles/history remain intact;
+[legacy SMS approval](references/sms-approval.md) is not selected for the Slack-only
+profile. Publish/verify the checkpoint before a new owner request.
+
+The next development slice is [durable Slack suggestion intake](references/slack-intake.md).
+Treat saved suggestions as pending interviews. Native Grok transport, explicit
+requester confirmation and automatic planning handoff must be connected before
+claiming that staff can use the full workflow. No RCS setup, automatic SMS decision
+listener, public runtime or installer is supplied.
 
 ## Recovery and limits
 

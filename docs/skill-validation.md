@@ -1,5 +1,14 @@
 # Skill validation
 
+## Alpha.8 suggestion intake documentation
+
+This update documents the private suggestion inbox separately from the pending
+Grok interview connection. The public file set grows to 19 with one new intake
+reference. The maintainer reviewed the changed prose; local JSON, relative-link,
+version, frontmatter, whitespace and targeted privacy checks passed. No new evaluator
+model, clean installation or live Slack test is claimed by those documentation
+checks. The earlier approval proof is preserved rather than rerun.
+
 These checks validate documentation use, separately from runtime integration.
 The initial alpha.1 checks below were run on 2026-09-12; this public page summarizes
 retained private run outputs.

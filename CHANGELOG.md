@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.0-alpha.8 — 2026-09-12
+
+- Implement the private signed Slack suggestion inbox: fixed source routing,
+  durable thread records and duplicate/conflict handling ahead of Grok interviews.
+  All 20 focused PostgreSQL/HTTP/CLI tests passed on the host. The offline wheel
+  contained 29 source-matching runtime/SQL files. Live activation remains unproven.
+- Document that accepted suggestions are pending interviews, with no confirmation,
+  planning or execution authority. Live intake and native bot wiring remain unproven.
+- Correct stale introductory text to reflect the completed supervised SMS reminder
+  and Slack approval test. Preserve its historical evidence and limitations.
+
 ## 0.1.0-alpha.7 — 2026-09-12
 
 - Complete the supervised SMS-reminder-to-Slack test: one delivered reminder, owner-confirmed link, actual Slack approval, same-card terminal update and one held issue operation. Revoke the temporary SMS test key. No application change, build, release or SMS approval authority is claimed.

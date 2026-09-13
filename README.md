@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.7 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.8 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 
@@ -35,14 +35,15 @@ repository login. A separate operator-only SMS outbox sends a short attention
 notice and the verified Slack permalink; SMS carries no decision command or
 authority. Existing profiles and history are preserved.
 
-Isolated runtime wheel installation and source parity checks also passed; the full
-installed-package test suite was not run. Hosted preflight and byte verification
-of five genuine GPT-6 planning artifacts passed. The original Grok CLI document
-review was accepted after supplemental evidence verification and normal API
-recording. The actual owner approved in Slack, and the same card's terminal
-display and removal of decision controls were verified; one issue operation remains
-held. No SMS alert was prepared or sent, so alert delivery remains unproven. See
-[current status](docs/status.md) for the evidence and fresh pending-card test gate.
+The supervised test delivered an SMS reminder, its link opened the intended Slack
+card, and the owner approved there. The same card updated and its decision controls
+were removed; one issue operation remains held. Temporary test access was revoked.
+See [current status](docs/status.md) for evidence and limits. Permanent notification
+operation, native bot intake and the later execution stages remain unfinished.
+
+Development is now adding [durable Slack suggestion intake](skills/company-improvements/references/slack-intake.md)
+so explicit requests have a persistent conversation record for the interview
+connection. This does not make the public preview an executable installation.
 No scheduler, new HTTP gateway, bot automation, RCS setup, public runtime or installer
 is included. Earlier proof and retirement results remain historical.
 

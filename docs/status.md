@@ -1,9 +1,29 @@
 # Milestones and known limits
 
-Skill preview: **0.1.0-alpha.7**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.8**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
+
+## 2026-09-12 — alpha.8 signed suggestion intake
+
+The next private candidate adds a durable inbox for explicitly triggered Slack
+suggestions. It checks signed delivery and configured source identities, preserves
+thread/requester bindings, and deduplicates delivery events and original messages.
+Accepted input remains a pending interview. This slice adds no interview model,
+confirmation, planning dispatch or downstream execution.
+
+Implementation verification passed: 20 focused tests used real disposable
+PostgreSQL and synthetic signed HTTP events. The wheel built offline and all 29
+runtime/SQL files matched the source, including the new migration. Parent source
+review and eight-file snapshot comparison completed. The build worker's original
+database-socket restriction remains recorded separately from the successful host
+check. A fresh installed full-suite run was not performed.
+
+No deployment, live Slack intake or native Grok bridge is claimed. The existing supervised reminder/approval result
+below remains valid and is not being rerun. Permanent reminders, Grok interview
+handoff, Linear execution, builds and releases remain separate unfinished stages.
+See [the intake boundary](../skills/company-improvements/references/slack-intake.md).
 
 ## 2026-09-12 — alpha.7 Slack approval with SMS reminder passed
 
