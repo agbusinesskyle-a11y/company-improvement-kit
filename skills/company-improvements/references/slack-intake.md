@@ -107,3 +107,10 @@ use the prefix. Handle event/inbox arrival races with bounded read-only recovery
 Complete the required event subscription and bot permissions, verify deployment,
 and prove a real native response before calling this connected. Restrict a proof
 to its configured requester; do not silently enable the entire staff allowlist.
+
+Activation checks: verify the signed event URL is saved, the intended event is
+subscribed, required private-channel history permission is installed, and the app
+is a source-channel member. Verify healthy worker status plus rejected anonymous
+and accepted scoped API reads. These checks do not prove native response delivery.
+A deployment restart may reuse older startup metadata; verify the actual running
+entry point after changing the service configuration.

@@ -102,3 +102,7 @@ project-bound read/response token. Run publication and planning handoff through
 the trusted cycle. Replace the old direct-posting routine during cutover; never
 run two responders or accept typed approvals as a substitute for the owner card.
 Verify hosted routing and a native response separately from source tests.
+
+For private-channel activation, obtain explicit permission for message delivery,
+reinstall the app with the required event scope, verify its source-channel
+membership, and distinguish an authenticated empty inbox from a live interview.

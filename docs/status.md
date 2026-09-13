@@ -1,6 +1,6 @@
 # Milestones and known limits
 
-## 2026-09-12 — alpha.11 integrated interview service candidate
+## 2026-09-12 — alpha.11 integrated interview service activation
 
 The private candidate combines signed suggestion intake, interview and owner
 callbacks at the existing interaction URL, and a limited bot read/response API.
@@ -16,8 +16,17 @@ provider responses, including the original owner receiver regressions. This sour
 milestone does not prove hosted activation or native Grok behavior. The planning
 model worker remains a separate process; this service does not launch models.
 
-Native routine migration, provider event permissions, deployment and the real
-round trip remain required. The public kit still contains documentation only.
+The integrated service is now deployed and healthy, with its interview cycle
+running. The signed event URL is provider-verified and saved. Private-channel
+message delivery was explicitly authorized, the app reinstalled with the required
+permission, and membership verified in the proof source channel. Anonymous API
+access returned 401; the scoped credential returned 200 with an empty inbox.
+
+Native routine migration is in progress. A genuine suggestion-to-bot-to-Slack
+round trip and requester confirmation remain unproven. Only one configured proof
+requester is enabled. Hosted source hashes were not independently compared;
+staged source and the offline wheel were verified. The public kit still contains
+documentation only.
 
 
 ## 2026-09-12 — alpha.10 Slack brief confirmation candidate

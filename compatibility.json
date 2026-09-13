@@ -234,7 +234,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "confirmed_interview_handoff_candidate",
+    "milestone": "integrated_interview_host_activated_native_cutover_pending",
     "publication_phase": "implementation_progress",
     "full_workflow_ready": false
   },
@@ -683,7 +683,7 @@
     ]
   },
   "interview_bridge_candidate": {
-    "status": "source_verified_not_activated",
+    "status": "host_activated_native_cutover_pending",
     "private_source_revision": "aba77e0ac33faf1515f4e31d5c143309a35a6b49",
     "tests": {
       "passed": 156,
@@ -694,11 +694,19 @@
     "bounded_publication_handoff_cycle": true,
     "bot_confirmation_authority": false,
     "model_execution_in_cycle": false,
-    "live_activation": false,
+    "live_activation": true,
     "native_Grok_cutover": false,
     "public_runtime_shipped": false,
     "original_ringer_artifact_check": "failed_wrong_snapshot_directory",
     "supplemental_artifact_reconciliation": "six_original_files_match_source",
-    "model_rerun": false
+    "model_rerun": false,
+    "hosted_worker": "running",
+    "signed_event_url": "provider_verified_and_saved",
+    "private_channel_membership_verified": true,
+    "anonymous_api_status": 401,
+    "scoped_api_status": 200,
+    "live_native_round_trip": false,
+    "proof_requesters": 1,
+    "installed_source_hash_comparison": false
   }
 }
