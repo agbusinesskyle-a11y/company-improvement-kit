@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.1.0-alpha.5 — 2026-09-12
+
+- Record a posted paired synthetic Slack card and matching SMS delivery from its
+  original provider receipt. Actual owner decision and SMS-to-Slack closure remain
+  unverified; the paired proof is incomplete.
+- Document private-link access friction and the desired detailed frozen change
+  order in Messages with Approve/Disapprove. Current SMS still requires a private
+  plan URL and long exact command; no new renderer or short commands are shipped.
+- Separate RCS phone prerequisites from unproven sender/button setup. Require new
+  credential/evidence review. Hidden quick-reply metadata is not documented in
+  Message GET; an alternative visible-code/body path needs a real provider sample.
+  No RCS adapter or listener is implemented.
+- Keep provider registration, terms and fees separate from application-plan approval.
+  Preserve alpha.4 as historical and retain the public before/after checkpoint.
+- Documentation only: no new runtime tests, model evaluation, installer or complete
+  workflow claim.
+
 ## 0.1.0-alpha.4 — 2026-09-12
 
 - Record one actual SMS send/delivery following alpha.3, with no Slack card

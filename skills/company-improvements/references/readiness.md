@@ -1,18 +1,19 @@
 # Installation and stable-release readiness
 
-Current public package: skill/documentation preview 0.1.0-alpha.4. The separate
-private implementation has a planning coordinator and signed Slack approval
-receiver, with a supervised synthetic owner proof passed. Runtime/adapters are not
-shipped in this preview. Installer: missing. Independent clean installation and
-full live end-to-end acceptance: not run. The bounded SMS gateway has completed
-private repair, review and executed tests. This pre-approval milestone does not
-prove the next paired operation's binding/deployment or an owner SMS decision.
-One earlier SMS was delivered; its SMS-only request was subsequently cancelled
-without an owner decision, with its delivery history preserved.
-The fresh same-request SMS decision/Slack terminal-update proof remains pending.
-Publish and verify its public snapshot before either owner-facing request. General
-automatic fanout/listening and independent installation remain unproved.
-No stable release exists.
+Current public package: skill/documentation preview 0.1.0-alpha.5. The separate
+private implementation has a supervised planning and Slack owner proof. A later
+paired synthetic Slack card was posted and its matching SMS receipt reports
+delivery; the actual owner decision and SMS-to-Slack terminal closure are not
+verified. That proof is incomplete.
+
+The current SMS interface requires a private plan URL and long exact text command.
+A private repository link is not guaranteed to open directly in the intended mobile app from Messages or without sign-in.
+[Message-first approval](message-first.md) is a feasibility target: detailed
+frozen message rendering, short commands, an RCS adapter and automatic listening
+are not implemented. Phone business settings alone prove neither sender setup nor
+working buttons; provider terms/fees/registration do not approve an application plan.
+Runtime/adapters and an installer are not shipped. Independent clean installation
+and full live acceptance have not run. No stable release exists.
 
 Read [status](../../../docs/status.md), [compatibility](../../../compatibility.json)
 and [approval checkpoints](approval-checkpoints.md). Publication is currently an

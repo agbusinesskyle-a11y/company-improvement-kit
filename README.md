@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.4 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.5 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 
@@ -28,15 +28,16 @@ approval, ending with issue creation held. It did not prove the later stages or
 installation for another organization. [Status](docs/status.md) records that scope;
 raw private records are not included.
 
-The [SMS gateway reference](skills/company-improvements/references/sms-gateway.md)
-keeps provider credentials on a separate trusted server and limits an existing bot
-to one prepared operation. One supervised SMS was sent and delivered after alpha.3;
-that request was cancelled without an owner decision and never had a Slack card.
-Its delivery history is preserved. The next milestone prepares
-a fresh request shared by Slack and SMS, to observe a genuine SMS decision and the
-matching Slack card's terminal update. That paired live proof has not run. Existing
-shared-decision protections have private automated tests; general automatic fanout,
-inbound listening and an installable public runtime remain unavailable.
+The paired synthetic proof posted a Slack card and delivered its matching SMS,
+verified through the original provider receipt. The actual owner decision and
+SMS-to-Slack terminal update remain unverified; the proof is incomplete.
+[Message-first approval](skills/company-improvements/references/message-first.md)
+records the desired next experience: a detailed frozen change order in Messages
+with Approve/Disapprove. The current SMS instead uses a private plan URL and long
+exact reply command. Private repository links cannot be assumed to open directly in the intended mobile app from Messages
+or without sign-in. No detailed message renderer, short-command support or RCS
+adapter is implemented. General automatic fanout, inbound listening and an
+installable public runtime remain unavailable.
 
 ## Contents and reuse
 

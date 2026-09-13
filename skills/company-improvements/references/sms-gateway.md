@@ -1,13 +1,14 @@
 # Bounded gateway for an existing SMS bot
 
-**Alpha.4, 2026-09-12: before a fresh paired Slack/SMS owner request.** Private
-gateway code has completed repair, review and verification. One earlier SMS was
-sent/delivered. Its SMS-only request was later cancelled without an owner decision,
-with its challenge invalidated and delivery history preserved. A live
-same-request SMS decision followed by a Slack terminal update is not yet proved.
+**Alpha.5, 2026-09-12: message-first feasibility.** Private gateway code has
+completed repair, review and verification. A paired synthetic Slack card was
+posted and its matching SMS original receipt reports delivery. Actual owner
+decision and SMS-to-Slack terminal closure are not verified; this proof is incomplete.
+The current gateway validates the full SMS command. It does not implement the
+[proposed message-first renderer, short commands or RCS adapter](message-first.md).
 The public kit supplies neither this runtime nor an installer. Check
 [current status](../../../docs/status.md) and [compatibility](../../../compatibility.json)
-before using it. The earlier supervised Slack proof remains separate evidence.
+before using it. Earlier milestones retain their own historical evidence.
 
 ## Credentials and authority
 
@@ -33,9 +34,9 @@ changing scope is an operator action, never conversational bot output.
 ## Narrow interface
 
 These routes are implemented and covered by private tests. The gateway service
-configuration holds the authorized provider key privately. After this public
-checkpoint, the operator prepares the reviewed outbox, configures its exact
-expiring binding and deploys/verifies the service before using these routes live.
+configuration holds the authorized provider key privately. For each new proof,
+the operator completes the public checkpoint, prepares the reviewed outbox and
+verifies the exact expiring binding and deployment before using these routes live.
 
 | Route | Caller input | Required server behavior |
 | --- | --- | --- |

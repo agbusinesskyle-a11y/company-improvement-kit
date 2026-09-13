@@ -40,17 +40,25 @@ creation held. Steps 5–7 require future verified adapters and appropriate scop
 6. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
 7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
 
-For a separate SMS lane test, use [the SMS runbook](references/sms-approval.md)
-and [the bounded gateway reference](references/sms-gateway.md). The bot receives
-only an expiring token for one prepared operation and may supply a selected Message
-SID as a locator. The trusted gateway keeps provider credentials and independently
-fetches original evidence; bot text cannot approve. One earlier SMS was delivered
-and its SMS-only request was later cancelled without an owner decision; its
-delivery history is preserved. For a paired proof, prepare one fresh
-request/version/package/challenge for both surfaces and verify the public snapshot
-before either owner-facing request. Observe the SMS decision and matching Slack
-terminal update separately; do not infer them from different requests' successes.
-This phase is supervised; no general fanout, listener or public runtime is supplied.
+For SMS, use [the SMS runbook](references/sms-approval.md) and
+[bounded gateway reference](references/sms-gateway.md). The bot receives only an
+expiring token for one prepared operation and may supply a selected Message SID
+as a locator. The trusted gateway keeps provider credentials and independently
+fetches original evidence; bot text cannot approve. A paired synthetic Slack card
+was posted and its matching SMS delivered. The actual owner decision and
+SMS-to-Slack terminal closure are not verified; delivery is not approval.
+
+Read [message-first approval](references/message-first.md) before proposing an
+in-message change order or Approve/Disapprove controls. This is a feasibility
+milestone, not an implemented interface. Current SMS needs a private plan link and
+long exact command; verify real owner access rather than assuming direct opening in the intended mobile app from Messages or
+sign-in-free access. RCS needs a new evidence/credential review and verified
+adapter. Hidden quick-reply metadata is not documented in Message GET; an
+alternative visible request-code/body path needs an actual provider sample before
+support can be claimed. Phone settings, provider registration, terms and fees are separate
+setup matters and do not authorize an application plan. Publish/verify the next
+checkpoint before requesting a new decision. No automatic listener or public
+runtime is supplied.
 
 ## Recovery and limits
 

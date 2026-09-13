@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.4",
+  "skill_version": "0.1.0-alpha.5",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,35 +37,53 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.4",
+    "current_version": "0.1.0-alpha.5",
     "structure": "passed",
-    "public_file_review": "passed",
-    "independent_application": "not_run_for_alpha_4",
+    "public_file_review": "passed; independent maintainer content review and targeted screening",
+    "independent_application": "not_run_for_alpha_5",
+    "public_file_count": 18,
+    "summary": "docs/skill-validation.md",
     "prior_evidence": {
-      "current_version": "0.1.0-alpha.3",
+      "current_version": "0.1.0-alpha.4",
       "structure": "passed",
       "public_file_review": "passed",
-      "independent_application": "not_run_for_alpha_3",
+      "independent_application": "not_run_for_alpha_4",
       "prior_evidence": {
-        "date": "2026-09-12",
+        "current_version": "0.1.0-alpha.3",
         "structure": "passed",
-        "independent_application_scenarios": 1,
-        "revised_application": "passed",
         "public_file_review": "passed",
-        "summary": "docs/skill-validation.md"
-      },
-      "summary": "docs/skill-validation.md",
-      "manual_walkthrough": {
-        "scenarios": 2,
-        "reviewer": "same_author",
-        "result": "no_additional_documentation_blocker",
-        "fresh_evaluator_model_run": false
+        "independent_application": "not_run_for_alpha_3",
+        "prior_evidence": {
+          "date": "2026-09-12",
+          "structure": "passed",
+          "independent_application_scenarios": 1,
+          "revised_application": "passed",
+          "public_file_review": "passed",
+          "summary": "docs/skill-validation.md"
+        },
+        "summary": "docs/skill-validation.md",
+        "manual_walkthrough": {
+          "scenarios": 2,
+          "reviewer": "same_author",
+          "result": "no_additional_documentation_blocker",
+          "fresh_evaluator_model_run": false
+        },
+        "public_file_count": 17,
+        "validation_date": "2026-09-12"
       },
       "public_file_count": 17,
+      "summary": "docs/skill-validation.md",
       "validation_date": "2026-09-12"
     },
-    "public_file_count": 17,
-    "summary": "docs/skill-validation.md",
+    "local_checks": {
+      "explicit_public_file_list": 18,
+      "json": "passed",
+      "relative_links_and_anchors": "passed",
+      "version_consistency": "passed",
+      "basic_skill_frontmatter": "passed",
+      "targeted_private_pattern_scan": "passed",
+      "model_or_runtime_tests_run_for_this_update": false
+    },
     "validation_date": "2026-09-12"
   },
   "sms_preparation": {
@@ -143,8 +161,8 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "paired_slack_sms_pre_approval",
-    "publication_precedes_outbox_preparation_and_both_owner_requests": true
+    "milestone": "message_first_approval_feasibility",
+    "publication_must_precede_next_owner_request": true
   },
   "sms_delivery_follow_up": {
     "date": "2026-09-12",
@@ -160,7 +178,8 @@
     "request_state": "cancelled",
     "challenge_invalidated": true,
     "owner_decision_count": 0,
-    "retirement_evidence": "Normal API cancellation followed by private read-only database verification of cancelled state, sole challenge invalidation and zero decisions"
+    "retirement_evidence": "Normal API cancellation followed by private read-only database verification of cancelled state, sole challenge invalidation and zero decisions",
+    "historical_snapshot": "alpha.4 earlier SMS-only proof; not the current paired request"
   },
   "paired_approval_preparation": {
     "date": "2026-09-12",
@@ -185,6 +204,46 @@
       "prepare_sms_then_slack_with_same_challenge_lifetime",
       "verify_shared_binding_and_private_checkpoint",
       "verify_slack_post_accepted_before_sms_send"
-    ]
+    ],
+    "historical_snapshot": "alpha.4 pre-request preparation; current progress is recorded in paired_approval_observation"
+  },
+  "historical_snapshots": [
+    {
+      "date": "2026-09-12",
+      "milestone": "paired_slack_sms_pre_approval",
+      "publication_precedes_outbox_preparation_and_both_owner_requests": true
+    }
+  ],
+  "paired_approval_observation": {
+    "date": "2026-09-12",
+    "evidence_type": "maintainer_attestation_of_private_provider_evidence",
+    "slack_card_posted": true,
+    "matching_sms_original_receipt_status": "delivered",
+    "actual_owner_decision_verified": false,
+    "sms_to_slack_terminal_closure_verified": false,
+    "proof_complete": false,
+    "summary": "docs/status.md"
+  },
+  "message_first_feasibility": {
+    "date": "2026-09-12",
+    "desired_experience": "detailed_frozen_change_order_in_Messages_with_Approve_Disapprove",
+    "current_sms_interface": "private_plan_URL_and_long_exact_command",
+    "native_or_signin_free_private_link_access_assumed": false,
+    "detailed_message_renderer_implemented": false,
+    "short_decision_commands_implemented": false,
+    "rcs_adapter_implemented": false,
+    "automatic_inbound_listener_implemented": false,
+    "rcs_phone_business_setting": "prerequisite_only",
+    "rcs_sender_setup_proven": false,
+    "rcs_real_buttons_proven": false,
+    "rcs_quick_reply_evidence": "unresolved; hidden metadata is available through original signed webhooks and is not documented in Message GET",
+    "new_credential_and_evidence_review_required": true,
+    "provider_registration_terms_and_fees_separate_from_plan_approval": true,
+    "reference": "skills/company-improvements/references/message-first.md",
+    "rcs_evidence_candidates": [
+      "signature_verified_original_webhook",
+      "visible_opaque_request_code_in_original_Message_GET_Body_if_real_provider_sample_proves_preservation"
+    ],
+    "rcs_evidence_candidates_verified": false
   }
 }

@@ -21,7 +21,10 @@ of a public publication receipt are not implemented.
 5. Copy [the checkpoint template](../../../templates/approval-checkpoint.json) into
    private operator storage. Fill milestone, skill version, public commit/file hashes,
    implementation revision, validation evidence and the exact private request,
-   package/version and scope. Confirm owner access to the separate private plan.
+   package/version and scope. Confirm owner access to the separate private plan;
+   a private repository URL does not establish direct opening in the intended mobile app from Messages or sign-in-free access.
+   Any future in-message presentation must be verified against that exact frozen
+   package through its implemented adapter.
    Never publish the filled record in this public repository.
 6. Once the checkpoint is complete, present the real owner approval through its
    verified provider. Include the reusable snapshot link alongside the private plan

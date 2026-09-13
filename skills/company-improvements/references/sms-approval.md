@@ -6,12 +6,14 @@ send a text or prove SMS approval. Read the current status and compatibility
 manifest before treating any step as configured or live-tested.
 
 For an existing bot interface, read [the bounded gateway reference](sms-gateway.md).
-The private gateway has reviewed code and verification, and one earlier SMS was
-delivered. That SMS-only request was later cancelled without an owner decision;
-its challenge was invalidated and its delivery history preserved. The next phase is a
-fresh same-request paired proof, still supervised. Provider keys stay on the
-trusted server; the bot receives only one-operation gateway access. This preview
-does not install a listener or change the existing number.
+The private gateway has reviewed code and verification. A paired synthetic Slack
+card was posted and its matching SMS original receipt reports delivery. The
+actual owner decision and SMS-to-Slack terminal closure are unverified; the proof
+is incomplete. Provider keys stay on the trusted server; the bot receives only
+one-operation gateway access. Current SMS uses a private plan URL and long exact
+text command. Read [message-first feasibility](message-first.md) for the proposed
+in-message change order and controls; no such renderer, short-command support,
+RCS adapter or automatic listener is implemented.
 
 ## Ready before sending
 
@@ -35,7 +37,8 @@ SMS handlers, opt-out behavior and shared bot polling.
 
 ## Paired Slack/SMS proof on one fresh request
 
-This is a proposed supervised proof, not a claim of an automatic fanout service.
+This is the supervised procedure; paired delivery alone does not complete the
+proof. It is not an automatic fanout service.
 Use the same fresh immutable request/version/package and shared challenge for the
 Slack card and SMS notification. Keep the earlier completed Slack proof and the
 separate delivered SMS, subsequent cancellation and absence of an owner decision

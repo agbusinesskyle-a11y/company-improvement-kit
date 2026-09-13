@@ -54,7 +54,7 @@ Private gateway code/review/test evidence is reported separately in [status](sta
 configured credentials do not establish provider send, handset delivery or owner
 approval. The snapshot intentionally precedes final operation-bound deployment.
 
-## Alpha.4 paired-proof preview
+## Alpha.4 paired-proof preview (historical validation)
 
 This preview updates the procedure for one fresh request shared by Slack and SMS.
 The earlier SMS delivery and later cancellation are recorded separately from an owner decision and from
@@ -64,3 +64,15 @@ review. No new model application scenario, runtime test or provider call is part
 of this documentation preparation. The maintainer verifies the final public snapshot
 before publication is considered complete; earlier alpha.1/alpha.3 evaluations are not
 relabeled as fresh alpha.4 evidence.
+
+## Alpha.5 message-first feasibility
+
+This documentation update separates observed paired delivery from the unverified
+owner decision and terminal closure. It records the desired message-first
+experience and the current SMS/RCS implementation and evidence gaps. Local
+validation passed for the explicit 18-file public list, JSON, relative references,
+version consistency, skill structure and targeted private-pattern screening. An
+independent maintainer reviewed all changed files and the new reference. Remote
+publication must still be verified before another owner request. No new model application scenario, runtime suite, provider call or live
+acceptance test is claimed by this documentation validation. Earlier validation
+and test counts remain historical evidence for their stated versions.
