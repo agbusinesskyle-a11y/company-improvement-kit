@@ -77,5 +77,6 @@ approval and same-card terminal closure; no SMS alert was prepared or sent.
 New-version genuine GPT-6 planning and all five hosted artifact bytes are verified.
 Its Grok CLI review completed with acceptance, but the original harness failed
 a verdict-marker formatting check. Supplemental verification passed, preserving
-that original failure, and acceptance is recorded. Live SMS delivery is unproven. See
+that original failure, and acceptance is recorded. The supervised reminder was
+delivered and the owner approved in Slack; this does not prove unattended operation. See
 [current status](../../../docs/status.md) for the separate milestones. This public skill ships no configuration installer or runtime.

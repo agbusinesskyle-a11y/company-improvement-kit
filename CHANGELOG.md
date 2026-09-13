@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.7 — 2026-09-12
 
+- Complete the supervised SMS-reminder-to-Slack test: one delivered reminder, owner-confirmed link, actual Slack approval, same-card terminal update and one held issue operation. Revoke the temporary SMS test key. No application change, build, release or SMS approval authority is claimed.
+
 - Prepare the next pre-owner checkpoint: deploy corrected versioned trusted context
   on all three services with the same reviewed runtime, retain the prior frozen
   package/history, and create a new planning revision through the normal API.

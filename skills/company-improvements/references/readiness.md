@@ -47,7 +47,9 @@ hosted artifact bytes match the canonical package. Genuine Grok CLI completed
 with acceptance and zero blocking findings. Its original harness failed on a
 verdict-marker line-boundary check; supplemental verification of its unchanged
 evidence passed and acceptance is recorded. The normal API reports ready for owner
-approval. Do not relabel the failed harness or borrow earlier review evidence.
+approval. The subsequent supervised test delivered one reminder, recorded the
+owner's Slack approval and closed the same card. Do not relabel the failed harness
+or borrow earlier review evidence.
 Earlier Slack approval does not approve this new version. Verify the updated
 public checkpoint before its owner card, and bind the commit to the exact private
 version/package. Context recovery, SMS delivery and owner approval are separate

@@ -5,6 +5,24 @@ Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
 
+## 2026-09-12 — alpha.7 Slack approval with SMS reminder passed
+
+**The supervised synthetic test passed.** One ordinary SMS attention reminder was
+delivered. The owner confirmed that its link opened the intended Slack card and
+approved through Slack. The same message now shows Approved with its decision
+controls removed. The recorded decision created one held issue operation; no
+issue execution, application change, build or release followed.
+
+The complete frozen plan was readable in Slack. Before/after evidence binds the
+single send and actual owner decision to the same request version, package and
+message, preserving earlier history. The temporary SMS test key is revoked.
+SMS remains notification only; it cannot approve anything.
+
+This proves the supervised reminder-to-Slack approval lane. Native bot intake,
+unattended orchestration and the full issue/build/release workflow remain unproven.
+The public package remains a documentation skill preview without a runtime or
+installer. The prior checkpoint below records the state before this owner decision.
+
 ## 2026-09-12 — alpha.7 trusted-context revision, before the next owner request
 
 **Corrected trusted context is deployed and normal revision has created a new

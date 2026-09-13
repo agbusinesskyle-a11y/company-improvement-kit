@@ -200,11 +200,9 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "trusted_context_revision_review_accepted_before_owner",
-    "publication_phase": "before_fresh_owner_card",
-    "publication_must_precede_next_owner_request": true,
-    "new_package_planning_and_review_verified": true,
-    "prior_owner_approval_applies_to_new_revision": false
+    "milestone": "slack_approval_with_SMS_attention_reminder_passed",
+    "publication_phase": "post_decision",
+    "full_workflow_ready": false
   },
   "sms_delivery_follow_up": {
     "date": "2026-09-12",
@@ -543,15 +541,15 @@
     "hosted_artifact_bytes_verified": true,
     "operational_review": "accepted_after_supplemental_original_evidence_verification",
     "operational_review_recorded": true,
-    "new_owner_card_posted": false,
-    "sms_alert_sent": false,
-    "sms_delivery_verified": false,
-    "new_owner_decision_verified": false,
+    "new_owner_card_posted": true,
+    "sms_alert_sent": true,
+    "sms_delivery_verified": true,
+    "new_owner_decision_verified": true,
     "prior_owner_approval_transfers": false,
     "new_runtime_tests_claimed": false,
     "automatic_context_migration": false,
     "public_runtime_shipped": false,
-    "next_gate": "verified_public_checkpoint_then_fresh_owner_card_and_one_eligible_SMS_alert",
+    "next_gate": "native_bot_intake_and_unattended_workflow_proof",
     "reusable_policy_guidance_avoids_request_specific_markers": true,
     "fixture_correction_scope": "permit_authorized_synthetic_retest_source_and_normal_revisions; not a claim that the fixture has no request_specific_markers",
     "verified_planning_artifact_count": 5,
@@ -565,6 +563,17 @@
     "model_rerun_for_supplemental_verification": false,
     "original_review_outputs_and_failed_result_preserved": true,
     "prior_teardown_model_reporting_failure_is_separate": true,
-    "coordinator_request_state": "ready_for_approval"
+    "coordinator_request_state": "ready_for_approval",
+    "live_result": {
+      "SMS_creation_attempts": 1,
+      "SMS_status": "delivered",
+      "mobile_link_opened_correct_card": "owner_confirmed",
+      "owner_decision": "APPROVE",
+      "same_card_terminal": "approved_controls_removed",
+      "held_issues_pending": 1,
+      "downstream_execution": false,
+      "historical_records_preserved": true,
+      "temporary_SMS_key_revoked": true
+    }
   }
 }
