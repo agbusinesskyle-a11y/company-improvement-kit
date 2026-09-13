@@ -114,3 +114,8 @@ is a source-channel member. Verify healthy worker status plus rejected anonymous
 and accepted scoped API reads. These checks do not prove native response delivery.
 A deployment restart may reuse older startup metadata; verify the actual running
 entry point after changing the service configuration.
+
+While every reply requires the trigger prefix, each interview question must tell
+the requester to reply in the same thread starting with that prefix. Plain replies
+are not ingested by this version; do not describe silence as a model failure or
+fabricate a source event to recover them.

@@ -25,8 +25,10 @@ access returned 401; the scoped credential returned 200 with an empty inbox.
 The existing native bot routine has been updated and its saved instructions
 read back. The bot reported HTTP 200 with an empty inbox using its limited key.
 It submits questions/drafts through the scoped API, with no direct Slack posts or
-typed-decision authority. A genuine suggestion-to-bot-to-Slack round trip and
-requester confirmation remain unproven. Only one configured proof
+typed-decision authority. The first real suggestion was saved, the native bot
+submitted a question, and the service published it in the originating Slack thread.
+An unprefixed human answer was not ingested, exposing a reply-guidance gap.
+A multi-turn interview and requester confirmation remain unproven. Only one configured proof
 requester is enabled. Hosted source hashes were not independently compared;
 staged source and the offline wheel were verified. The public kit still contains
 documentation only.
