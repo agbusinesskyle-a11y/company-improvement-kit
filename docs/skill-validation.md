@@ -1,3 +1,14 @@
+# Alpha.13 documentation validation — 2026-09-13
+
+The maintainer reviewed the explicit twenty-file public export. JSON, relative
+links, current version, skill frontmatter, whitespace and targeted private-identifier
+screening passed. Independent changed-content review found no privacy or readiness
+claim blockers. No independent application, clean installation or live provider/model
+test was run. The 28 new targeted source tests are separate private implementation
+evidence; the previous 84 reminder/discovery tests were not repeated. Alpha.12
+validation remains historical below. Remote publication is verified in the private
+approval checkpoint before requesting activation.
+
 # Alpha.12 validation — 2026-09-13
 
 The maintainer reviewed the explicit twenty-file public export. JSON, relative

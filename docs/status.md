@@ -1,6 +1,36 @@
 # Milestones and known limits
 
-## 2026-09-13 — alpha.12 discovery preparation completed
+## 2026-09-13 — alpha.13 independent SMS attention routing candidate
+
+A new private source candidate separates SMS attention routing from the frozen
+planning registry. A private routing document binds the existing project, registry
+digest and owner to the authorized SMS account, sender and destination. Each new
+routed alert freezes that delivery binding and its hash. Additive migration 010 preserves
+historical deliveries and makes the new hash immutable. No registry, frozen plan,
+approval or discovery binding is rewritten to configure notification delivery.
+
+Twenty-eight new targeted source tests passed. Independent source review found no
+remaining blockers, and the built wheel matches all 43 Python/SQL source files.
+The earlier 84 reminder/discovery tests and completed live proofs were not repeated.
+Deployment, migration and routing/credential activation remain pending. Upgrade
+every reminder dispatcher, including operator CLIs,
+before enabling the new routing. Disabled hosted reminders remain inert.
+
+The deployed reminder remains disabled pending the reviewed routing upgrade and
+valid persistent sender credentials. Approved deployment-platform secret variables
+are supported; an external password manager is optional. Creating a new restricted
+provider key requires explicit authorization for that creation and scope. Earlier
+permission to use existing credentials does not supply it.
+
+The completed discovery ledger below remains intact, with unresolved findings
+blocking continuation and issue execution held. No reminder send, model run or
+application release is claimed for this routing candidate. The public kit remains
+documentation without a runtime or installer.
+
+## 2026-09-13 — alpha.12 discovery preparation completed (historical milestone)
+
+The completed discovery result remains valid. Its credential prerequisite statement
+preceded the separate routing candidate described above.
 
 The explicitly authorized discovery migration and preparation completed against
 the deployed private workflow. The first findings revision matches the approved
@@ -147,7 +177,7 @@ and an automatic presentation/handoff worker. Terminal button updates and automa
 uncertain-send recovery remain unfinished. The public package is documentation only.
 
 
-Skill preview: **0.1.0-alpha.12**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.13**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.

@@ -62,10 +62,17 @@ It also provides an operator-controlled discovery ledger and a fresh planning
 continuation. Compatible coordinator and integrated Slack code has been deployed
 and verified in the private installation. Explicit discovery migration and the first
 findings revision are recorded; unresolved findings keep continuation blocked.
-Reminders remain disabled pending authorized secret-store access and persistent
-sender configuration. Assess these states separately: verify installed source and
-existing service commands, reconcile cards and permanent outbox attempts before
-enabling reminders, and verify the exact discovery bindings and findings hash before
+The deployed reminder remains disabled pending the reviewed independent SMS routing
+candidate and valid persistent credentials. Configure attention delivery through
+the separately bound routing document; do not repair sender fields by rewriting a
+registry digest attached to existing approvals or discovery. Upgrade every reminder
+dispatcher and operator CLI and apply its additive migration before enabling routing.
+The runtime accepts approved deployment-platform secret variables; an external
+password manager is optional. Creating a new restricted provider key requires
+explicit authorization for key creation and scope; permission to use an existing
+key does not authorize a new one. Assess these states separately: verify installed
+source and normal service commands, reconcile cards and permanent outbox attempts
+before enabling reminders, and verify discovery bindings and findings before
 continuing planning. Preserve original approved packages and require fresh review
 and owner decisions for successors. When operator access is explicitly temporary,
 revoke it and verify cleanup after the authorized operation. A prepared discovery

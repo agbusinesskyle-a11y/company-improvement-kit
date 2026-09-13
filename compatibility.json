@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.12",
+  "skill_version": "0.1.0-alpha.13",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,6 +37,16 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
+    "current_version": "0.1.0-alpha.13",
+    "structure": "passed",
+    "public_file_review": "passed; explicit twenty-file export, JSON, links, version, frontmatter, whitespace and targeted privacy screen; independent changed-content review",
+    "independent_application": "not_run_for_alpha_13",
+    "public_file_count": 20,
+    "summary": "docs/skill-validation.md",
+    "new_documentation_tests_run": false,
+    "new_documentation_metadata_checks": "passed"
+  },
+  "alpha_12_skill_validation": {
     "current_version": "0.1.0-alpha.12",
     "structure": "passed",
     "public_file_review": "passed; independent changed-content privacy/claims review plus explicit twenty-file local screen",
@@ -774,7 +784,12 @@
       "original_issue_operation": "held"
     },
     "reminder_worker_enabled": false,
-    "persistent_sender_configuration": "awaiting_authorized_secret_store_sign_in",
+    "persistent_sender_configuration": "awaiting_reviewed_independent_routing_upgrade_and_valid_credentials",
+    "runtime_credential_storage": {
+      "interface": "environment_variables",
+      "deployment_platform_secret_variables_supported": true,
+      "external_password_manager_required": false
+    },
     "discovery_schema_applied": true,
     "live_discovery_record_created": true,
     "discovery_record": {
@@ -816,5 +831,38 @@
     },
     "implementation_revision": "ea0412f1a678acbaa31b3ab70812b2a7b4f4449c",
     "independent_source_review": "no_remaining_blockers_after_three_targeted_repairs"
+  },
+  "sms_attention_routing_candidate": {
+    "date": "2026-09-13",
+    "skill_version": "0.1.0-alpha.13",
+    "status": "source_verified_pending_activation",
+    "reference": "skills/company-improvements/references/post-approval.md",
+    "routing_environment_key": "COMPANY_IMPROVEMENTS_SMS_ATTENTION_JSON",
+    "routing_bound_to_existing_project_registry_digest_and_owner": true,
+    "planning_registry_and_frozen_approval_unchanged": true,
+    "delivery_account_sender_destination_and_hash_frozen": true,
+    "additive_immutable_migration": "010_sms_attention_routing.sql",
+    "legacy_rows_retain_null_binding_hash": true,
+    "historical_status_and_reconcile_use_original_envelope": true,
+    "disabled_host_does_not_parse_routing_or_read_provider_credentials": true,
+    "malformed_or_mismatched_routing_falls_back": false,
+    "all_reminder_dispatchers_and_operator_clis_must_upgrade_before_enablement": true,
+    "new_restricted_key_creation_requires_explicit_authorization": true,
+    "external_password_manager_required": false,
+    "deployment_platform_secret_variables_supported": true,
+    "hosted_activation": false,
+    "reminder_worker_enabled": false,
+    "targeted_source_tests": {
+      "passed": 28,
+      "scope": "new routing tests only",
+      "prior_84_reminder_discovery_tests_repeated": false,
+      "new_live_provider_or_model_tests": false
+    },
+    "public_runtime_shipped": false,
+    "candidate_review_and_activation_checkpoint": "source_review_complete_owner_activation_pending",
+    "implementation_revision": "af1dfeb072495b2bb4d5647e02e3eebd07b0c329",
+    "independent_source_review": "no_remaining_blockers",
+    "wheel_source_file_count": 43,
+    "wheel_matches_source": true
   }
 }

@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.0-alpha.13 — 2026-09-13
+
+- Add a private SMS attention routing candidate bound to the existing project,
+  registry digest and owner, without changing frozen planning or approval policy.
+  Freeze delivery identity and its hash in new routed alerts through additive SQL 010;
+  preserve historical envelopes for status and reconciliation.
+- Record 28 new targeted source tests, independent source review without remaining
+  blockers, and a wheel matching all 43 Python/SQL files. Earlier 84 reminder/discovery
+  tests and live proofs were not repeated. Hosted activation remains pending.
+- Require every reminder dispatcher and operator CLI to be upgraded before routing
+  is enabled. The deployed reminder stays disabled pending reviewed routing and
+  valid credentials; disabled hosting does not read routing or provider credentials.
+- Support approved deployment-platform secret variables without requiring an
+  external password manager. New restricted-key creation requires explicit
+  authorization beyond permission to use an existing credential.
+
 ## 0.1.0-alpha.12 — 2026-09-13
 
 - Complete the explicitly authorized discovery migration and first findings

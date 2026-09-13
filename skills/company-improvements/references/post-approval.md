@@ -1,22 +1,54 @@
 # Reminders and discovery after planning approval
 
-The private coordinator and integrated Slack service have been deployed with their
-installed source verified against the approved candidate. Explicit discovery
-migration and the first findings revision are recorded, with original approval and
+The alpha.12 private coordinator and integrated Slack service have been deployed
+with their installed source verified against that approved candidate. Explicit
+discovery migration and the first findings revision are recorded, with original approval and
 history unchanged. Required findings remain unresolved and no continuation is queued.
-Reminders remain disabled pending authorized secret-store sign-in and persistent
-sender configuration. Track hosted code, reminder enablement, recorded discovery
-and readiness to continue planning separately. The public kit is documentation.
+The alpha.13 independent SMS routing change is a separate source candidate.
+Reminders remain disabled pending approved compatible deployment/migration,
+verified delivery routing and valid persistent credentials. Track hosted code,
+reminder enablement, recorded discovery and readiness to continue planning separately.
+The public kit is documentation.
 
 ## Resume the existing reminder path
 
 The integrated host can explicitly enable `COMPANY_IMPROVEMENTS_REMINDERS=enabled`.
 Absent or `disabled` leaves the worker off. Configure the existing Slack identity
 and `TWILIO_ACCOUNT_SID`, `TWILIO_API_KEY_SID`, `TWILIO_API_KEY_SECRET` through the
-installation's authorized secret store. The account must match the selected
-Slack-only profile. Do not reuse revoked test credentials or alter the registry
-digest merely to enable the worker. The host uses its intake project; other
+installation's approved secret store or deployment-platform secret variables.
+The runtime reads environment variables and does not depend on an external password
+manager. Use the installation's authorized credential storage; an empty variable
+does not establish access to a persistent key. The credential account must match
+the selected delivery binding. Do not reuse revoked test credentials or alter the
+registry digest merely to enable the worker. The host uses its intake project; other
 profiles are not swept automatically.
+
+For the alpha.13 candidate, `COMPANY_IMPROVEMENTS_SMS_ATTENTION_JSON` supplies the
+separate private delivery binding. It is bounded, duplicate-free JSON with exactly
+`schema_version` (1), `project`, `registry_digest`, `owner_id`, `twilio_account_sid`,
+`sms_sender` and `owner_phone`. Its project, full registry digest and owner must
+match the current Slack-only planning profile. The SMS account, sender and owner
+destination must be verified for the installation. Do not publish filled values.
+
+Absent routing retains the legacy registry-derived path. Malformed or mismatched
+routing fails closed rather than falling back. Disabled hosted reminders return
+before parsing routing or reading provider credentials. Once enabled, preparation
+and dispatch validate the binding and freeze the actual account/addresses plus a
+`delivery_binding_hash` in each new routed alert. A changed binding cannot silently
+retarget a prepared alert. Historical status and reconciliation use its original
+stored delivery envelope.
+
+Additive SQL 010 adds the immutable binding hash through the normal coordinator
+migration command; existing rows retain their legacy null hash. Upgrade every
+reminder dispatcher, including hosted workers and operator CLIs, before enabling
+separate routing. Do not mix old dispatchers with new bound alerts or roll back to
+dispatchers that do not understand the binding. Preserve normal service lifecycle
+commands and existing pending/attempt history.
+
+If a new restricted provider key is needed, obtain explicit authorization for key
+creation and its exact scope. An earlier activation that permits only existing
+credentials does not authorize creating another key. Review and publish the routing
+candidate and bind its exact activation scope before requesting that new authority.
 
 The worker reads committed posted cards, verifies the Slack permalink, and uses
 the existing SMS outbox preparation and permanent send reservation. This recovers
