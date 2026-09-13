@@ -1,19 +1,20 @@
 # Installation and stable-release readiness
 
-Current public package: skill/documentation preview 0.1.0-alpha.5. The separate
-private implementation has a supervised planning and Slack owner proof. A later
-paired synthetic Slack card was posted and its matching SMS receipt reports
-delivery; the actual owner decision and SMS-to-Slack terminal closure are not
-verified. That proof is incomplete.
+Current public package: skill/documentation preview 0.1.0-alpha.6. The selected
+path is [Slack review and decisions with SMS alerts](message-first.md). The owner
+reviews the detailed frozen proposal in Slack without mandatory private repository
+login. An SMS links to that card and has no approval authority. The alert-only
+adapter is not implemented or live-tested. Verify Slack content, card-before-text
+ordering, duplicate/resolved suppression and same-card closure before claiming it
+works. RCS sender/fees setup is not being pursued.
 
-The current SMS interface requires a private plan URL and long exact text command.
-A private repository link is not guaranteed to open directly in the intended mobile app from Messages or without sign-in.
-[Message-first approval](message-first.md) is a feasibility target: detailed
-frozen message rendering, short commands, an RCS adapter and automatic listening
-are not implemented. Phone business settings alone prove neither sender setup nor
-working buttons; provider terms/fees/registration do not approve an application plan.
-Runtime/adapters and an installer are not shipped. Independent clean installation
-and full live acceptance have not run. No stable release exists.
+A separate earlier supervised planning/Slack owner proof passed. A later paired
+card was posted and its matching SMS receipt reports delivery, but the actual
+owner decision and SMS-to-Slack terminal closure are unverified. That proof remains
+incomplete. The test was cancelled through the normal API with its frozen package
+retained; cancellation is not approval and scoped cleanup is verified.
+Runtime/adapters and an installer are not shipped. Independent clean installation and full live acceptance
+have not run. No stable release exists.
 
 Read [status](../../../docs/status.md), [compatibility](../../../compatibility.json)
 and [approval checkpoints](approval-checkpoints.md). Publication is currently an

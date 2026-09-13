@@ -65,7 +65,7 @@ of this documentation preparation. The maintainer verifies the final public snap
 before publication is considered complete; earlier alpha.1/alpha.3 evaluations are not
 relabeled as fresh alpha.4 evidence.
 
-## Alpha.5 message-first feasibility
+## Alpha.5 message-first feasibility (historical validation)
 
 This documentation update separates observed paired delivery from the unverified
 owner decision and terminal closure. It records the desired message-first
@@ -76,3 +76,14 @@ independent maintainer reviewed all changed files and the new reference. Remote
 publication must still be verified before another owner request. No new model application scenario, runtime suite, provider call or live
 acceptance test is claimed by this documentation validation. Earlier validation
 and test counts remain historical evidence for their stated versions.
+
+## Alpha.6 Slack decisions with SMS alerts
+
+This documentation update makes Slack the selected review/decision surface and
+SMS a notification only. Local checks passed for the 18-file public allowlist, JSON,
+relative links, version consistency, skill structure and targeted privacy
+screening. Independent maintainer content review is complete. Remote public
+verification is required before publication is considered complete. No new model application,
+runtime test or live alert-adapter proof is claimed. Prior validation remains tied
+to its recorded version. The incomplete paired proof and its normal API
+cancellation are distinct from owner approval; scoped cleanup is verified.

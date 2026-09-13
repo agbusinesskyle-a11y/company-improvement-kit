@@ -21,14 +21,15 @@ of a public publication receipt are not implemented.
 5. Copy [the checkpoint template](../../../templates/approval-checkpoint.json) into
    private operator storage. Fill milestone, skill version, public commit/file hashes,
    implementation revision, validation evidence and the exact private request,
-   package/version and scope. Confirm owner access to the separate private plan;
-   a private repository URL does not establish direct opening in the intended mobile app from Messages or sign-in-free access.
-   Any future in-message presentation must be verified against that exact frozen
-   package through its implemented adapter.
+   package/version and scope. For the selected Slack path, verify that the owner
+   can review the detailed frozen change order in Slack without a mandatory
+   private repository login. Match that presentation to the exact private package;
+   keep supporting artifacts private.
    Never publish the filled record in this public repository.
 6. Once the checkpoint is complete, present the real owner approval through its
-   verified provider. Include the reusable snapshot link alongside the private plan
-   when supported, or in the accompanying update. The coordinator validates the
+   verified provider. Post and verify the Slack card before any SMS alert; SMS
+   supplies a link and no decision authority. Include the reusable snapshot link
+   in the card or accompanying update when supported. The coordinator validates the
    owner's actual decision; publication is not an approval or deployment authority.
 
 If publication fails, keep the pre-approval checkpoint incomplete and reconcile the

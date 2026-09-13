@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.0-alpha.6 — 2026-09-12
+
+- Select Slack for detailed frozen review and owner decisions; ordinary SMS only
+  alerts the owner and links to the verified card. SMS replies cannot approve.
+- Require verified card posting before texting, duplicate prevention, suppression
+  after resolution, and terminal closure of the same card after the Slack decision.
+  A sent SMS cannot necessarily be retracted.
+- Avoid mandatory private repository login for the owner review. The alert-only
+  adapter and its live proof are not implemented; no alert-only test pass is claimed.
+- Stop pursuing RCS sender/fees setup. Preserve alpha.5 as a historical proposal
+  and the earlier paired proof as incomplete. Its normal API cancellation retains
+  the frozen package and is not owner approval; scoped cleanup is verified.
+- Retain verified publication before each new owner request and private evidence
+  boundaries. No runtime, installer or complete workflow is shipped.
+
 ## 0.1.0-alpha.5 — 2026-09-12
 
 - Record a posted paired synthetic Slack card and matching SMS delivery from its

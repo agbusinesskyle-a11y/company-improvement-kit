@@ -1,11 +1,51 @@
 # Milestones and known limits
 
-Skill preview: **0.1.0-alpha.5**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.6**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.
 
-## 2026-09-12 — alpha.5 message-first approval feasibility
+## 2026-09-12 — alpha.6 Slack decisions with SMS alerts
+
+**Selected direction; alert-only delivery is not implemented or live-tested.**
+Keep the detailed frozen change order and owner decision in Slack. An ordinary SMS
+only calls attention to the verified Slack card and links to it. SMS replies do
+not authorize work. The owner should be able to review the proposal in Slack
+without a mandatory private repository login.
+
+Post and verify the exact Slack card before sending an alert. The future adapter
+must prevent duplicate sends and suppress an alert if the request is already
+resolved. A validated owner click records one decision and updates that same card
+to its terminal state. An SMS already sent cannot necessarily be retracted.
+These are requirements for the selected path, not claims of a completed adapter.
+
+The earlier paired synthetic Slack card was posted and its matching original SMS
+receipt reports delivery. Actual owner decision and SMS-to-Slack terminal closure
+remain unverified; that proof is incomplete. The paired phone-approval test was
+cancelled through the normal API after the workflow direction changed. Its frozen
+package is retained. Cancellation is not owner approval; scoped cleanup is verified.
+
+Retirement was checked independently: 19 bounded read-only database checks passed,
+with no owner decision or issue operation, preserved delivery/planning/history
+records, and accepted cancellation of the same Slack card. A separate Slack read
+confirmed its cancelled display without decision controls. The temporary provider
+key was revoked, the gateway stopped and stripped of its test credentials, and
+both scoped planning grants returned unauthorized after the unchanged-source
+coordinator restart. Original Slack access remained available. Local temporary
+credential copies were removed. This verifies retirement, not SMS approval.
+
+RCS and in-message phone approval are not selected. No RCS sender registration or
+fees setup is being pursued; alpha.5 remains a historical feasibility record.
+The new direction requires verified Slack review content, an alert-only adapter,
+exclusion of SMS decision authority for the new profile, and a supervised live
+acceptance check. No new runtime suite, model evaluation or live alert-only proof is claimed.
+Follow [the selected procedure](../skills/company-improvements/references/message-first.md)
+and publish/verify the public checkpoint before another owner request. No public
+runtime, installer or complete workflow is supplied.
+
+## 2026-09-12 — alpha.5 message-first feasibility (historical, not selected)
+
+**Historical proposal: phone-message approval and RCS are not the selected direction.**
 
 **Paired delivery observed; owner decision and terminal closure unverified.** A
 synthetic Slack approval card was posted, and the matching SMS original provider
@@ -173,7 +213,8 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Skill publication at approval stages | Instructions/template/progress included; operator-enforced |
 | Automatic publication/runtime checkpoint enforcement | Not implemented |
 | Unattended intake/interview/review | Supervised path proven; complete unattended handoff not proven |
-| SMS and paired Slack proof | Matching card posted and original SMS receipt delivered; actual owner decision and SMS-to-Slack terminal closure unverified |
+| Earlier paired Slack/SMS proof | Matching card posted and original SMS receipt delivered; actual owner decision and SMS-to-Slack terminal closure unverified |
+| Selected Slack decision + SMS alert path | Alert-only adapter not implemented/live-tested; detailed Slack review and duplicate/resolved suppression require verification |
 | Web or Grok owner approval | Not proven; model conversation is not authority |
 | Linear issue creation | Not implemented in coordinator |
 | Ringer application builds after issues | Not implemented in coordinator; planning invocation is insufficient |
@@ -182,9 +223,9 @@ package. [Skill validation](skill-validation.md) is recorded separately.
 | Fresh install, second organization, upgrade/recovery | Not run |
 | Stable release | Not ready |
 
-Next: assess and implement the approved message-first presentation and decision
-adapter, with appropriate credential/evidence review and real acceptance checks.
-Publish/verify its public checkpoint before another owner decision request. The
-current paired proof remains incomplete. Later implement the approved-package-to-
-Linear handoff and bounded Ringer build dispatch.
-Do not repurpose synthetic held operations as real app-change authorization.
+Next: implement and verify detailed Slack review with an alert-only SMS adapter,
+including duplicate suppression and same-card closure. Preserve the verified
+retirement of the cancelled paired test. Publish/verify the next
+checkpoint before another owner request. Later implement the approved-package-to-
+Linear handoff and bounded Ringer build dispatch. Do not repurpose synthetic held
+operations as real app-change authorization.

@@ -1,19 +1,14 @@
-# Test the SMS approval lane
+# Historical SMS approval procedure
 
-This runbook describes the separately implemented private coordinator. The public
-preview still ships no runtime or installer. A successful Slack test does not
-send a text or prove SMS approval. Read the current status and compatibility
-manifest before treating any step as configured or live-tested.
-
-For an existing bot interface, read [the bounded gateway reference](sms-gateway.md).
-The private gateway has reviewed code and verification. A paired synthetic Slack
-card was posted and its matching SMS original receipt reports delivery. The
-actual owner decision and SMS-to-Slack terminal closure are unverified; the proof
-is incomplete. Provider keys stay on the trusted server; the bot receives only
-one-operation gateway access. Current SMS uses a private plan URL and long exact
-text command. Read [message-first feasibility](message-first.md) for the proposed
-in-message change order and controls; no such renderer, short-command support,
-RCS adapter or automatic listener is implemented.
+**Legacy procedure, not the selected alpha.6 behavior.** The current direction is
+[Slack decisions with SMS alerts](message-first.md). SMS replies do not authorize
+work in that path; its alert-only adapter is not implemented or live-tested.
+The instructions below preserve earlier SMS-decision work, not a request to use
+it for the next approval. Its paired proof posted a card and delivered a matching
+SMS; actual owner decision and SMS-to-Slack closure remain unverified. The test
+was cancelled through the normal API with its frozen package retained; cancellation
+is not owner approval and scoped cleanup is verified. The public
+preview ships no runtime or installer.
 
 ## Ready before sending
 

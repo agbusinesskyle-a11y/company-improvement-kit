@@ -1,14 +1,17 @@
-# Bounded gateway for an existing SMS bot
+# Historical bounded SMS approval gateway
 
-**Alpha.5, 2026-09-12: message-first feasibility.** Private gateway code has
-completed repair, review and verification. A paired synthetic Slack card was
-posted and its matching SMS original receipt reports delivery. Actual owner
-decision and SMS-to-Slack terminal closure are not verified; this proof is incomplete.
-The current gateway validates the full SMS command. It does not implement the
-[proposed message-first renderer, short commands or RCS adapter](message-first.md).
-The public kit supplies neither this runtime nor an installer. Check
-[current status](../../../docs/status.md) and [compatibility](../../../compatibility.json)
-before using it. Earlier milestones retain their own historical evidence.
+**Earlier implemented capability, not an alert-only adapter.** The selected
+alpha.6 direction is [Slack decisions with SMS alerts](message-first.md). This
+legacy gateway can validate SMS approval commands; its ingress must not supply
+owner authority for the new profile. That exclusion and a separate alert-only
+adapter require implementation and verification before use.
+
+The earlier paired card/SMS delivery does not verify an owner decision or terminal
+closure. The test was cancelled through the normal API with its frozen package
+retained; cancellation is not approval and scoped cleanup is verified.
+The remaining reference preserves the earlier interface and trust boundaries. Check
+[current status](../../../docs/status.md) and [compatibility](../../../compatibility.json).
+The public preview ships no runtime or installer.
 
 ## Credentials and authority
 

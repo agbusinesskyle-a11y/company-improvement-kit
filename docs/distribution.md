@@ -10,7 +10,8 @@ limits; installable and stable releases require separate executed evidence.
 | Durable planning and Slack owner approval | Implemented and supervised proof passed privately; runtime not shipped here |
 | Bounded gateway for existing SMS bot | Private repair/review/tests complete; paired SMS original receipt reports delivery; runtime not shipped |
 | Same-request Slack/SMS decision and terminal card update | Paired card posted and matching SMS delivered; actual owner decision and terminal closure unverified |
-| Message-first change order and Approve/Disapprove | Feasibility target; detailed renderer, short commands and RCS adapter not implemented |
+| Slack review/decision with SMS alerts | Selected direction; detailed Slack presentation and alert-only adapter require implementation/verification |
+| Phone-message approval and RCS | Alpha.5 historical proposal, not selected; sender/fees setup not pursued |
 | General automatic approval fanout and inbound listening | Not implemented/proven by this preview |
 | Approved package → reconciled Linear issues → bounded Ringer build | Not implemented in coordinator |
 | Independent application review → fixed-target release → live verification | Not implemented end to end |

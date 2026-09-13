@@ -40,23 +40,22 @@ creation held. Steps 5–7 require future verified adapters and appropriate scop
 6. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
 7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
 
-For SMS, use [the SMS runbook](references/sms-approval.md) and
-[bounded gateway reference](references/sms-gateway.md). The bot receives only an
-expiring token for one prepared operation and may supply a selected Message SID
-as a locator. The trusted gateway keeps provider credentials and independently
-fetches original evidence; bot text cannot approve. A paired synthetic Slack card
-was posted and its matching SMS delivered. The actual owner decision and
-SMS-to-Slack terminal closure are not verified; delivery is not approval.
+The selected direction is [Slack review and decisions with SMS alerts](references/message-first.md).
+Put the detailed frozen change order and decision controls in Slack; do not require
+a private repository login for the owner's review. SMS only says that an approval
+needs attention and links to the verified Slack card. SMS replies, bot prose and
+provider delivery receipts cannot authorize work. Post and verify the card before
+texting; suppress a resolved request's alert and prevent duplicate sends. The
+owner's validated Slack click records the decision and closes that same card. A
+sent SMS cannot necessarily be retracted.
 
-Read [message-first approval](references/message-first.md) before proposing an
-in-message change order or Approve/Disapprove controls. This is a feasibility
-milestone, not an implemented interface. Current SMS needs a private plan link and
-long exact command; verify real owner access rather than assuming direct opening in the intended mobile app from Messages or
-sign-in-free access. RCS needs a new evidence/credential review and verified
-adapter. Hidden quick-reply metadata is not documented in Message GET; an
-alternative visible request-code/body path needs an actual provider sample before
-support can be claimed. Phone settings, provider registration, terms and fees are separate
-setup matters and do not authorize an application plan. Publish/verify the next
+This alert-only adapter and its live proof are not implemented. Verify the complete
+presentation and delivery/decision path before using it. RCS sender/fees setup is
+not being pursued. The [legacy SMS approval procedure](references/sms-approval.md)
+and [gateway](references/sms-gateway.md) describe earlier work, not the selected
+alert-only behavior. The earlier paired test was cancelled through the normal API
+without proving an SMS-origin owner decision; its frozen package is retained and
+scoped cleanup is verified. Publish/verify the next
 checkpoint before requesting a new decision. No automatic listener or public
 runtime is supplied.
 

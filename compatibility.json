@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.5",
+  "skill_version": "0.1.0-alpha.6",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,42 +37,60 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.5",
+    "current_version": "0.1.0-alpha.6",
     "structure": "passed",
-    "public_file_review": "passed; independent maintainer content review and targeted screening",
-    "independent_application": "not_run_for_alpha_5",
+    "public_file_review": "passed; independent maintainer review and targeted screening",
+    "independent_application": "not_run_for_alpha_6",
     "public_file_count": 18,
     "summary": "docs/skill-validation.md",
     "prior_evidence": {
-      "current_version": "0.1.0-alpha.4",
+      "current_version": "0.1.0-alpha.5",
       "structure": "passed",
-      "public_file_review": "passed",
-      "independent_application": "not_run_for_alpha_4",
+      "public_file_review": "passed; independent maintainer content review and targeted screening",
+      "independent_application": "not_run_for_alpha_5",
+      "public_file_count": 18,
+      "summary": "docs/skill-validation.md",
       "prior_evidence": {
-        "current_version": "0.1.0-alpha.3",
+        "current_version": "0.1.0-alpha.4",
         "structure": "passed",
         "public_file_review": "passed",
-        "independent_application": "not_run_for_alpha_3",
+        "independent_application": "not_run_for_alpha_4",
         "prior_evidence": {
-          "date": "2026-09-12",
+          "current_version": "0.1.0-alpha.3",
           "structure": "passed",
-          "independent_application_scenarios": 1,
-          "revised_application": "passed",
           "public_file_review": "passed",
-          "summary": "docs/skill-validation.md"
-        },
-        "summary": "docs/skill-validation.md",
-        "manual_walkthrough": {
-          "scenarios": 2,
-          "reviewer": "same_author",
-          "result": "no_additional_documentation_blocker",
-          "fresh_evaluator_model_run": false
+          "independent_application": "not_run_for_alpha_3",
+          "prior_evidence": {
+            "date": "2026-09-12",
+            "structure": "passed",
+            "independent_application_scenarios": 1,
+            "revised_application": "passed",
+            "public_file_review": "passed",
+            "summary": "docs/skill-validation.md"
+          },
+          "summary": "docs/skill-validation.md",
+          "manual_walkthrough": {
+            "scenarios": 2,
+            "reviewer": "same_author",
+            "result": "no_additional_documentation_blocker",
+            "fresh_evaluator_model_run": false
+          },
+          "public_file_count": 17,
+          "validation_date": "2026-09-12"
         },
         "public_file_count": 17,
+        "summary": "docs/skill-validation.md",
         "validation_date": "2026-09-12"
       },
-      "public_file_count": 17,
-      "summary": "docs/skill-validation.md",
+      "local_checks": {
+        "explicit_public_file_list": 18,
+        "json": "passed",
+        "relative_links_and_anchors": "passed",
+        "version_consistency": "passed",
+        "basic_skill_frontmatter": "passed",
+        "targeted_private_pattern_scan": "passed",
+        "model_or_runtime_tests_run_for_this_update": false
+      },
       "validation_date": "2026-09-12"
     },
     "local_checks": {
@@ -82,6 +100,7 @@
       "version_consistency": "passed",
       "basic_skill_frontmatter": "passed",
       "targeted_private_pattern_scan": "passed",
+      "historical_status_changelog_and_paired_evidence": "alpha.5 and earlier preserved; normal API cancellation recorded separately",
       "model_or_runtime_tests_run_for_this_update": false
     },
     "validation_date": "2026-09-12"
@@ -161,7 +180,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "message_first_approval_feasibility",
+    "milestone": "slack_decisions_sms_alerts_direction",
     "publication_must_precede_next_owner_request": true
   },
   "sms_delivery_follow_up": {
@@ -212,6 +231,11 @@
       "date": "2026-09-12",
       "milestone": "paired_slack_sms_pre_approval",
       "publication_precedes_outbox_preparation_and_both_owner_requests": true
+    },
+    {
+      "date": "2026-09-12",
+      "milestone": "message_first_approval_feasibility",
+      "publication_must_precede_next_owner_request": true
     }
   ],
   "paired_approval_observation": {
@@ -244,6 +268,48 @@
       "signature_verified_original_webhook",
       "visible_opaque_request_code_in_original_Message_GET_Body_if_real_provider_sample_proves_preservation"
     ],
-    "rcs_evidence_candidates_verified": false
+    "rcs_evidence_candidates_verified": false,
+    "historical_snapshot": "alpha.5 phone-message/RCS proposal; not selected in alpha.6"
+  },
+  "slack_decisions_sms_alerts": {
+    "date": "2026-09-12",
+    "selection": "current_working_direction",
+    "canonical_review_and_decision_surface": "Slack",
+    "sms_role": "attention_alert_with_verified_Slack_card_link_only",
+    "sms_reply_authority": false,
+    "mandatory_private_repository_login_for_owner_review": false,
+    "detailed_frozen_Slack_review_required": true,
+    "alert_only_adapter_implemented": false,
+    "alert_only_adapter_live_tested": false,
+    "required_delivery_order": [
+      "verify_frozen_review_content_and_public_checkpoint",
+      "post_and_verify_Slack_card",
+      "recheck_unresolved_request_and_prevent_duplicate_alert",
+      "send_SMS_alert_at_most_once",
+      "validate_owner_Slack_decision_and_close_same_card"
+    ],
+    "suppress_alert_if_already_resolved": true,
+    "sent_SMS_retraction_guaranteed": false,
+    "legacy_SMS_decision_authority_must_be_excluded_before_use": true,
+    "rcs_sender_and_fees_setup_pursued": false,
+    "reference": "skills/company-improvements/references/message-first.md",
+    "paired_test_cancelled_through_normal_api": true
+  },
+  "paired_approval_cancellation": {
+    "date": "2026-09-12",
+    "normal_api_cancellation_verified": true,
+    "state": "cancelled",
+    "frozen_package_retained": true,
+    "cancellation_is_owner_approval": false,
+    "sms_origin_owner_decision_proven": false,
+    "final_cleanup_verified": true,
+    "summary": "docs/status.md",
+    "read_only_database_checks_passed": 19,
+    "cancelled_slack_card_verified": true,
+    "temporary_provider_key_revoked": true,
+    "test_gateway_removed": true,
+    "scoped_planning_grants_revoked": true,
+    "local_temporary_credentials_removed": true,
+    "original_slack_access_preserved": true
   }
 }
