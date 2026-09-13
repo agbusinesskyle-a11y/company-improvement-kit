@@ -95,3 +95,10 @@ from owner approval to build. Require genuine signed interaction evidence and a
 verified current presentation. Never synthesize an inbox message or automatically
 repost an ambiguous send. Complete shared interactivity routing before activation;
 see [the adapter boundary](references/slack-intake.md).
+
+
+For integrated interview operation, give the conversation bot only the separate
+project-bound read/response token. Run publication and planning handoff through
+the trusted cycle. Replace the old direct-posting routine during cutover; never
+run two responders or accept typed approvals as a substitute for the owner card.
+Verify hosted routing and a native response separately from source tests.

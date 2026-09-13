@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.10",
+  "skill_version": "0.1.0-alpha.11",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -681,5 +681,24 @@
       "terminal_button_updates",
       "uncertain_send_reconciliation"
     ]
+  },
+  "interview_bridge_candidate": {
+    "status": "source_verified_not_activated",
+    "private_source_revision": "aba77e0ac33faf1515f4e31d5c143309a35a6b49",
+    "tests": {
+      "passed": 156,
+      "kind": "disposable PostgreSQL and synthetic Slack including owner receiver regressions"
+    },
+    "shared_interactivity_route": true,
+    "project_bound_bot_api": true,
+    "bounded_publication_handoff_cycle": true,
+    "bot_confirmation_authority": false,
+    "model_execution_in_cycle": false,
+    "live_activation": false,
+    "native_Grok_cutover": false,
+    "public_runtime_shipped": false,
+    "original_ringer_artifact_check": "failed_wrong_snapshot_directory",
+    "supplemental_artifact_reconciliation": "six_original_files_match_source",
+    "model_rerun": false
   }
 }

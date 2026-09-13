@@ -78,3 +78,32 @@ unfinished. Local tests do not prove a live connection.
 
 Provider references: [block actions](https://docs.slack.dev/reference/interaction-payloads/block_actions-payload/)
 and [message posting](https://docs.slack.dev/reference/methods/chat.postMessage/).
+
+
+## Integrated runtime and bot boundary
+
+The private integrated host now composes signed events, the existing owner
+interaction URL and the interview action handler. Existing owner actions retain
+their own validator. Interview routing preserves the original signed request
+bytes and revalidates them at the interview boundary.
+
+Give the interview bot a separate project-bound token. Its API permits listing
+interview metadata, retrieving the exact source/response snapshot and proposing
+a question or draft with an expected message count and stable event key. It
+cannot confirm, approve, publish, change source identity or invoke a build.
+Keep tokens in private configuration; never in public instructions or examples.
+
+A trusted bounded cycle publishes eligible responses and hands confirmed briefs
+to planning. It skips stale responses, completed handoffs and uncertain outbound
+reservations. Do not reset ambiguous sends to force another attempt. The cycle
+does not execute a planning model; run the separately configured planner.
+
+Before cutover, replace the native routine's direct Slack posting and typed-decision
+logic with the limited API flow. Keep one routine and preserve source restrictions.
+The inbox requires the configured exact prefix followed by whitespace and text;
+a platform substring trigger alone is insufficient. Follow-up messages must also
+use the prefix. Handle event/inbox arrival races with bounded read-only recovery.
+
+Complete the required event subscription and bot permissions, verify deployment,
+and prove a real native response before calling this connected. Restrict a proof
+to its configured requester; do not silently enable the entire staff allowlist.

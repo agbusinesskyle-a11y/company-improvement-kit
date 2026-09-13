@@ -1,5 +1,25 @@
 # Milestones and known limits
 
+## 2026-09-12 — alpha.11 integrated interview service candidate
+
+The private candidate combines signed suggestion intake, interview and owner
+callbacks at the existing interaction URL, and a limited bot read/response API.
+A bounded operator cycle publishes saved responses and submits confirmed briefs
+to the existing planning queue. The bot token cannot confirm or approve anything.
+
+The original runner artifact check failed because the snapshot was saved to a
+different directory. All six original files were reconciled against source; the
+failed record remains and no model was rerun.
+
+The host check passed 156 focused tests with disposable PostgreSQL and synthetic
+provider responses, including the original owner receiver regressions. This source
+milestone does not prove hosted activation or native Grok behavior. The planning
+model worker remains a separate process; this service does not launch models.
+
+Native routine migration, provider event permissions, deployment and the real
+round trip remain required. The public kit still contains documentation only.
+
+
 ## 2026-09-12 — alpha.10 Slack brief confirmation candidate
 
 The private adapter presents questions and complete briefs in the source Slack
@@ -17,7 +37,7 @@ and an automatic presentation/handoff worker. Terminal button updates and automa
 uncertain-send recovery remain unfinished. The public package is documentation only.
 
 
-Skill preview: **0.1.0-alpha.10**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.11**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.

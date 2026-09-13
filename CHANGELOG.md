@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.11 — 2026-09-12
+
+- Add guidance for the integrated interview service, shared Slack interaction URL,
+  project-bound bot interface and automatic publication/planning handoff cycle.
+- Keep native bot configuration, hosted activation and real provider evidence separate.
+
+
 ## 0.1.0-alpha.10 — 2026-09-12
 
 - Document private Slack brief presentation and signed requester confirmation.

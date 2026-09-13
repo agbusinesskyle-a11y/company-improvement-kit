@@ -1,5 +1,12 @@
 # Skill validation
 
+## Alpha.11 integrated interview documentation
+
+Maintainer review and the existing public-file checks cover JSON, links, current
+version, skill frontmatter, whitespace and targeted private-data exclusion.
+No new model evaluation, clean install or live provider test is claimed here.
+
+
 ## Alpha.10 Slack confirmation documentation
 
 Maintainer review and local JSON, links, version, frontmatter, whitespace and
