@@ -1,5 +1,30 @@
 # Milestones and known limits
 
+## 2026-09-13 — alpha.12 reminder and discovery source candidate
+
+The private reminder composition now discovers committed posted cards and uses the
+existing SMS outbox. An explicitly enabled worker runs separately from owner
+decisions. Terminal historical cards are excluded; permanent dispatch attempts
+cannot be reset or retried by restart. Missing sender credentials block enablement.
+
+The discovery adapter binds an exact approved planning package to append-only
+configuration findings. Resolved findings permit one fresh planning version with
+the same source and confirmed brief; prior package and owner decision remain
+intact. The successor manifest binds discovery input. Issue, build and release
+execution remain held, and fresh review and owner decision are required.
+
+Eighty-four new targeted checks passed across reminder, host configuration, discovery,
+planner context and review repairs. Tests used disposable PostgreSQL and synthetic
+providers; the previous full suites and live proofs were not repeated. Independent
+source review found three issues, now corrected: implicit status migrations, special
+file reads that could block, and revisions that discarded discovery context.
+
+This is source implementation, not hosted activation or a new live provider proof.
+The public kit still ships no runtime or installer. Production enablement requires
+the appropriate workflow-service deployment authority and persistent sender
+credentials. Automatic reviewer/revision routing and downstream execution remain
+unfinished. Completed live tests were not repeated for this candidate.
+
 ## Real application planning transition
 
 With explicit operator authorization, the private coordinator and Slack profiles
@@ -75,7 +100,7 @@ and an automatic presentation/handoff worker. Terminal button updates and automa
 uncertain-send recovery remain unfinished. The public package is documentation only.
 
 
-Skill preview: **0.1.0-alpha.11**. Full workflow ready: **no**.
+Skill preview: **0.1.0-alpha.12**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.

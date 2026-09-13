@@ -1,3 +1,12 @@
+# Alpha.12 validation — 2026-09-13
+
+The maintainer reviewed the explicit twenty-file public export. JSON, relative
+links, version consistency and targeted private-data screening passed. An
+independent review of changed public content found no privacy or readiness-claim
+blockers. This is documentation/source validation; no fresh independent install,
+agent-application test or live provider/model proof is claimed. Earlier validation
+records remain below.
+
 # Skill validation
 
 ## Alpha.11 integrated interview documentation

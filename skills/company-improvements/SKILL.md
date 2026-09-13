@@ -56,13 +56,19 @@ at reservation, suppresses a resolved request and permits one permanent send att
 An uncertain result cannot authorize a retry. The owner's validated Slack decision
 updates the same card; an already dispatched SMS cannot necessarily be retracted.
 
+The private [reminder and discovery continuation candidate](references/post-approval.md)
+connects committed owner cards to the existing outbox through an optional worker.
+It also provides an operator-controlled discovery ledger and a fresh planning
+continuation. Verify candidate activation separately from source tests. Preserve
+original approved packages and require fresh review and owner decisions for successors.
+
 The supervised reminder-to-Slack proof passed: one ordinary SMS was delivered,
 the owner confirmed that its link opened the intended card, and the native Slack
 decision updated that same card. One issue operation remains held. The earlier
 Slack-only proof and original review-check failures remain separate historical
 records; see [current status](../../docs/status.md). The temporary SMS test access
-was revoked. Permanent notification operation and unattended orchestration remain
-unfinished. Legacy profiles/history remain intact;
+was revoked. Persistent hosted sender configuration and unattended orchestration
+remain unfinished. Legacy profiles/history remain intact;
 [legacy SMS approval](references/sms-approval.md) is not selected for the Slack-only
 profile. Publish/verify the checkpoint before a new owner request.
 

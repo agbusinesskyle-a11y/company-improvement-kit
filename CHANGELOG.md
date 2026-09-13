@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.0-alpha.12 — 2026-09-13
+
+- Connect private committed-card recovery to the existing SMS outbox, with explicit
+  hosted enablement, separate worker health and permanent duplicate suppression.
+- Add a private discovery ledger bound to exact planning approval, with append-only
+  findings and one idempotent successor planning version. Original approval and
+  frozen artifacts remain intact; build and release authority remains false.
+- Bind discovery context into successor package hashes and require fresh review
+  and owner decisions. Source verification is separate from hosted activation.
+- Preserve completed provider/model proofs. Persistent sender configuration,
+  automatic review/revision routing, issue execution and release remain unfinished.
+
 ## 0.1.0-alpha.11 — 2026-09-12
 
 - Transition an explicitly authorized confirmed interview from test context to real
