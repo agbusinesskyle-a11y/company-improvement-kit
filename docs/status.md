@@ -1,6 +1,23 @@
 # Milestones and known limits
 
-Skill preview: **0.1.0-alpha.9**. Full workflow ready: **no**.
+## 2026-09-12 — alpha.10 Slack brief confirmation candidate
+
+The private adapter presents questions and complete briefs in the source Slack
+thread. A signed Confirm brief action binds the original requester to the exact
+published draft, preserving genuine callback evidence. Confirmation permits
+planning only; owner approval remains a later step.
+
+The focused host check passed 60 tests using disposable PostgreSQL and
+synthetic Slack transport. This is source verification, not live activation.
+Ambiguous sends are retained without automatic reposting. New source input or
+a newer draft invalidates the old presentation.
+
+Live activation requires shared routing with the owner receiver, the Grok bridge,
+and an automatic presentation/handoff worker. Terminal button updates and automatic
+uncertain-send recovery remain unfinished. The public package is documentation only.
+
+
+Skill preview: **0.1.0-alpha.10**. Full workflow ready: **no**.
 Public results below are maintainer attestations based on restricted records;
 private identifiers and raw evidence are not included. They are not yet independent,
 publicly reproducible integration tests.

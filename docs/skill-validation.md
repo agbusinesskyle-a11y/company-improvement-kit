@@ -1,5 +1,12 @@
 # Skill validation
 
+## Alpha.10 Slack confirmation documentation
+
+Maintainer review and local JSON, links, version, frontmatter, whitespace and
+targeted privacy checks cover this update. No new model evaluation, independent
+clean installation or live provider test is claimed.
+
+
 ## Alpha.9 interview handoff documentation
 
 This update describes the internal interview ledger and idempotent planning handoff,

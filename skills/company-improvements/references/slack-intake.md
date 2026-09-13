@@ -26,8 +26,8 @@ Slack delivery does not prove that a message attributed to a user was typed by
 a human: an integration posting with that user's token can share that identity.
 Do not treat this intake as owner approval or use a text prefix to authenticate a bot.
 
-The candidate deliberately has no model caller, outgoing Slack sender or
-planning dispatcher. A follow-up received before its root returns a retryable
+The original inbox has no model caller, outgoing Slack sender or
+planning dispatcher; later private adapters are described below. A follow-up received before its root returns a retryable
 failure; recovery after Slack exhausts retries is not implemented. Keep intake
 inactive until the supported interview bridge and recovery procedure are ready.
 Local synthetic/database tests are distinct from real Slack delivery and an
@@ -46,9 +46,9 @@ stale. Preserve the original response and confirmation history.
 
 The internal confirmation proof uses a stored original Slack message containing
 the exact draft hash. This is a transport contract for development, not the final
-staff interface. Do not ask staff to copy hashes. Native confirmation buttons,
-verified presentation and the live Grok bridge remain required before activation.
-There is no public confirmation endpoint or database credential for the bot.
+staff interface. Do not ask staff to copy hashes. Native confirmation and verified presentation now have a source implementation
+below; live integration and the Grok bridge remain required before activation.
+The bot receives no database credential or bearer-authorized confirmation route.
 
 After confirmation, freeze the source and brief in a durable handoff record.
 Submit that same payload to the coordinator with the same idempotency key on
@@ -57,3 +57,24 @@ An extra message before dispatch requires revision; a message after dispatch
 cannot rewrite the already submitted snapshot. Brief confirmation permits
 planning only. Owner approval, issue creation, building and release retain their
 separate gates.
+
+
+## Slack presentation and signed confirmation
+
+The private adapter renders all saved brief fields in plain-text blocks in the
+original thread. It reserves delivery before sending and validates the provider
+acknowledgement. Ambiguous sends must not be silently retried. Questions and
+incomplete briefs have no confirmation button.
+
+The button identifies a durable presentation. Its signed callback must match the
+original requester, configured app/workspace/channel, posted message and latest
+unchanged draft. Store real interaction evidence; never manufacture a source
+message. Confirmation freezes the same planning-only handoff used by the ledger.
+
+Compose the interview handler with the owner receiver, or configure a distinct
+Slack app, before activation. Do not replace the working owner interactivity URL.
+Native Grok integration, automatic dispatch and terminal button updates remain
+unfinished. Local tests do not prove a live connection.
+
+Provider references: [block actions](https://docs.slack.dev/reference/interaction-payloads/block_actions-payload/)
+and [message posting](https://docs.slack.dev/reference/methods/chat.postMessage/).

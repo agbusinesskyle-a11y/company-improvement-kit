@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.9 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.10 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 

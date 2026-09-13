@@ -88,3 +88,10 @@ Apply only the approved recovery procedure. Code rollback does not imply reversa
 ## Readiness claims
 
 Distinguish static skill validation, simulated adapter tests, real integration checks and full live acceptance. Do not report a manual handoff/deploy as an automated end-to-end pass. A stable release must meet [installation readiness](references/readiness.md); describe tested scope and known limitations rather than promising zero bugs.
+
+
+When using the private interview adapter, distinguish **Confirm brief for planning**
+from owner approval to build. Require genuine signed interaction evidence and a
+verified current presentation. Never synthesize an inbox message or automatically
+repost an ambiguous send. Complete shared interactivity routing before activation;
+see [the adapter boundary](references/slack-intake.md).

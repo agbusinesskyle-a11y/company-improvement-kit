@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.9",
+  "skill_version": "0.1.0-alpha.10",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -661,5 +661,25 @@
       "fresh_installed_full_suite_run": false
     },
     "review": "maintainer actual-source review and four-file snapshot comparison"
+  },
+  "interview_slack_candidate": {
+    "status": "source_verified_not_activated",
+    "private_source_revision": "348665d2073a3333e947adf4d1c0b215ba46f56c",
+    "tests": {
+      "passed": 60,
+      "kind": "real disposable PostgreSQL and synthetic Slack transport"
+    },
+    "signed_brief_confirmation": true,
+    "owner_approval_authority": false,
+    "live_activation": false,
+    "native_Grok_bridge": false,
+    "public_runtime_shipped": false,
+    "remaining": [
+      "shared_interactivity_routing",
+      "native_Grok_bridge",
+      "automatic_presentation_and_handoff",
+      "terminal_button_updates",
+      "uncertain_send_reconciliation"
+    ]
   }
 }

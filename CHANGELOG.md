@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.10 — 2026-09-12
+
+- Document private Slack brief presentation and signed requester confirmation.
+- Preserve separate owner approval and record remaining live integration work.
+
+
 ## 0.1.0-alpha.9 — 2026-09-12
 
 - Add the private interview-ledger and confirmed-brief handoff milestone. Questions
