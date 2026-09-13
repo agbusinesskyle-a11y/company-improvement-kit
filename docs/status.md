@@ -1,6 +1,30 @@
 # Milestones and known limits
 
-## 2026-09-13 — alpha.12 workflow-service deployment follow-up
+## 2026-09-13 — alpha.12 discovery preparation completed
+
+The explicitly authorized discovery migration and preparation completed against
+the deployed private workflow. The first findings revision matches the approved
+input snapshot. Required findings remain unresolved, so no planning continuation
+was queued and no model ran.
+
+Before/after hashes verified that the original request, packages, owner decisions,
+jobs, operations and SMS attention outbox are unchanged. The original planning
+approval remains valid and its issue operation stays held. The reminder preflight
+found no eligible candidates or outbox entries; no reminder or replacement card
+was sent. Temporary operator access was explicitly authorized, then revoked and
+verified absent; its local private key was deleted.
+
+The coordinator and integrated Slack code remain deployed and source-verified.
+Reminders remain disabled pending sign-in to the authorized secret store and
+persistent sender configuration. Resolve the required discovery findings before
+requesting a successor plan, and complete sender setup before enabling reminders.
+The public kit still ships no runtime or installer. No application build/release
+authority or automatic end-to-end workflow is established by this outcome.
+
+## 2026-09-13 — alpha.12 workflow-service deployment follow-up (historical)
+
+This checkpoint preceded the completed discovery preparation above. Its pending
+access and migration statements describe that earlier state.
 
 The owner authorized the exact reviewed workflow-service activation package.
 The coordinator and integrated Slack service deployed successfully; all 41

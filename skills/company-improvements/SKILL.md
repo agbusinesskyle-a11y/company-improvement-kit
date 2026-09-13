@@ -60,14 +60,16 @@ The private [reminder and discovery continuation candidate](references/post-appr
 connects committed owner cards to the existing outbox through an optional worker.
 It also provides an operator-controlled discovery ledger and a fresh planning
 continuation. Compatible coordinator and integrated Slack code has been deployed
-and verified in the private installation, while reminders remain disabled and
-discovery migration/recording await operator access. Assess these states separately:
-verify installed source and existing service commands, obtain persistent sender
-access before enabling reminders, and apply the explicit discovery migration through
-an authorized private database execution route before recording findings. Preserve
-original approved packages, reconcile pending cards and permanent outbox attempts,
-and require fresh review and owner decisions for successors. Deployment alone is
-not proof of an enabled reminder worker or a prepared discovery ledger.
+and verified in the private installation. Explicit discovery migration and the first
+findings revision are recorded; unresolved findings keep continuation blocked.
+Reminders remain disabled pending authorized secret-store access and persistent
+sender configuration. Assess these states separately: verify installed source and
+existing service commands, reconcile cards and permanent outbox attempts before
+enabling reminders, and verify the exact discovery bindings and findings hash before
+continuing planning. Preserve original approved packages and require fresh review
+and owner decisions for successors. When operator access is explicitly temporary,
+revoke it and verify cleanup after the authorized operation. A prepared discovery
+ledger does not authorize continuation while required findings remain unresolved.
 
 The supervised reminder-to-Slack proof passed: one ordinary SMS was delivered,
 the owner confirmed that its link opened the intended card, and the native Slack

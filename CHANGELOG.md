@@ -2,6 +2,18 @@
 
 ## 0.1.0-alpha.12 — 2026-09-13
 
+- Complete the explicitly authorized discovery migration and first findings
+  revision against the deployed workflow. Verify the exact input snapshot and
+  unchanged original request, package, decision, job, operation and SMS outbox
+  history. Unresolved findings block planning continuation; issue execution remains
+  held.
+- Verify an empty reminder preflight with no sends or model runs. Revoke and verify
+  removal of the authorized temporary operator access and delete its local key.
+  Reminders remain disabled pending authorized secret-store sign-in and persistent
+  sender configuration.
+
+Earlier deployment checkpoint, before discovery preparation:
+
 - Post-decision follow-up: deploy the explicitly authorized coordinator and
   integrated Slack service, verify all 41 installed runtime files against the
   approved source, and retain normal migration/start commands. The original

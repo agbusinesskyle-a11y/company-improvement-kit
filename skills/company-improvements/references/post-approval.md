@@ -1,10 +1,12 @@
 # Reminders and discovery after planning approval
 
 The private coordinator and integrated Slack service have been deployed with their
-installed source verified against the approved candidate. Reminders remain disabled
-pending persistent sender access; explicit discovery migration and live recording
-await an authorized route to the private database. Track hosted code, worker
-enablement and discovery readiness separately. The public kit is documentation.
+installed source verified against the approved candidate. Explicit discovery
+migration and the first findings revision are recorded, with original approval and
+history unchanged. Required findings remain unresolved and no continuation is queued.
+Reminders remain disabled pending authorized secret-store sign-in and persistent
+sender configuration. Track hosted code, reminder enablement, recorded discovery
+and readiness to continue planning separately. The public kit is documentation.
 
 ## Resume the existing reminder path
 
@@ -63,6 +65,14 @@ If that route is unavailable, report migration and recording as pending; a healt
 receiver does not establish discovery readiness. Obtain explicit authorization for
 additional private operator access and keep its scope bounded to the required
 operation. Preserve public endpoints and normal service lifecycle commands.
+For explicitly temporary access, revoke it, verify its absence and remove local
+key material after the authorized operation. Record cleanup evidence privately.
+
+After preparation and recording, verify the discovery revision, exact findings
+hash, unresolved keys and unchanged parent package/decision. Keep the held issue
+operation intact and do not invoke continuation while required findings are
+unresolved. An empty reminder preflight proves the observed queue state only; it
+does not verify persistent sender credentials or establish reminder delivery.
 
 The successor package needs exact-package operational review, a published reusable
 checkpoint, and its own owner decision. The original approval remains in history

@@ -750,7 +750,7 @@
   },
   "reminder_discovery_candidate": {
     "date": "2026-09-13",
-    "status": "hosted_code_verified_reminders_disabled_discovery_pending",
+    "status": "hosted_code_verified_discovery_recorded_reminders_disabled",
     "reference": "skills/company-improvements/references/post-approval.md",
     "existing_sms_outbox_reused": true,
     "explicit_host_enablement": true,
@@ -774,10 +774,29 @@
       "original_issue_operation": "held"
     },
     "reminder_worker_enabled": false,
-    "persistent_sender_configuration": "awaiting_authorized_secret_store_access",
-    "discovery_schema_applied": false,
-    "live_discovery_record_created": false,
-    "discovery_activation_prerequisite": "authorized_operator_execution_route_to_private_database",
+    "persistent_sender_configuration": "awaiting_authorized_secret_store_sign_in",
+    "discovery_schema_applied": true,
+    "live_discovery_record_created": true,
+    "discovery_record": {
+      "revision": 1,
+      "exact_approved_findings_hash_verified": true,
+      "required_findings_resolved": false,
+      "planning_continuation_queued": false,
+      "original_request_package_decision_job_operation_and_sms_outbox_hashes_unchanged": true,
+      "original_issue_operation": "held"
+    },
+    "discovery_continuation_prerequisite": "resolve_required_findings",
+    "reminder_preflight": {
+      "eligible_candidates": 0,
+      "outbox_entries": 0,
+      "messages_sent": 0,
+      "models_run": 0
+    },
+    "temporary_operator_access": {
+      "explicitly_authorized": true,
+      "revoked_and_absence_verified": true,
+      "local_private_key_deleted": true
+    },
     "additional_private_operator_access": "requires_explicit_authorization",
     "new_live_provider_or_model_tests": false,
     "old_completed_suites_repeated": false,
