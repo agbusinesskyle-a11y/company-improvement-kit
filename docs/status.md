@@ -10,8 +10,10 @@ The plan identifies missing operational configuration as implementation gates.
 After explicit private-packet sharing permission, the native operational reviewer
 accepted the exact package for discovery and configuration only, with a fresh
 review required before any build. The coordinator recorded ready_for_approval.
-The next owner card concerns that bounded planning step; no owner decision, issue
-execution or application release is claimed by this milestone. This remains an operator-assisted private workflow;
+The detailed owner card is posted and verified in Slack for that bounded planning
+step. Temporary operator access used to post it was revoked and verified absent.
+No owner decision, issue execution or application release is claimed by this
+milestone. This remains an operator-assisted private workflow;
 the public kit is documentation, not a shipped runtime.
 
 

@@ -234,7 +234,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "real_application_plan_reviewed_before_owner_request",
+    "milestone": "real_application_planning_card_posted_owner_decision_pending",
     "publication_phase": "implementation_progress",
     "full_workflow_ready": false
   },
@@ -722,9 +722,10 @@
     "model_runs": 1,
     "hosted_artifacts_matching": 5,
     "operational_review": "native_exact_package_accept_for_discovery_configuration_only",
-    "owner_card_posted": false,
+    "owner_card_posted": true,
     "owner_build_approval": false,
     "build_and_release": "held",
-    "public_runtime_shipped": false
+    "public_runtime_shipped": false,
+    "temporary_operator_access_revoked": true
   }
 }
