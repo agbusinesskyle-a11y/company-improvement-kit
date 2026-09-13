@@ -234,7 +234,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "real_application_plan_generated_review_pending",
+    "milestone": "real_application_plan_reviewed_before_owner_request",
     "publication_phase": "implementation_progress",
     "full_workflow_ready": false
   },
@@ -721,7 +721,7 @@
     "model": "gpt-6-astra",
     "model_runs": 1,
     "hosted_artifacts_matching": 5,
-    "operational_review": "pending_private_packet_sharing_permission",
+    "operational_review": "native_exact_package_accept_for_discovery_configuration_only",
     "owner_card_posted": false,
     "owner_build_approval": false,
     "build_and_release": "held",

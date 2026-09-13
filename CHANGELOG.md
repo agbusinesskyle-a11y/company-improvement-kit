@@ -4,8 +4,9 @@
 
 - Transition an explicitly authorized confirmed interview from test context to real
   application planning using a normal revision. Verify one genuine planning run
-  and five exact hosted artifacts. Operational review and owner approval remain
-  pending; no application change or automatic full-workflow pass is claimed.
+  and five exact hosted artifacts. Native operational review accepted a bounded
+  discovery/configuration step; owner approval is pending. No application change
+  or automatic full-workflow pass is claimed.
 
 - Verify a live multi-turn interview, requester brief confirmation and submitted
   planning handoff. Preserve the separate owner build-approval boundary.

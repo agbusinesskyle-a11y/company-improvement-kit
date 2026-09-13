@@ -7,9 +7,11 @@ now use a real application planning policy. A normal revision preserves the
 confirmed brief and historical test context. One genuine GPT-6 Ringer planning
 run completed; all five hosted artifact bodies matched its original output.
 The plan identifies missing operational configuration as implementation gates.
-The exact-package operational review is pending explicit private-packet sharing
-permission. No owner card, build approval, issue execution or application release
-is claimed by this milestone. This remains an operator-assisted private workflow;
+After explicit private-packet sharing permission, the native operational reviewer
+accepted the exact package for discovery and configuration only, with a fresh
+review required before any build. The coordinator recorded ready_for_approval.
+The next owner card concerns that bounded planning step; no owner decision, issue
+execution or application release is claimed by this milestone. This remains an operator-assisted private workflow;
 the public kit is documentation, not a shipped runtime.
 
 
