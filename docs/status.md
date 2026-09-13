@@ -28,7 +28,11 @@ It submits questions/drafts through the scoped API, with no direct Slack posts o
 typed-decision authority. The first real suggestion was saved, the native bot
 submitted a question, and the service published it in the originating Slack thread.
 An unprefixed human answer was not ingested, exposing a reply-guidance gap.
-A multi-turn interview and requester confirmation remain unproven. Only one configured proof
+The live interview subsequently produced a complete draft. The requester clicked
+Confirm Brief for Planning and the hosted session reached submitted, establishing
+the interview-to-planning handoff. This is brief confirmation only, not owner
+approval of a build. Planning execution and the resulting owner approval card are
+not established by this evidence. Only one configured proof
 requester is enabled. Hosted source hashes were not independently compared;
 staged source and the offline wheel were verified. The public kit still contains
 documentation only.

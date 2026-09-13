@@ -234,7 +234,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "integrated_interview_configured_live_round_trip_pending",
+    "milestone": "live_interview_confirmed_and_submitted_for_planning",
     "publication_phase": "implementation_progress",
     "full_workflow_ready": false
   },
@@ -705,10 +705,14 @@
     "private_channel_membership_verified": true,
     "anonymous_api_status": 401,
     "scoped_api_status": 200,
-    "live_native_round_trip": false,
+    "live_native_round_trip": true,
     "proof_requesters": 1,
     "installed_source_hash_comparison": false,
     "native_routine_saved_instructions_verified": true,
-    "native_api_read": "bot_reported_200_empty_inbox"
+    "native_api_read": "bot_reported_200_empty_inbox",
+    "live_requester_confirmation": true,
+    "live_handoff_status": "submitted",
+    "planning_execution_verified": false,
+    "owner_build_approval": false
   }
 }

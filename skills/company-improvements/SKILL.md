@@ -106,3 +106,7 @@ Verify hosted routing and a native response separately from source tests.
 For private-channel activation, obtain explicit permission for message delivery,
 reinstall the app with the required event scope, verify its source-channel
 membership, and distinguish an authenticated empty inbox from a live interview.
+
+After requester confirmation, verify the handoff reaches submitted before claiming
+it entered planning. Report planner execution separately; a submitted brief is not
+a generated plan or an owner decision authorizing implementation.

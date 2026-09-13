@@ -2,6 +2,9 @@
 
 ## 0.1.0-alpha.11 — 2026-09-12
 
+- Verify a live multi-turn interview, requester brief confirmation and submitted
+  planning handoff. Preserve the separate owner build-approval boundary.
+
 - Add guidance for the integrated interview service, shared Slack interaction URL,
   project-bound bot interface and automatic publication/planning handoff cycle.
 - Activate the private integrated host and worker; verify the signed private-channel
