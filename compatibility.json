@@ -234,7 +234,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "real_application_planning_card_posted_owner_decision_pending",
+    "milestone": "real_planning_approved_issue_creation_held",
     "publication_phase": "implementation_progress",
     "full_workflow_ready": false
   },
@@ -726,6 +726,9 @@
     "owner_build_approval": false,
     "build_and_release": "held",
     "public_runtime_shipped": false,
-    "temporary_operator_access_revoked": true
+    "temporary_operator_access_revoked": true,
+    "owner_planning_approval": true,
+    "request_status": "approved_waiting_issues",
+    "same_card_terminal_update_verified": true
   }
 }

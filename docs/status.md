@@ -12,8 +12,11 @@ accepted the exact package for discovery and configuration only, with a fresh
 review required before any build. The coordinator recorded ready_for_approval.
 The detailed owner card is posted and verified in Slack for that bounded planning
 step. Temporary operator access used to post it was revoked and verified absent.
-No owner decision, issue execution or application release is claimed by this
-milestone. This remains an operator-assisted private workflow;
+The owner subsequently approved the planning package. The coordinator reports
+approved_waiting_issues and the same Slack card displays Approved with issue
+creation held. No issue execution or application release is claimed. Request
+revision records needs_revision; decline records declined. Neither launches a
+new planning model automatically. This remains an operator-assisted private workflow;
 the public kit is documentation, not a shipped runtime.
 
 

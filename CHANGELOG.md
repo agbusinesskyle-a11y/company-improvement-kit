@@ -6,7 +6,8 @@
   application planning using a normal revision. Verify one genuine planning run
   and five exact hosted artifacts. Native operational review accepted a bounded
   discovery/configuration step; the detailed Slack card is posted and verified,
-  with owner approval pending. Temporary posting access was revoked. No application change
+  and the actual owner approval recorded with issue creation held. Temporary
+  posting access was revoked. No application change
   or automatic full-workflow pass is claimed.
 
 - Verify a live multi-turn interview, requester brief confirmation and submitted
