@@ -110,3 +110,10 @@ membership, and distinguish an authenticated empty inbox from a live interview.
 After requester confirmation, verify the handoff reaches submitted before claiming
 it entered planning. Report planner execution separately; a submitted brief is not
 a generated plan or an owner decision authorizing implementation.
+
+Before moving from a connection proof to a real application request, verify the
+planning context is no longer a synthetic no-op fixture. Obtain the required
+transition authorization, deploy the intended profile, then create a normal
+revision retaining the confirmed brief. Verify the claimed job has the intended
+policy before model dispatch. Preserve old context and artifacts. External review
+of private plans must have the required payload-and-destination authorization.

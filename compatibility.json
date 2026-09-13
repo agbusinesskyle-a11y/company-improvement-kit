@@ -234,7 +234,7 @@
   },
   "snapshot": {
     "date": "2026-09-12",
-    "milestone": "live_interview_confirmed_and_submitted_for_planning",
+    "milestone": "real_application_plan_generated_review_pending",
     "publication_phase": "implementation_progress",
     "full_workflow_ready": false
   },
@@ -714,5 +714,17 @@
     "live_handoff_status": "submitted",
     "planning_execution_verified": false,
     "owner_build_approval": false
+  },
+  "real_application_planning": {
+    "profile_transition_authorized": true,
+    "confirmed_brief_preserved": true,
+    "model": "gpt-6-astra",
+    "model_runs": 1,
+    "hosted_artifacts_matching": 5,
+    "operational_review": "pending_private_packet_sharing_permission",
+    "owner_card_posted": false,
+    "owner_build_approval": false,
+    "build_and_release": "held",
+    "public_runtime_shipped": false
   }
 }

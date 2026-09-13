@@ -1,5 +1,18 @@
 # Milestones and known limits
 
+## Real application planning transition
+
+With explicit operator authorization, the private coordinator and Slack profiles
+now use a real application planning policy. A normal revision preserves the
+confirmed brief and historical test context. One genuine GPT-6 Ringer planning
+run completed; all five hosted artifact bodies matched its original output.
+The plan identifies missing operational configuration as implementation gates.
+The exact-package operational review is pending explicit private-packet sharing
+permission. No owner card, build approval, issue execution or application release
+is claimed by this milestone. This remains an operator-assisted private workflow;
+the public kit is documentation, not a shipped runtime.
+
+
 ## 2026-09-12 — alpha.11 integrated interview service activation
 
 The private candidate combines signed suggestion intake, interview and owner
