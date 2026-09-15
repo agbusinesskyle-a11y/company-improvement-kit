@@ -1,29 +1,32 @@
 # Milestones and known limits
 
-## 2026-09-15 — alpha.22 Slack outcomes live; Linear comment pending
+## 2026-09-15 — alpha.22 native outcome receipts verified
 
-The hosted private worker automatically posted one build-status reply in the source
-Slack thread and one in the original owner approval thread. Read-only recovery
-verified their exact visible text, bot identity, thread and operation marker; both
-durable receipts are accepted. A second provider read found no duplicate messages.
-The frozen approval and ready-for-review build stayed unchanged, with no new build
-or model invocation. Both services successfully deployed the verified 72-file runtime.
+The configured private fixture has three accepted status receipts: one reply in the
+source Slack thread, one in the original owner approval thread, and one comment
+on its existing Linear issue. Independent provider reads verified their identities,
+destinations and candidate reference, with no duplicates. The original approval,
+plan version and ready-for-review build stayed unchanged. No new build or model
+was invoked for this notification milestone.
 
-Initial live delivery found two Slack differences from the synthetic responses:
-its fallback text flattens newlines, and thread history requires query parameters.
-Both are corrected and tested. The Linear destination remains uncertain with no
-comment present: the existing issue key lacks comments:create permission. A separate
-restricted read/comment key and controlled reconciliation remain pending operator
-access. Existing reservations are preserved; the worker does not blindly repost.
-Health reports two accepted destinations and one unresolved destination while owner
-approval callbacks remain available. This is partial live delivery, not full readiness.
+Slack delivery was automatic. Live recovery exposed fallback newline normalization
+and a thread-history request format mismatch; both were corrected and verified.
+The Linear attempt lacked comment permission. A separate team-restricted key with
+read and comments:create permissions was configured for the notification host,
+while the issue-worker key stayed unchanged. A recorded operator action created
+the missing comment with the original operation UUID after verifying its absence
+and the permission failure. The hosted worker then accepted it through read-only
+reconciliation. This proves a repaired live connection; it is not a claim that
+the original Linear send succeeded unattended or that automatic resend exists.
+Original reservations and approval history were preserved.
 
-Fifty-one focused cases passed: 43 new cases and eight affected host cases. They
-use disposable PostgreSQL and synthetic provider replies; subsequent live provider
-reads verified the real Slack recovery. Native Code contributed ledger tests and
-an additive migration; the maintainer finished integration after stopping a stalled
-implementation run. Independent review, PR/release, real application compatibility,
-SMS delivery and an installable public runtime remain outside this completed proof.
+Fifty-one focused source cases passed during implementation: 43 new cases and eight
+affected host cases. The permission repair required no new source tests or repeated
+build/model proofs. Native Code contributed ledger tests and an additive migration;
+the maintainer completed integration after stopping a stalled implementation run.
+Both services run the verified 72-file private runtime. The public export remains
+a documentation preview. Independent review, PR/release, real application
+compatibility and SMS delivery remain outside this completed fixture proof.
 
 ## 2026-09-14 — alpha.21 live recovery reached ready for review
 

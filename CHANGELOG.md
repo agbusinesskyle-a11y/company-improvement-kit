@@ -5,7 +5,9 @@
 - Add a separate native outcome outbox for source/owner Slack threads and the existing Linear issue comment.
 - Reserve sends independently; reconcile uncertainty by exact provider evidence without reposting or rerunning a build.
 - Add optional hosted processing and visible delivery counts; preserve historical approval and execution state.
-- Verify 51 focused cases, including exact Slack block reconciliation and Linear permission rejection. Verify two live Slack deliveries and accepted receipts without duplicates. Linear comment access and reconciliation remain pending.
+- Verify 51 focused cases, including exact Slack block reconciliation and Linear permission rejection. Verify two live Slack deliveries and one Linear comment with three accepted receipts and no duplicates.
+
+- Resolve the missing Linear comment permission with a separate restricted key and recorded operator reconciliation under the original UUID; preserve approval, build and delivery history.
 
 ## 2026-09-15 — timer cleanup
 

@@ -149,7 +149,8 @@ revision retaining the confirmed brief. Verify the claimed job has the intended
 policy before model dispatch. Preserve old context and artifacts. External review
 of private plans must have the required payload-and-destination authorization.
 
-Current native status milestone: source and owner Slack replies are privately
-verified with accepted receipts. Linear comment permission and reconciliation
-remain pending. See [native status](references/native-status.md) and report this
-partial result accurately; it grants no further execution authority.
+Current native status milestone: source Slack, owner Slack and existing Linear
+issue comment have privately verified accepted receipts. The initial Linear
+permission failure required a recorded operator repair under the original UUID.
+See [native status](references/native-status.md); notification success grants no
+further execution authority.

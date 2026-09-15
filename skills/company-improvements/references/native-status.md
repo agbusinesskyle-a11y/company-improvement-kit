@@ -39,7 +39,15 @@ plain-text block and matching client operation ID. Missing comment permission
 is a provider rejection, not a successful delivery. Preserve existing delivery
 history while correcting provider access.
 
-The observed private installation currently has two accepted Slack receipts and
-one unresolved Linear destination. Verify comment creation permission separately
-from issue creation. Thread recovery must use Slack-supported query parameters.
-The pending comment does not invalidate the existing approval or checked build.
+The observed private fixture has three accepted receipts after repairing the
+Linear permission failure. Slack delivered automatically; Linear required one
+recorded operator create with its original UUID, then hosted read-only recovery.
+The issue key remained unchanged; a separate team-restricted read/comments:create
+key serves notification delivery. Thread recovery uses Slack query parameters.
+
+Operator repair is not an automatic retry. Bind it to the current frozen request
+and exact existing operation. Establish the permission failure, read the original
+provider identity and exact destination, and check for an existing matching result
+before any write. Retain a separate one-attempt operator journal and the original
+ledger reservation; never erase uncertain history or generate a replacement UUID
+to force success. Unknown delivery without sufficient evidence stays unresolved.

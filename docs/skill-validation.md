@@ -2,8 +2,8 @@
 
 The explicit 24-file public export adds generic outcome-delivery instructions and
 updates stale Phase6 readiness text. Review covers JSON, relative links, source
-claims, privacy and exact remote bytes. Source tests are distinct from the two live Slack receipts and the still-pending
-Linear comment proof. The eight added provider-regression cases cover actual
+claims, privacy and exact remote bytes. Source tests are distinct from the two live Slack receipts and the repaired
+Linear comment receipt. The final permission repair repeats no completed tests. The eight added provider-regression cases cover actual
 Slack normalization and definitive comment-scope denial. No completed build/model suite is repeated.
 
 # Alpha.21 live-result documentation validation — 2026-09-14

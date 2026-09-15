@@ -1080,7 +1080,7 @@
     }
   },
   "native_status_notifications": {
-    "status": "slack_live_linear_comment_permission_pending",
+    "status": "three_live_receipts_verified_after_operator_permission_repair",
     "scope": "existing_native_outcome_notifications_only",
     "source_tests_passed": 51,
     "new_cases": 43,
@@ -1095,13 +1095,13 @@
     "uncertain_recovery": "read_only_exact_provider_evidence",
     "automatic_build_replay": false,
     "linear_workflow_state_changed": false,
-    "live_delivery_verified": false,
+    "live_delivery_verified": true,
     "public_runtime_shipped": false,
     "limitations": [
       "Uncertain/rejected delivery remains operator attention; no blind re-post",
       "Bounded thread reads may not find old messages",
       "Review, PR and release remain separate stages",
-      "Linear comment requires separate restricted comment access and controlled reconciliation"
+      "Initial Linear delivery required operator permission repair; this does not prove an entirely unattended first send"
     ],
     "slack_normalization": "exact_visible_block_and_operation_id",
     "linear_required_scopes": [
@@ -1111,10 +1111,14 @@
     "slack_destinations_verified": 2,
     "slack_accepted_receipts": 2,
     "slack_duplicate_messages": 0,
-    "linear_comments_verified": 0,
-    "unresolved_linear_receipts": 1,
+    "linear_comments_verified": 1,
+    "unresolved_linear_receipts": 0,
     "original_approval_unchanged": true,
     "additional_build": false,
-    "hosted_runtime_file_count": 72
+    "hosted_runtime_file_count": 72,
+    "linear_initial_send_automatically_succeeded": false,
+    "linear_reconciliation": "one_recorded_operator_create_same_uuid_then_hosted_read_only_acceptance",
+    "separate_team_restricted_comment_key": true,
+    "original_issue_key_unchanged": true
   }
 }
