@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.22 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.23 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 
@@ -13,7 +13,9 @@ for independent review. The earlier [step 5](skills/company-improvements/referen
 scope still stops before a build. The configured hosted fixture has reached
 `ready_for_review`; real application compatibility and later stages remain pending.
 The optional [outcome-message worker](skills/company-improvements/references/native-status.md)
-has passed focused source tests; live delivery is pending.
+has verified the configured fixture’s source/owner Slack replies and existing issue comment.
+The new [native review and draft-PR process](skills/company-improvements/references/native-review.md)
+is source-verified; its expanded live scope still needs a fresh approval and activation.
 
 Start with [the skill](skills/company-improvements/SKILL.md), [current status](docs/status.md)
 and [the roadmap](docs/distribution.md). Give the skill folder to a compatible agent

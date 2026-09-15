@@ -1,3 +1,12 @@
+# Alpha.23 native review documentation validation — 2026-09-15
+
+The explicit 25-file export adds generic native review/repair/draft-PR instructions.
+The maintainer reviews changed claims against source evidence, metadata, relative
+links and private-data separation. Source and live activation are distinguished;
+no private provider identity, plan or approval record belongs in the export.
+Independent code review covered the private implementation, not a public clean
+installation. Exact remote file verification binds the private checkpoint.
+
 # Alpha.22 native status validation — 2026-09-15
 
 The explicit 24-file public export adds generic outcome-delivery instructions and

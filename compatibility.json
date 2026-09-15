@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.22",
+  "skill_version": "0.1.0-alpha.23",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,11 +37,11 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.22",
+    "current_version": "0.1.0-alpha.23",
     "structure": "passed",
-    "public_file_review": "maintainer review; explicit 24-file export, JSON, relative links, version, whitespace and targeted private-data screen",
-    "independent_application": "not_run_for_alpha_22",
-    "public_file_count": 24,
+    "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
+    "independent_application": "not_run_for_alpha_23",
+    "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
     "new_documentation_metadata_checks": "passed"
@@ -1120,5 +1120,32 @@
     "linear_reconciliation": "one_recorded_operator_create_same_uuid_then_hosted_read_only_acceptance",
     "separate_team_restricted_comment_key": true,
     "original_issue_key_unchanged": true
+  },
+  "native_review_handoff": {
+    "scope": "issue_handoff_build_review",
+    "status": "source_verified_pending_expanded_live_activation",
+    "activated": false,
+    "public_runtime_shipped": false,
+    "reference": "skills/company-improvements/references/native-review.md",
+    "independence": "separate_role_context_and_native_session",
+    "maximum_default_repairs": 2,
+    "draft_pull_request_only": true,
+    "merge_release": false,
+    "old_approvals_preserved": true,
+    "ringer_fallback": false,
+    "source_tests": {
+      "new_cases": 34,
+      "affected_existing_cases": 83,
+      "passed": 117,
+      "kind": "disposable PostgreSQL; real Git; synthetic models/provider HTTP; fixed local synthetic check",
+      "live_build_or_model_proofs_repeated": false
+    },
+    "limitations": [
+      "Fresh exact expanded owner approval and dedicated credentials still needed",
+      "Expanded native model/PR live chain not tested",
+      "Same execution host and retained candidate/review data required",
+      "Existing repository branch-triggered automation needs installation review",
+      "No public runtime or independent clean installation"
+    ]
   }
 }

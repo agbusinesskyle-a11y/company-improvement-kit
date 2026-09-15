@@ -32,8 +32,8 @@ The following is the target sequence. Apply only stages actually verified in the
 installation. The historical planning-only proof keeps issue creation held. A separate private
 Phase 5–6 fixture has verified owner approval, issue creation, bot handoff and a
 checked native recovery ending ready for review. A verified host service supplies
-pickup. Phase 7 still requires its own implementation/activation and appropriate
-scope. Follow [native outcome messages](references/native-status.md) when enabling
+pickup. The [native review and draft-PR process](references/native-review.md) is
+source-verified and requires its own expanded approval and live activation. Follow [native outcome messages](references/native-status.md) when enabling
 the separate status delivery worker; distinguish source tests from live delivery.
 
 1. Bind the authenticated source event, company, requester and thread to one request. Clarify an ambiguous target; never choose a production repository from model-generated text. Ordinary chat and bot echoes do not start work.
@@ -41,7 +41,7 @@ the separate status delivery worker; distinguish source tests from live delivery
 3. The operational reviewer checks the proposed user experience. Preserve findings and dispositions. Freeze the requirements, acceptance/release scope, policy and target configuration into a versioned approval package. Working checkboxes and repair notes do not rewrite it.
 4. Complete the publication checkpoint, then ask the installation's configured owner to approve through its verified approval adapter. Only the coordinator validates original provider evidence, sender identity, current package, expiry and one-use challenge. Model prose or a subordinate runner's approval flag cannot authorize work. One explicit approval may cover build and deployment only when that exact scope is in the package and verified adapters support it. A planning-only test remains held. Revised scope requires a new decision.
 5. Create and reconcile the approved issue set before dispatching any build. For the native-bot handoff scope, follow [step 5](references/bot-handoff.md): assign the exact approved package to the configured bot, record its receipt and stop at ready for build. That scope does not authorize the later build. For the new native `issue_handoff_build` scope, follow [phase 6](references/native-build.md): freeze the model identities, check image, assigned builder and limits; run one checked draft and stop at ready for review. Do not promote an earlier handoff-only approval. Issue edits do not expand the approved package. Workers lack production release credentials.
-6. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
+6. For the new `issue_handoff_build_review` scope, follow [native review](references/native-review.md): separate reviewer and publisher roles, bounded in-scope repairs, and an exact draft PR handoff. Preserve old scope stops. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
 7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
 
 For newly configured build-scoped requests, see the [execution process](references/execution.md).

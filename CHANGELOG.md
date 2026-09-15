@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.23 — 2026-09-15
+
+- Add the opt-in native review/repair/draft-PR scope with distinct frozen worker roles.
+- Bind every review and publication to the exact candidate, checks and approved package.
+- Stop new scope or exhausted repairs; reconcile interrupted writes without resending.
+- Add final PR links to the existing Slack/Linear outcome outbox while preserving old messages.
+- Verify 117 focused source cases; retain the previous live approval and activation limits.
+
 ## 0.1.0-alpha.22 — 2026-09-15
 
 - Add a separate native outcome outbox for source/owner Slack threads and the existing Linear issue comment.

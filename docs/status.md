@@ -1,5 +1,27 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.23 native review and draft-PR source milestone
+
+The private implementation connects an explicitly approved native draft to a
+separate review session, bounded in-scope repairs, a deterministic draft GitHub
+pull request and the existing Slack/Linear outcome messages. Existing approvals
+keep their original scope. No merge or release is included.
+
+117 focused source cases passed: 34 new cases and 83 affected compatibility cases.
+Tests cover real Git and disposable PostgreSQL with synthetic model/provider
+responses, exact evidence, repair limits, unchanged binary assets, lost responses,
+lease-expired read-only reconciliation and original notification compatibility.
+An independent code review found three defects; fixes and focused follow-up review
+resolved them. No completed live build/model proof was replayed. One bounded native
+coding assignment timed out without usable output; the maintainer completed the
+implementation without a generation retry.
+
+This is a source milestone. Expanded live activation requires dedicated review/PR
+credentials and a fresh exact owner-approved package. The existing live fixture
+remains ready for review under its earlier scope. Public runtime distribution,
+clean installation, cross-host transfer and real application compatibility remain
+pending. See [the operating reference](../skills/company-improvements/references/native-review.md).
+
 ## 2026-09-15 — alpha.22 native outcome receipts verified
 
 The configured private fixture has three accepted status receipts: one reply in the
