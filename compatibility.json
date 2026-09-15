@@ -1014,15 +1014,15 @@
       "native_rule_confirmation": "confirmed_by_native_bot_final_reply",
       "routine_created": true,
       "step5_rule_preserved": true,
-      "routine_enabled": true,
-      "native_timer_pause_pending": true
+      "routine_enabled": false,
+      "native_timer_pause_pending": false,
+      "host_service_enabled": true
     },
     "terminal_state": "ready_for_review",
     "later_review_push_release": false,
     "limitations": [
       "Configured fixture is verified; real app profiles still require compatible configuration",
       "Native app timer remains unreliable; execution host service supplies pickup",
-      "Redundant native timer UI pause pending; shared lock/fencing remain active",
       "Execution host must remain available and logged in for the user service",
       "No automatic Linear/Slack readiness sync or cross-host candidate transfer",
       "Independent review, PR/merge/release and public clean installation not proven",

@@ -18,8 +18,9 @@ locked. A later automatic five-minute cycle completed successfully with all thre
 stages idle and no additional model call. Native Grok remains the builder; the
 host service supplies the timer.
 The service configuration contains no credentials, and existing worker locks and
-ledger fencing prevent duplicate effects. The redundant native app timer still
-needs to be disabled through its locked UI; do not claim that timer was repaired.
+ledger fencing prevent duplicate effects. The redundant native app timer was subsequently disabled and verified through
+its UI. Later native run history showed delayed runs; the host service remains
+the selected timer and was verified loaded with successful completed cycles.
 
 This completes the configured fixture through draft-and-check, not a universal
 production guarantee. The host must remain available and logged in for this user

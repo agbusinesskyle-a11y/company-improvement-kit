@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-15 — timer cleanup
+
+- Verify the redundant native routine is disabled and the selected host service remains loaded with successful cycles. No build or completed tests replayed.
+
 ## 0.1.0-alpha.21 — 2026-09-14
 
 - Record the owner-approved live issue/handoff path and separately authorized recovery reaching `ready_for_review`.
