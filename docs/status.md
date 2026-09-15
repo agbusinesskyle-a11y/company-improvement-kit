@@ -6,7 +6,7 @@ Private coordinator source now selects an exact project runtime from an operator
 
 Validation: 37 Linear cases, 61 routing/handoff/Slack cases, and one additional bootstrap regression passed. Providers were synthetic and database cases used disposable PostgreSQL. One native code suggestion exceeded its response budget; its retained source was independently corrected and checked, without a model retry. This is not a successful worker execution proof. Earlier live practice builds and planning runs were not repeated.
 
-Hosted source installation is pending at this snapshot. Real application build activation still requires scoped provider access, request-specific repository context, compatible isolated checks and worker configuration. The practice fixture remains the only verified live build chain. Automatic upstream planning/review/card dispatch remains unfinished.
+Both private hosted services are healthy and their 81 installed runtime files match the committed source. Existing runtime configuration and worker activation remain unchanged. Real application build activation still requires scoped provider access, request-specific repository context, compatible isolated checks and worker configuration. The practice fixture remains the only verified live build chain. Automatic upstream planning/review/card dispatch remains unfinished.
 
 ## 2026-09-15 — alpha.32 expired approval renewal
 

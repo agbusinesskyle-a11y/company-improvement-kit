@@ -1288,7 +1288,7 @@
     "execution_jobs_created": 0
   },
   "multi_project_execution_routing": {
-    "status": "source_verified_hosted_installation_pending",
+    "status": "hosted_source_verified_application_configuration_pending",
     "exact_project_selection": true,
     "single_project_worker_authority_preserved": true,
     "optional_linear_project_identity_frozen": true,
@@ -1297,6 +1297,8 @@
     "source_checks_passed": 99,
     "real_application_execution_enabled": false,
     "automatic_upstream_bridge": false,
-    "public_runtime_shipped": false
+    "public_runtime_shipped": false,
+    "hosted_runtime_files_verified_per_service": 81,
+    "host_worker_updated": false
   }
 }

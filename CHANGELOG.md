@@ -4,7 +4,7 @@
 
 - Add private coordinator routing by exact project while retaining single-project worker authority and historical approval bytes.
 - Bind optional Linear project identity into new frozen contexts and verify it on creation and recovery.
-- Verify 99 focused routing, adapter and surrounding checks. Hosted installation is pending at this snapshot; real application workers, checks and credentials remain separate activation work.
+- Verify 99 focused routing, adapter and surrounding checks. Both hosted services are healthy with 81 exact runtime files verified; real application workers, checks and credentials remain separate activation work.
 
 ## 0.1.0-alpha.32 — 2026-09-15
 
