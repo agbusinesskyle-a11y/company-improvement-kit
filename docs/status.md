@@ -16,7 +16,13 @@ resolved them. No completed live build/model proof was replayed. One bounded nat
 coding assignment timed out without usable output; the maintainer completed the
 implementation without a generation retry.
 
-This is a source milestone. Expanded live activation requires dedicated review/PR
+The matching 78-file runtime is installed on the execution host and both hosted
+services. Both deployments succeeded with matching build-time installed-file
+hashes and healthy services. Existing application configuration, the earlier
+ready-for-review request and its three accepted status receipts are unchanged.
+No additional live build, model call or provider send was performed.
+
+This is a source and installation milestone. Expanded live activation requires dedicated review/PR
 credentials and a fresh exact owner-approved package. The existing live fixture
 remains ready for review under its earlier scope. Public runtime distribution,
 clean installation, cross-host transfer and real application compatibility remain

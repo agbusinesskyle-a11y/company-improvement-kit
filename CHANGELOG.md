@@ -7,6 +7,7 @@
 - Stop new scope or exhausted repairs; reconcile interrupted writes without resending.
 - Add final PR links to the existing Slack/Linear outcome outbox while preserving old messages.
 - Verify 117 focused source cases; retain the previous live approval and activation limits.
+- Install the matching 78-file runtime on the execution host and both healthy hosted services; preserve configuration and keep expanded pickup disabled.
 
 ## 0.1.0-alpha.22 — 2026-09-15
 

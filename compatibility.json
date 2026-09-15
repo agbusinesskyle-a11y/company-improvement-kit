@@ -1146,6 +1146,14 @@
       "Same execution host and retained candidate/review data required",
       "Existing repository branch-triggered automation needs installation review",
       "No public runtime or independent clean installation"
-    ]
+    ],
+    "installation": {
+      "runtime_files": 78,
+      "execution_host": "installed_files_verified",
+      "hosted_services": "successful_deployments_with_build_time_file_verification_and_health",
+      "application_configuration": "unchanged",
+      "expanded_pickup_enabled": false,
+      "live_expanded_chain_tested": false
+    }
   }
 }
