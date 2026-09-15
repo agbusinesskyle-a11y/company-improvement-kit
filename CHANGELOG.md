@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.27 — 2026-09-15
+
+- Add private receiver support for multiple employee intake lanes using one Slack app.
+- Preserve exact signed requests, lane-specific requester and bearer authority, and the existing owner approval path.
+- Run 11 new and 9 affected host cases; all 20 pass with synthetic provider requests and disposable PostgreSQL.
+- Keep live employee submission and real business-app execution separate from routing configuration evidence.
+
 ## 0.1.0-alpha.26 — 2026-09-15
 
 - Verify the fresh owner-approved practice chain through a checked marker-only draft, separate native review and draft GitHub PR.

@@ -1,5 +1,11 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.27 employee lane routing
+
+The private receiver now supports several configured intake lanes through the same Slack app. Each lane selects its own source channel, permitted requesters, project and interview bearer. Existing signed receiver checks and owner approval checks remain authoritative. One owner/reminder/outcome worker set serves the shared host; no additional timer was created.
+
+Eleven new routing/access tests and nine affected host tests passed. Provider events were synthetic and database tests used disposable PostgreSQL. Deployment is pending at this publication. No fresh live employee submission, business-app implementation, merge or release is claimed. Existing approvals remain frozen; configuration changes do not extend them. Historical interviews with old bindings require reconciliation rather than automatic authority changes.
+
 ## 2026-09-15 — alpha.26 approved practice chain completed
 
 The new provider-backed owner approval authorized only the expanded isolated

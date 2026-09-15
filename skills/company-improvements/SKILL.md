@@ -157,3 +157,7 @@ issue comment have privately verified accepted receipts. The initial Linear
 permission failure required a recorded operator repair under the original UUID.
 See [native status](references/native-status.md); notification success grants no
 further execution authority.
+
+## Connect employee lanes
+
+Verify each employee's Slack identity and private channel membership against the owner's explicit list. Configure a separate project/channel/requester mapping and interview bearer per lane. Preserve the default interview endpoint and use the additional lane prefix for its native client. Verify both lane health, wrong-lane bearer rejection and the shared owner destination before describing a lane as connected. Update the existing interview routine instead of duplicating it; a second lane needs its own channel trigger and reply prefix. Do not treat a configured channel as a live employee interview or as permission to execute a business feature. Configuration changes do not rewrite historical bindings or frozen approvals.
