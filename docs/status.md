@@ -1,5 +1,11 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.31 owner-card publication recovery
+
+A supervised planning package completed its configured planner and native operational review. An owner-card send exposed the same plain-text entity-encoding mismatch previously repaired in interviews. Source now accepts only exact original or one-pass encoded display text, with action values and identity still strict. Operator recovery reads the original Slack message, rechecks current approval eligibility under lock, and records the original uncertain result in an immutable ledger before completing the same attempt. It does not post again or create a decision.
+
+Focused validation passed 182 checks using disposable PostgreSQL and synthetic Slack, followed by a separate passing original-evidence immutability and repeatable-migration check. Hosted deployment and original-message recovery are pending verification at this publication. The package and planning-only authority remain unchanged; real-app execution configuration and automatic upstream planning/review/card pickup remain missing.
+
 ## 2026-09-15 — alpha.30 upstream planning boundary
 
 A submitted employee brief queues a planning job. The installed native execution pickup begins after owner approval; it does not yet schedule planning, operational plan review or the owner card. An operator is supervising the current continuation through the existing planner adapter and native operational review. The legacy planner transport is retained; complete native upstream replacement and automatic pickup are not implemented. Do not tell employees that confirmation means their plan is already being generated or an approval notification was sent.

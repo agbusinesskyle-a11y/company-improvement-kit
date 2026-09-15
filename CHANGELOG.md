@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.31 — 2026-09-15
+
+- Accept exact one-pass Slack encoding in owner-card plain-text fields while preserving strict action and identity matching.
+- Add operator-only recovery of the original uncertain publication, with authenticated readback, locked eligibility recheck and immutable original-result evidence.
+- Preserve the frozen plan and original attempt; no repost or owner decision is created. Automatic upstream dispatch remains unimplemented.
+
 ## 0.1.0-alpha.30 — 2026-09-15
 
 - Clarify that submitted interviews are queued for planning; the post-approval execution worker does not run the upstream planner or post approval cards.

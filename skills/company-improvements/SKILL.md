@@ -178,3 +178,5 @@ For a visible but unverified Slack publication, use the operator-only original-m
 
 
 Treat an interview status of submitted as a planning queue receipt. Verify an actual planner claim, accepted artifacts, operational review and posted card separately. The existing post-approval worker does not provide these upstream stages. Until an upstream dispatcher is implemented and verified, continue through the explicit operator procedure and describe it as supervised. Inline trusted planning rules do not require inventing a constitution file in a business repository.
+
+For an uncertain owner-card delivery, never repost blindly. Use the operator-only original-message recovery after deploying migration 018: authenticate the provider read, match the exact frozen card and original bot, recheck current eligibility, preserve the original failure in immutable evidence, and complete only that same publication attempt. Recovery is neither approval nor permission to build.

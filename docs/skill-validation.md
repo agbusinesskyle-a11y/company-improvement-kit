@@ -1,3 +1,7 @@
+# Alpha.31 publication-recovery documentation validation — 2026-09-15
+
+The explicit 25-file export is reviewed for JSON, relative links, consistent versions, privacy and truthful source-versus-live claims. Private review artifacts and provider receipts remain excluded. No new public installation or model evaluation is claimed.
+
 # Alpha.30 planning boundary documentation validation — 2026-09-15
 
 Review the explicit 25-file export for JSON, relative links, version consistency, privacy and honest automation claims. Source tests use synthetic planner processes; a supervised live model call is separate evidence. The exact remote snapshot precedes any owner card and remains distinct from private plan artifacts.
