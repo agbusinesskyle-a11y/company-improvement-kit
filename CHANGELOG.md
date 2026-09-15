@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.27 — 2026-09-15
 
+- Clarify owner-requester access separately from employee membership and owner approval; correct a private lane whose employee-only configuration excluded the owner.
+
 - Add private receiver support for multiple employee intake lanes using one Slack app.
 - Preserve exact signed requests, lane-specific requester and bearer authority, and the existing owner approval path.
 - Run 11 new and 9 affected host cases; all 20 pass with synthetic provider requests and disposable PostgreSQL.

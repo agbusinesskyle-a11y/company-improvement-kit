@@ -961,3 +961,7 @@ record the actual verdict for the revised package, then verify its public/privat
 checkpoint before the fresh owner card. Verify the card before one eligible SMS
 attempt and verify delivery separately. No issue execution, build or release
 follows either synthetic planning-only test.
+
+### Owner-requester configuration correction
+
+A genuine owner-authored suggestion exposed an access configuration error: the selected lane permitted its employee requester but excluded the owner from intake. The inbox stayed empty. The correction adds owner requester access to that lane and its native routine while retaining the same employee membership and sole owner approval authority. This is a configuration correction, not a new build permission. The original ignored message is not silently replayed; a fresh user submission is required to exercise the corrected route. Existing source tests were not repeated.

@@ -1212,6 +1212,7 @@
       "native_client_reads": "both_200_reported_by_bot",
       "employee_channel_membership": "provider_read_verified"
     },
-    "full_employee_submission_verified": false
+    "full_employee_submission_verified": false,
+    "owner_submission": "Owner must be explicitly included in the selected requester configuration and native routine; approval authority remains separate."
   }
 }
