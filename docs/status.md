@@ -4,11 +4,15 @@
 
 Automatic upstream continuation remains installed as described below. Optional
 application check budgets are now implemented privately, with eight focused checks
-and one legacy-profile comparison passing. This source change alone does not
-activate a business-app worker. Existing owner approvals retain their scope.
+and one legacy-profile comparison passing. The source is installed on both private hosted services and the local worker;
+all 88 runtime files match the committed version. Existing profiles remain unchanged
+and business-app workers are not activated. Existing owner approvals retain their scope.
 
-Real application check images are being verified with pinned dependencies, dummy
-credentials and disposable data. An unchanged app's failed baseline is not a reason
+Both real application snapshots now compile in isolated check environments using
+pinned dependencies and font assets. One application passed its web, type and Python
+checks; the other retains two failed live-AI assertions in one suite after disposable
+database setup was corrected. The final composed image scripts are byte-verified,
+not a claim of a fresh complete business workflow proof. An unchanged app's failed baseline is not a reason
 to label a practice test as sufficient. Repository publisher access now includes
 both intended business repositories without additional permission types, expiry
 changes, test pushes or PRs. Installation/results remain explicit in compatibility.

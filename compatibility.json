@@ -1330,12 +1330,14 @@
   },
   "application_check_resources": {
     "source_implemented": true,
-    "live_installed": false,
+    "live_installed": true,
     "optional_frozen_budget": true,
     "tests_passed": 8,
     "historical_profile_compatibility_check": "passed",
     "legacy_limits_unchanged": true,
     "external_network_enabled": false,
-    "real_application_build_workers_enabled": false
+    "real_application_build_workers_enabled": false,
+    "installed_runtime_files": 88,
+    "application_baselines": "Both compile in isolated check environments; one retains a failing external-AI test suite. Business worker activation and per-request scope remain pending."
   }
 }

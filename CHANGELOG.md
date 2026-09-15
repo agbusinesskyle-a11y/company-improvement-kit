@@ -2,6 +2,7 @@
 
 ## 0.1.0-alpha.35 — 2026-09-15
 
+- Install the resource support on both private services and the host with 88 matching runtime files; preserve disabled business build profiles and the remaining external-AI check limitation.
 - Add optional frozen resource budgets for real application checks; preserve legacy profiles and isolation restrictions.
 - Verify eight focused policy/container cases and one historical-profile compatibility comparison.
 - Verify publisher access to the second business repository with unchanged permission types; no test push or PR.
