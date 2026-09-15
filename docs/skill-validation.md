@@ -1,3 +1,11 @@
+# Alpha.19 documentation validation — 2026-09-14
+
+Maintainer review of the explicit 23-file public export records the provider-backed
+owner decision while keeping live build claims pending. JSON, relative links,
+whitespace and private-data screening accompany remote file verification. No
+completed source tests or model proofs are repeated. The operating skill and
+native-build instructions remain unchanged: the same scope and stop rules apply.
+
 # Alpha.18 documentation validation — 2026-09-14
 
 The explicit 23-file documentation export distinguishes enabled installation from

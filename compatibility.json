@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.18",
+  "skill_version": "0.1.0-alpha.19",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.18",
+    "current_version": "0.1.0-alpha.19",
     "structure": "passed",
     "public_file_review": "maintainer review; explicit 23-file export, JSON, relative links, version, whitespace and targeted private-data screen",
-    "independent_application": "not_run_for_alpha_18",
+    "independent_application": "not_run_for_alpha_19",
     "public_file_count": 23,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -985,9 +985,9 @@
   "phase6_native_build": {
     "date": "2026-09-14",
     "scope": "issue_handoff_build",
-    "status": "native_schedule_enabled_pending_owner_approved_live_chain",
+    "status": "owner_approved_live_attempt_stopped_invalid_model_proposal",
     "reference": "skills/company-improvements/references/native-build.md",
-    "activated": true,
+    "activated": false,
     "public_runtime_shipped": false,
     "source_tests": {
       "unique_cases_passed": 29,
@@ -1008,19 +1008,22 @@
       "matching_python_sql_source_files": 66
     },
     "native_client_installation": {
-      "status": "installed_enabled_on_execution_host",
+      "status": "installed_paused_after_failed_live_attempt",
       "installed_source_files_verified": 66,
       "disabled_cli": "disabled; exit 0",
       "native_rule_confirmation": "confirmed_by_native_bot_final_reply",
       "routine_created": true,
       "step5_rule_preserved": true,
-      "routine_enabled": true
+      "routine_enabled": false
     },
     "terminal_state": "ready_for_review",
     "later_review_push_release": false,
     "limitations": [
-      "First fresh owner decision and end-to-end live build remain pending; only isolated fixture configured",
-      "Execution host must have authenticated Grok and the frozen Docker image",
+      "Live attempt stopped before proposal application; successful build still unproven",
+      "Scheduler overdue; routine paused; automatic pickup unresolved",
+      "Completion reporting needs reconciliation without replaying effects",
+      "Original raw model response is not retained by the current adapter",
+      "Only isolated fixture configured; real app profiles need separate compatible configuration",
       "No cross-host candidate transfer or Linear/Slack readiness sync",
       "Output-token acceptance ceiling is not a prepaid spending cap"
     ],
@@ -1030,12 +1033,30 @@
       "installed_python_sql_files": 66,
       "issue_handoff_build_grants": "live_authenticated_empty_queues",
       "historical_profiles_and_approval_scope": "preserved",
-      "scheduled_routine": true,
+      "scheduled_routine": "paused_after_failed_live_attempt",
       "issue_provider_credential": "restricted_key_read_only_identity_team_check_passed",
-      "new_owner_approval_package": "fresh_generated_operationally_reviewed_no_owner_decision",
+      "new_owner_approval_package": "fresh_exact_owner_approval_verified",
       "end_to_end_live_build": false,
       "previous_completed_tests_repeated": false,
-      "configured_pickup": "issue_handoff_build_idle"
+      "configured_pickup": "operator_triggered_issue_and_handoff_succeeded_build_blocked"
+    },
+    "live_activation_attempt": {
+      "owner_approval_verified": true,
+      "issue_verified_read_only": true,
+      "handoff_receipt_retained": true,
+      "native_model_calls": 1,
+      "requested_model": "grok-4.6",
+      "reported_model": "grok-4.6-build",
+      "output_tokens": 366,
+      "result": "invalid_model_proposal",
+      "candidate_changed": false,
+      "trusted_check_run": false,
+      "ready_for_review": false,
+      "trigger": "operator_triggered_native_pickup",
+      "unattended_schedule_proven": false,
+      "local_dispatch_phase": "lost",
+      "coordinator_request_status": "executing",
+      "automatic_retry": false
     }
   }
 }

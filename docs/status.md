@@ -1,5 +1,28 @@
 # Milestones and known limits
 
+## 2026-09-14 — alpha.19 owner-approved native activation
+
+The fresh exact fixture package received a real owner approval through Slack.
+The original card shows approval and the coordinator has queued execution. The
+pre-decision public snapshot and private plan remain frozen and linked in the
+private checkpoint. No second approval or replacement package was created.
+
+The native schedule did not start the approved work at its expected time. One
+operator-triggered native pickup created a live issue, retained the bot handoff,
+and made one native model call. The builder rejected the proposal with
+`invalid_model_proposal` before applying changes or running the trusted check.
+The candidate remains at its pinned base. This proves the approved issue/handoff
+path and a real model dispatch, not a successful build or unattended scheduling.
+
+The local dispatch journal is `lost` after its completion attempt while the
+coordinator request still reports `executing`; terminal reporting needs
+reconciliation. No state was cleared, no repair was made and no second model
+call was launched. The approved one-attempt scope requires a separate decision
+before further execution. The native routine is paused to preserve this stop.
+Independent code review, PR, push, merge, business-app changes and release remain
+outside scope. SMS remains disabled. Real application profiles require separate
+configuration, and the scheduler delay remains unresolved.
+
 ## 2026-09-14 — alpha.18 scheduled pickup ready for owner approval
 
 The private native bot's five-minute pickup routine is enabled. Its first configured

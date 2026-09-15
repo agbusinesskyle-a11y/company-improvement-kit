@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.19 — 2026-09-14
+
+- Record verified owner approval of the exact activation package and queued execution.
+- Preserve the pre-decision snapshot, frozen plan and narrowly bounded build scope.
+- Record live issue/handoff and one native model dispatch; invalid proposal stopped before changes or checks.
+- Record scheduler delay, paused pickup, and unresolved completion reporting; preserve the one-attempt boundary.
+
 ## 0.1.0-alpha.18 — 2026-09-14
 
 - Record restricted issue-provider access, an enabled native five-minute routine,
