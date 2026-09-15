@@ -1242,6 +1242,9 @@
     "operator_original_publication_reconciliation": true,
     "bot_reconciliation_endpoint": false,
     "source_tests": "50 initial affected cases; 10 added publication/recovery cases; final 30 Slack cases passed",
-    "live_confirmation_after_repair": "pending"
+    "live_confirmation_after_repair": "awaiting_fresh_signed_click",
+    "live_services_deployed_and_healthy": true,
+    "installed_runtime_files_verified_per_service": 79,
+    "original_publication_reconciled_without_repost": true
   }
 }

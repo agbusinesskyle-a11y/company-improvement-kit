@@ -6,7 +6,8 @@
 - Preserve early summaries, retry identity, separate requester confirmation and owner approval.
 - Keep technical investigation in planner tasks rather than repeatedly questioning employees.
 - Verify Slack one-pass entity encoding without relaxing content or button identity checks.
-- Add operator-only reconciliation of an existing publication; no repost or fabricated confirmation.
+- Add operator-only reconciliation of an existing publication; verify the original provider message and receipt without reposting or fabricating confirmation.
+- Deploy and verify both service runtimes; preserve the requirement for a fresh signed click after a rejected confirmation.
 
 ## 0.1.0-alpha.28 — 2026-09-15
 
