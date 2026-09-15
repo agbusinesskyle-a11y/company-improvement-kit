@@ -38,3 +38,8 @@ Slack fallback newline normalization is accepted only with an exact visible
 plain-text block and matching client operation ID. Missing comment permission
 is a provider rejection, not a successful delivery. Preserve existing delivery
 history while correcting provider access.
+
+The observed private installation currently has two accepted Slack receipts and
+one unresolved Linear destination. Verify comment creation permission separately
+from issue creation. Thread recovery must use Slack-supported query parameters.
+The pending comment does not invalidate the existing approval or checked build.

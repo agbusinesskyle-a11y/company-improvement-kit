@@ -1080,7 +1080,7 @@
     }
   },
   "native_status_notifications": {
-    "status": "live_delivery_reconciliation_in_progress",
+    "status": "slack_live_linear_comment_permission_pending",
     "scope": "existing_native_outcome_notifications_only",
     "source_tests_passed": 51,
     "new_cases": 43,
@@ -1100,12 +1100,21 @@
     "limitations": [
       "Uncertain/rejected delivery remains operator attention; no blind re-post",
       "Bounded thread reads may not find old messages",
-      "Review, PR and release remain separate stages"
+      "Review, PR and release remain separate stages",
+      "Linear comment requires separate restricted comment access and controlled reconciliation"
     ],
     "slack_normalization": "exact_visible_block_and_operation_id",
     "linear_required_scopes": [
       "read",
       "comments:create"
-    ]
+    ],
+    "slack_destinations_verified": 2,
+    "slack_accepted_receipts": 2,
+    "slack_duplicate_messages": 0,
+    "linear_comments_verified": 0,
+    "unresolved_linear_receipts": 1,
+    "original_approval_unchanged": true,
+    "additional_build": false,
+    "hosted_runtime_file_count": 72
   }
 }
