@@ -1,3 +1,7 @@
+# Alpha.32 renewal documentation validation — 2026-09-15
+
+Reviewed the explicit 25-file export, version metadata, JSON, relative links and private-data separation. Private receipts and the frozen plan stay outside this public tree. No new independent installation or model validation is claimed.
+
 # Alpha.31 publication-recovery documentation validation — 2026-09-15
 
 The explicit 25-file export is reviewed for JSON, relative links, consistent versions, privacy and truthful source-versus-live claims. Private review artifacts and provider receipts remain excluded. No new public installation or model evaluation is claimed.

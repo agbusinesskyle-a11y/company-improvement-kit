@@ -1,5 +1,11 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.32 expired approval renewal
+
+Original-message recovery is deployed and privately verified; the owner card subsequently reached its one-hour expiry. The operator can now explicitly renew a verified expired card for the same reviewed package and authority, only while no owner decision exists and the request remains ready for approval. The old message, challenge and evidence are preserved; old controls stay invalid. Concurrent renewal produces one successor, and an unexpired card is returned unchanged. Uncertain and rejected publications require reconciliation rather than renewal.
+
+Ten focused renewal/CLI checks passed against disposable PostgreSQL, including concurrency, decided-request rejection, and stale-button rejection. The surrounding run passed 172 checks; three test fixtures/expectations were corrected and the affected checks passed. No planner/reviewer rerun, application build, data change or deployment is implied. Hosted renewal and the fresh owner decision remain pending at this snapshot. Automatic upstream pickup and real-app execution configuration remain missing.
+
 ## 2026-09-15 — alpha.31 owner-card publication recovery
 
 A supervised planning package completed its configured planner and native operational review. An owner-card send exposed the same plain-text entity-encoding mismatch previously repaired in interviews. Source now accepts only exact original or one-pass encoded display text, with action values and identity still strict. Operator recovery reads the original Slack message, rechecks current approval eligibility under lock, and records the original uncertain result in an immutable ledger before completing the same attempt. It does not post again or create a decision.

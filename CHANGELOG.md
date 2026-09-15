@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0-alpha.32 — 2026-09-15
+
+- Add explicit operator renewal for a verified expired owner card with no decision. Preserve the frozen package and scope, invalidate old controls, and serialize concurrent renewals.
+- Keep current cards idempotent and refuse renewal of uncertain/rejected deliveries. No planning or review model runs are repeated.
+
 ## 0.1.0-alpha.31 — 2026-09-15
 
 - Accept exact one-pass Slack encoding in owner-card plain-text fields while preserving strict action and identity matching.
