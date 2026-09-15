@@ -23,9 +23,11 @@ The private wheel matches all 66 Python/SQL source files.
 
 The bot's cloud environment did not have the required container isolation; the
 verified execution host does. The client is installed there; all 66 installed source
-files match the wheel and its disabled command exits successfully. Native rule setup
-was requested; final bot confirmation could not be read after the UI locked. No
-routine or hosted build credential is configured. Hosted phase 6 activation remains pending.
+files match the wheel and its disabled command exits successfully. The native bot
+subsequently confirmed its phase 6 rule and durable profile were saved, with the
+step 5 receiving rule preserved. This confirmation is from the bot's final reply;
+installed file parity was independently verified by the maintainer. No routine or
+hosted build credential is configured. Hosted phase 6 activation remains pending.
 No review, PR, push, merge, preview or deployment is part of this milestone. Public
 kit distribution continues to contain documentation only. See [phase 6](../skills/company-improvements/references/native-build.md).
 

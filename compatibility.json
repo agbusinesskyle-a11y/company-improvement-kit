@@ -1011,8 +1011,9 @@
       "status": "installed_disabled_on_execution_host",
       "installed_source_files_verified": 66,
       "disabled_cli": "disabled; exit 0",
-      "native_rule_confirmation": "requested_not_verified_after_UI_locked",
-      "routine_created": false
+      "native_rule_confirmation": "confirmed_by_native_bot_final_reply",
+      "routine_created": false,
+      "step5_rule_preserved": true
     },
     "terminal_state": "ready_for_review",
     "later_review_push_release": false,

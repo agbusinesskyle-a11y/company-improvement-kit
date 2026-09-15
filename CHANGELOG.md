@@ -9,8 +9,9 @@
   retain exact candidate/model/check evidence and stop ready for independent review.
 - Record 29 passing phase 6 source cases, one real synthetic native model call and
   66-file wheel/source parity. Separate these from hosted activation, which is pending.
-- Install and verify the disabled client on the execution host; keep native rule
-  confirmation and hosted activation distinct from installation.
+- Install and verify the disabled client on the execution host. Read the native
+  bot's final confirmation of its saved phase 6 rule and preserved step 5 rule;
+  hosted activation remains pending.
 - Preserve the public documentation-only distribution and operator checkpoint procedure.
 
 ## 0.1.0-alpha.15 — 2026-09-14
