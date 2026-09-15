@@ -1,5 +1,24 @@
 # Milestones and known limits
 
+## 2026-09-14 — alpha.15 native-bot step 5
+
+The new milestone narrows the post-approval connection to one issue and a receipt
+from the assigned native bot. The `issue_and_bot_handoff` scope stops at readiness
+for a later build. It does not queue the older model-runner build path or authorize
+steps 6–8. Historical planning-only approvals remain held.
+
+The receiving native bot has reported Python/HTTP, private durable storage and
+scheduled routine capabilities in its own execution environment. That capability
+check is distinct from source tests, installation and a live coordinator receipt.
+The private source passed 19 new cases using disposable PostgreSQL and synthetic
+HTTP, including signed approval, assigned-worker access, exact receipt binding,
+legacy approval preservation and lost-acknowledgment recovery. Seventeen cases
+passed in the combined run; two fixture corrections then passed their targeted
+rerun. The offline wheel matches all 61 Python/SQL files. Prior completed suites
+were not repeated. Legacy profile/context bytes match the pre-change source.
+See [compatibility](../compatibility.json) for evidence and installation status. No live activation or full workflow proof
+is claimed by this milestone. The public kit remains documentation only.
+
 ## 2026-09-13 — alpha.14 reusable post-approval execution candidate
 
 The private process now connects a newly scoped owner approval to Linear issue

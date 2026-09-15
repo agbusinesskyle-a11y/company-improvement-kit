@@ -1,6 +1,6 @@
 # Installation and stable-release readiness
 
-Current public package: skill/documentation preview 0.1.0-alpha.14. The public
+Current public package: skill/documentation preview 0.1.0-alpha.15. The public
 package contains no runtime or installer and has no independently verified clean
 installation. The private installation has a supervised planning and owner Slack
 approval proof with source-thread/card closure. Its historical planning-only issue

@@ -1,3 +1,13 @@
+# Alpha.15 documentation validation — 2026-09-14
+
+Maintainer review covered an explicit 22-file public export, including the new
+native-bot handoff reference. JSON, relative links, current version, whitespace
+and targeted private-data checks passed. The 19 new private implementation test
+cases and 61-file wheel comparison are source evidence, not public installation
+or live provider proof. Native bot installation is tracked separately. No new
+independent application or clean public install is claimed. Remote publication
+verification belongs in the private checkpoint.
+
 # Alpha.14 documentation validation — 2026-09-13
 
 This milestone uses an explicit 21-file public export, including the new execution

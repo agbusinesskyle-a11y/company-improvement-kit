@@ -5,6 +5,12 @@ implementing a demonstration request. Check the current milestone and the
 installation's private activation checkpoint before enabling execution. The
 public preview supplies operating instructions, not a runtime or installer.
 
+The selected native-bot connection is introduced in a separate
+[step 5 handoff](bot-handoff.md). Its issue-and-receipt scope ends at readiness;
+the broader execution sequence below applies only when separately supported and
+explicitly authorized. An existing model-runner implementation is not evidence
+that the native bot connection is installed or live.
+
 ## Bind the approval to future work
 
 An operator may opt a new request into a build policy before planning starts.

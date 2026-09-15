@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.0-alpha.15 — 2026-09-14
+
+- Document the native-bot step 5 boundary: verified approval, one issue, exact
+  approved-package receipt and readiness for a later build.
+- Separate handoff authority from build, review, repository writes and release.
+  Preserve historical planning-only decisions and existing upstream behavior.
+- Require a dedicated assigned bot identity, durable receipt and original-operation
+  recovery. No automatic fallback to the previous model runner.
+- Source verification and installation status are recorded in the compatibility
+  manifest. This preview continues to ship documentation only.
+
 ## 0.1.0-alpha.14 — 2026-09-13
 
 - Document the connected private post-approval execution candidate: issue, isolated
