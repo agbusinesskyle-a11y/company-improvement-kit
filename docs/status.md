@@ -1,5 +1,28 @@
 # Milestones and known limits
 
+## 2026-09-14 — alpha.17 hosted native-build activation
+
+The private coordinator and integrated Slack service now run the verified phase
+5–6 implementation. Both deployments succeeded and the build logs verified all
+66 installed Python/SQL files against the approved source. Normal migration,
+startup and interview processing remain in place. The reminder remains disabled.
+
+A separate private activation fixture now has a pinned repository/base, one editable
+text path, a trusted check, a verified local container image and a new build scope.
+Dedicated issue, handoff and build credentials each authenticated against the live
+coordinator and returned an empty queue. Existing project digests and the historical
+planning-only package/status were checked and remain unchanged. No historical
+approval, provider write or model test was replayed.
+
+A private operator wrapper is prepared for one serial issue/handoff/build cycle.
+Native scheduling is not enabled: unattended issue creation still needs its persistent
+provider credential, and native app configuration requires local interactive access.
+The new exact test package has not entered owner approval. An authenticated empty
+queue proves access, not issue creation or a successful live draft. No full employee
+execution chain, review, PR or release is claimed. The next checkpoint is the fresh
+owner-approved fixture followed through `ready_for_review`.
+
+
 
 ## 2026-09-14 — alpha.16 native draft build
 

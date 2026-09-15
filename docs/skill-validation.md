@@ -1,3 +1,12 @@
+# Alpha.17 documentation validation — 2026-09-14
+
+The explicit 23-file public export remains documentation only. Maintainer review
+checks updated readiness claims, JSON, relative links, version consistency,
+whitespace and private-data separation. Hosted installation/access evidence is
+separate from completed source/model tests, which were not replayed. No public
+runtime install or completed live build is claimed. Exact remote file verification
+and deployment evidence belong in the private checkpoint.
+
 # Alpha.16 documentation validation — 2026-09-14
 
 Maintainer review covers the explicit 23-file public export, including the native

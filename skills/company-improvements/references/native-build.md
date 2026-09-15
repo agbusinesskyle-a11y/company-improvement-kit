@@ -46,3 +46,26 @@ Public source tests, native model integration, client installation and a live ho
 employee-request chain are separate evidence. No scheduled routine, Linear status
 sync, Slack readiness message or cross-host candidate transfer is supplied in this
 slice. Same-user processes are not isolated by private directory permissions.
+
+
+## Activate one installation
+
+Keep each existing registry entry and approval scope unchanged. Add a separately
+bound fixture when testing a different repository; never rewrite a historical
+project to gain new build authority. Publish the compatible coordinator and owner
+receiver together, retain ordinary migration/startup commands, verify installed
+source and health, and provision distinct project/kind/worker grants.
+
+The native routine should call a trusted local wrapper with credential file paths,
+never credential values in its prompt. One cycle may run issue, handoff and build
+pickups in sequence under a process lock. Require the issue provider credential
+before claiming work. Keep each stage's environment separate, retain pending state,
+and stop on blocked or uncertain outcomes. Use the bot's supported schedule only
+after one configured pickup succeeds; an empty queue is access evidence only.
+
+Prepare a fresh exact plan and perform the public checkpoint before its real owner
+card. Verify the resulting issue, handoff, model call, candidate and check receipts
+through `ready_for_review`. Report source deployment, configured credentials, enabled
+routine and completed live chain as separate facts. The originating installation
+has not yet completed the scheduled/live-chain steps; public distribution remains
+documentation only.

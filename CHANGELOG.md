@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.0-alpha.17 — 2026-09-14
+
+- Record verified deployment of the private native handoff/build runtime and live
+  authentication of three separate workers against empty queues.
+- Document installation-specific pickup setup, preserving old profile digests and
+  approval scope; prepare an isolated fixture without requesting or assuming approval.
+- Keep scheduling, the unattended issue credential and full live-chain verification
+  explicitly pending. Reuse completed source/model evidence without replaying tests.
+
+
 
 ## 0.1.0-alpha.16 — 2026-09-14
 
