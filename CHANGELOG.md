@@ -5,7 +5,7 @@
 - Add a separate native outcome outbox for source/owner Slack threads and the existing Linear issue comment.
 - Reserve sends independently; reconcile uncertainty by exact provider evidence without reposting or rerunning a build.
 - Add optional hosted processing and visible delivery counts; preserve historical approval and execution state.
-- Verify 43 focused cases; live notification activation remains pending at this snapshot.
+- Verify 51 focused cases, including exact Slack block reconciliation and Linear permission rejection. Live delivery reconciliation remains in progress.
 
 ## 2026-09-15 — timer cleanup
 

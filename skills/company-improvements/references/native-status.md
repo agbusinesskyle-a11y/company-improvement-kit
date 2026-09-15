@@ -6,9 +6,10 @@ The original approval card remains unchanged. Comments communicate status; they
 do not change Linear workflow state or authorize review, repair, merge or release.
 
 Enable this worker only for explicitly configured projects on the integrated
-Slack host. Keep its Slack and restricted issue-provider credentials in private
+Slack host. Keep its Slack and restricted comment-provider credentials in private
 runtime configuration. Verify app membership and thread-history access in both
-channels and access to the frozen issue/team. Disabled is the default. The public
+channels and access to the frozen issue/team. The Linear key needs read and
+comments:create permissions; issues:create alone is insufficient. Disabled is the default. The public
 skill export supplies instructions, not this runtime or an installation command.
 
 The durable ledger derives targets and message facts from current execution
@@ -32,3 +33,8 @@ publish and verify the generic snapshot, then bind it to the exact private test
 package. Verify the actual provider messages and ledger receipts, followed by
 idle discovery, without repeating completed model/build tests. See
 [current status](../../../docs/status.md) for the observed activation result.
+
+Slack fallback newline normalization is accepted only with an exact visible
+plain-text block and matching client operation ID. Missing comment permission
+is a provider rejection, not a successful delivery. Preserve existing delivery
+history while correcting provider access.

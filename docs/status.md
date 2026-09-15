@@ -9,11 +9,15 @@ verification. Stale unsent results are superseded, and failed delivery remains
 visible without changing execution or approval state. The optional worker is
 disabled by default and runs separately from owner callback processing.
 
-Forty-three focused tests passed: 35 new cases and eight affected host cases. They
+Fifty-one focused cases passed: 43 new cases and eight affected host cases. They
 use disposable PostgreSQL and synthetic provider replies, without repeating live
 build/model proofs. Native Code contributed ledger tests and an additive migration;
 the maintainer completed integration after stopping an unproductive delegated
-implementation run. This snapshot is source evidence; live delivery is still pending.
+implementation run. Initial live delivery exposed Slack fallback newline normalization and a Linear key
+without comment permission. The updated transport checks the exact visible block
+and operation ID, and records definitive scope rejection. Existing message
+reconciliation and restricted comment access are in progress; full live delivery
+is not yet verified.
 Independent review, PR/release and real application compatibility remain separate.
 
 ## 2026-09-14 — alpha.21 live recovery reached ready for review

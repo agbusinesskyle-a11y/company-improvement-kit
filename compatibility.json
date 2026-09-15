@@ -1080,10 +1080,10 @@
     }
   },
   "native_status_notifications": {
-    "status": "source_verified_pending_live_delivery",
+    "status": "live_delivery_reconciliation_in_progress",
     "scope": "existing_native_outcome_notifications_only",
-    "source_tests_passed": 43,
-    "new_cases": 35,
+    "source_tests_passed": 51,
+    "new_cases": 43,
     "affected_existing_cases": 8,
     "host_worker": "optional_disabled_by_default",
     "destinations": [
@@ -1101,6 +1101,11 @@
       "Uncertain/rejected delivery remains operator attention; no blind re-post",
       "Bounded thread reads may not find old messages",
       "Review, PR and release remain separate stages"
+    ],
+    "slack_normalization": "exact_visible_block_and_operation_id",
+    "linear_required_scopes": [
+      "read",
+      "comments:create"
     ]
   }
 }
