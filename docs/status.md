@@ -1,5 +1,28 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.34 automatic upstream continuation
+
+Private source now connects confirmed briefs through the existing GPT-6 planner,
+one durable native Grok operational review, verified private/public GitHub publication,
+and the full Slack owner card. A separate stage records actual owner decisions and
+publishes a sanitized outcome. Per-project grants isolate lanes. Saved responses
+allow HTTP recovery without another model run or duplicate card.
+
+Source verification covers isolated planning queues, review reservation and replay,
+exact frozen artifact publication, public privacy, one card and one owner decision,
+and outcome publication preserving plan bytes. Tests use synthetic provider transport,
+disposable PostgreSQL, and local Git repositories. No earlier live model/build proof
+was repeated. Grok produced the review adapter; a broader model review timed out and
+is not counted as successful review. Integration was reviewed directly.
+
+Installation verification is recorded separately in compatibility. This source milestone
+alone does not prove an unattended employee submission. Review changes stop for
+revision; uncertain model results need retained-evidence recovery. SMS is currently
+disabled. Real application build profiles and check environments remain incomplete.
+Historical planning-only approvals retain their original limits. The public package
+remains a documentation preview with no independent installer or runtime.
+
+
 ## 2026-09-15 — alpha.33 execution routing across projects
 
 **Credential follow-up:** The existing publisher was extended to one selected application repository while preserving its permission types and expiration. Saved GitHub settings and credential-based repository/PR reads were verified. No new token, test push, pull request or application build was created. Application checks and worker activation remain unfinished.

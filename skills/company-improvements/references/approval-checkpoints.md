@@ -1,7 +1,19 @@
 # Publish at every approval stage
 
-This is an **operator** procedure today. Automated export and coordinator validation
-of a public publication receipt are not implemented.
+The general procedure is operator-managed. The private automatic upstream path
+implements a narrower trusted publisher: verify both repositories, publish the exact
+five private documents, publish the reviewed generic snapshot, verify remote bytes,
+and retain the paired receipt before posting. The coordinator binds that receipt to
+the exact package and configured repositories; it trusts the authenticated operator
+for remote verification. It does not independently access GitHub. Other publication
+paths retain this operator procedure.
+
+On an unchanged skill snapshot, the installed operator review is the no-change
+reason, and an empty public checkpoint commit records the stage without company
+content. After a provider-backed decision, update the generic compatibility, status
+and changelog with the action/scope and retained limitations; keep the exact decision
+evidence and paired commits privately. Changed generic instructions require normal
+maintainer review before enabling the publisher.
 
 ## Before requesting the decision
 

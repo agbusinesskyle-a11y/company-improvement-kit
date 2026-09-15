@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.33",
+  "skill_version": "0.1.0-alpha.34",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -34,13 +34,13 @@
   },
   "independent_clean_install": "not_run",
   "supported_installation_profiles": [],
-  "publication_enforcement": "operator_procedure_only",
+  "publication_enforcement": "operator_procedure_with_private_automatic_upstream_receipt_path",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.33",
+    "current_version": "0.1.0-alpha.34",
     "structure": "passed",
     "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
-    "independent_application": "not_run_for_alpha_33",
+    "independent_application": "not_run_for_alpha_34",
     "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -1306,5 +1306,22 @@
       "repository_test_mutations": 0,
       "application_build_activation": false
     }
+  },
+  "automatic_upstream": {
+    "source_implemented": true,
+    "live_installed": false,
+    "planning_project_scoped": true,
+    "review_model": "grok-4.6",
+    "durable_review_dispatch": true,
+    "automatic_private_and_public_publication": true,
+    "automatic_owner_card": true,
+    "automatic_sanitized_decision_checkpoint": true,
+    "real_application_execution_ready": false,
+    "sms_enabled": false,
+    "uncertain_model_recovery": "operator_required; no blind retry",
+    "review_revision_loop": "not_implemented",
+    "host_requires_awake_logged_in_session": true,
+    "historical_planning_only_scope_preserved": true,
+    "validation": "Focused synthetic transport and disposable PostgreSQL; local Git publication with remote adapter fixtures. Earlier completed live proofs not repeated."
   }
 }

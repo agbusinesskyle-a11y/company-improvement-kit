@@ -1,5 +1,11 @@
 # Alpha.33 project-routing documentation validation — 2026-09-15
 
+Alpha.34: maintainer review of changed generic instructions and explicit tracked export.
+No independent model application run or new live employee proof. The technical model
+review timed out; focused implementation checks and direct review are recorded privately.
+Structure, JSON and remote byte verification accompany publication.
+
+
 Review the existing 25-file export, JSON, relative links, version metadata and private-data separation. Routing source checks are distinct from hosted deployment and real application activation. No independent installation or repeat live model proof is claimed.
 
 # Alpha.32 renewal documentation validation — 2026-09-15

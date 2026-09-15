@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.34 — 2026-09-15
+
+- Implement project-scoped automatic planning, permanent native review reservations, verified private/public publication and the existing guarded Slack owner card.
+- Record actual owner outcomes and publish generic status without changing frozen packages.
+- Verify new authority, replay, publication and outcome checks; keep source readiness separate from host installation and real-app execution readiness.
+
+
 ## 0.1.0-alpha.33 — 2026-09-15
 
 - Verify selected application repository access for the existing publisher, preserving permission types and expiry. Application build activation remains pending; no test push or PR.

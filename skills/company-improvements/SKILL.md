@@ -15,8 +15,11 @@ references, milestone status, compatibility manifest and changelog; commit, push
 and verify the remote snapshot. Bind its exact commit to the private approval
 package using the checkpoint template. Keep public documentation and private
 approval evidence separate. A failed publication leaves the checkpoint incomplete.
-This is an **operator** procedure; automatic synchronization and coordinator
-runtime enforcement are not implemented. Continue independent authorized work.
+The general procedure remains operator-managed. A private automatic upstream
+path now requires a package-bound publication receipt before it posts a card and
+records verified decision outcomes afterward. Installation and limitations are
+tracked in compatibility; this preview still ships no runtime. Continue independent
+authorized work.
 
 ## Set up or assess an installation
 
