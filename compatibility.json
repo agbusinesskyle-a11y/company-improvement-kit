@@ -1221,9 +1221,12 @@
     "native_listener_membership_verified": true,
     "old_lane_routine_paused": true,
     "persisted_backlog_question_published_once": true,
-    "automatic_keyword_wake_after_cutover_verified": false,
+    "automatic_keyword_wake_after_cutover_verified": true,
     "business_app_execution_authorized": false,
     "source_tests_repeated": false,
-    "new_lane_routine_active_ui_verified": true
+    "new_lane_routine_active_ui_verified": true,
+    "followup_response_publication_verified": true,
+    "followup_required_review_resolution": true,
+    "unattended_followup_without_review_intervention_verified": false
   }
 }

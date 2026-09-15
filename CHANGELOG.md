@@ -5,7 +5,7 @@
 - Separate native interview bot ownership by business lane while preserving scoped API authority.
 - Verify native keyword listener membership separately from the hosted receiver app.
 - Pause the old routine before transfer and reconcile one genuine persisted interview without replaying a Slack event.
-- Verify one published question; keep automatic keyword wake after cutover explicitly unproven until a genuine follow-up arrives.
+- Verify the initial published question and a subsequent genuine automatic keyword wake; record the follow-up review interruption and one published response after resolution.
 - Preserve owner approval gates and completed source-test evidence.
 
 ## 0.1.0-alpha.27 — 2026-09-15

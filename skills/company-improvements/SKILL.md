@@ -166,3 +166,5 @@ When an owner also submits suggestions, include that owner explicitly in both th
 
 
 Give each business lane its own native interview bot when separate ownership is requested. Pause the old routine before transferring the exact scoped prompt and private credential path. Verify the hosted receiver app and the native keyword listener are both channel members. Read back the saved routine state after activation. A genuine persisted interview may be picked up once through the scoped API using its original source binding and response history; this is supervised recovery, not evidence of an automatic keyword wake. Verify the next genuine prefixed follow-up separately.
+
+When ending setup work, state explicitly that the active routine remains authorized to process genuine scoped interview input. Avoid an unqualified stop instruction that conflicts with continuing operation. If provider approval review holds a response, preserve the hold, clarify existing authority and reconcile the attempt before retrying; never bypass review.
