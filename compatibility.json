@@ -1309,7 +1309,7 @@
   },
   "automatic_upstream": {
     "source_implemented": true,
-    "live_installed": false,
+    "live_installed": true,
     "planning_project_scoped": true,
     "review_model": "grok-4.6",
     "durable_review_dispatch": true,
@@ -1322,6 +1322,10 @@
     "review_revision_loop": "not_implemented",
     "host_requires_awake_logged_in_session": true,
     "historical_planning_only_scope_preserved": true,
-    "validation": "Focused synthetic transport and disposable PostgreSQL; local Git publication with remote adapter fixtures. Earlier completed live proofs not repeated."
+    "validation": "Focused synthetic transport and disposable PostgreSQL; local Git publication with remote adapter fixtures. Earlier completed live proofs not repeated.",
+    "installed_runtime_files": 88,
+    "host_timer_seconds": 60,
+    "host_scheduled_cycle": "verified_idle_for_both_lanes_and_existing_downstream_stages",
+    "unattended_new_employee_proof": "not_repeated"
   }
 }

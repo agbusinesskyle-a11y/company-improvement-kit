@@ -2,6 +2,7 @@
 
 ## 0.1.0-alpha.34 — 2026-09-15
 
+- Deploy both private services, verify all 88 runtime files, and verify the existing one-minute host timer reaching both lanes and the existing downstream stages.
 - Implement project-scoped automatic planning, permanent native review reservations, verified private/public publication and the existing guarded Slack owner card.
 - Record actual owner outcomes and publish generic status without changing frozen packages.
 - Verify new authority, replay, publication and outcome checks; keep source readiness separate from host installation and real-app execution readiness.

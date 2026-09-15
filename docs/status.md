@@ -15,8 +15,11 @@ disposable PostgreSQL, and local Git repositories. No earlier live model/build p
 was repeated. Grok produced the review adapter; a broader model review timed out and
 is not counted as successful review. Integration was reviewed directly.
 
-Installation verification is recorded separately in compatibility. This source milestone
-alone does not prove an unattended employee submission. Review changes stop for
+Both private hosted services are deployed and healthy with all 88 runtime files
+verified against the committed source. The existing host timer now runs every minute;
+a scheduled idle cycle authenticated both project queues and all five existing
+downstream stages. No model, card or business build was repeated. This installed
+idle check does not prove a fresh unattended employee submission. Review changes stop for
 revision; uncertain model results need retained-evidence recovery. SMS is currently
 disabled. Real application build profiles and check environments remain incomplete.
 Historical planning-only approvals retain their original limits. The public package
