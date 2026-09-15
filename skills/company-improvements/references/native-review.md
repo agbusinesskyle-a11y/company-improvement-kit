@@ -50,8 +50,18 @@ Provision distinct coordinator grants for review and completion. The publisher
 needs a repository-scoped GitHub credential; the reviewer uses existing native
 model authentication. Keep credentials outside plans, prompts and this public kit.
 Append review and publication pickups to the existing locked host cycle rather
-than adding another timer. Repairs run in later cycles. Installation-specific
-credentials, candidate paths and a new exact approval remain activation work.
+than adding another timer. Repairs run in later cycles. Credentials, candidate paths and a new exact approval remain installation-specific.
+Keep the expanded cycle disabled until its required credentials are available.
+Give the publisher credential only to the publishing process, not model contexts.
+Verify repository access, the exact base reference and branch-triggered automation
+without a test push or test PR. Use the existing lock and timer; an authenticated
+empty queue proves access only, not a completed build or publication.
+
+A preparatory plan-review response may be retained when a local acceptance budget
+rejects it. Preserve the original failure and actual usage. An operator may
+explicitly assess that existing planning response without another model call;
+record any local budget exception and never alter frozen build/review limits or
+treat it as an owner decision. This does not authorize runtime budget overrides.
 
 A permanent journal precedes each model, push and PR dispatch. Recovery reads
 retained candidate/review evidence and exact provider state. A lost response never

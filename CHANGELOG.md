@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.24 — 2026-09-15
+
+- Document distinct worker grants and the disabled five-stage pickup using the existing lock and timer.
+- Separate credential/access checks, reviewed planning, owner approval and completed live execution.
+- Keep the repository-scoped publisher credential outside model contexts.
+- Preserve the retained planning-review budget exception without another model call or changes to frozen execution limits.
+- Record activation as held; no completed source tests or earlier live build repeated.
+
+
 ## 0.1.0-alpha.23 — 2026-09-15
 
 - Add the opt-in native review/repair/draft-PR scope with distinct frozen worker roles.

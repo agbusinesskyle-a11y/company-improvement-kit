@@ -1,5 +1,29 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.24 expanded worker setup; activation held
+
+The private installation now has distinct review and publication worker grants,
+matching hosted execution profiles and a five-stage pickup path using the existing
+host lock and timer. Both configuration deployments succeeded. Authenticated empty
+review/publication queues and disabled/description checks passed. The expanded
+cycle stays disabled; the prior request and its outcome receipts are preserved.
+
+A separate marker-only practice branch and new versioned plan are prepared. One
+focused planning revision corrected worker roles and operator prerequisites.
+Native Grok accepted the revised plan without findings. Its retained response
+exceeded the preparatory wrapper's local output budget; the operator documented
+an exception for that existing response and validated it without another model
+call. Frozen execution limits remain unchanged. This is planning evidence, not
+an approved execution or candidate review.
+
+Publisher credential creation is waiting for account identity confirmation.
+Credential verification, the complete private publication checkpoint and a fresh
+provider-backed owner decision remain prerequisites. No new owner card, practice
+build, candidate review, draft PR or expanded result delivery is claimed. Earlier
+117 source cases were not rerun. Public runtime distribution and independent
+installation remain unavailable.
+
+
 ## 2026-09-15 — alpha.23 native review and draft-PR source milestone
 
 The private implementation connects an explicitly approved native draft to a

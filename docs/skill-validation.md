@@ -1,3 +1,12 @@
+# Alpha.24 setup documentation validation — 2026-09-15
+
+The maintainer reviews the explicit 25-file export for generic setup instructions,
+JSON, relative links, version consistency and private-data separation. This
+milestone distinguishes authenticated empty queues and a disabled cycle from live
+execution. Existing source-test evidence is carried forward without rerunning it.
+No independent installation or new model-based skill validation is claimed.
+Remote content hashes and visibility are recorded privately after publication.
+
 # Alpha.23 native review documentation validation — 2026-09-15
 
 The explicit 25-file export adds generic native review/repair/draft-PR instructions.
