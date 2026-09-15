@@ -1191,7 +1191,7 @@
     }
   },
   "employee_intake_lanes": {
-    "status": "source_verified_deployment_pending",
+    "status": "deployed_two_private_lanes_connection_verified",
     "maximum_lanes": 8,
     "default_endpoint_preserved": true,
     "signed_receivers_preserved": true,
@@ -1202,6 +1202,16 @@
     "affected_existing_cases": 9,
     "live_employee_submission_verified": false,
     "real_app_execution_enabled": false,
-    "historical_approvals_rewritten": false
+    "historical_approvals_rewritten": false,
+    "live_connections": {
+      "hosted_services": "healthy",
+      "installed_runtime_files_verified": 79,
+      "lane_inbox_reads": "both_200",
+      "cross_lane_bearer_reads": "both_401",
+      "native_routines": "two_active_saved_settings_UI_verified",
+      "native_client_reads": "both_200_reported_by_bot",
+      "employee_channel_membership": "provider_read_verified"
+    },
+    "full_employee_submission_verified": false
   }
 }

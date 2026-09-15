@@ -5,6 +5,7 @@
 - Add private receiver support for multiple employee intake lanes using one Slack app.
 - Preserve exact signed requests, lane-specific requester and bearer authority, and the existing owner approval path.
 - Run 11 new and 9 affected host cases; all 20 pass with synthetic provider requests and disposable PostgreSQL.
+- Verify both hosted lanes, all 79 installed runtime files, separate authenticated inbox access, wrong-lane rejection, employee channel membership and both active native routine settings.
 - Keep live employee submission and real business-app execution separate from routing configuration evidence.
 
 ## 0.1.0-alpha.26 — 2026-09-15
