@@ -1,5 +1,13 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.33 execution routing across projects
+
+Private coordinator source now selects an exact project runtime from an operator collection. Actual workers retain a single-project contract. New contexts may bind a Linear project UUID as well as its team; create and recovery receipts must match it. Legacy runtime identities and existing planning-only approvals remain unchanged.
+
+Validation: 37 Linear cases, 61 routing/handoff/Slack cases, and one additional bootstrap regression passed. Providers were synthetic and database cases used disposable PostgreSQL. One native code suggestion exceeded its response budget; its retained source was independently corrected and checked, without a model retry. This is not a successful worker execution proof. Earlier live practice builds and planning runs were not repeated.
+
+Hosted source installation is pending at this snapshot. Real application build activation still requires scoped provider access, request-specific repository context, compatible isolated checks and worker configuration. The practice fixture remains the only verified live build chain. Automatic upstream planning/review/card dispatch remains unfinished.
+
 ## 2026-09-15 — alpha.32 expired approval renewal
 
 **Verified outcome:** A renewed exact-package card received one genuine owner approval through Slack. The signed interaction, durable decision and terminal update on that same card agree. The earlier expired challenge stays invalid. This approval is planning-only: one issue operation remains held and no execution jobs were created. Automatic upstream pickup and real-application execution configuration remain unfinished.

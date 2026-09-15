@@ -47,6 +47,8 @@ the separate status delivery worker; distinguish source tests from live delivery
 6. For the new `issue_handoff_build_review` scope, follow [native review](references/native-review.md): separate reviewer and publisher roles, bounded in-scope repairs, and an exact draft PR handoff. Preserve old scope stops. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
 7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
 
+For multiple projects, select exact trusted runtime and provider bindings; preserve single-project worker authority and verify each application’s own checks before activation.
+
 For newly configured build-scoped requests, see the [execution process](references/execution.md).
 Its private implementation has connected synthetic verification and remains inactive. Preserve
 historical planning-only authority and distinguish process development from

@@ -1,3 +1,7 @@
+# Alpha.33 project-routing documentation validation — 2026-09-15
+
+Review the existing 25-file export, JSON, relative links, version metadata and private-data separation. Routing source checks are distinct from hosted deployment and real application activation. No independent installation or repeat live model proof is claimed.
+
 # Alpha.32 renewal documentation validation — 2026-09-15
 
 Reviewed the explicit 25-file export, version metadata, JSON, relative links and private-data separation. Private receipts and the frozen plan stay outside this public tree. No new independent installation or model validation is claimed.

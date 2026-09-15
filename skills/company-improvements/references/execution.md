@@ -25,6 +25,22 @@ authority to its existing package or reuse its decision for a new version. Emplo
 text, a model response, an issue edit and an SMS reply cannot select a release
 policy or extend the owner's approved scope.
 
+## Keep project routes separate
+
+The private coordinator supports a trusted runtime collection selected by exact
+project key. An unknown project must fail; do not fall back to another lane.
+Workers still receive one project and only their own role credentials. A native
+issue runtime may bind an optional Linear project UUID as well as its team; freeze
+that identity before planning and require it in create/recovery receipts. Existing
+approvals keep their original identities when configuration changes.
+
+Before enabling a business application, verify its own repository permissions,
+base, bounded source context and isolated executable checks. A tiny practice
+project's image, resource limits and path allowance do not prove compatibility
+with a full application. Keep an unready profile disabled and report the specific
+missing prerequisites. Respect protected model roles and production branch
+triggers in that application's repository instructions.
+
 ## Execute and preserve evidence
 
 After the verified owner decision, the process reserves the issue operation,
