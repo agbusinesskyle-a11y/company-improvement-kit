@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.15",
+  "skill_version": "0.1.0-alpha.16",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,11 +37,11 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.15",
+    "current_version": "0.1.0-alpha.16",
     "structure": "passed",
-    "public_file_review": "maintainer review; explicit 22-file export, JSON, relative links, version, whitespace and targeted private-data screen",
-    "independent_application": "not_run_for_alpha_15",
-    "public_file_count": 22,
+    "public_file_review": "maintainer review; explicit 23-file export, JSON, relative links, version, whitespace and targeted private-data screen",
+    "independent_application": "not_run_for_alpha_16",
+    "public_file_count": 23,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
     "new_documentation_metadata_checks": "passed"
@@ -980,6 +980,48 @@
       "No automatic Linear status update or Slack readiness message",
       "Unknown Linear issue ID requires operator reconciliation",
       "Steps 6\u20138 remain outside this scope"
+    ]
+  },
+  "phase6_native_build": {
+    "date": "2026-09-14",
+    "scope": "issue_handoff_build",
+    "status": "source_verified_pending_hosted_activation",
+    "reference": "skills/company-improvements/references/native-build.md",
+    "activated": false,
+    "public_runtime_shipped": false,
+    "source_tests": {
+      "unique_cases_passed": 29,
+      "combined_passed": 28,
+      "targeted_recovery_passed": 1,
+      "kind": "disposable PostgreSQL/Git; real Docker; synthetic provider and model responses",
+      "previous_completed_suites_repeated": false
+    },
+    "native_model_proof": {
+      "model_calls": 1,
+      "synthetic_plan": true,
+      "existing_authentication": true,
+      "ringer_used": false,
+      "api_key_required": false
+    },
+    "packaging": {
+      "offline_wheel": true,
+      "matching_python_sql_source_files": 66
+    },
+    "native_client_installation": {
+      "status": "installed_disabled_on_execution_host",
+      "installed_source_files_verified": 66,
+      "disabled_cli": "disabled; exit 0",
+      "native_rule_confirmation": "requested_not_verified_after_UI_locked",
+      "routine_created": false
+    },
+    "terminal_state": "ready_for_review",
+    "later_review_push_release": false,
+    "limitations": [
+      "Hosted coordinator and dedicated build access not activated",
+      "Execution host must have authenticated Grok and the frozen Docker image",
+      "Native routine not enabled",
+      "No cross-host candidate transfer or Linear/Slack readiness sync",
+      "Output-token acceptance ceiling is not a prepaid spending cap"
     ]
   }
 }

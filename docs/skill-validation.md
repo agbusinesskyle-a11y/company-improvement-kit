@@ -1,4 +1,13 @@
+# Alpha.16 documentation validation — 2026-09-14
+
+Maintainer review covers the explicit 23-file public export, including the native
+build reference. JSON, relative links, version consistency, whitespace and a targeted
+private-data screen passed before publication. Private source tests and native
+model evidence are reported separately; no clean public runtime install is claimed.
+Remote content verification is recorded in the private checkpoint.
+
 # Alpha.15 documentation validation — 2026-09-14
+
 
 Maintainer review covered an explicit 22-file public export, including the new
 native-bot handoff reference. JSON, relative links, current version, whitespace

@@ -1,5 +1,34 @@
 # Milestones and known limits
 
+
+## 2026-09-14 — alpha.16 native draft build
+
+Phase 6 adds `issue_handoff_build`: a new exact approval, one issue, retained bot
+handoff and one checked draft ending at `ready_for_review`. The earlier handoff
+scope and historical planning-only approvals keep their original limits.
+
+The private source passed 29 new phase 6 cases (28 together plus one targeted
+handoff recovery case). These exercise real disposable PostgreSQL, Git and Docker
+with synthetic provider/model responses, including scope, worker, cancellation,
+expiry, candidate evidence, restart and network/filesystem restrictions. Completed
+step 5 suites and historical live approval proofs were not replayed. Native Code
+contributed the proposal validator and reported five scratch helper tests passing;
+these are separate from the 29 integrated cases.
+
+A real native Grok CLI proof used existing authentication, one model call and a
+synthetic one-file change. Startup format/model-alias errors were corrected before
+that call. Requested/reported identities are now frozen separately. No Ringer or
+new API key was used. This proof does not constitute a hosted employee build.
+The private wheel matches all 66 Python/SQL source files.
+
+The bot's cloud environment did not have the required container isolation; the
+verified execution host does. The client is installed there; all 66 installed source
+files match the wheel and its disabled command exits successfully. Native rule setup
+was requested; final bot confirmation could not be read after the UI locked. No
+routine or hosted build credential is configured. Hosted phase 6 activation remains pending.
+No review, PR, push, merge, preview or deployment is part of this milestone. Public
+kit distribution continues to contain documentation only. See [phase 6](../skills/company-improvements/references/native-build.md).
+
 ## 2026-09-14 — alpha.15 native-bot step 5
 
 The new milestone narrows the post-approval connection to one issue and a receipt

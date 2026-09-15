@@ -1,5 +1,18 @@
 # Changelog
 
+
+## 0.1.0-alpha.16 — 2026-09-14
+
+- Document the new native build scope, preserving all earlier approval boundaries.
+- Freeze assigned builder, requested/reported model, pinned check image and limits.
+- Run one tool-free Grok proposal through trusted Git application and isolated checks;
+  retain exact candidate/model/check evidence and stop ready for independent review.
+- Record 29 passing phase 6 source cases, one real synthetic native model call and
+  66-file wheel/source parity. Separate these from hosted activation, which is pending.
+- Install and verify the disabled client on the execution host; keep native rule
+  confirmation and hosted activation distinct from installation.
+- Preserve the public documentation-only distribution and operator checkpoint procedure.
+
 ## 0.1.0-alpha.15 — 2026-09-14
 
 - Document the native-bot step 5 boundary: verified approval, one issue, exact
