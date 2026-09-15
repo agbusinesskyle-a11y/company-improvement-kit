@@ -1,5 +1,13 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.29 bounded interviews and publication repair
+
+Both native lane prompts now target three follow-up questions, with questions four and five reserved for essential requester facts. The private ledger rejects a sixth persisted question under its session lock, while allowing a summary and exact idempotent retries. Draft revisions do not reset the count. Technical unknowns that a planner can investigate remain explicit planning tasks; genuine missing requester decisions remain blockers rather than invented answers.
+
+A real summary exposed a publication-verification defect: Slack returned entity-encoded plain text, leaving the visible message without a verified publication receipt and causing confirmation rejection. The source repair accepts exact content or its exact one-pass encoding, preserving structural and identity checks. A new operator-only recovery reads and verifies the original message and records its receipt without reposting or confirming. A rejected click must be made again after recovery. Final live confirmation remains pending in this publication. No business-app implementation or new owner approval is implied.
+
+Three new question-budget cases and affected tests passed (50 total initially). Ten further publication/recovery cases cover encoding, identity, stale source and concurrency; the final Slack suite passed 30 cases. Provider requests in these tests were synthetic. Unrelated completed workflow/model tests were not replayed.
+
 ## 2026-09-15 — alpha.28 separate native lane ownership
 
 A private business lane now has its own native interview bot and scoped credential file. The old bot's routine was paused before transfer; the destination routine's active state, scoped prompt and channel trigger were then verified in the native UI. A real owner submission exposed an owner-requester omission and a missing native keyword listener in the private channel; both configuration prerequisites were corrected. The hosted receiver app and native listener are separate channel-membership checks. A successful inbox read alone does not establish keyword delivery.

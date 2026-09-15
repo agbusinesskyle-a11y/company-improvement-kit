@@ -128,3 +128,10 @@ The native keyword listener may be a different Slack app from the hosted receive
 For a lane move, pause its old routine first, retain history, and create or update exactly one routine under the destination bot. Preserve the exact channel, prefix, source checks, response protocol and approval limits. Put its scoped credential in the destination bot's private directory, then read back activation state. Do not run both responders or create another timer.
 
 When a genuine accepted request is waiting, read its original source binding and response history before proposing one response with a stable event key and expected message count. Verify publication in its original thread. Do not fabricate or replay a source event, duplicate an existing answer, or claim this supervised pickup proves future keyword delivery. Confirm an automatic wake from the next genuine prefixed user reply.
+
+
+## Interview limit and original-publication recovery
+
+Target three questions and enforce a maximum of five question-kind responses per session. Count stored history under the existing session lock; allow exact retries and summary drafts after the limit. Do not reset the count when the draft changes. Separate planner-investigable technical uncertainty from missing requester decisions; only the latter blocks brief confirmation.
+
+Slack may return `&`, `<` and `>` as one-pass entities in plain-text display fields. Accept only the exact original representation or its exact encoded form; retain exact button IDs, structure, source identity and timestamps. A visible message is not a verified receipt. If an accepted send remained unverified, the operator may use `InterviewSlackService.reconcile(session_id, response_version, message_ts)` to read and validate the original provider message, recheck the latest source and record the same publication. This method is not exposed to the bot. Never resend or synthesize a signed callback. Ask for a fresh genuine click if an earlier one was rejected.

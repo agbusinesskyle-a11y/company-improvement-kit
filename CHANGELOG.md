@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.29 — 2026-09-15
+
+- Target three interview follow-ups and enforce a maximum of five persisted question responses per session, including concurrent attempts and restarts.
+- Preserve early summaries, retry identity, separate requester confirmation and owner approval.
+- Keep technical investigation in planner tasks rather than repeatedly questioning employees.
+- Verify Slack one-pass entity encoding without relaxing content or button identity checks.
+- Add operator-only reconciliation of an existing publication; no repost or fabricated confirmation.
+
 ## 0.1.0-alpha.28 — 2026-09-15
 
 - Separate native interview bot ownership by business lane while preserving scoped API authority.

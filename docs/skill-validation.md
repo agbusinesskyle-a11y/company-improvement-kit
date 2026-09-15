@@ -1,3 +1,7 @@
+# Alpha.29 bounded interview documentation validation — 2026-09-15
+
+Review covers the explicit 25-file generic export, JSON, relative links, version metadata and private-data separation. Source-tested question limits and publication recovery are distinct from live confirmation. Exact remote contents are verified after publication. No independent installation or model-based public validation is claimed.
+
 # Alpha.28 lane ownership documentation validation — 2026-09-15
 
 The maintainer reviews the explicit 25-file generic export, version metadata, relative links and private-data separation. Provider channel-join evidence, an automatic keyword wake and one follow-up publication are recorded separately from the intervening approval-review hold. Exact public remote contents are verified after publication. Completed source tests and practice builds are not repeated; no independent installation or fresh model-based skill validation is claimed.

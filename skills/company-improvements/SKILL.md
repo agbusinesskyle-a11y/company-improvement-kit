@@ -168,3 +168,10 @@ When an owner also submits suggestions, include that owner explicitly in both th
 Give each business lane its own native interview bot when separate ownership is requested. Pause the old routine before transferring the exact scoped prompt and private credential path. Verify the hosted receiver app and the native keyword listener are both channel members. Read back the saved routine state after activation. A genuine persisted interview may be picked up once through the scoped API using its original source binding and response history; this is supervised recovery, not evidence of an automatic keyword wake. Verify the next genuine prefixed follow-up separately.
 
 When ending setup work, state explicitly that the active routine remains authorized to process genuine scoped interview input. Avoid an unqualified stop instruction that conflicts with continuing operation. If provider approval review holds a response, preserve the hold, clarify existing authority and reconcile the attempt before retrying; never bypass review.
+
+
+## Bound employee interviews
+
+Target three follow-up questions; stop earlier when sufficient. Permit questions four and five only for essential missing requester facts, one clear question per message. Enforce at most five persisted question responses per session in the service, counting across revisions. At the cap or `question_limit`, prepare a summary, never another question. Preserve technical unknowns as explicit planner-investigation tasks. Keep genuine missing requester decisions in open questions and escalate them without inventing facts. Only describe a confirmation button that exists on the current verified presentation. Typed confirmation and a rejected callback do not establish confirmation.
+
+For a visible but unverified Slack publication, use the operator-only original-message reconciliation procedure in [Slack intake](references/slack-intake.md). It must verify the original content and identity without reposting or creating confirmation evidence.

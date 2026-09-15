@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.28",
+  "skill_version": "0.1.0-alpha.29",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.28",
+    "current_version": "0.1.0-alpha.29",
     "structure": "passed",
     "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
-    "independent_application": "not_run_for_alpha_28",
+    "independent_application": "not_run_for_alpha_29",
     "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -1228,5 +1228,20 @@
     "followup_response_publication_verified": true,
     "followup_required_review_resolution": true,
     "unattended_followup_without_review_intervention_verified": false
+  },
+  "bounded_interviews": {
+    "date": "2026-09-15",
+    "target_questions": 3,
+    "maximum_question_responses": 5,
+    "server_enforced": true,
+    "drafts_allowed_after_limit": true,
+    "retries_idempotent": true,
+    "technical_investigation_belongs_to_planner": true,
+    "confirmation_requires_signed_button": true,
+    "slack_entity_encoding_verified_in_source": true,
+    "operator_original_publication_reconciliation": true,
+    "bot_reconciliation_endpoint": false,
+    "source_tests": "50 initial affected cases; 10 added publication/recovery cases; final 30 Slack cases passed",
+    "live_confirmation_after_repair": "pending"
   }
 }
