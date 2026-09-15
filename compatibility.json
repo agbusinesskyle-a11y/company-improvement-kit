@@ -1082,8 +1082,8 @@
   "native_status_notifications": {
     "status": "source_verified_pending_live_delivery",
     "scope": "existing_native_outcome_notifications_only",
-    "source_tests_passed": 41,
-    "new_cases": 33,
+    "source_tests_passed": 43,
+    "new_cases": 35,
     "affected_existing_cases": 8,
     "host_worker": "optional_disabled_by_default",
     "destinations": [

@@ -9,7 +9,7 @@ verification. Stale unsent results are superseded, and failed delivery remains
 visible without changing execution or approval state. The optional worker is
 disabled by default and runs separately from owner callback processing.
 
-Forty-one focused tests passed: 33 new cases and eight affected host cases. They
+Forty-three focused tests passed: 35 new cases and eight affected host cases. They
 use disposable PostgreSQL and synthetic provider replies, without repeating live
 build/model proofs. Native Code contributed ledger tests and an additive migration;
 the maintainer completed integration after stopping an unproductive delegated

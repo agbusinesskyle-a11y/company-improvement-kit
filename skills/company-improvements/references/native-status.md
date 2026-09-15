@@ -15,7 +15,9 @@ The durable ledger derives targets and message facts from current execution
 records and the exact approval card, never model prose. It ignores historical
 results with later queued work and supersedes stale unsent messages. Source,
 owner and issue delivery are tracked separately. One failed destination does not
-block another or change build state.
+block another or change build state. Invalid targets have their own persistent
+error records. A dead enabled delivery worker fails host readiness; unresolved
+provider receipts remain visible as attention without disabling approval callbacks.
 
 Each operation reserves one send permanently. Provider uncertainty triggers
 read-only recovery by its original operation identity, checking exact destination,
