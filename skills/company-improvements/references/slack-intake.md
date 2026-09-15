@@ -119,3 +119,12 @@ While every reply requires the trigger prefix, each interview question must tell
 the requester to reply in the same thread starting with that prefix. Plain replies
 are not ingested by this version; do not describe silence as a model failure or
 fabricate a source event to recover them.
+
+
+## Separate lane bot cutover
+
+The native keyword listener may be a different Slack app from the hosted receiver. Verify both apps belong to the intended private channel; inbox HTTP success does not prove listener delivery. Keep the employee requester list and optional owner requester explicit, with owner approval separately bound.
+
+For a lane move, pause its old routine first, retain history, and create or update exactly one routine under the destination bot. Preserve the exact channel, prefix, source checks, response protocol and approval limits. Put its scoped credential in the destination bot's private directory, then read back activation state. Do not run both responders or create another timer.
+
+When a genuine accepted request is waiting, read its original source binding and response history before proposing one response with a stable event key and expected message count. Verify publication in its original thread. Do not fabricate or replay a source event, duplicate an existing answer, or claim this supervised pickup proves future keyword delivery. Confirm an automatic wake from the next genuine prefixed user reply.

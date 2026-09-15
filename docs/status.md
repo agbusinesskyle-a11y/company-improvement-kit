@@ -1,5 +1,11 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.28 separate native lane ownership
+
+A private business lane now has its own native interview bot and scoped credential file. The old bot's routine was paused before transfer; the destination routine's active state, scoped prompt and channel trigger were then verified in the native UI. A real owner submission exposed an owner-requester omission and a missing native keyword listener in the private channel; both configuration prerequisites were corrected. The hosted receiver app and native listener are separate channel-membership checks. A successful inbox read alone does not establish keyword delivery.
+
+One genuine persisted interview was picked up under operator direction, and exactly one clarifying question was verified in the original Slack thread. This proves the scoped response/publication path, not an automatic keyword wake after the move. The next genuine prefixed follow-up is the remaining trigger check. No source tests, practice builds or provider events were replayed. Employee scope, separate owner approval, frozen plans and limits on real application execution remain unchanged.
+
 ## 2026-09-15 — alpha.27 employee lane routing
 
 The private receiver now supports several configured intake lanes through the same Slack app. Each lane selects its own source channel, permitted requesters, project and interview bearer. Existing signed receiver checks and owner approval checks remain authoritative. One owner/reminder/outcome worker set serves the shared host; no additional timer was created.

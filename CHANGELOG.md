@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.28 — 2026-09-15
+
+- Separate native interview bot ownership by business lane while preserving scoped API authority.
+- Verify native keyword listener membership separately from the hosted receiver app.
+- Pause the old routine before transfer and reconcile one genuine persisted interview without replaying a Slack event.
+- Verify one published question; keep automatic keyword wake after cutover explicitly unproven until a genuine follow-up arrives.
+- Preserve owner approval gates and completed source-test evidence.
+
 ## 0.1.0-alpha.27 — 2026-09-15
 
 - Clarify owner-requester access separately from employee membership and owner approval; correct a private lane whose employee-only configuration excluded the owner.

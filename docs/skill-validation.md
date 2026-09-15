@@ -1,3 +1,7 @@
+# Alpha.28 lane ownership documentation validation — 2026-09-15
+
+The maintainer reviews the explicit 25-file generic export, version metadata, relative links and private-data separation. Provider channel-join evidence and a published question are distinguished from a future automatic keyword wake. Exact public remote contents are verified after publication. Completed source tests and practice builds are not repeated; no independent installation or fresh model-based skill validation is claimed.
+
 # Alpha.26 completed-practice documentation validation — 2026-09-15
 
 The maintainer reviews the explicit 25-file generic export against the private
