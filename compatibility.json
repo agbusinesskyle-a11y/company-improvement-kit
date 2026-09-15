@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.20",
+  "skill_version": "0.1.0-alpha.21",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.20",
+    "current_version": "0.1.0-alpha.21",
     "structure": "passed",
     "public_file_review": "maintainer review; explicit 23-file export, JSON, relative links, version, whitespace and targeted private-data screen",
-    "independent_application": "not_run_for_alpha_20",
+    "independent_application": "not_run_for_alpha_21",
     "public_file_count": 23,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -985,9 +985,9 @@
   "phase6_native_build": {
     "date": "2026-09-14",
     "scope": "issue_handoff_build",
-    "status": "owner_approved_live_attempt_stopped_invalid_model_proposal",
+    "status": "configured_fixture_live_recovery_ready_for_review",
     "reference": "skills/company-improvements/references/native-build.md",
-    "activated": false,
+    "activated": true,
     "public_runtime_shipped": false,
     "source_tests": {
       "unique_cases_passed": 29,
@@ -1005,40 +1005,41 @@
     },
     "packaging": {
       "offline_wheel": true,
-      "matching_python_sql_source_files": 66
+      "matching_python_sql_source_files": 68
     },
     "native_client_installation": {
-      "status": "installed_paused_after_failed_live_attempt",
-      "installed_source_files_verified": 66,
+      "status": "installed_enabled_via_execution_host_service",
+      "installed_source_files_verified": 68,
       "disabled_cli": "disabled; exit 0",
       "native_rule_confirmation": "confirmed_by_native_bot_final_reply",
       "routine_created": true,
       "step5_rule_preserved": true,
-      "routine_enabled": false
+      "routine_enabled": true,
+      "native_timer_pause_pending": true
     },
     "terminal_state": "ready_for_review",
     "later_review_push_release": false,
     "limitations": [
-      "Live attempt stopped before proposal application; successful build still unproven",
-      "Scheduler overdue; routine paused; automatic pickup unresolved",
-      "Completion reporting needs reconciliation without replaying effects",
-      "Original raw model response is not retained by the current adapter",
-      "Only isolated fixture configured; real app profiles need separate compatible configuration",
-      "No cross-host candidate transfer or Linear/Slack readiness sync",
+      "Configured fixture is verified; real app profiles still require compatible configuration",
+      "Native app timer remains unreliable; execution host service supplies pickup",
+      "Redundant native timer UI pause pending; shared lock/fencing remain active",
+      "Execution host must remain available and logged in for the user service",
+      "No automatic Linear/Slack readiness sync or cross-host candidate transfer",
+      "Independent review, PR/merge/release and public clean installation not proven",
       "Output-token acceptance ceiling is not a prepaid spending cap"
     ],
     "hosted_runtime": {
       "coordinator": "deployed_verified",
       "slack_receiver": "deployed_verified",
-      "installed_python_sql_files": 66,
+      "installed_python_sql_files": 68,
       "issue_handoff_build_grants": "live_authenticated_empty_queues",
       "historical_profiles_and_approval_scope": "preserved",
-      "scheduled_routine": "paused_after_failed_live_attempt",
+      "scheduled_routine": "native_app_unreliable_host_service_enabled",
       "issue_provider_credential": "restricted_key_read_only_identity_team_check_passed",
       "new_owner_approval_package": "fresh_exact_owner_approval_verified",
-      "end_to_end_live_build": false,
+      "end_to_end_live_build": true,
       "previous_completed_tests_repeated": false,
-      "configured_pickup": "operator_triggered_issue_and_handoff_succeeded_build_blocked"
+      "configured_pickup": "host_service_issue_idle_handoff_idle_build_ready_for_review"
     },
     "live_activation_attempt": {
       "owner_approval_verified": true,
@@ -1059,7 +1060,7 @@
       "automatic_retry": false
     },
     "recovery": {
-      "status": "source_verified_pending_hosted_recovery",
+      "status": "hosted_recovery_ready_for_review",
       "operator_only": true,
       "worker_api_exposed": false,
       "separate_owner_instruction_required": true,
@@ -1068,8 +1069,14 @@
       "bounded_by_frozen_ceiling": true,
       "model_response_retained_privately": true,
       "controlled_model_response": "passed",
-      "hosted_recovery_verified": false,
-      "scheduled_recovery_verified": false
+      "hosted_recovery_verified": true,
+      "scheduled_recovery_verified": true,
+      "trigger": "execution_host_service_automatic_run_at_load",
+      "successful_model_calls": 1,
+      "output_tokens": 572,
+      "original_failure_retained": true,
+      "timed_cycle_after_startup_verified": true,
+      "affected_tests_passed": 27
     }
   }
 }

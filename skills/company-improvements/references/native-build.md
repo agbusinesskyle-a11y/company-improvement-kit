@@ -43,9 +43,11 @@ into smaller newly approved packages. Checks passing does not prove functional
 completeness or independent approval.
 
 Public source tests, native model integration, client installation and a live hosted
-employee-request chain are separate evidence. No scheduled routine, Linear status
-sync, Slack readiness message or cross-host candidate transfer is supplied in this
-slice. Same-user processes are not isolated by private directory permissions.
+employee-request chain are separate evidence. The public export does not supply
+a scheduled routine, Linear status sync, Slack readiness message or cross-host
+candidate transfer. The originating private installation uses the execution-host
+background pickup described below. Same-user processes are not isolated by private
+directory permissions.
 
 
 ## Activate one installation
@@ -66,8 +68,10 @@ after one configured pickup succeeds; an empty queue is access evidence only.
 Prepare a fresh exact plan and perform the public checkpoint before its real owner
 card. Verify the resulting issue, handoff, model call, candidate and check receipts
 through `ready_for_review`. Report source deployment, configured credentials, enabled
-routine and completed live chain as separate facts. The originating installation has enabled its native schedule after an idle
-cycle; the fresh exact package still awaits its owner decision and live-chain proof.
+routine and completed live chain as separate facts. The originating installation
+verified an owner-approved fixture through issue, handoff and a checked recovery
+to `ready_for_review`. Its host service supplies pickup because the native app
+timer did not dispatch reliably.
 Public distribution remains documentation only.
 
 
@@ -104,3 +108,20 @@ Native CLI output is retained privately by session before parsing/validation.
 Credential copies still use a temporary home and are removed afterward; commands,
 authentication files and environment are not copied into response evidence.
 Historical planning language is not a new instruction to the approved builder.
+
+
+## Execution-host background pickup
+
+If the native app timer does not dispatch reliably, the same trusted worker command
+can run under the execution host's service manager. This changes the timer, not
+model selection, approval authority, credential scope or receipt handling. Record
+that distinction. On macOS, a per-user LaunchAgent can use `ProgramArguments` for
+the exact private venv Python, trusted pickup script and enable flag, `RunAtLoad`,
+and `StartInterval: 300`. Put stdout/stderr in restricted operator storage. Never
+put credentials or shell-interpolated commands in the service definition.
+
+Verify both the automatic startup and a later timed cycle. Reuse the existing
+process lock and durable stage journals; never introduce a second unguarded worker.
+Disable the redundant native app timer when its UI is available. A screen lock
+does not stop this background process, but host sleep, logout or shutdown affects
+availability. The model remains the authenticated native Grok CLI.

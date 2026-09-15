@@ -1,3 +1,12 @@
+# Alpha.21 live-result documentation validation — 2026-09-14
+
+The maintainer reviews the 23-file generic export against retained live recovery
+evidence: exact owner/package binding, reused issue and handoff, one model call in
+the successful attempt, candidate bytes/path, pinned check and ready-for-review
+state. Host scheduling is explicitly distinguished from the unreliable native app
+timer. No earlier tests are replayed for this documentation update. Remote bytes,
+privacy screening, JSON and relative links bind the private outcome checkpoint.
+
 # Alpha.20 recovery validation — 2026-09-14
 
 The explicit 23-file public export describes operator-only recovery and preserves

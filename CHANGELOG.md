@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.21 — 2026-09-14
+
+- Record the owner-approved live issue/handoff path and separately authorized recovery reaching `ready_for_review`.
+- Verify the exact candidate change, pinned offline check, accepted coordinator result, retained original failure and absence of duplicate issue/handoff effects.
+- Use the execution host’s background service for pickup after the native app timer failed to fire; preserve the same worker, native model, credentials and locks.
+- Verify the later five-minute idle pickup without another build or model call.
+- Keep production-app compatibility, later review/release, and public installation outside the completed fixture scope.
+
 ## 0.1.0-alpha.20 — 2026-09-14
 
 - Retain native model responses privately before validation and distinguish approved build execution from historical planning text.

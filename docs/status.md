@@ -1,5 +1,32 @@
 # Milestones and known limits
 
+## 2026-09-14 — alpha.21 live recovery reached ready for review
+
+The hosted coordinator accepted a successful native build under the existing
+exact approval and a separate, recorded recovery authorization. The original
+issue and bot handoff were reused. The new attempt made one native model call,
+changed only the permitted fixture marker, passed the pinned offline check and
+ended at `ready_for_review`. Independent reads verified the candidate Git commit,
+exact bytes, clean workspace, retained first failure and cleared worker journal.
+The real recovery is distinct from the earlier failed attempt and model-only check.
+
+The native app’s enabled interval timer did not pick up the queued recovery.
+The installation therefore runs the same trusted pickup command through a user
+background service on its execution host, with a five-minute interval and run at
+login/load. Its automatic startup processed the real job while the screen was
+locked. A later automatic five-minute cycle completed successfully with all three
+stages idle and no additional model call. Native Grok remains the builder; the
+host service supplies the timer.
+The service configuration contains no credentials, and existing worker locks and
+ledger fencing prevent duplicate effects. The redundant native app timer still
+needs to be disabled through its locked UI; do not claim that timer was repaired.
+
+This completes the configured fixture through draft-and-check, not a universal
+production guarantee. The host must remain available and logged in for this user
+service. Real application profiles, automatic readiness-message synchronization,
+independent code review, PR/merge/release and an independently installable public
+runtime are not established by this test. SMS remains disabled.
+
 ## 2026-09-14 — alpha.20 bounded recovery prepared
 
 A separate owner instruction authorized continued workflow repairs and controlled

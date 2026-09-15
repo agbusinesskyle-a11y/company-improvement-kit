@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.20 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.21 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 
@@ -10,7 +10,8 @@ The intended process is: suggestion → interview → versioned plan → owner a
 The current native-bot milestone is [phase 6](skills/company-improvements/references/native-build.md):
 a new build-authorized approval → issue → bot receipt → one checked draft → ready
 for independent review. The earlier [step 5](skills/company-improvements/references/bot-handoff.md)
-scope still stops before a build. Hosted activation remains pending.
+scope still stops before a build. The configured hosted fixture has reached
+`ready_for_review`; real application compatibility and later stages remain pending.
 
 Start with [the skill](skills/company-improvements/SKILL.md), [current status](docs/status.md)
 and [the roadmap](docs/distribution.md). Give the skill folder to a compatible agent
