@@ -1,5 +1,19 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.35 application compatibility preparation
+
+Automatic upstream continuation remains installed as described below. Optional
+application check budgets are now implemented privately, with eight focused checks
+and one legacy-profile comparison passing. This source change alone does not
+activate a business-app worker. Existing owner approvals retain their scope.
+
+Real application check images are being verified with pinned dependencies, dummy
+credentials and disposable data. An unchanged app's failed baseline is not a reason
+to label a practice test as sufficient. Repository publisher access now includes
+both intended business repositories without additional permission types, expiry
+changes, test pushes or PRs. Installation/results remain explicit in compatibility.
+
+
 ## 2026-09-15 — alpha.34 automatic upstream continuation
 
 Private source now connects confirmed briefs through the existing GPT-6 planner,

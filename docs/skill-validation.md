@@ -1,5 +1,9 @@
 # Alpha.33 project-routing documentation validation — 2026-09-15
 
+Alpha.35: reviewed changed generic resource and application-compatibility instructions.
+Eight new private source checks plus one affected historical-profile comparison passed;
+no new independent skill application or repeated practice model/build proof.
+
 Alpha.34: maintainer review of changed generic instructions and explicit tracked export.
 No independent model application run or new live employee proof. The technical model
 review timed out; focused implementation checks and direct review are recorded privately.

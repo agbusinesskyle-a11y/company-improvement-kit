@@ -125,3 +125,19 @@ process lock and durable stage journals; never introduce a second unguarded work
 Disable the redundant native app timer when its UI is available. A screen lock
 does not stop this background process, but host sleep, logout or shutdown affects
 availability. The model remains the authenticated native Grok CLI.
+
+## Application check budgets (private source addition)
+
+A new native profile can optionally freeze `check_resources`: `memory_mb`
+(512–8192), `cpus` (1–4), `pids` (128–1024), and `tmp_mb` (64–2048).
+Exactly these integer fields are accepted. The budget participates in profile
+identity and the frozen package. A model or employee cannot override it.
+Omission preserves historical profile bytes and existing limits. External network,
+privilege, host-credential and container-root restrictions remain in force.
+
+A working practice image is insufficient for a real application. Verify pinned
+dependencies, writable dependency copies, disposable database migrations/fixtures,
+font dependencies and required tests against the actual base before activation.
+Keep offline build checks distinct from live external-service integration tests.
+Record unresolved baseline failures rather than weakening checks or changing the
+business app under a workflow-setup authorization. See compatibility for installation.

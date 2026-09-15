@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.35 — 2026-09-15
+
+- Add optional frozen resource budgets for real application checks; preserve legacy profiles and isolation restrictions.
+- Verify eight focused policy/container cases and one historical-profile compatibility comparison.
+- Verify publisher access to the second business repository with unchanged permission types; no test push or PR.
+- Keep actual application baseline checks and worker activation separate from the live automatic upstream installation.
+
+
 ## 0.1.0-alpha.34 — 2026-09-15
 
 - Deploy both private services, verify all 88 runtime files, and verify the existing one-minute host timer reaching both lanes and the existing downstream stages.

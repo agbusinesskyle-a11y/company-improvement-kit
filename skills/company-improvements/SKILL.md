@@ -187,3 +187,7 @@ Treat an interview status of submitted as a planning queue receipt. Verify an ac
 For an uncertain owner-card delivery, never repost blindly. Use the operator-only original-message recovery after deploying migration 018: authenticate the provider read, match the exact frozen card and original bot, recheck current eligibility, preserve the original failure in immutable evidence, and complete only that same publication attempt. Recovery is neither approval nor permission to build.
 
 For a verified owner card that expires without a decision, use explicit operator renewal (`prepare --renew-expired`) only for the same frozen package, publication URL and scope. Preserve the expired card and never restore its nonce. Verify the successor and show its actual expiry. Do not rerun planning or treat renewal as approval. A current card is reused; ambiguous delivery must be reconciled first. Publish the approval checkpoint before the renewed request.
+
+Before activating native builds for a real application, follow the application-check
+budget and dependency requirements in [native build](references/native-build.md).
+The practice proof does not establish compatibility with a business repository.
