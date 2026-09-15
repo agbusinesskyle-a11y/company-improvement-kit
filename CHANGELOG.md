@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.0-alpha.18 — 2026-09-14
+
+- Record restricted issue-provider access, an enabled native five-minute routine,
+  and one successful configured idle cycle across the three stages.
+- Prepare and review a fresh exact fixture package for owner approval, preserving
+  historical decisions and distinguishing setup from a completed live chain.
+- Document the real owner decision as the next gate; keep completed tests, code
+  review, releases and unrelated application execution outside this milestone.
+
+
 ## 0.1.0-alpha.17 — 2026-09-14
 
 - Record verified deployment of the private native handoff/build runtime and live

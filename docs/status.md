@@ -1,5 +1,30 @@
 # Milestones and known limits
 
+## 2026-09-14 — alpha.18 scheduled pickup ready for owner approval
+
+The private native bot's five-minute pickup routine is enabled. Its first configured
+cycle returned idle for issue, handoff and build, and its exact routine prompt and
+receipt are retained privately. The maintainer verified the restricted issue
+provider credential by a read-only account/team call; credentials remain in private
+runtime storage. The native UI separately showed the prepared routine and the bot
+reported activation. These are setup/access facts, not a completed live build.
+
+A fresh operator activation request was posted to its own private test channel
+and submitted using its verified source identity. The existing planning adapter
+produced a new five-document package with verified planner runtime. Native Grok Bot
+performed the operational review and accepted the frozen package; the maintainer
+verified all five published private artifact bytes and the baseline marker. This
+is plan review, not phase 7 code review. The new request has no owner decision yet.
+
+The isolated fixture permits only one text marker change, one issue, one handoff,
+one bounded native draft and the pinned offline check, stopping at `ready_for_review`.
+The public snapshot must be bound to that exact private package before its owner
+card is sent. Existing app projects and historical approvals retain their limits.
+No previous source/model tests were replayed; no approved live issue/build chain,
+independent code review, PR or release is claimed. SMS remains disabled. Real app
+projects still require their own compatible frozen execution configuration.
+
+
 ## 2026-09-14 — alpha.17 hosted native-build activation
 
 The private coordinator and integrated Slack service now run the verified phase

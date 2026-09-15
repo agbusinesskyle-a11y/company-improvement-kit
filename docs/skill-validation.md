@@ -1,3 +1,12 @@
+# Alpha.18 documentation validation — 2026-09-14
+
+The explicit 23-file documentation export distinguishes enabled installation from
+a completed live build. Maintainer review checks the seven changed files for
+correct scope/readiness claims, JSON, relative links, current version, whitespace
+and private-data separation. Prior source/model tests are not replayed. Exact
+remote file verification and the fresh private package binding are retained in
+the installation checkpoint before owner notification.
+
 # Alpha.17 documentation validation — 2026-09-14
 
 The explicit 23-file public export remains documentation only. Maintainer review

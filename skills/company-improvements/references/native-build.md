@@ -66,6 +66,20 @@ after one configured pickup succeeds; an empty queue is access evidence only.
 Prepare a fresh exact plan and perform the public checkpoint before its real owner
 card. Verify the resulting issue, handoff, model call, candidate and check receipts
 through `ready_for_review`. Report source deployment, configured credentials, enabled
-routine and completed live chain as separate facts. The originating installation
-has not yet completed the scheduled/live-chain steps; public distribution remains
-documentation only.
+routine and completed live chain as separate facts. The originating installation has enabled its native schedule after an idle
+cycle; the fresh exact package still awaits its owner decision and live-chain proof.
+Public distribution remains documentation only.
+
+
+An operator activation fixture is not an employee request and should be labeled
+as such. Retain its actual provider source identity and ordinary planner/reviewer
+evidence. A planner context reference must resolve to a real read-only document
+in the configured checkout before dispatch. Freeze any correction before request
+creation; never change a package to make an existing approval fit. Keep prior
+profile entries byte-equivalent when adding the fixture.
+
+The review API treats every `findings` entry as blocking. For a real accepted plan
+with no blockers, submit `verdict: accept` and `findings: []`; keep informational
+observations and reviewer identity in separate private evidence. Do not turn
+nonblocking notes into requested changes. An incorrect recorded review follows
+the normal revision path; retain its history and never edit frozen plan bytes.

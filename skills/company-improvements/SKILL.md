@@ -31,8 +31,9 @@ Preserve existing business rules and SMS handlers. A configuration file cannot g
 The following is the target sequence. Apply only stages actually verified in the
 installation. The current proven slice ends at planning-only approval with issue
 creation held. The private phase 5–6 runtime is now hosted with separate worker access for an
-isolated activation fixture. Scheduling and its first owner-approved live chain
-remain pending; phase 7 still requires its own activation and appropriate scope.
+isolated activation fixture. Its native schedule and issue-provider credential are configured; the first
+owner-approved live chain remains pending. Phase 7 still requires its own
+implementation/activation and appropriate scope.
 
 1. Bind the authenticated source event, company, requester and thread to one request. Clarify an ambiguous target; never choose a production repository from model-generated text. Ordinary chat and bot echoes do not start work.
 2. The interview agent confirms the user's problem, expected result and constraints. The configured planning agent examines the existing app and produces one canonical Spec Kit requirements/plan/tasks package. Record actual model identity where required; do not silently substitute a different role or model.
