@@ -1299,6 +1299,12 @@
     "automatic_upstream_bridge": false,
     "public_runtime_shipped": false,
     "hosted_runtime_files_verified_per_service": 81,
-    "host_worker_updated": false
+    "host_worker_updated": false,
+    "publisher_application_access": {
+      "status": "selected_repository_settings_and_read_access_verified",
+      "new_token_created": false,
+      "repository_test_mutations": 0,
+      "application_build_activation": false
+    }
   }
 }

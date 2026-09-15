@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.33 — 2026-09-15
 
+- Verify selected application repository access for the existing publisher, preserving permission types and expiry. Application build activation remains pending; no test push or PR.
+
 - Add private coordinator routing by exact project while retaining single-project worker authority and historical approval bytes.
 - Bind optional Linear project identity into new frozen contexts and verify it on creation and recovery.
 - Verify 99 focused routing, adapter and surrounding checks. Both hosted services are healthy with 81 exact runtime files verified; real application workers, checks and credentials remain separate activation work.
