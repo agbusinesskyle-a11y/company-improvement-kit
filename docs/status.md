@@ -2,9 +2,11 @@
 
 ## 2026-09-15 — alpha.32 expired approval renewal
 
+**Verified outcome:** A renewed exact-package card received one genuine owner approval through Slack. The signed interaction, durable decision and terminal update on that same card agree. The earlier expired challenge stays invalid. This approval is planning-only: one issue operation remains held and no execution jobs were created. Automatic upstream pickup and real-application execution configuration remain unfinished.
+
 Original-message recovery is deployed and privately verified; the owner card subsequently reached its one-hour expiry. The operator can now explicitly renew a verified expired card for the same reviewed package and authority, only while no owner decision exists and the request remains ready for approval. The old message, challenge and evidence are preserved; old controls stay invalid. Concurrent renewal produces one successor, and an unexpired card is returned unchanged. Uncertain and rejected publications require reconciliation rather than renewal.
 
-Ten focused renewal/CLI checks passed against disposable PostgreSQL, including concurrency, decided-request rejection, and stale-button rejection. The surrounding run passed 172 checks; three test fixtures/expectations were corrected and the affected checks passed. No planner/reviewer rerun, application build, data change or deployment is implied. Hosted renewal and the fresh owner decision remain pending at this snapshot. Automatic upstream pickup and real-app execution configuration remain missing.
+Ten focused renewal/CLI checks passed against disposable PostgreSQL, including concurrency, decided-request rejection, and stale-button rejection. The surrounding run passed 172 checks; three test fixtures/expectations were corrected and the affected checks passed. No planner/reviewer rerun, application build, data change or deployment is implied. Hosted renewal and the genuine fresh owner decision are now verified in the private installation. Automatic upstream pickup and real-app execution configuration remain missing.
 
 ## 2026-09-15 — alpha.31 owner-card publication recovery
 

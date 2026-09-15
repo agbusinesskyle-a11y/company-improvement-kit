@@ -1280,6 +1280,11 @@
     "old_buttons_remain_invalid": true,
     "models_rerun": false,
     "source_checks": "10 focused renewal/CLI checks passed; 172 surrounding checks passed before test-fixture corrections",
-    "live_renewal": "pending"
+    "live_renewal": "verified",
+    "genuine_owner_approval": "verified",
+    "same_card_terminal_update": "verified",
+    "approved_scope": "planning_and_approval_only",
+    "issue_creation": "held",
+    "execution_jobs_created": 0
   }
 }

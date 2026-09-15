@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.32 — 2026-09-15
 
+- Verify a genuine owner decision on the renewed exact-package Slack card and its terminal update. Preserve planning-only authority, held issue creation and zero execution jobs.
+
 - Add explicit operator renewal for a verified expired owner card with no decision. Preserve the frozen package and scope, invalidate old controls, and serialize concurrent renewals.
 - Keep current cards idempotent and refuse renewal of uncertain/rejected deliveries. No planning or review model runs are repeated.
 
