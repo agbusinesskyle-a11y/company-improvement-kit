@@ -16,8 +16,13 @@ legacy approval preservation and lost-acknowledgment recovery. Seventeen cases
 passed in the combined run; two fixture corrections then passed their targeted
 rerun. The offline wheel matches all 61 Python/SQL files. Prior completed suites
 were not repeated. Legacy profile/context bytes match the pre-change source.
-See [compatibility](../compatibility.json) for evidence and installation status. No live activation or full workflow proof
-is claimed by this milestone. The public kit remains documentation only.
+The native receiving bot subsequently reported installation of the exact private
+source revision, one passing synthetic receipt/recovery check on its own machine,
+and a successful disabled-client check. Its setup remains disabled pending scoped
+coordinator access, with no routine or live provider calls. This is a reported
+native installation check, not a hosted end-to-end workflow proof. See
+[compatibility](../compatibility.json) for evidence and installation status.
+No live activation or full workflow proof is claimed by this milestone. The public kit remains documentation only.
 
 ## 2026-09-13 — alpha.14 reusable post-approval execution candidate
 

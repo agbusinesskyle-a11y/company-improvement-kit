@@ -8,6 +8,9 @@
   Preserve historical planning-only decisions and existing upstream behavior.
 - Require a dedicated assigned bot identity, durable receipt and original-operation
   recovery. No automatic fallback to the previous model runner.
+- Record 19 passing new source cases and a native bot-reported installation
+  check: one synthetic receipt/recovery proof passed; receiving remains disabled
+  pending scoped hosted access. Source and installation evidence remain separate.
 - Source verification and installation status are recorded in the compatibility
   manifest. This preview continues to ship documentation only.
 

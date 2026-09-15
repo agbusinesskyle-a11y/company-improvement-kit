@@ -966,7 +966,14 @@
     },
     "legacy_profile_context_bytes_unchanged": true,
     "native_receiving_rule_installed": true,
-    "native_client_installation": "pending",
+    "native_client_installation": {
+      "status": "installed_disabled; reported_by_native_bot",
+      "revision_matches_private_source": true,
+      "synthetic_receipt_recovery_proof": "1 passed",
+      "disabled_cli": "disabled; exit 0",
+      "hosted_or_provider_calls": false,
+      "scheduled_routine_created": false
+    },
     "limitations": [
       "Hosted configuration and dedicated handoff credential not provisioned",
       "No live approved issue-to-native-bot receipt chain verified",
