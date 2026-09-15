@@ -1,6 +1,6 @@
 # Company Improvement Kit
 
-**0.1.0-alpha.25 — public skill and documentation preview.** The complete automation
+**0.1.0-alpha.26 — public skill and documentation preview.** The complete automation
 is under development. This release contains no coordinator runtime or installer.
 It does not enable Slack, create issues, launch builders or deploy applications.
 
@@ -16,8 +16,10 @@ The optional [outcome-message worker](skills/company-improvements/references/nat
 has verified the configured fixture’s source/owner Slack replies and existing issue comment.
 The new [native review and draft-PR process](skills/company-improvements/references/native-review.md)
 is source-verified with distinct worker grants and an enabled five-stage host cycle
-configured privately. Restricted publisher access and one all-idle cycle are
-verified. A fresh owner decision and the expanded live practice chain remain pending.
+configured privately. The owner-approved private practice chain
+has now produced a checked draft, accepted separate native review, draft GitHub PR
+and verified source/owner Slack plus Linear results. Real-app compatibility and
+merge/release remain outside this proof.
 
 Start with [the skill](skills/company-improvements/SKILL.md), [current status](docs/status.md)
 and [the roadmap](docs/distribution.md). Give the skill folder to a compatible agent

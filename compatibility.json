@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.25",
+  "skill_version": "0.1.0-alpha.26",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.25",
+    "current_version": "0.1.0-alpha.26",
     "structure": "passed",
     "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
-    "independent_application": "not_run_for_alpha_25",
+    "independent_application": "not_run_for_alpha_26",
     "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -1123,7 +1123,7 @@
   },
   "native_review_handoff": {
     "scope": "issue_handoff_build_review",
-    "status": "pickup_enabled_pending_fresh_owner_decision_and_live_chain",
+    "status": "owner_approved_private_practice_chain_completed",
     "activated": true,
     "public_runtime_shipped": false,
     "reference": "skills/company-improvements/references/native-review.md",
@@ -1141,10 +1141,10 @@
       "live_build_or_model_proofs_repeated": false
     },
     "limitations": [
-      "Fresh expanded owner decision and live practice chain still needed",
-      "Expanded native model/PR live chain not tested",
-      "Same execution host and retained candidate/review data required",
-      "Practice repository has no GitHub Actions workflows; other installations require their own automation review",
+      "Live repair loop not exercised because first review accepted",
+      "Real business-app compatibility not tested",
+      "Cross-host recovery and unattended failure scenarios not fully proven",
+      "Merge/release outside this scope",
       "No public runtime or independent clean installation"
     ],
     "installation": {
@@ -1153,16 +1153,41 @@
       "hosted_services": "successful_deployments_with_build_time_file_verification_and_health",
       "application_configuration": "selected_future_execution_profile_updated; unrelated configuration preserved",
       "expanded_pickup_enabled": true,
-      "live_expanded_chain_tested": false,
+      "live_expanded_chain_tested": true,
       "worker_grants": "distinct_review_and_publication; authenticated_empty_queues",
       "host_cycle": "enabled_existing_lock_and_timer; one_five_stage_idle_cycle_verified",
-      "publisher_credential": "repository_restricted_write_scopes_UI_verified; read_only_identity_ref_PR_access_verified"
+      "publisher_credential": "repository_restricted_write_scopes_UI_verified; read_only_identity_ref_PR_access_verified",
+      "host_runtime": "78 files matched to source including CLI continuation fix",
+      "hosted_runtime": "prior reviewed runtime; host-only CLI fix not used by hosted entrypoints"
     },
     "planning_review": {
       "status": "accepted_before_owner_approval",
       "retained_response_budget_exception": true,
       "additional_model_call_for_exception": false,
       "frozen_execution_limits_changed": false
+    },
+    "live_practice": {
+      "owner_decision": "original Slack card approved; terminal controls removed",
+      "scope": "isolated marker-only change",
+      "build_calls": 1,
+      "review_calls": 1,
+      "distinct_native_sessions": true,
+      "repairs_needed": 0,
+      "draft_pr": "exact head/base/file bytes verified",
+      "outcomes": {
+        "source_slack": 1,
+        "owner_slack": 1,
+        "linear": 1
+      },
+      "operator_continuation": "one next cycle after accepted issue returned incorrect nonzero CLI status; issue reused",
+      "merge_or_release": false
+    },
+    "cli_continuation_fix": {
+      "new_regression": 1,
+      "affected_existing_cases": 12,
+      "passed": 13,
+      "red_before_green": true,
+      "installed_on_execution_host": true
     }
   }
 }

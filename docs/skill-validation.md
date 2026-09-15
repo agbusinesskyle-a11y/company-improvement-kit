@@ -1,3 +1,12 @@
+# Alpha.26 completed-practice documentation validation — 2026-09-15
+
+The maintainer reviews the explicit 25-file generic export against the private
+owner decision, exact PR and three original outcome messages. JSON, relative links,
+version consistency, private-data separation and exact remote bytes are checked.
+The account-specific fixture and operational evidence remain private. Source
+regression evidence is separated from the two live native model calls and the
+supervised continuation; no model-based public skill or clean-install proof is claimed.
+
 # Alpha.25 pre-approval documentation validation — 2026-09-15
 
 The maintainer reviews the explicit 25-file export for setup/readiness claims,

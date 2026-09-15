@@ -4,7 +4,9 @@ The private implementation provides a new opt-in `issue_handoff_build_review`
 scope. It extends the native path through independent review, bounded repairs and
 a draft GitHub pull request, followed by the existing outcome-message outbox.
 Source tests use disposable databases and Git with synthetic model/provider
-responses. Expanded live activation is not proven. This public kit remains a
+responses. A private marker-only live practice chain is verified with a recorded operator
+continuation after a CLI status-code defect; this is not real-app or unattended
+repair-loop certification. This public kit remains a
 skill/documentation preview without a runtime or installer.
 
 ## Before a future approval
@@ -50,7 +52,9 @@ Provision distinct coordinator grants for review and completion. The publisher
 needs a repository-scoped GitHub credential; the reviewer uses existing native
 model authentication. Keep credentials outside plans, prompts and this public kit.
 Append review and publication pickups to the existing locked host cycle rather
-than adding another timer. Repairs run in later cycles. Credentials, candidate paths and a new exact approval remain installation-specific.
+than adding another timer. Repairs run in later cycles. A successful issue that returns `executing` must
+exit successfully so the host can continue to handoff. The private CLI now handles
+that status; never recreate the issue to work around an exit-code failure. Credentials, candidate paths and a new exact approval remain installation-specific.
 Keep the expanded cycle disabled until its required credentials are available.
 Once access is verified, enable the existing cycle and observe one idle pickup
 before presenting the new approval. Empty queues allow this readiness check

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.26 — 2026-09-15
+
+- Verify the fresh owner-approved practice chain through a checked marker-only draft, separate native review and draft GitHub PR.
+- Verify one exact outcome in each source Slack thread, owner thread and existing Linear issue.
+- Fix the host CLI exit code for a durably accepted issue continuation; reproduce the regression and pass 13 affected worker cases.
+- Record one supervised continuation without repeating issue/model effects; preserve the frozen package and prior approvals.
+- Keep live repair, real application compatibility, merge/release and public runtime distribution explicitly unproven.
+
+
 ## 0.1.0-alpha.25 — 2026-09-15
 
 - Verify restricted publisher access and enable the existing five-stage host cycle.

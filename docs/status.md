@@ -1,5 +1,35 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.26 approved practice chain completed
+
+The new provider-backed owner approval authorized only the expanded isolated
+practice scope. The coordinator recorded it; the exact Slack card became terminal
+and removed decision buttons. The existing issue/handoff path, native Grok build,
+separate native Grok review and deterministic publisher completed the same run.
+The draft PR contains exactly the permitted marker change against the frozen base.
+The pinned check passed, the reviewer accepted with no findings, and independent
+GitHub reads verified the draft state, head/base, changed path and exact file bytes.
+
+The build used one native model call and the independent review used one separate
+session/call. No repair was needed; the live repair path therefore remains unproven.
+One exact outcome was verified in each original source thread, owner approval
+thread and existing Linear issue. No merge or release occurred.
+
+The first issue pickup completed durably but returned a nonzero CLI exit code for
+its valid `executing` result, stopping that cycle. An operator continued the next
+cycle, reusing the completed issue without another issue effect. A new regression
+reproduced the exit-code bug; the one-line fix and all 13 affected worker cases
+passed (one new, 12 existing). The fix is installed on the execution host with all
+78 source files matched. Hosted entrypoints retain the previously verified runtime;
+they do not run this host-only CLI. Earlier 117 source cases were not repeated.
+This is a supervised successful practice chain with that repaired scheduling gap,
+not proof of every unattended failure/recovery scenario.
+
+Real business-app compatibility, a live repair cycle, cross-host recovery, public
+runtime packaging, independent installation and merge/release remain outside this
+milestone. Frozen plans and previous approvals keep their original scope.
+
+
 ## 2026-09-15 — alpha.25 expanded pickup ready for fresh owner decision
 
 The repository-restricted publisher credential is configured with content and
