@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.25 — 2026-09-15
+
+- Verify restricted publisher access and enable the existing five-stage host cycle.
+- Observe one all-idle cycle without a build, model call, test push or test PR.
+- Verify the exact private planning publication and full Slack review text before the new owner request.
+- Preserve prior approvals and source-test evidence; the expanded live chain still awaits its own owner decision.
+
+
 ## 0.1.0-alpha.24 — 2026-09-15
 
 - Document distinct worker grants and the disabled five-stage pickup using the existing lock and timer.

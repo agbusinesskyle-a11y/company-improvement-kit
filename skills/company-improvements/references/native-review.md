@@ -52,6 +52,10 @@ model authentication. Keep credentials outside plans, prompts and this public ki
 Append review and publication pickups to the existing locked host cycle rather
 than adding another timer. Repairs run in later cycles. Credentials, candidate paths and a new exact approval remain installation-specific.
 Keep the expanded cycle disabled until its required credentials are available.
+Once access is verified, enable the existing cycle and observe one idle pickup
+before presenting the new approval. Empty queues allow this readiness check
+without starting a build. Track credential expiry in private installation records;
+credential renewal never extends the approved execution scope.
 Give the publisher credential only to the publishing process, not model contexts.
 Verify repository access, the exact base reference and branch-triggered automation
 without a test push or test PR. Use the existing lock and timer; an authenticated

@@ -33,9 +33,9 @@ installation. The historical planning-only proof keeps issue creation held. A se
 Phase 5–6 fixture has verified owner approval, issue creation, bot handoff and a
 checked native recovery ending ready for review. A verified host service supplies
 pickup. The [native review and draft-PR process](references/native-review.md) is
-source-verified with separate worker grants and a disabled expanded host cycle.
-Verify publisher credentials, complete publication and obtain its own expanded
-approval before enabling execution. Follow [native outcome messages](references/native-status.md) when enabling
+source-verified with separate worker grants and an enabled expanded host cycle.
+Restricted publisher access and all five empty queues are verified privately.
+Complete publication and obtain its own expanded approval before executing work. Follow [native outcome messages](references/native-status.md) when enabling
 the separate status delivery worker; distinguish source tests from live delivery.
 
 1. Bind the authenticated source event, company, requester and thread to one request. Clarify an ambiguous target; never choose a production repository from model-generated text. Ordinary chat and bot echoes do not start work.

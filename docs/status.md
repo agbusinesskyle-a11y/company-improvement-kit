@@ -1,5 +1,27 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.25 expanded pickup ready for fresh owner decision
+
+The repository-restricted publisher credential is configured with content and
+pull-request write access and metadata read access, with an expiry recorded
+privately. Read-only checks verified its account, repository, exact base reference
+and PR access. Repository automation inspection found no GitHub Actions workflows
+in the practice repository. No test push or test PR was used to check the key.
+
+The five-stage pickup is enabled on the existing host service and lock. One real
+cycle returned idle for issue, handoff, build, review and publish. This proves the
+configured pickup can reach all five queues; it does not prove a completed live
+review, repair or publication. The exact revised practice plan has been privately
+published and its five remote files verified. Slack presentation preparation
+preserves the full frozen owner summary and acceptance text without requiring a
+private-repository login. No new owner card or decision is claimed at publication.
+
+Next is the fresh provider-backed owner decision for this expanded scope, then
+one isolated practice chain. Existing approval history is unchanged. Earlier
+source tests were not repeated. No business-app change, merge, release, public
+runtime distribution or independent installation is included.
+
+
 ## 2026-09-15 — alpha.24 expanded worker setup; activation held
 
 The private installation now has distinct review and publication worker grants,

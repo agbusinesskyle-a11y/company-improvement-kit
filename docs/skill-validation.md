@@ -1,3 +1,11 @@
+# Alpha.25 pre-approval documentation validation — 2026-09-15
+
+The maintainer reviews the explicit 25-file export for setup/readiness claims,
+JSON, relative links, version consistency and private-data separation. One real
+idle worker cycle and read-only credential checks are distinct from completed
+model review/publication. The exact public remote bytes are verified before the
+owner request. No source suite or earlier live build is rerun for this update.
+
 # Alpha.24 setup documentation validation — 2026-09-15
 
 The maintainer reviews the explicit 25-file export for generic setup instructions,
