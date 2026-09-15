@@ -1,5 +1,21 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.22 native outcome delivery prepared
+
+The private implementation connects current native outcomes to source/owner Slack
+threads and the existing Linear issue through a separate durable outbox. Each
+destination reserves one send; uncertain delivery uses read-only identity/body
+verification. Stale unsent results are superseded, and failed delivery remains
+visible without changing execution or approval state. The optional worker is
+disabled by default and runs separately from owner callback processing.
+
+Forty-one focused tests passed: 33 new cases and eight affected host cases. They
+use disposable PostgreSQL and synthetic provider replies, without repeating live
+build/model proofs. Native Code contributed ledger tests and an additive migration;
+the maintainer completed integration after stopping an unproductive delegated
+implementation run. This snapshot is source evidence; live delivery is still pending.
+Independent review, PR/release and real application compatibility remain separate.
+
 ## 2026-09-14 — alpha.21 live recovery reached ready for review
 
 The hosted coordinator accepted a successful native build under the existing

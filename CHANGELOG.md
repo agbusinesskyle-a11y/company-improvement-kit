@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.22 — 2026-09-15
+
+- Add a separate native outcome outbox for source/owner Slack threads and the existing Linear issue comment.
+- Reserve sends independently; reconcile uncertainty by exact provider evidence without reposting or rerunning a build.
+- Add optional hosted processing and visible delivery counts; preserve historical approval and execution state.
+- Verify 41 focused cases; live notification activation remains pending at this snapshot.
+
 ## 2026-09-15 — timer cleanup
 
 - Verify the redundant native routine is disabled and the selected host service remains loaded with successful cycles. No build or completed tests replayed.

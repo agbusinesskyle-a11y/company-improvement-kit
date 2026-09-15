@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.21",
+  "skill_version": "0.1.0-alpha.22",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,11 +37,11 @@
   "publication_enforcement": "operator_procedure_only",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.21",
+    "current_version": "0.1.0-alpha.22",
     "structure": "passed",
-    "public_file_review": "maintainer review; explicit 23-file export, JSON, relative links, version, whitespace and targeted private-data screen",
-    "independent_application": "not_run_for_alpha_21",
-    "public_file_count": 23,
+    "public_file_review": "maintainer review; explicit 24-file export, JSON, relative links, version, whitespace and targeted private-data screen",
+    "independent_application": "not_run_for_alpha_22",
+    "public_file_count": 24,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
     "new_documentation_metadata_checks": "passed"
@@ -1078,5 +1078,29 @@
       "timed_cycle_after_startup_verified": true,
       "affected_tests_passed": 27
     }
+  },
+  "native_status_notifications": {
+    "status": "source_verified_pending_live_delivery",
+    "scope": "existing_native_outcome_notifications_only",
+    "source_tests_passed": 41,
+    "new_cases": 33,
+    "affected_existing_cases": 8,
+    "host_worker": "optional_disabled_by_default",
+    "destinations": [
+      "source_slack_thread",
+      "owner_slack_thread",
+      "existing_linear_issue_comment"
+    ],
+    "one_send_reservation": true,
+    "uncertain_recovery": "read_only_exact_provider_evidence",
+    "automatic_build_replay": false,
+    "linear_workflow_state_changed": false,
+    "live_delivery_verified": false,
+    "public_runtime_shipped": false,
+    "limitations": [
+      "Uncertain/rejected delivery remains operator attention; no blind re-post",
+      "Bounded thread reads may not find old messages",
+      "Review, PR and release remain separate stages"
+    ]
   }
 }

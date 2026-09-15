@@ -1,3 +1,10 @@
+# Alpha.22 native status validation — 2026-09-15
+
+The explicit 24-file public export adds generic outcome-delivery instructions and
+updates stale Phase6 readiness text. Review covers JSON, relative links, source
+claims, privacy and exact remote bytes. Source tests are distinct from pending
+live notification proof. No completed build/model suite is repeated.
+
 # Alpha.21 live-result documentation validation — 2026-09-14
 
 The maintainer reviews the 23-file generic export against retained live recovery

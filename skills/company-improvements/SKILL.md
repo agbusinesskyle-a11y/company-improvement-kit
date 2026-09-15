@@ -29,11 +29,12 @@ Preserve existing business rules and SMS handlers. A configuration file cannot g
 ## Operate a verified workflow
 
 The following is the target sequence. Apply only stages actually verified in the
-installation. The current proven slice ends at planning-only approval with issue
-creation held. The private phase 5–6 runtime is now hosted with separate worker access for an
-isolated activation fixture. Its native schedule and issue-provider credential are configured; the first
-owner-approved live chain remains pending. Phase 7 still requires its own
-implementation/activation and appropriate scope.
+installation. The historical planning-only proof keeps issue creation held. A separate private
+Phase 5–6 fixture has verified owner approval, issue creation, bot handoff and a
+checked native recovery ending ready for review. A verified host service supplies
+pickup. Phase 7 still requires its own implementation/activation and appropriate
+scope. Follow [native outcome messages](references/native-status.md) when enabling
+the separate status delivery worker; distinguish source tests from live delivery.
 
 1. Bind the authenticated source event, company, requester and thread to one request. Clarify an ambiguous target; never choose a production repository from model-generated text. Ordinary chat and bot echoes do not start work.
 2. The interview agent confirms the user's problem, expected result and constraints. The configured planning agent examines the existing app and produces one canonical Spec Kit requirements/plan/tasks package. Record actual model identity where required; do not silently substitute a different role or model.
