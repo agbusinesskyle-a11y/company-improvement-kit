@@ -1,5 +1,23 @@
 # Milestones and known limits
 
+## 2026-09-14 — alpha.20 bounded recovery prepared
+
+A separate owner instruction authorized continued workflow repairs and controlled
+verification. The original failed attempt, plan and approval remain immutable.
+A privileged operator recovery entry point binds the request/version/package,
+failed job/result, configured owner and private authorization evidence hash; it
+queues at most one replacement build per authorization and reuses the accepted
+issue and handoff. Worker and employee API grants cannot invoke this entry point.
+The frozen retry ceiling, current profile, cancellation and duplicate guards apply.
+
+The native model adapter now retains its response before validation and explicitly
+identifies the approved build stage. One controlled real response produced the
+required isolated change. New regression checks cover model diagnostics, retry
+authority, failure acknowledgements and request status. A new recovery-chain test
+reached `ready_for_review` using real Git/PostgreSQL/Docker and a synthetic model.
+This is not yet a hosted recovery or unattended schedule proof. No business app
+change, independent review, PR or release was executed.
+
 ## 2026-09-14 — alpha.19 owner-approved native activation
 
 The fresh exact fixture package received a real owner approval through Slack.

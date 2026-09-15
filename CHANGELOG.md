@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.20 — 2026-09-14
+
+- Retain native model responses privately before validation and distinguish approved build execution from historical planning text.
+- Correct native failure acknowledgement and request status reporting.
+- Add a privileged, separately authorized retry that preserves the failed attempt and reuses its existing issue/handoff. Retry remains bounded and unavailable to workers.
+- Verify targeted recovery boundaries and a checked isolated candidate; hosted recovery and scheduled proof remain pending at this checkpoint.
+
 ## 0.1.0-alpha.19 — 2026-09-14
 
 - Record verified owner approval of the exact activation package and queued execution.

@@ -83,3 +83,24 @@ with no blockers, submit `verdict: accept` and `findings: []`; keep informationa
 observations and reviewer identity in separate private evidence. Do not turn
 nonblocking notes into requested changes. An incorrect recorded review follows
 the normal revision path; retain its history and never edit frozen plan bytes.
+
+
+## Separately authorized recovery
+
+Do not replay a failed model effect or clear its evidence. Retain and verify the
+coordinator's exact terminal receipt before acknowledging a stopped worker journal.
+A retry needs a separate owner instruction. The privileged operator verifies that
+instruction, retains it privately, and supplies its digest with the exact current
+request/version/package and failed job/result to `native_recovery`. This CLI uses
+operator runtime access; no employee, builder, or ordinary intake API exposes it.
+
+The recovery ledger rejects cancelled/drifted requests, uncertain effects, active
+work, mismatched owners/packages/results, reused failure authorizations and attempts
+above the frozen ceiling. It creates one new build linked to the accepted handoff,
+without creating another issue, altering old results, or expanding scope. Retain
+the public checkpoint before dispatch. Authorization evidence is not public.
+
+Native CLI output is retained privately by session before parsing/validation.
+Credential copies still use a temporary home and are removed afterward; commands,
+authentication files and environment are not copied into response evidence.
+Historical planning language is not a new instruction to the approved builder.

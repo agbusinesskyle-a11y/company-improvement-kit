@@ -1,3 +1,11 @@
+# Alpha.20 recovery validation — 2026-09-14
+
+The explicit 23-file public export describes operator-only recovery and preserves
+the distinction between targeted tests, a controlled model response, and pending
+hosted/scheduled proof. The maintainer reviews changed claims, JSON, relative links
+and private-data separation; remote file hashes bind the private checkpoint.
+Previously completed proof suites are not replayed.
+
 # Alpha.19 documentation validation — 2026-09-14
 
 Maintainer review of the explicit 23-file public export records the provider-backed
