@@ -1,5 +1,11 @@
 # Milestones and known limits
 
+## 2026-09-15 — alpha.30 upstream planning boundary
+
+A submitted employee brief queues a planning job. The installed native execution pickup begins after owner approval; it does not yet schedule planning, operational plan review or the owner card. An operator is supervising the current continuation through the existing planner adapter and native operational review. The legacy planner transport is retained; complete native upstream replacement and automatic pickup are not implemented. Do not tell employees that confirmation means their plan is already being generated or an approval notification was sent.
+
+A preflight defect required a nonexistent constitution file even when trusted inline rules were configured. The local planner now uses those inline rules and reads a conventional file only if present. Explicit file paths still require valid files. Focused synthetic process tests passed 57 cases with one optional installed-CLI check skipped. No business-app code, production data or deployment is authorized by this correction.
+
 ## 2026-09-15 — alpha.29 bounded interviews and publication repair
 
 Both native lane prompts now target three follow-up questions, with questions four and five reserved for essential requester facts. The private ledger rejects a sixth persisted question under its session lock, while allowing a summary and exact idempotent retries. Draft revisions do not reset the count. Technical unknowns that a planner can investigate remain explicit planning tasks; genuine missing requester decisions remain blockers rather than invented answers.

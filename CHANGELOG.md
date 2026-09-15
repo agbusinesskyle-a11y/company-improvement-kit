@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.30 — 2026-09-15
+
+- Clarify that submitted interviews are queued for planning; the post-approval execution worker does not run the upstream planner or post approval cards.
+- Allow inline trusted planning rules without requiring an invented repository constitution file; retain strict validation of configured file paths.
+- Verify 57 focused planner cases; one optional installed-CLI check remains skipped.
+- Keep the current planning continuation supervised and preserve existing model and approval boundaries.
+
 ## 0.1.0-alpha.29 — 2026-09-15
 
 - Target three interview follow-ups and enforce a maximum of five persisted question responses per session, including concurrent attempts and restarts.

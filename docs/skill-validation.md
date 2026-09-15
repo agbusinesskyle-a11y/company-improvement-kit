@@ -1,3 +1,7 @@
+# Alpha.30 planning boundary documentation validation — 2026-09-15
+
+Review the explicit 25-file export for JSON, relative links, version consistency, privacy and honest automation claims. Source tests use synthetic planner processes; a supervised live model call is separate evidence. The exact remote snapshot precedes any owner card and remains distinct from private plan artifacts.
+
 # Alpha.29 bounded interview documentation validation — 2026-09-15
 
 Review covers the explicit 25-file generic export, JSON, relative links, version metadata and private-data separation. Source-tested question limits and publication recovery are distinct from live confirmation. Exact remote contents are verified after publication. No independent installation or model-based public validation is claimed.
