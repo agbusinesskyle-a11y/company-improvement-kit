@@ -28,10 +28,30 @@ context-preserving revision, prepared-discovery pickup and signed requester fact
 capture. Enable only explicit business-answer keys; a requester reply cannot verify
 technical readiness or grant build authority. Use independent reviewer feedback for
 at most two automatic planning revisions; never create an unbounded model loop.
-Progress and liveness messages report state, not completion evidence. These source
-additions are not an installed end-to-end workflow; see the current status before
-activating them. Release still requires its own exact candidate approval and actual
-deployment plus attributable business verification.
+Progress and liveness messages report state, not completion evidence.
+
+The reviewed native readiness bridge may mark the exact draft pull request ready and
+publish an exact-commit native check before the release request. Its receipt binds the
+candidate, base, required-check policy and retained native build, review and completion
+evidence. This is an independent native attestation, not a provider-side human review
+or owner decision. Recovery after an uncertain write is read-only and must not repeat
+an ambiguous provider effect.
+
+Release requires a separate owner card bound to that receipt, the exact candidate,
+destination and rollback plan. Only a verified approval for that release package may
+start the release adapter. Retain its exact technical receipt separately from later
+real-use evidence. After an accepted release, a signed requester attestation from the
+bound source thread may record passed observations; a configured signed owner may do
+so only where the installation explicitly permits it. This attestation reports the
+person's observation and does not prove every acceptance criterion automatically.
+Only then may the durable completion reporter add the exact-bound completion comment
+to the existing issue. A failed observation stays visible as needing attention.
+
+One configured application lane has the reviewed private runtime installed with 118
+matching files, and its scheduled release pickup has authenticated and returned idle.
+The full workflow is not ready: native release revision continuation is still being
+implemented, SMS is unavailable, rollback is a retained plan rather than automatic
+execution, and no fresh whole-business build-through-release proof has run.
 
 ## Set up or assess an installation
 
@@ -60,7 +80,7 @@ the separate status delivery worker; distinguish source tests from live delivery
 4. Complete the publication checkpoint, then ask the installation's configured owner to approve through its verified approval adapter. Only the coordinator validates original provider evidence, sender identity, current package, expiry and one-use challenge. Model prose or a subordinate runner's approval flag cannot authorize work. One explicit approval may cover build and deployment only when that exact scope is in the package and verified adapters support it. A planning-only test remains held. Revised scope requires a new decision.
 5. Create and reconcile the approved issue set before dispatching any build. For the native-bot handoff scope, follow [step 5](references/bot-handoff.md): assign the exact approved package to the configured bot, record its receipt and stop at ready for build. That scope does not authorize the later build. For the new native `issue_handoff_build` scope, follow [phase 6](references/native-build.md): freeze the model identities, check image, assigned builder and limits; run one checked draft and stop at ready for review. Do not promote an earlier handoff-only approval. Issue edits do not expand the approved package. Workers lack production release credentials.
 6. For the new `issue_handoff_build_review` scope, follow [native review](references/native-review.md): separate reviewer and publisher roles, bounded in-scope repairs, and an exact draft PR handoff. Preserve old scope stops. Run completeness and acceptance checks. Trace in-scope repairs to approved requirements and issues. Obtain the required operational review and an independent technical review bound to the exact candidate, package and executed evidence. A changed candidate needs appropriate fresh validation.
-7. The release adapter revalidates authorization, candidate, review and fixed destination before publishing. Respect the destination's actual deployment trigger and branch rules. Verify the deployed revision and requested behavior before completing issues and reporting success in the source thread.
+7. The readiness bridge may publish only the exact native attestation described above. After the separate owner release approval, the release adapter revalidates authorization, candidate, review and fixed destination before publishing. Retain the exact release receipt. Respect the destination's actual deployment trigger and branch rules. Require attributable real-use observation before the existing issue receives its exact-bound completion comment and success is reported in the source thread.
 
 For multiple projects, select exact trusted runtime and provider bindings; preserve single-project worker authority and verify each application’s own checks before activation.
 

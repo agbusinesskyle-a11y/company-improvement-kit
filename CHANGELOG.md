@@ -4,7 +4,12 @@
 
 - Document the private routing, context-preserving revision, discovery pickup and signed fact-capture candidate.
 - Add durable progress reporting and host heartbeat source behavior, with bounded read-only recovery.
-- Preserve existing approval scope and historical proof evidence. Installation and full release-to-business-completion proof remain pending.
+- Document the reviewed native readiness bridge: exact candidate, base, check-policy and retained native evidence binding; exact-commit attestation; and read-only uncertain recovery. The attestation is not a provider-side human review or owner approval.
+- Require a separate exact owner release decision before the release effect. Retain the technical release proof separately from the later signed real-use observation.
+- Document signed requester or explicitly configured owner real-use attestation and exact-bound completion reporting to the existing issue. A failed observation remains needs-attention.
+- Record one configured application lane installed across verified services and execution host with 118 matching runtime files. Verify scheduled authenticated idle pickup for release and real-use capture, with the completion reporter running.
+- Preserve existing approval scope and historical proof evidence. Native release revision continuation remains under implementation; SMS is unavailable; rollback is a plan rather than automatic execution; and no fresh whole-business build-through-release proof is claimed.
+- Keep this alpha documentation-only with `full_workflow_ready=false`; no runtime or installer is shipped.
 
 ## 0.1.0-alpha.37 — 2026-09-15
 

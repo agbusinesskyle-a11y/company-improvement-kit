@@ -1,6 +1,6 @@
 # Workflow completion candidate — September 16
 
-The private candidate now preserves original discovery evidence and explicit feedback
+The private candidate preserves original discovery evidence and explicit feedback
 across planning revisions. Its upstream worker can pick up prepared discovery and
 queue a fresh reviewed plan when required facts are resolved. Signed requester
 replies can supply only explicitly configured business facts; technical readiness
@@ -13,16 +13,38 @@ fails closed except for explicitly allowlisted historical profile hashes. The se
 adapter validates the reported model identity and frozen output budget. A failed
 budget check cannot become accepted execution evidence.
 
-New durable progress messages preserve uncertain attempts and use read-only recovery.
-A hosted monitor can observe missed execution-host heartbeats while the existing
-one-minute host timer remains responsible for execution. The newest host identity
-supersedes retired heartbeat rows. Sleeping or unavailable hosts still pause work.
+The reviewed native readiness bridge marks only the exact draft pull request ready
+and publishes an exact-commit native attestation. It binds the candidate and base,
+required-check policy, and retained native build, review and completion evidence.
+The attestation is not a provider-side human review and does not grant release
+authority. Uncertain recovery is read-only, so an ambiguous status write is not
+repeated.
 
-Targeted source tests and independent review are separate from installation. These
-changes are not installed yet. Separate release approval, automatic release pickup,
-real-use verification and final completion remain under integration. Existing
-planning-only approvals retain their exact scope. The public preview still ships
-instructions only, with no runtime or installer.
+A separate owner release card binds that readiness receipt to the exact candidate,
+release destination, rollback plan and published checkpoint. Host processing before
+that decision can only prepare readiness metadata and the card. Only a verified owner
+approval starts the release effect. The resulting exact technical receipt is retained
+without being relabelled as real-use completion.
+
+After an accepted release, the bound requester can submit a signed passed or failed
+observation in the original source thread. A configured signed owner may attest only
+where the installation explicitly permits it. Passed is an attributable human
+observation, not automated proof of every acceptance criterion; failed remains
+needs-attention. A durable exact-bound outbox can then add the completion comment to
+the existing issue without inventing credentials, job identifiers or effects.
+
+The reviewed private runtime is installed in one configured application lane. Both
+hosted services and the execution host match all 118 runtime files, and service health
+is verified. A scheduled cycle authenticated the optional release pickup and returned
+idle; real-use capture also returned idle, and the completion reporter is running.
+Read-only recovery of existing progress messages was verified without duplicate
+delivery.
+
+This public alpha remains a documentation-only preview with
+`full_workflow_ready=false`; it ships no runtime or installer. Native release revision
+continuation is under implementation, SMS is unavailable, rollback is a retained plan
+rather than automatic execution, and no fresh whole-business build-through-release
+proof has run. Historical planning-only approvals retain their exact scope.
 
 # Second application draft connection
 

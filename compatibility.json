@@ -1389,20 +1389,85 @@
   },
   "workflow_completion_candidate": {
     "date": "2026-09-16",
-    "installed": false,
+    "installed": true,
+    "installation_scope": "one configured application lane",
+    "installation_status": "services_execution_host_and_scheduled_idle_pickup_verified",
+    "verified_runtime_files": 118,
     "full_workflow_ready": false,
-    "scope": "private_source_candidate",
+    "scope": "private_completion_candidate_with_public_documentation_only",
     "capabilities": [
       "frozen_operator_model_routing",
       "context_preserving_planning_revision",
       "bounded_automatic_review_revision",
       "prepared_discovery_pickup",
       "signed_requester_fact_capture",
-      "durable_progress_and_host_heartbeat"
+      "durable_progress_and_host_heartbeat",
+      "exact_native_release_readiness_attestation",
+      "separate_owner_release_approval",
+      "retained_exact_release_proof",
+      "signed_real_use_attestation",
+      "exact_bound_issue_completion_comment"
     ],
-    "senior_transport": "authenticated Claude CLI; exact main model identity checked; no financial business build claimed",
-    "validation": "targeted new and affected source tests; disposable PostgreSQL; synthetic provider transports; independent review",
-    "release_and_business_completion": "integration_in_progress",
+    "senior_transport": "authenticated senior CLI; exact configured model identity checked; no financial business build claimed",
+    "native_release_readiness": {
+      "status": "source_reviewed_and_installed",
+      "pre_owner_effects": [
+        "mark the exact draft pull request ready",
+        "publish an exact-commit native readiness status"
+      ],
+      "binding": [
+        "candidate_commit",
+        "base_commit",
+        "required_checks_hash",
+        "native_check_hash",
+        "native_review_hash",
+        "native_complete_hash"
+      ],
+      "provider_human_review_claimed": false,
+      "owner_release_authority_granted": false,
+      "uncertain_recovery": "read_only_exact_provider_observation; no repeated ambiguous write"
+    },
+    "separate_release_approval": {
+      "required": true,
+      "bound_evidence": [
+        "readiness_receipt_hash",
+        "exact_candidate_and_base",
+        "release_destination",
+        "rollback_plan",
+        "published_checkpoint"
+      ],
+      "release_effect_before_verified_approve": false,
+      "revision_successor": "under_implementation"
+    },
+    "release_and_completion_evidence": {
+      "technical_release_receipt_retained": true,
+      "technical_receipt_is_real_use_attestation": false,
+      "real_use_attestors": "bound signed requester; configured signed owner where explicitly permitted",
+      "real_use_outcomes": [
+        "passed",
+        "failed_needs_attention"
+      ],
+      "passed_scope": "attributable human observation; not automated proof of every acceptance criterion",
+      "completion_destination": "existing issue through exact-bound durable comment outbox"
+    },
+    "installation": {
+      "hosted_services_health_verified": true,
+      "execution_host_source_match_verified": true,
+      "matching_runtime_files": 118,
+      "optional_release_stage_enabled": true,
+      "first_scheduled_release_pickup_verified": true,
+      "progress_message_recovery": "read_only exact original-provider evidence; no duplicate send",
+      "scheduled_release_pickup_result": "authenticated_idle",
+      "scheduled_real_use_capture_result": "idle",
+      "completion_reporter_running": true
+    },
+    "validation": "targeted new and affected source tests; disposable PostgreSQL; synthetic provider transports; independent source review",
+    "limitations": [
+      "Native release revision continuation is under implementation.",
+      "SMS is unavailable.",
+      "Rollback is a retained plan, not automatic execution.",
+      "No fresh whole-business build-through-release proof has run."
+    ],
     "prior_live_proofs_repeated": false,
     "public_runtime_shipped": false
   }
