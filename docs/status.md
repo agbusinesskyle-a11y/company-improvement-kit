@@ -1,3 +1,29 @@
+# Workflow completion candidate — September 16
+
+The private candidate now preserves original discovery evidence and explicit feedback
+across planning revisions. Its upstream worker can pick up prepared discovery and
+queue a fresh reviewed plan when required facts are resolved. Signed requester
+replies can supply only explicitly configured business facts; technical readiness
+still requires trusted evidence. Operational review can request at most two automatic
+planning revisions before a visible stop.
+
+Operator-frozen model routing distinguishes mechanical and financial work. Financial
+builder and reviewer routes require the supported senior adapter. Missing routing
+fails closed except for explicitly allowlisted historical profile hashes. The senior
+adapter validates the reported model identity and frozen output budget. A failed
+budget check cannot become accepted execution evidence.
+
+New durable progress messages preserve uncertain attempts and use read-only recovery.
+A hosted monitor can observe missed execution-host heartbeats while the existing
+one-minute host timer remains responsible for execution. The newest host identity
+supersedes retired heartbeat rows. Sleeping or unavailable hosts still pause work.
+
+Targeted source tests and independent review are separate from installation. These
+changes are not installed yet. Separate release approval, automatic release pickup,
+real-use verification and final completion remain under integration. Existing
+planning-only approvals retain their exact scope. The public preview still ships
+instructions only, with no runtime or installer.
+
 # Second application draft connection
 
 The remaining application wall now passes with actual AI responses to fixed synthetic fixtures. Earlier passing suites were not repeated; the baseline is an aggregate of targeted runs. The candidate container retains network isolation and a disposable database. A frozen host policy limits outgoing AI data and calls, and keeps credentials outside the candidate. Focused source checks and nine isolated test-runner scenarios passed. One bounded model coding call timed out; the maintainer completed the runner without another model attempt.

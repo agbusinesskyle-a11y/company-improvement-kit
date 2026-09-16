@@ -1,3 +1,11 @@
+# Alpha.38 documentation validation — 2026-09-16
+
+The unchanged explicit 25-file public export is reviewed for generic scope,
+readiness claims, metadata, relative links and private-data exclusion. Source tests
+and model review remain private implementation evidence. No public runtime install
+or new provider demonstration is claimed. Exact remote content verification remains
+required before an owner approval checkpoint.
+
 # Alpha.37 validation
 
 Maintainer review covers the explicit 25-file generic export, version consistency, JSON metadata, relative links and privacy. Private checks verify a frozen fixture-only AI bridge and isolated assertion runner. The public package remains documentation only; no clean installer or independent application run is claimed. Remote snapshot verification is recorded privately before an owner checkpoint.

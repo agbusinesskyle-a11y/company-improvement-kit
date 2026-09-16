@@ -21,6 +21,18 @@ records verified decision outcomes afterward. Installation and limitations are
 tracked in compatibility; this preview still ships no runtime. Continue independent
 authorized work.
 
+## Completion candidate boundaries
+
+The current private completion candidate adds frozen mechanical/senior routing,
+context-preserving revision, prepared-discovery pickup and signed requester fact
+capture. Enable only explicit business-answer keys; a requester reply cannot verify
+technical readiness or grant build authority. Use independent reviewer feedback for
+at most two automatic planning revisions; never create an unbounded model loop.
+Progress and liveness messages report state, not completion evidence. These source
+additions are not an installed end-to-end workflow; see the current status before
+activating them. Release still requires its own exact candidate approval and actual
+deployment plus attributable business verification.
+
 ## Set up or assess an installation
 
 Read [the configuration contract](references/configuration.md). Locate the installation's own private profile and the release's compatibility manifest. Do not borrow the originating developer's accounts, phone numbers, paths, company names, credentials, permissions or approval history.

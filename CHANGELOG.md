@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.38 — 2026-09-16
+
+- Document the private routing, context-preserving revision, discovery pickup and signed fact-capture candidate.
+- Add durable progress reporting and host heartbeat source behavior, with bounded read-only recovery.
+- Preserve existing approval scope and historical proof evidence. Installation and full release-to-business-completion proof remain pending.
+
 ## 0.1.0-alpha.37 — 2026-09-15
 
 - Add a private opt-in bridge for fixed synthetic AI check requests, with a frozen policy digest and host-only credential. Keep candidate containers network-disabled.
