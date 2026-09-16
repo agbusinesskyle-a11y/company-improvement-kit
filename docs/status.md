@@ -2,7 +2,7 @@
 
 The private source now supports a per-request file/test contract in the exact owner-reviewed package. The planner supplies new regression tests; the trusted runner requires named assertion failures on the untouched base before invoking the builder. Those same immutable tests must pass on the candidate, followed by the existing full application gate. The builder can change only listed source files. Separate review receives selected context and the retained test evidence.
 
-Focused source checks and new synthetic fixtures in the real isolated application image verify the boundaries. Historical application baseline results are reused; completed live practice proofs were not repeated. One bounded model coding attempt returned no usable code; the maintainer completed and tested the implementation directly. Installation/activation are pending at this checkpoint. No historical planning approval was widened, and no business app change, merge, or production release occurred.
+Focused source checks and new synthetic fixtures in the real isolated application image verify the boundaries. Historical application baseline results are reused; completed live practice proofs were not repeated. One bounded model coding attempt returned no usable code; the maintainer completed and tested the implementation directly. Both private services and the host are installed with 90 verified runtime files. The first application web-draft profile is enabled for new requests; a scheduled cycle reached all five worker stages with valid access and no queued jobs. This is installation proof, not a fresh business build proof. No historical planning approval was widened, and no business app change, merge, or production release occurred.
 
 # Milestones and known limits
 

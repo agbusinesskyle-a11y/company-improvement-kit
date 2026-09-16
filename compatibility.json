@@ -1326,7 +1326,8 @@
     "installed_runtime_files": 88,
     "host_timer_seconds": 60,
     "host_scheduled_cycle": "verified_idle_for_both_lanes_and_existing_downstream_stages",
-    "unattended_new_employee_proof": "not_repeated"
+    "unattended_new_employee_proof": "not_repeated",
+    "first_application_profile_enabled": true
   },
   "application_check_resources": {
     "source_implemented": true,
@@ -1342,8 +1343,8 @@
   },
   "application_build_contract": {
     "source_verified": true,
-    "installed": false,
-    "activated": false,
+    "installed": true,
+    "activated": true,
     "scope": "new exact owner-approved web-source drafts only",
     "selected_context_limit_bytes": 131072,
     "planner_tests_immutable": true,
@@ -1355,6 +1356,16 @@
       "Other application lane remains disabled pending external-AI test policy.",
       "SMS sender credential remains unconfigured.",
       "Public preview ships no runtime or installer."
-    ]
+    ],
+    "installed_runtime_files": 90,
+    "scheduled_worker_stages": [
+      "issue",
+      "handoff",
+      "build",
+      "review",
+      "publish"
+    ],
+    "scheduled_pickup": "authenticated_idle_cycle_verified",
+    "source_checks_passed": 155
   }
 }

@@ -5,7 +5,7 @@
 - Add a private optional request contract: exact source/read paths and immutable planner-written regression tests inside the frozen five-document package.
 - Require named assertions to fail on the untouched base, pass unchanged on the candidate, then pass the full isolated application gate. Preserve historical profile/package bytes.
 - Restrict build/review context to selected files; reject extra writes, test edits, skipped tests and setup errors. Retain evidence for recovery without another model call.
-- Source and synthetic isolated-runner checks pass. Application worker activation and a fresh business build proof remain separate milestones.
+- Source and synthetic isolated-runner checks pass. The first application profile is installed and enabled; scheduled authenticated idle pickup passes all five stages. A fresh business build proof is still outstanding.
 
 ## 0.1.0-alpha.35 — 2026-09-15
 
