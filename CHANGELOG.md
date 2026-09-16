@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.37 — 2026-09-15
+
+- Add a private opt-in bridge for fixed synthetic AI check requests, with a frozen policy digest and host-only credential. Keep candidate containers network-disabled.
+- Require real provider coverage under a hard call limit; reject altered requests, missing calls and unsafe queue files. Preserve historical profile identity.
+- Verify the previously failing application wall through real AI responses, without repeating completed suites. Add focused boundary and isolated runner checks.
+- Install the second application UI/layout draft lane on both hosted services and the existing execution host; verify all 91 runtime files and authenticated scheduled pickup at all five stages. Data, money logic, sending paths and production release remain outside its initial scope.
+
 ## 0.1.0-alpha.36 — 2026-09-15
 
 - Add a private optional request contract: exact source/read paths and immutable planner-written regression tests inside the frozen five-document package.

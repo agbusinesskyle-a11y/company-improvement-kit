@@ -1,3 +1,9 @@
+# Second application draft connection
+
+The remaining application wall now passes with actual AI responses to fixed synthetic fixtures. Earlier passing suites were not repeated; the baseline is an aggregate of targeted runs. The candidate container retains network isolation and a disposable database. A frozen host policy limits outgoing AI data and calls, and keeps credentials outside the candidate. Focused source checks and nine isolated test-runner scenarios passed. One bounded model coding call timed out; the maintainer completed the runner without another model attempt.
+
+The second application profile is installed for new UI/layout draft requests only. Both hosted services and the execution host match all 91 runtime files; the existing timer reached all five stages with authenticated idle results. This verifies connection and pickup, not a completed business build. Historical planning-only decisions are unchanged. Financial logic, migrations, sending paths and production release remain outside this initial profile; a fresh employee build proof remains outstanding.
+
 # Current application draft-build connection
 
 The private source now supports a per-request file/test contract in the exact owner-reviewed package. The planner supplies new regression tests; the trusted runner requires named assertion failures on the untouched base before invoking the builder. Those same immutable tests must pass on the candidate, followed by the existing full application gate. The builder can change only listed source files. Separate review receives selected context and the retained test evidence.

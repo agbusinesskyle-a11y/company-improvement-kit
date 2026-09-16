@@ -1,3 +1,7 @@
+# Alpha.37 validation
+
+Maintainer review covers the explicit 25-file generic export, version consistency, JSON metadata, relative links and privacy. Private checks verify a frozen fixture-only AI bridge and isolated assertion runner. The public package remains documentation only; no clean installer or independent application run is claimed. Remote snapshot verification is recorded privately before an owner checkpoint.
+
 # Alpha.33 project-routing documentation validation — 2026-09-15
 
 Alpha.35: reviewed changed generic resource and application-compatibility instructions.

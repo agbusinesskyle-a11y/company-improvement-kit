@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.36",
+  "skill_version": "0.1.0-alpha.37",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_with_private_automatic_upstream_receipt_path",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.36",
+    "current_version": "0.1.0-alpha.37",
     "structure": "passed",
     "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
-    "independent_application": "not_run_for_alpha_36",
+    "independent_application": "not_run_for_alpha_37",
     "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -1367,5 +1367,24 @@
     ],
     "scheduled_pickup": "authenticated_idle_cycle_verified",
     "source_checks_passed": 155
+  },
+  "synthetic_ai_check_bridge": {
+    "implementation": "private",
+    "optional_frozen_policy_hash": true,
+    "container_network": "none",
+    "provider_credentials_in_container": false,
+    "exact_synthetic_templates_only": true,
+    "max_provider_calls": 8,
+    "actual_provider_fixture_suite": "passed",
+    "source_checks": 38,
+    "target_runner_scenarios": 9,
+    "application_baseline": "all_existing_suites_passed_in_aggregate_targeted_runs_not_fresh_combined_run",
+    "installation": "both_hosted_services_and_host_verified_91_runtime_files",
+    "new_business_change_proof": "not_run",
+    "initial_second_application_scope": "shared_ui_layout_draft_only",
+    "production_release": false,
+    "historical_approvals_widened": false,
+    "public_runtime_or_installer": false,
+    "scheduled_pickup": "existing_timer_authenticated_idle_all_five_stages"
   }
 }

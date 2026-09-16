@@ -141,3 +141,11 @@ font dependencies and required tests against the actual base before activation.
 Keep offline build checks distinct from live external-service integration tests.
 Record unresolved baseline failures rather than weakening checks or changing the
 business app under a workflow-setup authorization. See compatibility for installation.
+
+## Optional live-AI fixture checks
+
+An application wall may require actual AI output. Do not skip it, substitute a canned response, or give its candidate container production credentials/general network access. The private implementation can freeze `check_ai_policy_hash` and require a matching host policy/key binding before building. The policy contains exact synthetic request templates and at most eight provider calls. Variable fixture suffixes normalize to fixed operator-owned values; only those pinned templates can leave the host.
+
+The container remains network-disabled with a disposable database. A bounded file queue connects only the frozen full check to the host broker. Targeted RED/GREEN tests remain offline. The gate requires actual successful coverage of every template and rejects altered requests, unsafe files, missing calls and budget violations. Provider statuses and request/response hashes are retained with the normal check output. Keep keys in protected private host files, never Git, model context or the container.
+
+This is a private observed integration, not a public installer. Verify source, image, key binding and scheduled worker installation separately from a completed business change. Use a profile supported by the repository's model/financial restrictions; initial UI/layout support does not authorize migrations, money logic, sending paths or production release.
