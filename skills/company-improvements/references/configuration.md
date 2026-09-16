@@ -80,3 +80,12 @@ a verdict-marker formatting check. Supplemental verification passed, preserving
 that original failure, and acceptance is recorded. The supervised reminder was
 delivered and the owner approved in Slack; this does not prove unattended operation. See
 [current status](../../../docs/status.md) for the separate milestones. This public skill ships no configuration installer or runtime.
+
+
+## Optional application request contract
+
+A private native build profile may freeze `application_contract`: bounded `context_paths`, `test_paths`, trusted `target_test_argv`, and an optional absolute operator-owned `planning_checkout`. The checkout applies only to new requests and does not change the registry or older frozen planning contexts. Keep its source at the profile base commit.
+
+The planner includes exactly one `workflow-build-contract` JSON fence in tasks.md with `write_files`, `context_files`, `test_files` (new path to full test source), and `expected_failures` (exact assertion names). This contract narrows the operator roots and enters the immutable package before review/approval. Selected source plus tests is capped at 128 KiB. Tests are immutable to the builder; unexpected files are rejected.
+
+The trusted pinned runner must distinguish assertion failures from collection/import/runtime errors, skips and no tests. Require the named failures on untouched base code before dispatching the builder, identical test names passing on the candidate, and the full application gate on a separate fresh export. Recovery verifies saved reports and never blindly repeats a model call. Missing or invalid contracts block approval packaging. This mechanism is source-tested in the private runtime; do not infer deployment from this public preview.

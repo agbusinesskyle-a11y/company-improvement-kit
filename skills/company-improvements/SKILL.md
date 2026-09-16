@@ -191,3 +191,7 @@ For a verified owner card that expires without a decision, use explicit operator
 Before activating native builds for a real application, follow the application-check
 budget and dependency requirements in [native build](references/native-build.md).
 The practice proof does not establish compatibility with a business repository.
+
+## Application draft builds
+
+For native application profiles, follow the optional request contract in [configuration](references/configuration.md). Verify the exact source selection, planner-written immutable regression tests, named RED proof on the untouched base, GREEN proof on the candidate, and full isolated checks before separate review and draft publication. Check compatibility for actual installation and fresh business proof. Preserve old planning-only decisions; enabling a profile affects only newly frozen requests.

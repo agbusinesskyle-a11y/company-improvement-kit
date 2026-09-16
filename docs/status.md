@@ -1,3 +1,9 @@
+# Current application draft-build connection
+
+The private source now supports a per-request file/test contract in the exact owner-reviewed package. The planner supplies new regression tests; the trusted runner requires named assertion failures on the untouched base before invoking the builder. Those same immutable tests must pass on the candidate, followed by the existing full application gate. The builder can change only listed source files. Separate review receives selected context and the retained test evidence.
+
+Focused source checks and new synthetic fixtures in the real isolated application image verify the boundaries. Historical application baseline results are reused; completed live practice proofs were not repeated. One bounded model coding attempt returned no usable code; the maintainer completed and tested the implementation directly. Installation/activation are pending at this checkpoint. No historical planning approval was widened, and no business app change, merge, or production release occurred.
+
 # Milestones and known limits
 
 ## 2026-09-15 — alpha.35 application compatibility preparation
