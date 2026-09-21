@@ -1,3 +1,8 @@
+# Alpha.41 configuration documentation — 2026-09-21
+
+Maintainer-reviewed generic owner opt-in instructions, exact 25-file export, metadata,
+relative links and privacy. No baseline suite or live interview was repeated.
+
 # Alpha.40 documentation validation — 2026-09-21
 
 Maintainer review covers the explicit 25-file export, owner-confirmation boundaries,

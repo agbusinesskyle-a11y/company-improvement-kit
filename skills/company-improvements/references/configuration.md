@@ -93,3 +93,16 @@ The trusted pinned runner must distinguish assertion failures from collection/im
 For application profiles, oversized numbered handoffs are bounded to the highest numbered addendum, with a pointer to the untouched full source. Legacy planner inputs retain their original strict size checks. Verify this against the actual pinned checkout before activation.
 
 A native build profile may optionally include `check_ai_policy_hash` (64 lowercase hex characters). It is frozen into profile/package identity; absent fields leave historical profiles unchanged. The host build client then needs `--check-ai-policy` and `--check-ai-key-file`. A matching digest is mandatory before building. The synthetic fixture policy does not grant release or general external access. See [native build](native-build.md#optional-live-ai-fixture-checks).
+
+## Optional owner submissions
+
+The owner may explicitly opt in to the same requester list as employees. Update the
+server registry and native interview routine together; keep all existing requesters,
+channel, trigger and other lanes unchanged. The owner remains the sole approver.
+Submitting an idea and confirming its brief never replace the later build or release
+decisions. Rebind attention routing to the changed registry without changing the
+notification destination. If a worker selects models by an exact legacy profile hash,
+verify that only the registry binding changed and add the new exact hash alongside
+the retained historical one; never allow an arbitrary profile. Verify both configurations and the running workers before
+asking for a fresh source-channel message. Do not replay ignored events or rewrite
+historical request, interview or approval bindings.

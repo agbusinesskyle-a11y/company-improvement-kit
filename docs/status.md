@@ -1123,3 +1123,11 @@ follows either synthetic planning-only test.
 ### Owner-requester configuration correction
 
 A genuine owner-authored suggestion exposed an access configuration error: the selected lane permitted its employee requester but excluded the owner from intake. The inbox stayed empty. The correction adds owner requester access to that lane and its native routine while retaining the same employee membership and sole owner approval authority. This is a configuration correction, not a new build permission. The original ignored message is not silently replayed; a fresh user submission is required to exercise the corrected route. Existing source tests were not repeated.
+
+## Owner requester opt-in
+
+Explicit owner opt-in uses existing configuration without changing workflow source.
+Routine and server requester lists must match, and dependent reminder bindings must
+be refreshed. Brief confirmation still requests planning only; separate build and
+release decisions remain required. Historical records keep their original bindings.
+A fresh source-channel message supplies the first live intake proof after the change.

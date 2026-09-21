@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0-alpha.41 — 2026-09-21
+
+- Document explicit owner opt-in to an existing requester list. Synchronize native routine and server configuration, retain separate build/release decisions, and refresh the dependent reminder binding.
+- Keep historical requests frozen and start a fresh source thread after requester configuration changes. No new interview or full business run is claimed.
+
 ## 0.1.0-alpha.40 — 2026-09-21
 
 - Add owner-confirmed terminal resolution when an approved discovery request already works. Preserve findings and approval history, queue no build, and report the honest outcome through existing progress delivery.
