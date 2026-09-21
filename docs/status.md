@@ -10,8 +10,9 @@ claim deterministic pre-approval execution of every proposed test.
 
 The reservation fix also covers retained-source verification during review,
 publication and read-only recovery. Thirty-five additional targeted cases pass,
-including immediate revocation before publication. Installation verification is
-pending for this extension. Full workflow readiness remains false.
+including immediate revocation before publication. Both hosted services are healthy
+and all 125 installed runtime files match on both services and the execution host.
+Full workflow readiness remains false.
 
 # Build preparation reservation repair — September 21
 
@@ -22,8 +23,8 @@ and completion. Targeted long-preparation and revocation tests cover this gap.
 A bounded operator recovery preserves the original approval, issue, handoff and
 failed attempt; build-and-review still requires independent review and a separate
 release decision. Both hosted services and the execution host match all 125 committed runtime files.
-Thirty-five targeted checks passed. The original approved request has one bounded
-recovery queued; its real build result remains pending. Full workflow readiness
+Thirty-five targeted checks passed. The original approved request used one bounded
+recovery; its subsequent target-gate result is recorded above. Full workflow readiness
 remains false until the real build, release and use sequence completes.
 
 # Bounded operational review recovery — September 21

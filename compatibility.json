@@ -1572,7 +1572,7 @@
   },
   "retained_snapshot_lease": {
     "implemented": true,
-    "installed": false,
+    "installed": true,
     "paths": [
       "review",
       "publish",
@@ -1580,7 +1580,9 @@
       "publish_recovery"
     ],
     "fresh_check_before_pr_creation": true,
-    "targeted_cases_passed": 35
+    "targeted_cases_passed": 35,
+    "verified_runtime_files": 125,
+    "both_hosted_services_healthy": true
   },
   "application_failure_names": {
     "exact_matching_preserved": true,

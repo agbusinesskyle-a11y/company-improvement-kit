@@ -4,7 +4,7 @@
 
 - Renew reservations throughout retained-source review, publication and recovery; check fresh authority before PR creation. Thirty-five additional focused cases passed.
 - Clarify exact target reporter names in planning and review; preserve strict proof checks and require a fresh package for corrections.
-- Real recovery passed preparation and correctly stopped at a naming mismatch; no build or release completion is claimed. Extension installation is pending.
+- Real recovery passed preparation and correctly stopped at a naming mismatch; no build or release completion is claimed. Extension installation verified: 125 matching runtime files on both healthy services and the execution host.
 
 ## 0.1.0-alpha.44 — 2026-09-21
 
