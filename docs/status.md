@@ -1,3 +1,20 @@
+# Non-final review protection — September 21
+
+A real reviewer response exposed a second review-boundary defect: narration could
+look like a changes-requested result and cause unnecessary replanning. The private
+implementation now enforces a finding format naming a document, defect and concrete
+correction. Recognized unformatted progress can consume the existing final retry on
+the same package; unknown nonconforming output stops without retry. Two attempts
+total remain the limit. This structural check does not prove natural-language truth.
+
+Historical invalid feedback produces a visible attention notice instead of another
+rewrite. Superseded completions are retained without replay; upgrade recovery uses
+the original saved output. Sixty-nine focused cases passed, including both lanes,
+concurrent claims, mixed retry causes, lost acknowledgements and unchanged versions.
+All 126 runtime files match on both healthy hosted services and the execution host.
+A scope-restored draft is queued through normal planning and review. The complete
+real build/release/use chain is still unproven; the public kit remains documentation only.
+
 # Retained-source renewal and exact test names — September 21
 
 The real bounded recovery passed the former reservation timeout and reached its

@@ -28,8 +28,10 @@ context-preserving revision, prepared-discovery pickup and signed requester fact
 capture. Enable only explicit business-answer keys; a requester reply cannot verify
 technical readiness or grant build authority. Use independent reviewer feedback for
 at most two automatic planning revisions; never create an unbounded model loop.
-The shared reviewer recovery permits one automatic retry only for a verified CLI
-turn-limit cancellation, with both attempts retained. Unknown output stops, and
+The shared reviewer recovery permits one automatic retry for a verified CLI
+turn-limit cancellation or recognized non-final narration, with both attempts retained.
+Findings must name an artifact, defect and correction; unknown nonconforming output
+stops without a retry or plan revision. Historical invalid feedback needs attention, and
 completed retained output can recover read-only after restart. See
 [operational recovery](references/post-approval.md#operational-review-response-and-recovery).
 Native build preparation renews its reservation while reading all candidate and test

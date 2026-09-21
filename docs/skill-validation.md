@@ -1,3 +1,10 @@
+# Alpha.46 documentation review — 2026-09-21
+
+Maintainer review of the same explicit 25-file generic export covers enforced
+finding format, conservative retry classification, retained limits and truthful
+readiness. Independent private code review led to stronger validation and failure
+reporting. Public content contains no company draft, decision, identity or credential.
+
 # Alpha.45 documentation review — 2026-09-21
 
 Maintainer review covers the explicit 25-file generic export, truthful real-run

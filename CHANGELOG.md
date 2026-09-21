@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.46 — 2026-09-21
+
+- Enforce document/defect/correction finding format at the model and trusted API boundaries; narration cannot be used as unformatted plan feedback.
+- Share the existing two-attempt cap across known cancellation and recognized non-final responses; unknown invalid output stops without replay.
+- Add historical-feedback attention, superseded completion and upgrade recovery; retain raw evidence and serialize concurrent review claims. Sixty-nine focused cases passed; both services and the execution host match all 126 runtime files.
+
 ## 0.1.0-alpha.45 — 2026-09-21
 
 - Renew reservations throughout retained-source review, publication and recovery; check fresh authority before PR creation. Thirty-five additional focused cases passed.

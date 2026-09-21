@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.45",
+  "skill_version": "0.1.0-alpha.46",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_with_private_automatic_upstream_receipt_path",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.45",
+    "current_version": "0.1.0-alpha.46",
     "structure": "passed",
     "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
-    "independent_application": "not_run_for_alpha_45",
+    "independent_application": "not_run_for_alpha_46",
     "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -1535,7 +1535,7 @@
     "installed": true,
     "shared_across_configured_lanes": true,
     "maximum_attempts": 2,
-    "retry_trigger": "exact_retained_max_turns_cancellation_only",
+    "retry_trigger": "exact_retained_max_turns_cancellation_or_recognized_nonfinal_narration",
     "completed_response_recovery": "read_only_no_new_model_call",
     "unknown_result_automatic_retry": false,
     "attempt_evidence": "immutable_server_failures_and_retained_private_CLI_output",
@@ -1543,11 +1543,16 @@
     "stale_retry": "exact_current_reservation_revalidated",
     "new_live_business_request_replayed": false,
     "full_workflow_ready": false,
-    "installed_runtime_files": 125,
+    "installed_runtime_files": 126,
     "hosted_health_verified": true,
     "scheduled_both_lanes_verified": true,
     "validation_cases": 60,
-    "live_failure_injection_performed": false
+    "live_failure_injection_performed": false,
+    "nonconforming_unknown_findings": "blocked_without_retry_or_plan_revision",
+    "finding_contract": "artifact.md: concrete defect | Correction: specific change; enforced by schema and API",
+    "historical_invalid_findings": "visible_attention_no_automatic_revision",
+    "latest_extension_installed": true,
+    "latest_extension_targeted_cases": 69
   },
   "latest_automatic_owner_result": {
     "action": "APPROVE",

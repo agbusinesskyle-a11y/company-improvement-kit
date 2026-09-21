@@ -168,3 +168,20 @@ This bounded recovery is separate from the limit on planning revisions. It grant
 no owner decision or build authority. Previously recovered requests and old failure
 evidence are not replayed. Publish the reviewed generic/private checkpoint before
 the normal owner card. Installation state is recorded in compatibility.
+
+### Final review findings, not narration
+
+A changes-requested finding must use the single-line format
+`artifact.md: concrete defect | Correction: specific change`, naming one of the five
+planning documents. Both the model schema and trusted API enforce the structure.
+This does not certify the semantic truth of arbitrary model text. A recognized,
+unformatted progress-only response may consume the existing one retry after its
+identity, usage and exact retained response are verified. Cancellation and narration
+share two total attempts; unknown nonconforming responses stop without retry.
+
+Never turn unfinished-review narration into planner feedback. Historical malformed
+findings produce visible attention and require an operator correction through the
+normal versioned flow; do not silently reset a reservation or erase evidence. A
+superseded completion is parked, and an older retained completing-state response
+is reclassified from its exact saved CLI evidence on upgrade. No new owner authority
+is created by these recovery operations.
