@@ -1,3 +1,18 @@
+# Retained-source renewal and exact test names — September 21
+
+The real bounded recovery passed the former reservation timeout and reached its
+before-change test gate. That gate correctly stopped on a test-name formatting
+mismatch, before any builder model call. The intended assertion failed and the
+control passed. The exact failure check remains strict; a corrected package must
+follow the existing revision, review, publication and owner-approval sequence.
+Planner and reviewer guidance now explains the reporter convention. This does not
+claim deterministic pre-approval execution of every proposed test.
+
+The reservation fix also covers retained-source verification during review,
+publication and read-only recovery. Thirty-five additional targeted cases pass,
+including immediate revocation before publication. Installation verification is
+pending for this extension. Full workflow readiness remains false.
+
 # Build preparation reservation repair — September 21
 
 The private builder now renews its reservation while materializing all three app

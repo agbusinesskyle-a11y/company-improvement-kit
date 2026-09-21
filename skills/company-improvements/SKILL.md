@@ -33,9 +33,13 @@ turn-limit cancellation, with both attempts retained. Unknown output stops, and
 completed retained output can recover read-only after restart. See
 [operational recovery](references/post-approval.md#operational-review-response-and-recovery).
 Native build preparation renews its reservation while reading all candidate and test
-trees. It checks current authority again before model dispatch and completion; it
-must stop when authority is lost. Preserve failed attempts during bounded operator
+trees. Retained-source verification during review, publication and recovery also
+renews the reservation. It checks current authority again before model dispatch and
+completion; it must stop when authority is lost. Preserve failed attempts during bounded operator
 recovery. See [build recovery](references/native-build.md#preparation-and-reservation-recovery).
+Match expected failure names to the configured reporter exactly. For Vitest JSON,
+suite and test titles use spaces rather than display separators. Preserve strict
+matching; a frozen mismatch requires a new reviewed package and owner decision.
 Progress and liveness messages report state, not completion evidence.
 
 The reviewed native readiness bridge may mark the exact draft pull request ready and

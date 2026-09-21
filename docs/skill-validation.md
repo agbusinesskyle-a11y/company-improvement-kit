@@ -1,3 +1,11 @@
+# Alpha.45 documentation review — 2026-09-21
+
+Maintainer review covers the explicit 25-file generic export, truthful real-run
+limits, exact-name guidance, unchanged frozen approval boundaries, metadata and
+privacy. No company plans, identities or approval evidence are part of this export.
+Seven new snapshot cases and 28 affected native-review cases passed privately.
+Previously completed baseline and live approval proofs were not repeated.
+
 # Alpha.44 build reservation repair
 
 Maintainer review covers the explicit generic export, reservation renewal, fresh

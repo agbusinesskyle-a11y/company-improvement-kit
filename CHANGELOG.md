@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.45 — 2026-09-21
+
+- Renew reservations throughout retained-source review, publication and recovery; check fresh authority before PR creation. Thirty-five additional focused cases passed.
+- Clarify exact target reporter names in planning and review; preserve strict proof checks and require a fresh package for corrections.
+- Real recovery passed preparation and correctly stopped at a naming mismatch; no build or release completion is claimed. Extension installation is pending.
+
 ## 0.1.0-alpha.44 — 2026-09-21
 
 - Renew native build reservations during all tree preparation, with throttled keep-alive and fresh authority checks before model dispatch and completion.

@@ -168,3 +168,15 @@ actual instruction honestly, retain the failed attempt, and verify whether any
 model call was dispatched before resuming. This is an operator action, not a model
 permission or automatic retry loop. Independent review and separate release approval
 remain required. Reuse the existing issue and handoff; never erase or reset failures.
+
+Retained candidate verification for review, publication and read-only recovery also
+renews during Git reads. Keep fresh raw checks before provider writes, including
+after the final source verification immediately before PR creation. A write with an
+uncertain outcome remains uncertain; never replay it to obtain a clean receipt.
+
+Expected failure names must match the pinned reporter exactly. Vitest JSON fullName
+joins suite and test titles with spaces; its display separators are not part of that
+name. Planner and reviewer instructions check this convention. They are not a
+deterministic test execution gate. Do not normalize mismatches after approval, alter
+frozen tests or rebuild a pinned image silently. Correct the package through the
+existing versioned revision, operational review, publication and owner decision.
