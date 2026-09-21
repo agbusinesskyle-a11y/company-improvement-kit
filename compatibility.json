@@ -1557,13 +1557,17 @@
   },
   "native_build_preparation_lease": {
     "implemented": true,
-    "installed": false,
+    "installed": true,
     "all_materialized_trees_renew_reservation": true,
     "renewal_throttled_seconds": 15,
     "fresh_check_before_model_and_completion": true,
     "unknown_loss_stops": true,
     "frozen_budgets_changed": false,
     "native_review_scope_recovery": "operator_only_once_per_run_for_stale_lease_with_original_handoff_and_remaining_frozen_budget",
-    "original_failure_preserved": true
+    "original_failure_preserved": true,
+    "verified_runtime_files": 125,
+    "targeted_source_cases_passed": 35,
+    "live_recovery": "queued_original_approved_package_preserved",
+    "real_build_completion_verified": false
   }
 }

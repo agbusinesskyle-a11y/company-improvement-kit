@@ -6,7 +6,9 @@ model started on a larger app. Fresh authority checks still precede model dispat
 and completion. Targeted long-preparation and revocation tests cover this gap.
 A bounded operator recovery preserves the original approval, issue, handoff and
 failed attempt; build-and-review still requires independent review and a separate
-release decision. Installation verification is pending. Full workflow readiness
+release decision. Both hosted services and the execution host match all 125 committed runtime files.
+Thirty-five targeted checks passed. The original approved request has one bounded
+recovery queued; its real build result remains pending. Full workflow readiness
 remains false until the real build, release and use sequence completes.
 
 # Bounded operational review recovery — September 21

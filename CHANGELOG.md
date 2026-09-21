@@ -4,7 +4,7 @@
 
 - Renew native build reservations during all tree preparation, with throttled keep-alive and fresh authority checks before model dispatch and completion.
 - Permit one explicitly authorized operator recovery of a stale build reservation within the existing build-and-review budget; preserve failure evidence, issue, handoff and review/release gates.
-- Installation and real resumed-build verification pending.
+- Verified 125 runtime files on both services and execution host; 35 targeted checks pass. One bounded recovery is queued; real resumed-build verification remains pending.
 
 ## 0.1.0-alpha.43 — 2026-09-21
 
