@@ -47,14 +47,20 @@ person's observation and does not prove every acceptance criterion automatically
 Only then may the durable completion reporter add the exact-bound completion comment
 to the existing issue. A failed observation stays visible as needing attention.
 
-One configured application lane has the reviewed private runtime installed with 120
-matching files, and its scheduled release pickup has authenticated and returned idle.
-An exact signed release REVISE can now carry owner feedback into fresh planning;
-it preserves the old candidate and requires a new build decision. Both active intake
-lanes have running SMS attention workers, including separate release cards. Credential
-reads and idle workers verify connection, not a new delivery. The full workflow remains
-unproven by a fresh whole-business run. Another application release route still lacks
-attributable production source configuration; rollback is a retained plan.
+Both configured application lanes have the private runtime installed with 123 matching
+files, running SMS attention workers and authenticated idle release pickup. Exact
+signed release REVISE feedback carries into fresh planning and a new build decision.
+A configured Railway upload target freezes its source subdirectory and verifies the
+current deployment and source tree; effects still require separate owner approval.
+Read-only recovery never repeats an uncertain upload. A superseded success is reported
+as needing attention, not as a current verified deployment.
+
+For an owner-confirmed request that already works, the trusted operator may record
+an exact no-change resolution through [the discovery procedure](references/post-approval.md).
+Preserve the original approval and findings. This terminal outcome performs no build
+or deployment and must not be relabelled as either. The full application-change chain
+still awaits a fresh real build, release decision and real-use observation. Rollback
+is a frozen operator plan, and the public package remains documentation only.
 
 ## Set up or assess an installation
 

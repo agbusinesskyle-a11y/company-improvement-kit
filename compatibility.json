@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.39",
+  "skill_version": "0.1.0-alpha.40",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_with_private_automatic_upstream_receipt_path",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.39",
+    "current_version": "0.1.0-alpha.40",
     "structure": "passed",
     "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
-    "independent_application": "not_run_for_alpha_39",
+    "independent_application": "not_run_for_alpha_40",
     "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -1390,9 +1390,9 @@
   "workflow_completion_candidate": {
     "date": "2026-09-21",
     "installed": true,
-    "installation_scope": "one configured application lane",
+    "installation_scope": "both configured application lanes; provider strategies remain explicitly bound",
     "installation_status": "services_execution_host_and_scheduled_idle_pickup_verified",
-    "verified_runtime_files": 120,
+    "verified_runtime_files": 123,
     "full_workflow_ready": false,
     "scope": "private_completion_candidate_with_public_documentation_only",
     "capabilities": [
@@ -1409,7 +1409,9 @@
       "exact_bound_issue_completion_comment",
       "release_revision_to_fresh_owner_build_approval",
       "per_project_attention_routing",
-      "native_release_sms_outbox"
+      "native_release_sms_outbox",
+      "owner_confirmed_resolution_without_change",
+      "exact_subdirectory_railway_upload_release"
     ],
     "senior_transport": "authenticated senior CLI; exact configured model identity checked; no financial business build claimed",
     "native_release_readiness": {
@@ -1456,22 +1458,20 @@
     "installation": {
       "hosted_services_health_verified": true,
       "execution_host_source_match_verified": true,
-      "matching_runtime_files": 120,
+      "matching_runtime_files": 123,
       "optional_release_stage_enabled": true,
       "first_scheduled_release_pickup_verified": true,
       "progress_message_recovery": "read_only exact original-provider evidence; no duplicate send",
-      "scheduled_release_pickup_result": "authenticated_idle",
+      "scheduled_release_pickup_result": "authenticated_idle_both_configured_lanes",
       "scheduled_real_use_capture_result": "idle",
       "completion_reporter_running": true,
       "sms_reminders": "enabled_for_both_active_intake_lanes; authenticated_provider_read_and_idle_workers_verified"
     },
     "validation": "targeted new and affected source tests; disposable PostgreSQL; synthetic provider transports; independent source review",
     "limitations": [
-      "One application release route remains disabled pending attributable production source configuration.",
-      "Rollback is a retained plan, not automatic execution.",
-      "No fresh whole-business build-through-release proof has run.",
-      "SMS activation is verified by credential read and running idle workers; no new delivery proof was repeated.",
-      "An owner-satisfied request with no code change remains held; a terminal no-build disposition is not implemented."
+      "Rollback remains a frozen operator plan, not an automatic executor.",
+      "A fresh real application change has not yet demonstrated the complete build, release and real-use chain.",
+      "The public kit ships documentation, not an independently verified installer."
     ],
     "prior_live_proofs_repeated": false,
     "public_runtime_shipped": false,
@@ -1492,6 +1492,22 @@
       "release_reminder_cases": 19,
       "release_revision": "new and affected tests plus independent senior review; no baseline rerun",
       "multilane_host_lifecycle_cases": 3
+    },
+    "no_change_resolution": {
+      "installed": true,
+      "authority": "trusted operator command with exact explicit owner confirmation; not exposed to model-facing API",
+      "provenance": "owner confirmation is retained with source and reference; not relabelled as a signed provider decision",
+      "effect": "terminal resolution, consumed held placeholder, preserved approval/findings; no build or deployment",
+      "live_disposition": "owner-confirmed satisfied request closed; source and owner progress receipts verified"
+    },
+    "upload_release": {
+      "installed": true,
+      "source_subdirectory": "explicitly frozen in release target",
+      "baseline": "current deployment and exact repository subtree; unknown or changing baseline rejected",
+      "owner_release_required": true,
+      "first_effect_baseline_rechecked": true,
+      "recovery": "read-only exact deployment ID plus CLI correlation marker; superseded deployment rejected",
+      "production_deploy_performed_during_connection": false
     }
   }
 }

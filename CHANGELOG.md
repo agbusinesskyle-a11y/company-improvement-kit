@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.40 — 2026-09-21
+
+- Add owner-confirmed terminal resolution when an approved discovery request already works. Preserve findings and approval history, queue no build, and report the honest outcome through existing progress delivery.
+- Connect the existing native release host to exact-subdirectory Railway uploads, with frozen target, current production baseline checks and separate owner release approval. Preserve the existing GitHub deployment route.
+- Verify both configured release lanes and 123 installed runtime files. No production app deployment or repeated practice build was used to establish the connection.
+- Retain explicit operator rollback plans and the outstanding real application build-through-release demonstration.
+
 ## 0.1.0-alpha.39 — 2026-09-21
 
 - Connect exact release revision feedback to fresh planning without expanding old authority.

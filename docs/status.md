@@ -33,24 +33,28 @@ observation, not automated proof of every acceptance criterion; failed remains
 needs-attention. A durable exact-bound outbox can then add the completion comment to
 the existing issue without inventing credentials, job identifiers or effects.
 
-The reviewed private runtime is installed in one configured application lane. Both
-hosted services and the execution host match all 120 runtime files, and service health
-is verified. A scheduled cycle authenticated the optional release pickup and returned
-idle; real-use capture also returned idle, and the completion reporter is running.
-Read-only recovery of existing progress messages was verified without duplicate
-delivery.
+Both configured application lanes now use the reviewed private runtime. Both hosted
+services and the execution host match all 123 runtime files. Both reminder workers
+are running, and both release stages return authenticated idle on the existing timer.
+One release target uses GitHub-triggered deployment; the other uses a frozen source
+subdirectory and exact-commit Railway upload. The upload path verifies the current
+production deployment and source tree before preparation and first dispatch. Recovery
+checks the original deployment ID and exact CLI marker and rejects superseded success.
+No business-app deployment occurred merely to connect this route.
 
-This public alpha remains a documentation-only preview with
-`full_workflow_ready=false`; it ships no runtime or installer. Exact release REVISE
-feedback now enters fresh planning with a new build-approval requirement. Both active
-intake lanes have running SMS attention workers for plan and separate release cards.
-A restricted persistent key passed an authenticated read; there were no eligible
-old cards and no new test text was sent. Source checks and idle connection proof do
-not establish a fresh whole-business build-through-release run. Another application
-release route still lacks attributable production source configuration. Rollback is
-a retained plan rather than automatic execution. Historical planning-only approvals
-retain their exact scope. A satisfied request that requires no code change remains
-held; the terminal no-build disposition is not implemented.
+A trusted operator can record an explicit owner confirmation that existing behavior
+satisfies an approved discovery request. The immutable resolution binds the exact
+request, package, discovery revision/hash and owner. It consumes only the held issue
+placeholder, retains unresolved findings honestly, and queues no build. Existing
+progress delivery reports “resolved without change” in source and owner threads.
+One real owner-confirmed no-change request has reached this terminal disposition.
+This is not an app deployment or a signed release approval.
+
+The public alpha remains documentation only with `full_workflow_ready=false`.
+A fresh real application change has not yet demonstrated the complete build,
+separate release decision and real-use chain. Rollback remains a frozen operator
+plan. Historical planning-only approvals retain their exact scope. Earlier successful
+provider demonstrations and application baselines were not repeated.
 
 # Second application draft connection
 

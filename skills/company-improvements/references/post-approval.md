@@ -128,3 +128,22 @@ tracked in the current milestone. Ordinary revision
 of a discovery successor is rejected with `discovery_revision_requires_context`
 until a revision path can retain and revalidate those findings. This explicit hold
 prevents silently queuing a plan that has lost its operational configuration.
+
+## Resolve a request that already works
+
+Use the private `discovery_cli resolve-without-change` command only after the owner
+explicitly confirms that the existing behavior satisfies the request. This is an
+operator procedure; a model finding or employee suggestion cannot authorize it.
+Bind the exact project, discovery ID, revision, findings hash and stable event ID.
+Supply a private confirmation document with exactly `owner_id`, `source`, `reference`
+and `statement`; source is `operator_recorded_owner_confirmation`. The owner must
+match the current registry. Keep the actual statement and attributable reference;
+do not manufacture Slack evidence or infer confirmation from silence.
+
+Additive migration 026 retains an immutable resolution. Only an unchanged approved
+planning-only discovery with a held issue placeholder and no execution run can
+resolve. The transaction consumes that placeholder and reaches a terminal outcome
+without revising the original package or creating a build, issue or deployment.
+Unresolved findings stay as evidence; closure does not falsely confirm them. Replays
+of the same event are idempotent, and altered confirmation conflicts. Normal progress
+delivery reports the outcome in the existing source and owner threads.

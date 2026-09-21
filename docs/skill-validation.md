@@ -1,3 +1,10 @@
+# Alpha.40 documentation validation — 2026-09-21
+
+Maintainer review covers the explicit 25-file export, owner-confirmation boundaries,
+provider strategy and recovery claims, metadata, links and privacy. Targeted source
+checks and independent review remain private evidence. No public installer or new
+whole-business build demonstration is claimed. Verify the exact remote snapshot.
+
 # Alpha.39 documentation validation — 2026-09-21
 
 Maintainer review covers the explicit 25-file generic export, changed claims, version
