@@ -1,3 +1,9 @@
+# Alpha.42 reviewer-contract documentation — 2026-09-21
+
+Maintainer review covers final-response requirements, retained failure evidence,
+unchanged approval authority, exact export, metadata, links and privacy. Earlier
+completed baseline tests were not repeated.
+
 # Alpha.41 configuration documentation — 2026-09-21
 
 Maintainer-reviewed generic owner opt-in instructions, exact 25-file export, metadata,

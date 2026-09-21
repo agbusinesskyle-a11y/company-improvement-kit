@@ -1131,3 +1131,11 @@ Routine and server requester lists must match, and dependent reminder bindings m
 be refreshed. Brief confirmation still requests planning only; separate build and
 release decisions remain required. Historical records keep their original bindings.
 A fresh source-channel message supplies the first live intake proof after the change.
+
+## Operational review failure boundary
+
+A completed planning job still needs a valid independent operational review before
+its owner card can publish. The reviewer now explicitly returns a final verdict
+using supplied materials only. Strict model/session/call limits are unchanged.
+Cancelled or uncertain attempts retain evidence and require bounded operator
+recovery; no automatic retry loop or new unattended full-run claim is introduced.

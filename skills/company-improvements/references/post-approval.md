@@ -147,3 +147,15 @@ without revising the original package or creating a build, issue or deployment.
 Unresolved findings stay as evidence; closure does not falsely confirm them. Replays
 of the same event are idempotent, and altered confirmation conflicts. Normal progress
 delivery reports the outcome in the existing source and owner threads.
+
+## Operational review response and recovery
+
+The pre-approval reviewer must return its completed verdict from the supplied
+frozen package and brief in one response. It must not issue a progress note, request
+source tools, or promise a later review. A cancelled or incomplete CLI response is
+not a review, even when its text resembles a verdict. Retain its exact evidence.
+An operator may investigate definitive failure and authorize one bounded recovery
+on the same frozen package after correcting the cause; retain the original attempt
+and distinct recovery receipt. Never erase dispatch history, accept partial output,
+infer approval, or automatically repeat an uncertain model call. Publish the
+reviewed generic/private checkpoint before the normal owner card.

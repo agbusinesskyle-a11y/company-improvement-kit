@@ -240,3 +240,7 @@ For native application profiles, follow the optional request contract in [config
 When an application gate needs real AI output, use only an explicitly frozen synthetic-fixture bridge as described in [native build](references/native-build.md#optional-live-ai-fixture-checks). Preserve container isolation, require actual fixture coverage, retain provider evidence, and distinguish draft-profile installation from a completed employee change. Never widen an earlier approval or imply UI-only support covers financial or data-operation requests.
 
 For owner-submitted ideas, use explicit [owner requester opt-in](references/configuration.md#optional-owner-submissions). Requester permission and owner approval remain separate; verify both routine and server lists before starting a fresh thread.
+
+Operational plan review requires a completed verdict, not a progress note. Follow
+[retained review recovery](references/post-approval.md#operational-review-response-and-recovery)
+for cancelled attempts; never turn partial model text into owner-ready approval.

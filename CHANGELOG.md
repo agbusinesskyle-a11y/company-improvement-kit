@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0-alpha.42 — 2026-09-21
+
+- Make the operational reviewer finish its verdict from supplied materials in one response. Forbid progress-only findings, tools and promises to review later.
+- Preserve strict completed-model validation, original failed-attempt evidence and owner gates. Cancelled or uncertain results cannot become approval cards; recovery remains an explicit bounded operator action.
+
 ## 0.1.0-alpha.41 — 2026-09-21
 
 - Document explicit owner opt-in to an existing requester list. Synchronize native routine and server configuration, retain separate build/release decisions, and refresh the dependent reminder binding.
