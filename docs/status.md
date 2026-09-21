@@ -8,7 +8,9 @@ progress; acknowledged terminal failures do not hold up unrelated requests.
 
 Targeted synthetic CLI/HTTP and disposable PostgreSQL checks cover both lanes,
 restarts, lost acknowledgements, unchanged reservation binding and immutable evidence.
-Deployment verification is pending. The earlier request was recovered manually;
+Both hosted services and the execution host match all 125 committed runtime files.
+Health checks and a later scheduled pickup for both lanes passed. No live failure
+was injected to repeat the test. The earlier request was recovered manually;
 this change does not replay it or create another owner decision. Full business
 build-through-release proof remains outstanding, and the public kit ships no runtime.
 
@@ -47,10 +49,10 @@ observation, not automated proof of every acceptance criterion; failed remains
 needs-attention. A durable exact-bound outbox can then add the completion comment to
 the existing issue without inventing credentials, job identifiers or effects.
 
-Both configured application lanes now use the reviewed private runtime. Both hosted
-services and the execution host matched all 123 runtime files at that connection
-checkpoint. The later operational-review prompt correction is installed only on the
-execution host; the other runtime files remain unchanged. Both reminder workers
+Both configured application lanes use the reviewed private runtime. The original
+connection checkpoint matched 123 files. The latest installation matches 125 files
+on both hosted services and the execution host, including bounded operational-review
+recovery and its response contract. Both reminder workers
 are running, and both release stages return authenticated idle on the existing timer.
 One release target uses GitHub-triggered deployment; the other uses a frozen source
 subdirectory and exact-commit Railway upload. The upload path verifies the current

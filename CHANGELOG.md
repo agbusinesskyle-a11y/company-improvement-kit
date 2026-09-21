@@ -4,7 +4,7 @@
 
 - Add shared, bounded operational-review recovery: one retry for an exact retained turn-limit cancellation, immutable failure records, completed-response restart recovery, and durable failure progress.
 - Preserve current-package checks and all owner gates; uncertain results never trigger an automatic model replay.
-- Targeted source checks passed; installation verification pending. No prior business request or completed baseline proof repeated.
+- Sixty new and affected checks passed; both services and execution host match 125 runtime files, with healthy services and scheduled pickup for both lanes. No prior business request or completed baseline proof repeated.
 
 ## 0.1.0-alpha.42 — 2026-09-21
 

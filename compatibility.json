@@ -1392,7 +1392,7 @@
     "installed": true,
     "installation_scope": "both configured application lanes; provider strategies remain explicitly bound",
     "installation_status": "services_execution_host_and_scheduled_idle_pickup_verified",
-    "verified_runtime_files": 123,
+    "verified_runtime_files": 125,
     "full_workflow_ready": false,
     "scope": "private_completion_candidate_with_public_documentation_only",
     "capabilities": [
@@ -1458,7 +1458,7 @@
     "installation": {
       "hosted_services_health_verified": true,
       "execution_host_source_match_verified": true,
-      "matching_runtime_files": 123,
+      "matching_runtime_files": 125,
       "optional_release_stage_enabled": true,
       "first_scheduled_release_pickup_verified": true,
       "progress_message_recovery": "read_only exact original-provider evidence; no duplicate send",
@@ -1528,11 +1528,11 @@
     "cancelled_attempt_does_not_publish_owner_card": true,
     "uncertain_model_automatic_replay": false,
     "operator_recovery_retains_original_evidence": true,
-    "latest_prompt_installation": "execution_host_only; hosted_services retain preceding runtime; remaining runtime files unchanged"
+    "latest_prompt_installation": "both_hosted_services_and_execution_host_verified_125_runtime_files"
   },
   "operational_review_recovery": {
     "implemented": true,
-    "installed": false,
+    "installed": true,
     "shared_across_configured_lanes": true,
     "maximum_attempts": 2,
     "retry_trigger": "exact_retained_max_turns_cancellation_only",
@@ -1542,7 +1542,12 @@
     "failure_reporting": "durable_source_thread_progress",
     "stale_retry": "exact_current_reservation_revalidated",
     "new_live_business_request_replayed": false,
-    "full_workflow_ready": false
+    "full_workflow_ready": false,
+    "installed_runtime_files": 125,
+    "hosted_health_verified": true,
+    "scheduled_both_lanes_verified": true,
+    "validation_cases": 60,
+    "live_failure_injection_performed": false
   },
   "latest_automatic_owner_result": {
     "action": "APPROVE",

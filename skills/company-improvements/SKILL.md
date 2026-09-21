@@ -51,9 +51,9 @@ person's observation and does not prove every acceptance criterion automatically
 Only then may the durable completion reporter add the exact-bound completion comment
 to the existing issue. A failed observation stays visible as needing attention.
 
-Both configured application lanes passed the 123-file installation checkpoint, with
-running SMS attention workers and authenticated idle release pickup. The later
-operational-review prompt correction runs on the execution host only. Exact
+Both configured application lanes now share a verified 125-file installation across
+the hosted services and execution host, including bounded operational-review recovery.
+SMS attention workers run and the existing scheduler reaches both lanes. Exact
 signed release REVISE feedback carries into fresh planning and a new build decision.
 A configured Railway upload target freezes its source subdirectory and verifies the
 current deployment and source tree; effects still require separate owner approval.
