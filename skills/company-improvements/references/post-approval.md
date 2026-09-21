@@ -185,3 +185,18 @@ normal versioned flow; do not silently reset a reservation or erase evidence. A
 superseded completion is parked, and an older retained completing-state response
 is reclassified from its exact saved CLI evidence on upgrade. No new owner authority
 is created by these recovery operations.
+
+### Optional senior backup
+
+An operator may enable the documented pinned senior provider for the existing second
+operational-review attempt. The primary remains first. Use the same reservation and
+package; never add a third attempt or treat a new provider as fresh budget. Preserve
+the selected policy before dispatch and require matching requested/reported identity
+on the result. Never relabel one provider as another. Recovery reads the original
+provider-specific evidence without another model call. Missing opt-in preserves the
+existing behavior; unsupported provider identities or policies fail closed.
+
+Authentication belongs to the protected host configuration. Model prompts receive
+only the supplied plan and brief, with tools, project rules and integrations disabled.
+This backup is an operational plan-review option; it does not modify a frozen
+business builder, code reviewer, approved scope or release requirement.

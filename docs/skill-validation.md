@@ -1,3 +1,9 @@
+# Alpha.47 documentation review — 2026-09-21
+
+The same 25-file generic export documents explicit backup activation, actual model
+identity, unchanged budgets and separation from business execution authority.
+Private paths, accounts, review outputs, plans and decision evidence remain excluded.
+
 # Alpha.46 documentation review — 2026-09-21
 
 Maintainer review of the same explicit 25-file generic export covers enforced

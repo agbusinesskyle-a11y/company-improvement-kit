@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.47 — 2026-09-21
+
+- Add operator-configured senior backup within the existing second operational-review attempt, with actual provider identity and retained route.
+- Preserve the same package, two-attempt cap and all build/release approval boundaries. Unknown results remain blocked without replay.
+- Sixty targeted new/affected cases passed; verified 126 runtime files on both services and execution host. Backup enabled on both lanes; actual outcome pending.
+
 ## 0.1.0-alpha.46 — 2026-09-21
 
 - Enforce document/defect/correction finding format at the model and trusted API boundaries; narration cannot be used as unformatted plan feedback.

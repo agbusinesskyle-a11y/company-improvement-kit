@@ -1,3 +1,17 @@
+# Bounded independent-review backup — September 21
+
+The private host can explicitly enable a pinned senior reviewer for the existing
+second operational-review attempt. The primary remains first; only a previously
+allowed retry may use the backup. Both providers share the same two-attempt cap,
+package and reservation. Unknown outcomes still stop. Actual model identities are
+retained and checked, and restart recovery uses the route saved before dispatch.
+Business build, code-review and owner/release authority remain unchanged.
+
+Sixty new and affected focused cases passed, including provider identity, budgets,
+restart recovery and no third attempt. Both healthy services and the execution host
+match all 126 runtime files; backup is enabled on both configured lanes. The current
+live review outcome is pending. This does not establish the complete build/release/use chain.
+
 # Non-final review protection — September 21
 
 A real reviewer response exposed a second review-boundary defect: narration could

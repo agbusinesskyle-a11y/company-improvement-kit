@@ -32,7 +32,10 @@ The shared reviewer recovery permits one automatic retry for a verified CLI
 turn-limit cancellation or recognized non-final narration, with both attempts retained.
 Findings must name an artifact, defect and correction; unknown nonconforming output
 stops without a retry or plan revision. Historical invalid feedback needs attention, and
-completed retained output can recover read-only after restart. See
+completed retained output can recover read-only after restart. An explicitly
+configured senior backup may occupy the existing second operational-review attempt;
+keep the same package, attempt cap and actual model identity. This does not change
+the frozen business builder or code reviewer. See
 [operational recovery](references/post-approval.md#operational-review-response-and-recovery).
 Native build preparation renews its reservation while reading all candidate and test
 trees. Retained-source verification during review, publication and recovery also
