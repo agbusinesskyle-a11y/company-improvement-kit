@@ -4,7 +4,7 @@
 
 - Add operator-configured senior backup within the existing second operational-review attempt, with actual provider identity and retained route.
 - Preserve the same package, two-attempt cap and all build/release approval boundaries. Unknown results remain blocked without replay.
-- Sixty targeted new/affected cases passed; verified 126 runtime files on both services and execution host. Backup enabled on both lanes; actual outcome pending.
+- Sixty targeted new/affected cases passed; verified 126 runtime files on both services and execution host. Backup enabled on both lanes; the real backup accepted and the normal publisher posted the owner card. Full business build/release/use proof remains pending.
 
 ## 0.1.0-alpha.46 — 2026-09-21
 

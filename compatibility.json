@@ -1609,6 +1609,14 @@
     "business_build_and_code_review_routes_unchanged": true,
     "new_and_affected_cases_passed": 60,
     "verified_runtime_files": 126,
-    "enabled_on_both_configured_lanes": true
+    "enabled_on_both_configured_lanes": true,
+    "live_observation": {
+      "backup_verdict": "accept",
+      "same_reserved_package": true,
+      "actual_model_identity_verified": true,
+      "automatic_publication": "posted",
+      "owner_gate_preserved": true,
+      "business_build_complete": false
+    }
   }
 }

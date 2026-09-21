@@ -9,8 +9,10 @@ Business build, code-review and owner/release authority remain unchanged.
 
 Sixty new and affected focused cases passed, including provider identity, budgets,
 restart recovery and no third attempt. Both healthy services and the execution host
-match all 126 runtime files; backup is enabled on both configured lanes. The current
-live review outcome is pending. This does not establish the complete build/release/use chain.
+match all 126 runtime files; backup is enabled on both configured lanes. The live
+backup accepted the exact current package and the normal worker published a real owner
+card after verified repository checkpoints. No manual acceptance or model replay was
+used. The complete business build/release/use chain remains unproven.
 
 # Non-final review protection — September 21
 
