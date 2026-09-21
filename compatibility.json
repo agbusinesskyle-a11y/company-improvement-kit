@@ -1543,5 +1543,11 @@
     "stale_retry": "exact_current_reservation_revalidated",
     "new_live_business_request_replayed": false,
     "full_workflow_ready": false
+  },
+  "latest_automatic_owner_result": {
+    "action": "APPROVE",
+    "scope": "issue_handoff_build_review",
+    "result_is_execution_authority": false,
+    "limitations": "See existing compatibility and status; an owner decision does not prove execution or release."
   }
 }

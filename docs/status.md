@@ -1155,3 +1155,8 @@ its owner card can publish. The reviewer now explicitly returns a final verdict
 using supplied materials only. Strict model/session/call limits are unchanged.
 Cancelled or uncertain attempts retain evidence and require bounded operator
 recovery; no automatic retry loop or new unattended full-run claim is introduced.
+
+<!-- automatic-owner-result -->
+
+Latest automatic owner result: APPROVE; scope: issue_handoff_build_review.
+Verified provider-backed decision recorded privately. This result does not prove execution or release; existing compatibility limitations remain.
