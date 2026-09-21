@@ -149,3 +149,22 @@ An application wall may require actual AI output. Do not skip it, substitute a c
 The container remains network-disabled with a disposable database. A bounded file queue connects only the frozen full check to the host broker. Targeted RED/GREEN tests remain offline. The gate requires actual successful coverage of every template and rejects altered requests, unsafe files, missing calls and budget violations. Provider statuses and request/response hashes are retained with the normal check output. Keep keys in protected private host files, never Git, model context or the container.
 
 This is a private observed integration, not a public installer. Verify source, image, key binding and scheduled worker installation separately from a completed business change. Use a profile supported by the repository's model/financial restrictions; initial UI/layout support does not authorize migrations, money logic, sending paths or production release.
+
+## Preparation and reservation recovery
+
+Renew the existing reservation throughout candidate, before-change test and committed
+check-tree materialization. The private adapter shares a per-effect 15-second
+monotonic throttle across Git commands, including short commands; each subprocess
+keeps its original timeout. Fresh, uncached authority checks remain immediately
+before the paid model dispatch and completion. Never extend frozen model/check
+budgets or continue after a failed renewal.
+
+For the native build-and-review scope, the privileged operator recovery can queue
+one new build per run only for a recorded stale reservation failure, with explicit
+owner instruction and the exact current approved package. It requires the latest
+failed build, a successful original handoff, no active work and remaining frozen
+build budget. Other failure causes and repeated recovery are rejected. Record the
+actual instruction honestly, retain the failed attempt, and verify whether any
+model call was dispatched before resuming. This is an operator action, not a model
+permission or automatic retry loop. Independent review and separate release approval
+remain required. Reuse the existing issue and handoff; never erase or reset failures.

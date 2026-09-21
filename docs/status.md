@@ -1,3 +1,14 @@
+# Build preparation reservation repair — September 21
+
+The private builder now renews its reservation while materializing all three app
+source/test trees. Earlier renewal gaps could expire a five-minute lease before the
+model started on a larger app. Fresh authority checks still precede model dispatch
+and completion. Targeted long-preparation and revocation tests cover this gap.
+A bounded operator recovery preserves the original approval, issue, handoff and
+failed attempt; build-and-review still requires independent review and a separate
+release decision. Installation verification is pending. Full workflow readiness
+remains false until the real build, release and use sequence completes.
+
 # Bounded operational review recovery — September 21
 
 A shared private worker change now provides one automatic retry after an exact

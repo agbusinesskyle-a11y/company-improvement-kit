@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.44 — 2026-09-21
+
+- Renew native build reservations during all tree preparation, with throttled keep-alive and fresh authority checks before model dispatch and completion.
+- Permit one explicitly authorized operator recovery of a stale build reservation within the existing build-and-review budget; preserve failure evidence, issue, handoff and review/release gates.
+- Installation and real resumed-build verification pending.
+
 ## 0.1.0-alpha.43 — 2026-09-21
 
 - Add shared, bounded operational-review recovery: one retry for an exact retained turn-limit cancellation, immutable failure records, completed-response restart recovery, and durable failure progress.

@@ -1,3 +1,10 @@
+# Alpha.44 build reservation repair
+
+Maintainer review covers the explicit generic export, reservation renewal, fresh
+checks, bounded operator recovery and unchanged owner gates. Targeted private tests
+and independent Claude review are retained privately; no repeated baseline or public
+installer proof is claimed. Verify remote bytes after publication.
+
 # Alpha.43 bounded-recovery documentation — 2026-09-21
 
 Maintainer review covers the explicit 25-file generic export, retry classification,

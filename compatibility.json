@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.43",
+  "skill_version": "0.1.0-alpha.44",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_with_private_automatic_upstream_receipt_path",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.43",
+    "current_version": "0.1.0-alpha.44",
     "structure": "passed",
     "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
-    "independent_application": "not_run_for_alpha_43",
+    "independent_application": "not_run_for_alpha_44",
     "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -1554,5 +1554,16 @@
     "scope": "issue_handoff_build_review",
     "result_is_execution_authority": false,
     "limitations": "See existing compatibility and status; an owner decision does not prove execution or release."
+  },
+  "native_build_preparation_lease": {
+    "implemented": true,
+    "installed": false,
+    "all_materialized_trees_renew_reservation": true,
+    "renewal_throttled_seconds": 15,
+    "fresh_check_before_model_and_completion": true,
+    "unknown_loss_stops": true,
+    "frozen_budgets_changed": false,
+    "native_review_scope_recovery": "operator_only_once_per_run_for_stale_lease_with_original_handoff_and_remaining_frozen_budget",
+    "original_failure_preserved": true
   }
 }

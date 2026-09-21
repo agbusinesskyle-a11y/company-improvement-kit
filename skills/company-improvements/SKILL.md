@@ -32,6 +32,10 @@ The shared reviewer recovery permits one automatic retry only for a verified CLI
 turn-limit cancellation, with both attempts retained. Unknown output stops, and
 completed retained output can recover read-only after restart. See
 [operational recovery](references/post-approval.md#operational-review-response-and-recovery).
+Native build preparation renews its reservation while reading all candidate and test
+trees. It checks current authority again before model dispatch and completion; it
+must stop when authority is lost. Preserve failed attempts during bounded operator
+recovery. See [build recovery](references/native-build.md#preparation-and-reservation-recovery).
 Progress and liveness messages report state, not completion evidence.
 
 The reviewed native readiness bridge may mark the exact draft pull request ready and
