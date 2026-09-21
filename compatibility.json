@@ -1527,6 +1527,7 @@
     "one_call_per_attempt_preserved": true,
     "cancelled_attempt_does_not_publish_owner_card": true,
     "uncertain_model_automatic_replay": false,
-    "operator_recovery_retains_original_evidence": true
+    "operator_recovery_retains_original_evidence": true,
+    "latest_prompt_installation": "execution_host_only; hosted_services retain preceding runtime; remaining runtime files unchanged"
   }
 }

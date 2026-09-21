@@ -34,7 +34,9 @@ needs-attention. A durable exact-bound outbox can then add the completion commen
 the existing issue without inventing credentials, job identifiers or effects.
 
 Both configured application lanes now use the reviewed private runtime. Both hosted
-services and the execution host match all 123 runtime files. Both reminder workers
+services and the execution host matched all 123 runtime files at that connection
+checkpoint. The later operational-review prompt correction is installed only on the
+execution host; the other runtime files remain unchanged. Both reminder workers
 are running, and both release stages return authenticated idle on the existing timer.
 One release target uses GitHub-triggered deployment; the other uses a frozen source
 subdirectory and exact-commit Railway upload. The upload path verifies the current

@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.42 — 2026-09-21
 
+- Installation clarification: the reviewer prompt correction runs on the execution host; hosted intake/approval services retain the preceding runtime. Prior full-parity evidence remains historical.
+
 - Make the operational reviewer finish its verdict from supplied materials in one response. Forbid progress-only findings, tools and promises to review later.
 - Preserve strict completed-model validation, original failed-attempt evidence and owner gates. Cancelled or uncertain results cannot become approval cards; recovery remains an explicit bounded operator action.
 
