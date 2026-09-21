@@ -154,8 +154,17 @@ The pre-approval reviewer must return its completed verdict from the supplied
 frozen package and brief in one response. It must not issue a progress note, request
 source tools, or promise a later review. A cancelled or incomplete CLI response is
 not a review, even when its text resembles a verdict. Retain its exact evidence.
-An operator may investigate definitive failure and authorize one bounded recovery
-on the same frozen package after correcting the cause; retain the original attempt
-and distinct recovery receipt. Never erase dispatch history, accept partial output,
-infer approval, or automatically repeat an uncertain model call. Publish the
-reviewed generic/private checkpoint before the normal owner card.
+The private shared worker can make exactly one automatic retry when retained output
+proves a single-call, correct-session, correct-model cancellation with the explicit
+CLI turn-limit error. It rechecks the exact current reservation before retrying.
+Record each failure immutably and retain its private output; neither partial text
+nor the failure receipt is a verdict. Two failures stop the request and report
+needs-attention in its original thread. Missing, mismatched or uncertain output
+stops without another model call. Restart recovery can consume a retained completed
+response read-only. A lost failure acknowledgement replays the same report, not the
+model. Park acknowledged terminal failures so other requests can proceed.
+
+This bounded recovery is separate from the limit on planning revisions. It grants
+no owner decision or build authority. Previously recovered requests and old failure
+evidence are not replayed. Publish the reviewed generic/private checkpoint before
+the normal owner card. Installation state is recorded in compatibility.

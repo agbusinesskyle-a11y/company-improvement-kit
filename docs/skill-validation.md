@@ -1,3 +1,11 @@
+# Alpha.43 bounded-recovery documentation — 2026-09-21
+
+Maintainer review covers the explicit 25-file generic export, retry classification,
+limits, evidence retention, restart behavior and unchanged approval boundaries.
+Source tests and independent code review remain private. Check metadata, links,
+privacy and exact remote bytes before recording publication. No public install or
+whole-business demonstration is claimed.
+
 # Alpha.42 reviewer-contract documentation — 2026-09-21
 
 Maintainer review covers final-response requirements, retained failure evidence,

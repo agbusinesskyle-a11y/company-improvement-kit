@@ -1,3 +1,17 @@
+# Bounded operational review recovery — September 21
+
+A shared private worker change now provides one automatic retry after an exact
+retained CLI turn-limit cancellation. Both configured lanes use the same limit:
+two attempts total. Unknown output stops, and retained completed output can recover
+without another model call. Immutable server failures drive clear source-thread
+progress; acknowledged terminal failures do not hold up unrelated requests.
+
+Targeted synthetic CLI/HTTP and disposable PostgreSQL checks cover both lanes,
+restarts, lost acknowledgements, unchanged reservation binding and immutable evidence.
+Deployment verification is pending. The earlier request was recovered manually;
+this change does not replay it or create another owner decision. Full business
+build-through-release proof remains outstanding, and the public kit ships no runtime.
+
 # Workflow completion candidate — September 21
 
 The private candidate preserves original discovery evidence and explicit feedback

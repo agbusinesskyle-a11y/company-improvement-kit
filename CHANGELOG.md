@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.43 — 2026-09-21
+
+- Add shared, bounded operational-review recovery: one retry for an exact retained turn-limit cancellation, immutable failure records, completed-response restart recovery, and durable failure progress.
+- Preserve current-package checks and all owner gates; uncertain results never trigger an automatic model replay.
+- Targeted source checks passed; installation verification pending. No prior business request or completed baseline proof repeated.
+
 ## 0.1.0-alpha.42 — 2026-09-21
 
 - Installation clarification: the reviewer prompt correction runs on the execution host; hosted intake/approval services retain the preceding runtime. Prior full-parity evidence remains historical.
