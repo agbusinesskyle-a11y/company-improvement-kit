@@ -47,11 +47,14 @@ person's observation and does not prove every acceptance criterion automatically
 Only then may the durable completion reporter add the exact-bound completion comment
 to the existing issue. A failed observation stays visible as needing attention.
 
-One configured application lane has the reviewed private runtime installed with 118
+One configured application lane has the reviewed private runtime installed with 120
 matching files, and its scheduled release pickup has authenticated and returned idle.
-The full workflow is not ready: native release revision continuation is still being
-implemented, SMS is unavailable, rollback is a retained plan rather than automatic
-execution, and no fresh whole-business build-through-release proof has run.
+An exact signed release REVISE can now carry owner feedback into fresh planning;
+it preserves the old candidate and requires a new build decision. Both active intake
+lanes have running SMS attention workers, including separate release cards. Credential
+reads and idle workers verify connection, not a new delivery. The full workflow remains
+unproven by a fresh whole-business run. Another application release route still lacks
+attributable production source configuration; rollback is a retained plan.
 
 ## Set up or assess an installation
 
@@ -111,8 +114,8 @@ It also provides an operator-controlled discovery ledger and a fresh planning
 continuation. Compatible coordinator and integrated Slack code has been deployed
 and verified in the private installation. Explicit discovery migration and the first
 findings revision are recorded; unresolved findings keep continuation blocked.
-The deployed reminder remains disabled pending the reviewed independent SMS routing
-candidate and valid persistent credentials. Configure attention delivery through
+The deployed reminder is enabled for both active intake lanes with verified private
+routing and a restricted persistent sender credential. Configure attention delivery through
 the separately bound routing document; do not repair sender fields by rewriting a
 registry digest attached to existing approvals or discovery. Upgrade every reminder
 dispatcher and operator CLI and apply its additive migration before enabling routing.

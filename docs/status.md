@@ -1,4 +1,4 @@
-# Workflow completion candidate — September 16
+# Workflow completion candidate — September 21
 
 The private candidate preserves original discovery evidence and explicit feedback
 across planning revisions. Its upstream worker can pick up prepared discovery and
@@ -34,17 +34,23 @@ needs-attention. A durable exact-bound outbox can then add the completion commen
 the existing issue without inventing credentials, job identifiers or effects.
 
 The reviewed private runtime is installed in one configured application lane. Both
-hosted services and the execution host match all 118 runtime files, and service health
+hosted services and the execution host match all 120 runtime files, and service health
 is verified. A scheduled cycle authenticated the optional release pickup and returned
 idle; real-use capture also returned idle, and the completion reporter is running.
 Read-only recovery of existing progress messages was verified without duplicate
 delivery.
 
 This public alpha remains a documentation-only preview with
-`full_workflow_ready=false`; it ships no runtime or installer. Native release revision
-continuation is under implementation, SMS is unavailable, rollback is a retained plan
-rather than automatic execution, and no fresh whole-business build-through-release
-proof has run. Historical planning-only approvals retain their exact scope.
+`full_workflow_ready=false`; it ships no runtime or installer. Exact release REVISE
+feedback now enters fresh planning with a new build-approval requirement. Both active
+intake lanes have running SMS attention workers for plan and separate release cards.
+A restricted persistent key passed an authenticated read; there were no eligible
+old cards and no new test text was sent. Source checks and idle connection proof do
+not establish a fresh whole-business build-through-release run. Another application
+release route still lacks attributable production source configuration. Rollback is
+a retained plan rather than automatic execution. Historical planning-only approvals
+retain their exact scope. A satisfied request that requires no code change remains
+held; the terminal no-build disposition is not implemented.
 
 # Second application draft connection
 

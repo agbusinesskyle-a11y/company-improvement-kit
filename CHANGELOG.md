@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-alpha.39 — 2026-09-21
+
+- Connect exact release revision feedback to fresh planning without expanding old authority.
+- Install plan and native-release SMS attention on both active intake lanes, using separately bound multi-project routing and restricted persistent credentials.
+- Verify 120 runtime files across both services and the execution host, credential read access, empty eligible queues and running reminder workers. Completed provider demonstrations were not repeated.
+- Retain the remaining application release-source limitation, explicit rollback plan and outstanding whole-business proof. The public package remains documentation only.
+
 ## 0.1.0-alpha.38 — 2026-09-16
 
 - Document the private routing, context-preserving revision, discovery pickup and signed fact-capture candidate.

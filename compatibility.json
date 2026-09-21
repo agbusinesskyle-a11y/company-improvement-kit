@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "0.1.0-alpha.38",
+  "skill_version": "0.1.0-alpha.39",
   "release_kind": "skill_documentation_preview",
   "full_workflow_ready": false,
   "shipped": {
@@ -37,10 +37,10 @@
   "publication_enforcement": "operator_procedure_with_private_automatic_upstream_receipt_path",
   "artifact_format": "Five planning documents; full Spec Kit command integration not claimed",
   "skill_validation": {
-    "current_version": "0.1.0-alpha.38",
+    "current_version": "0.1.0-alpha.39",
     "structure": "passed",
     "public_file_review": "maintainer review of explicit 25-file export; metadata, relative links, privacy and exact remote contents",
-    "independent_application": "not_run_for_alpha_38",
+    "independent_application": "not_run_for_alpha_39",
     "public_file_count": 25,
     "summary": "docs/skill-validation.md",
     "new_documentation_tests_run": false,
@@ -1388,11 +1388,11 @@
     "scheduled_pickup": "existing_timer_authenticated_idle_all_five_stages"
   },
   "workflow_completion_candidate": {
-    "date": "2026-09-16",
+    "date": "2026-09-21",
     "installed": true,
     "installation_scope": "one configured application lane",
     "installation_status": "services_execution_host_and_scheduled_idle_pickup_verified",
-    "verified_runtime_files": 118,
+    "verified_runtime_files": 120,
     "full_workflow_ready": false,
     "scope": "private_completion_candidate_with_public_documentation_only",
     "capabilities": [
@@ -1406,7 +1406,10 @@
       "separate_owner_release_approval",
       "retained_exact_release_proof",
       "signed_real_use_attestation",
-      "exact_bound_issue_completion_comment"
+      "exact_bound_issue_completion_comment",
+      "release_revision_to_fresh_owner_build_approval",
+      "per_project_attention_routing",
+      "native_release_sms_outbox"
     ],
     "senior_transport": "authenticated senior CLI; exact configured model identity checked; no financial business build claimed",
     "native_release_readiness": {
@@ -1437,7 +1440,7 @@
         "published_checkpoint"
       ],
       "release_effect_before_verified_approve": false,
-      "revision_successor": "under_implementation"
+      "revision_successor": "installed_exact_owner_revision_to_fresh_planning_without_release_effect"
     },
     "release_and_completion_evidence": {
       "technical_release_receipt_retained": true,
@@ -1453,22 +1456,42 @@
     "installation": {
       "hosted_services_health_verified": true,
       "execution_host_source_match_verified": true,
-      "matching_runtime_files": 118,
+      "matching_runtime_files": 120,
       "optional_release_stage_enabled": true,
       "first_scheduled_release_pickup_verified": true,
       "progress_message_recovery": "read_only exact original-provider evidence; no duplicate send",
       "scheduled_release_pickup_result": "authenticated_idle",
       "scheduled_real_use_capture_result": "idle",
-      "completion_reporter_running": true
+      "completion_reporter_running": true,
+      "sms_reminders": "enabled_for_both_active_intake_lanes; authenticated_provider_read_and_idle_workers_verified"
     },
     "validation": "targeted new and affected source tests; disposable PostgreSQL; synthetic provider transports; independent source review",
     "limitations": [
-      "Native release revision continuation is under implementation.",
-      "SMS is unavailable.",
+      "One application release route remains disabled pending attributable production source configuration.",
       "Rollback is a retained plan, not automatic execution.",
-      "No fresh whole-business build-through-release proof has run."
+      "No fresh whole-business build-through-release proof has run.",
+      "SMS activation is verified by credential read and running idle workers; no new delivery proof was repeated.",
+      "An owner-satisfied request with no code change remains held; a terminal no-build disposition is not implemented."
     ],
     "prior_live_proofs_repeated": false,
-    "public_runtime_shipped": false
+    "public_runtime_shipped": false,
+    "reminders": {
+      "installed": true,
+      "enabled": true,
+      "active_intake_lanes": 2,
+      "attention_only": true,
+      "native_release_outbox": "separate durable ledger using existing lifecycle and permanent send reservations",
+      "multi_project_routing": "v2 envelope with individually owner/registry-bound v1 entries",
+      "credential_check": "read_only_authenticated_provider_request",
+      "pending_cards_at_activation": 0,
+      "new_test_sms_sent": false,
+      "prior_approval_scope_unchanged": true
+    },
+    "targeted_additional_validation": {
+      "multi_project_routing_cases": 20,
+      "release_reminder_cases": 19,
+      "release_revision": "new and affected tests plus independent senior review; no baseline rerun",
+      "multilane_host_lifecycle_cases": 3
+    }
   }
 }

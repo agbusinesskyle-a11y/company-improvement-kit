@@ -1,3 +1,10 @@
+# Alpha.39 documentation validation — 2026-09-21
+
+Maintainer review covers the explicit 25-file generic export, changed claims, version
+metadata, relative links and privacy. Private source tests, deployment records and
+provider identities remain outside the export. No fresh public installation or
+model evaluation is claimed. Exact remote bytes are verified after publication.
+
 # Alpha.38 documentation validation — 2026-09-16
 
 The unchanged explicit 25-file public export is reviewed for generic scope,

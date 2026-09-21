@@ -1,14 +1,11 @@
 # Reminders and discovery after planning approval
 
-The alpha.12 private coordinator and integrated Slack service have been deployed
-with their installed source verified against that approved candidate. Explicit
-discovery migration and the first findings revision are recorded, with original approval and
-history unchanged. Required findings remain unresolved and no continuation is queued.
-The alpha.13 independent SMS routing change is a separate source candidate.
-Reminders remain disabled pending approved compatible deployment/migration,
-verified delivery routing and valid persistent credentials. Track hosted code,
-reminder enablement, recorded discovery and readiness to continue planning separately.
-The public kit is documentation.
+The current private installation has verified coordinator and integrated Slack code,
+normal migrations and execution-host source parity. Both active intake lanes have
+running attention workers. Existing approved packages and discovery history remain
+unchanged; unresolved findings still block successor planning. A read-only provider
+credential check and idle worker health establish connection, not a new SMS delivery
+or completed business build. The public kit is documentation only.
 
 ## Resume the existing reminder path
 
@@ -23,12 +20,28 @@ the selected delivery binding. Do not reuse revoked test credentials or alter th
 registry digest merely to enable the worker. The host uses its intake project; other
 profiles are not swept automatically.
 
-For the alpha.13 candidate, `COMPANY_IMPROVEMENTS_SMS_ATTENTION_JSON` supplies the
+For the separate routing path, `COMPANY_IMPROVEMENTS_SMS_ATTENTION_JSON` supplies the
 separate private delivery binding. It is bounded, duplicate-free JSON with exactly
 `schema_version` (1), `project`, `registry_digest`, `owner_id`, `twilio_account_sid`,
 `sms_sender` and `owner_phone`. Its project, full registry digest and owner must
 match the current Slack-only planning profile. The SMS account, sender and owner
 destination must be verified for the installation. Do not publish filled values.
+
+For multiple active lanes, schema version 2 accepts exactly `schema_version` and
+`projects`, a list of 1–32 complete version 1 entries described above. The document
+must be smaller than 32,768 UTF-8 bytes. Validate every entry, reject duplicate
+projects, and require the requested lane to be present. Each entry retains its
+version 1 binding hash. The host creates and owns a reminder worker for each intake
+lane; shared owner decision and completion workers remain shared.
+
+Native release cards use a separate immutable release SMS ledger with additive SQL
+025. Preparation binds the exact posted release card, challenge, owner and checkpoint.
+The existing worker fairly services both plan and release outboxes with the same
+provider clients and permanent send reservation rules. Operator prepare/status/send/
+reconcile commands select release cards explicitly with `--release`; process-once
+handles both. A signed release REVISE may create fresh planning only while the exact
+release remains held and has no effect attempt. Preserve its candidate and decision;
+the successor requires fresh owner build approval.
 
 Absent routing retains the legacy registry-derived path. Malformed or mismatched
 routing fails closed rather than falling back. Disabled hosted reminders return
